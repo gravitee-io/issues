@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.16.0  (2016-07-05)](https://github.com/gravitee-io/issues/milestone/3?closed=1)
+## [0.16.0 (2016-07-05)](https://github.com/gravitee-io/issues/milestone/3?closed=1)
 
 **Bug fixes**
 
@@ -30,3 +30,25 @@
 - \[gateway\] @OnRequestContent [\#62](https://github.com/gravitee-io/issues/issues/62)
 - \[portal\] Login page : focus on username input field. [\#14](https://github.com/gravitee-io/issues/issues/14)
 - \[doc\] move all url to https [\#3](https://github.com/gravitee-io/issues/issues/3)
+
+## [0.15.0 (2016-06-22)](https://github.com/gravitee-io/issues/milestone/2?closed=1)
+
+**Bug fixes**
+
+- \[portal\] Login page: Logo not well displayed under Safari [\#81](https://github.com/gravitee-io/issues/issues/81)
+
+**Features**
+
+- \[healthcheck\] Enable / disable health-check by endpoint  [\#88](https://github.com/gravitee-io/issues/issues/88)
+- \[policy\] Dynamic routing policy [\#87](https://github.com/gravitee-io/issues/issues/87)
+
+## [0.14.1 (2016-06-21)](https://github.com/gravitee-io/issues/milestone/1?closed=1)
+
+**Bug fixes**
+
+- \[management-api\] Unable to create a new API [\#84](https://github.com/gravitee-io/issues/issues/84)
+- \[gateway\] gateway cannot connect to elastic reporter [\#1](https://github.com/gravitee-io/issues/issues/1)
+
+**Features**
+
+- \[portal\] redirect user to login page when he's disconnected [\#80](https://github.com/gravitee-io/issues/issues/80)
