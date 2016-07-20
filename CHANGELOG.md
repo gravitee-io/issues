@@ -1,5 +1,32 @@
 # Change Log
 
+## [0.17.0 (2016-07-20)](https://github.com/gravitee-io/issues/milestone/4?closed=1)
+
+**Bug fixes**
+
+- \[management-api\] User does not have access to API even if role is settled [\#156](https://github.com/gravitee-io/issues/issues/156)
+- \[portal\] \[policy\] Do not update policy description when cancelling the dialog [\#153](https://github.com/gravitee-io/issues/issues/153)
+- \[portal\] LDAP admins cannot create api keys [\#151](https://github.com/gravitee-io/issues/issues/151)
+- \[gateway\] \[reporter\] Shutdown LMAX disruptor before reporter processors [\#131](https://github.com/gravitee-io/issues/issues/131)
+- \[docker\] Error in launch.sh [\#128](https://github.com/gravitee-io/issues/issues/128)
+
+**Features**
+
+- \[policy\] \[groovy\] Use codemirror for groovy scripts textarea [\#152](https://github.com/gravitee-io/issues/issues/152)
+- \[fetcher http\] test must not depend on external http server [\#150](https://github.com/gravitee-io/issues/issues/150)
+- \[management-api\] Page ids don't have to contain the page title [\#148](https://github.com/gravitee-io/issues/issues/148)
+- \[portal\] add a text-editor for webui's textarea [\#147](https://github.com/gravitee-io/issues/issues/147)
+- \[archetype\] Update dependencies version [\#144](https://github.com/gravitee-io/issues/issues/144)
+- \[policy\] \[dynamic-routing\] Regex naming group [\#142](https://github.com/gravitee-io/issues/issues/142)
+- \[web-ui\] \[policy\] Add a title and/or description in policy configuration [\#141](https://github.com/gravitee-io/issues/issues/141)
+- \[management-api\] Create an API from a Swagger descriptor [\#139](https://github.com/gravitee-io/issues/issues/139)
+- \[reporter\] Gravitee may silently drop some Reportable events [\#134](https://github.com/gravitee-io/issues/issues/134)
+- \[gateway\] Set endpoint selected by load-balancer in execution context [\#133](https://github.com/gravitee-io/issues/issues/133)
+- \[gateway\] AbstractHttpInvoker creates Regexp objects wastefully  [\#129](https://github.com/gravitee-io/issues/issues/129)
+- \[reporter\] \[file\] Reporter does too many unneeded memory allocations [\#127](https://github.com/gravitee-io/issues/issues/127)
+- \[management-api\] Add a developer profile to run management-api from command-line [\#126](https://github.com/gravitee-io/issues/issues/126)
+- \[reporter\] \[file\] Incoherent thread synchronisation [\#123](https://github.com/gravitee-io/issues/issues/123)
+
 ## [0.16.0 (2016-07-05)](https://github.com/gravitee-io/issues/milestone/3?closed=1)
 
 **Bug fixes**
