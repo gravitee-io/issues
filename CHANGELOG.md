@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.17.1 (2016-07-21)](https://github.com/gravitee-io/issues/milestone/8?closed=1)
+
+**Bug fixes**
+
+- \[gateway\] Do not load useless repository \(if not required by the configuration\) [\#161](https://github.com/gravitee-io/issues/issues/161)
+- \[portal\] Invalid API dialog when clicking on "Create API" button [\#162](https://github.com/gravitee-io/issues/issues/162)
+
 ## [0.17.0 (2016-07-20)](https://github.com/gravitee-io/issues/milestone/4?closed=1)
 
 **Bug fixes**
