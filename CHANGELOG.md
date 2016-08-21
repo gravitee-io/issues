@@ -1,5 +1,26 @@
 # Change Log
 
+## [0.18.0 (2016-08-02)](https://github.com/gravitee-io/issues/milestone/5?closed=1)
+
+**Bug fixes**
+
+- \[portal\] Members must not be searched or added if they already exist [\#183](https://github.com/gravitee-io/issues/issues/183)
+- \[management-api\] \[portal\] Security and permissions improvements [\#176](https://github.com/gravitee-io/issues/issues/176)
+- \[policy\] \[mock\] NullPointerException [\#172](https://github.com/gravitee-io/issues/issues/172)
+- \[portal\] Fetch an external resource to create a page [\#171](https://github.com/gravitee-io/issues/issues/171)
+- \[management-api\] Create an API from a Swagger descriptor results in NullPointerException [\#168](https://github.com/gravitee-io/issues/issues/168)
+
+**Features**
+
+- \[portal\] Create an API from a Swagger descriptor exposed through HTTP / HTTPS [\#170](https://github.com/gravitee-io/issues/issues/170)
+- \[policy\] \[rest-to-soap\] Add a SOAP Action attribute to invoke WS [\#177](https://github.com/gravitee-io/issues/issues/177)
+- \[portal\] Rename json file when exporting an API [\#173](https://github.com/gravitee-io/issues/issues/173)
+- \[management-api\] Full export of an API, including members, pages, ... [\#164](https://github.com/gravitee-io/issues/issues/164)
+- \[repository\] \[hazelcast\] Cache implementation based on Hazelcast provider [\#167](https://github.com/gravitee-io/issues/issues/167)
+- \[policy\] JWT Policy [\#46](https://github.com/gravitee-io/issues/issues/46)
+- \[repository\] Key-value repository type [\#165](https://github.com/gravitee-io/issues/issues/165)
+
+
 ## [0.17.1 (2016-07-21)](https://github.com/gravitee-io/issues/milestone/8?closed=1)
 
 **Bug fixes**
