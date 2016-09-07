@@ -1,5 +1,36 @@
 # Change Log
 
+## [0.19.0 (2016-09-07)](https://github.com/gravitee-io/issues/milestone/6?closed=1)
+
+**Bug fixes**
+
+- \[management-api\] : API full descriptor must be restricted to PRIMARY\_OWER and OWNER [\#202](https://github.com/gravitee-io/issues/issues/202)
+- \[policy\] \[cors\] NPE when handling preflight request without Access-Control-Request-Headers [\#195](https://github.com/gravitee-io/issues/issues/195)
+- \[management-api\] Unable to add a new API member [\#194](https://github.com/gravitee-io/issues/issues/194)
+
+**Features**
+
+- \[portal\] Change markdown JS library [\#214](https://github.com/gravitee-io/issues/issues/214)
+- \[management-api\] Dynamic documentation page's content [\#213](https://github.com/gravitee-io/issues/issues/213)
+- \[management-api\] Normalize Elasticsearch configuration [\#212](https://github.com/gravitee-io/issues/issues/212)
+- \[magagement-api\]\[portal\] : Transfer API ownership [\#210](https://github.com/gravitee-io/issues/issues/210)
+- \[portal\] Automatically save policies with no configuration [\#209](https://github.com/gravitee-io/issues/issues/209)
+- \[repository\] Simplify Event API by preserving a single search method [\#207](https://github.com/gravitee-io/issues/issues/207)
+- \[portal\] : API list : display primary owner [\#206](https://github.com/gravitee-io/issues/issues/206)
+- \[gateway\] Multiple event-loop [\#205](https://github.com/gravitee-io/issues/issues/205)
+- \[gateway\] Enable / disable a policy in the policy chain [\#204](https://github.com/gravitee-io/issues/issues/204)
+- \[management-api\] API's owner must not be able to change context-path [\#203](https://github.com/gravitee-io/issues/issues/203)
+- \[portal\] Moving healthcheck charts to ChartJS [\#197](https://github.com/gravitee-io/issues/issues/197)
+- \[portal\] : Improve Admin dashboard [\#192](https://github.com/gravitee-io/issues/issues/192)
+- \[management-api\] generate api descriptor with swagger [\#184](https://github.com/gravitee-io/issues/issues/184)
+- \[portal\] "Try it" to test an API [\#22](https://github.com/gravitee-io/issues/issues/22)
+- \[portal\] APIs views [\#112](https://github.com/gravitee-io/issues/issues/112)
+- \[management-ui\] API picture - overlay [\#178](https://github.com/gravitee-io/issues/issues/178)
+- \[portal\] Global events history [\#113](https://github.com/gravitee-io/issues/issues/113)
+
+
+# Change Log
+
 ## [0.18.0 (2016-08-02)](https://github.com/gravitee-io/issues/milestone/5?closed=1)
 
 **Bug fixes**
