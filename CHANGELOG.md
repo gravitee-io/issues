@@ -1,5 +1,21 @@
 # Change Log
 
+## [0.19.1 (2016-10-03)](https://github.com/gravitee-io/issues/milestone/9?closed=1)
+
+**Bug fixes**
+
+- \[policy\] \[gravitee-policy-transformqueryparams\] Parameters are deleted before using them [\#236](https://github.com/gravitee-io/issues/issues/236)
+- \[gateway\] Query parameters must not be decoded [\#235](https://github.com/gravitee-io/issues/issues/235)
+- \[policy\] \[gravitee-policy-transformheaders\] Headers are deleted before using them [\#237](https://github.com/gravitee-io/issues/issues/237)
+- \[portal\] Small ui bug the OK popup is red [\#82](https://github.com/gravitee-io/issues/issues/82)
+
+**Features**
+
+- \[repository\] ES : select indices according to the range from query [\#217](https://github.com/gravitee-io/issues/issues/217)
+- \[portal\] Try-it for anonymous user [\#222](https://github.com/gravitee-io/issues/issues/222)
+- \[policy\] \[transform-headers\] Expression language in query parameters value [\#227](https://github.com/gravitee-io/issues/issues/227)
+- \[policy\] \[transform-headers\] Expression language in headers value [\#226](https://github.com/gravitee-io/issues/issues/226)
+
 ## [0.19.0 (2016-09-07)](https://github.com/gravitee-io/issues/milestone/6?closed=1)
 
 **Bug fixes**
@@ -7,6 +23,7 @@
 - \[management-api\] : API full descriptor must be restricted to PRIMARY\_OWER and OWNER [\#202](https://github.com/gravitee-io/issues/issues/202)
 - \[policy\] \[cors\] NPE when handling preflight request without Access-Control-Request-Headers [\#195](https://github.com/gravitee-io/issues/issues/195)
 - \[management-api\] Unable to add a new API member [\#194](https://github.com/gravitee-io/issues/issues/194)
+- Optimization of APIs display with views [\#229](https://github.com/gravitee-io/issues/issues/229)
 
 **Features**
 
@@ -28,9 +45,6 @@
 - \[management-ui\] API picture - overlay [\#178](https://github.com/gravitee-io/issues/issues/178)
 - \[portal\] Global events history [\#113](https://github.com/gravitee-io/issues/issues/113)
 
-
-# Change Log
-
 ## [0.18.0 (2016-08-02)](https://github.com/gravitee-io/issues/milestone/5?closed=1)
 
 **Bug fixes**
@@ -50,7 +64,6 @@
 - \[repository\] \[hazelcast\] Cache implementation based on Hazelcast provider [\#167](https://github.com/gravitee-io/issues/issues/167)
 - \[policy\] JWT Policy [\#46](https://github.com/gravitee-io/issues/issues/46)
 - \[repository\] Key-value repository type [\#165](https://github.com/gravitee-io/issues/issues/165)
-
 
 ## [0.17.1 (2016-07-21)](https://github.com/gravitee-io/issues/milestone/8?closed=1)
 
