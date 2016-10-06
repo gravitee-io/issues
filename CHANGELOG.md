@@ -1,5 +1,14 @@
 # Change Log
 
+## [0.19.2 (2016-10-06)](https://github.com/gravitee-io/issues/milestone/10?closed=1)
+
+**Bug fixes**
+
+- \[gateway\] Do not send a 'CONNECT' request when invoking HTTP uri with an HTTP proxy [\#241](https://github.com/gravitee-io/issues/issues/241)
+- \[gateway\]\[health-check\] Health-check service does not check correct endpoints [\#240](https://github.com/gravitee-io/issues/issues/240)
+- \[portal\] Redirected to home after using the try-it feature in documentation [\#239](https://github.com/gravitee-io/issues/issues/239)
+- \[portal\] Bad SwaggerUI URL when try-it is enabled [\#221](https://github.com/gravitee-io/issues/issues/221)
+
 ## [0.19.1 (2016-10-03)](https://github.com/gravitee-io/issues/milestone/9?closed=1)
 
 **Bug fixes**
