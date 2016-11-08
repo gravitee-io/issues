@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.0.1 (2016-10-28)](https://github.com/gravitee-io/issues/milestone/12?closed=1)
+
+**Bug fixes**
+
+- \[gateway\] Stack trace in case of HTTP Client exception [\#283](https://github.com/gravitee-io/issues/issues/283)
+- \[gateway\] ConcurrentModificationException while stopping an API with multiple endpoints [\#286](https://github.com/gravitee-io/issues/issues/286)
+- \[gateway\] NullPointerException when no underlying invoker is available [\#287](https://github.com/gravitee-io/issues/issues/287)
+- \[portal\] wrong version number in constants.js [\#282](https://github.com/gravitee-io/issues/issues/282)
+- \[management-api\] subscription service is fat [\#285](https://github.com/gravitee-io/issues/issues/285)
+- \[portal\] resources are not shown in plugin page [\#284](https://github.com/gravitee-io/issues/issues/284)
+
 ## [1.0.0 (2016-10-26)](https://github.com/gravitee-io/issues/milestone/7?closed=1)
 
 **Bug fixes**
