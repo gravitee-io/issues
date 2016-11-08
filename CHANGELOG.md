@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.0.2 (2016-11-07)](https://github.com/gravitee-io/issues/milestone/13?closed=1)
+
+**Bug fixes**
+
+- \[management-api\] Application's owner must see inherited members from associated group [\#302](https://github.com/gravitee-io/issues/issues/302)
+- \[management-api\] User does not have access to published pages [\#300](https://github.com/gravitee-io/issues/issues/300)
+- \[management-api\] Primary-owner / owner of an application not able to subscribe to a plan [\#299](https://github.com/gravitee-io/issues/issues/299)
+- \[management-api\] API publisher cannot create a plan [\#295](https://github.com/gravitee-io/issues/issues/295)
+
 ## [1.0.1 (2016-10-28)](https://github.com/gravitee-io/issues/milestone/12?closed=1)
 
 **Bug fixes**
