@@ -1,5 +1,76 @@
 # Change Log
 
+## [1.0.0 (2016-10-25)](https://github.com/gravitee-io/issues/milestone/7?closed=1)
+
+###Bug fixes
+
+***Management-api***
+- Manage import/export with groups [\#275](https://github.com/gravitee-io/issues/issues/275)
+
+***Portal***
+- API icon disappearing sometimes [\#267](https://github.com/gravitee-io/issues/issues/267)
+- API properties empty mode issue [\#273](https://github.com/gravitee-io/issues/issues/273)
+- API sync banner size [\#271](https://github.com/gravitee-io/issues/issues/271)
+- Add a logo for 'resource' plugins in instance environment view [\#265](https://github.com/gravitee-io/issues/issues/265)
+- Bad redirection after saving a page's configuration [\#224](https://github.com/gravitee-io/issues/issues/224)
+- Cannot fix context-path in the wizard [\#215](https://github.com/gravitee-io/issues/issues/215)
+- Confirm before delete API's resources [\#268](https://github.com/gravitee-io/issues/issues/268)
+- Do not show views without any API [\#220](https://github.com/gravitee-io/issues/issues/220)
+- Manage documentation (+) button - bad position [\#225](https://github.com/gravitee-io/issues/issues/225)
+- Not able to rename a view in portal configuration [\#270](https://github.com/gravitee-io/issues/issues/270)
+- Style issues in Portal views configuration [\#269](https://github.com/gravitee-io/issues/issues/269)
+- Unable to import api on Firefox [\#231](https://github.com/gravitee-io/issues/issues/231)
+
+###Features
+
+***Gateway***
+- Be able to configure finely HTTP / HTTPS / Proxy per endpoint [\#242](https://github.com/gravitee-io/issues/issues/242)
+
+***General***
+- API Plans [\#257](https://github.com/gravitee-io/issues/issues/257)
+
+***Management-api***
+- Create a default application during the first user connection [\#208](https://github.com/gravitee-io/issues/issues/208)
+- Create mail subscription templates  [\#274](https://github.com/gravitee-io/issues/issues/274)
+- Fine-grained rights management [\#180](https://github.com/gravitee-io/issues/issues/180)
+
+***Policy***
+- Resource filtering  [\#251](https://github.com/gravitee-io/issues/issues/251)
+
+***Portal***
+- "Portal" mode disable management features [\#181](https://github.com/gravitee-io/issues/issues/181)
+- Add a registration view [\#246](https://github.com/gravitee-io/issues/issues/246)
+- Add application analytics [\#238](https://github.com/gravitee-io/issues/issues/238)
+- Remove Home page [\#260](https://github.com/gravitee-io/issues/issues/260)
+- Show context-path of an api [\#136](https://github.com/gravitee-io/issues/issues/136)
+
+###Improvements
+
+***Gateway***
+- Expression Language path params from policies [\#253](https://github.com/gravitee-io/issues/issues/253)
+
+***General***
+- Do not start container with plugin conflict [\#262](https://github.com/gravitee-io/issues/issues/262)
+- Remove views from API definition and define a dedicated field [\#272](https://github.com/gravitee-io/issues/issues/272)
+
+***Policy***
+- [rate-limit] Split the rate-limiting policy into two policies [\#245](https://github.com/gravitee-io/issues/issues/245)
+
+***Portal***
+- API analytics use application name instead of application ID [\#193](https://github.com/gravitee-io/issues/issues/193)
+- Change API/Application header style [\#243](https://github.com/gravitee-io/issues/issues/243)
+- Do not display last deployment date in header in portal mode [\#249](https://github.com/gravitee-io/issues/issues/249)
+- Handle empty states [\#247](https://github.com/gravitee-io/issues/issues/247)
+- Move view configuration in a sub menu [\#244](https://github.com/gravitee-io/issues/issues/244)
+- Remove api/application list page [\#266](https://github.com/gravitee-io/issues/issues/266)
+- Upload API icon via API header [\#263](https://github.com/gravitee-io/issues/issues/263)
+- Views not sorted alphabetically  [\#280](https://github.com/gravitee-io/issues/issues/280)
+- [analytics] Do not reload page when selecting a new timeframe [\#199](https://github.com/gravitee-io/issues/issues/199)
+
+***Repository***
+- Refactor how to manage memberships [\#228](https://github.com/gravitee-io/issues/issues/228)
+
+
 ## [0.19.2 (2016-10-06)](https://github.com/gravitee-io/issues/milestone/10?closed=1)
 
 **Bug fixes**
