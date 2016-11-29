@@ -1,5 +1,63 @@
 # Change Log
 
+## [1.1.0 (2016-11-29)](https://github.com/gravitee-io/issues/milestone/11?closed=1)
+
+###Bug fixes
+
+***Management-api***
+- Error when deleting a view already linked to an API [\#317](https://github.com/gravitee-io/issues/issues/317)
+- Send email asynchronously [\#325](https://github.com/gravitee-io/issues/issues/325)
+- Unable to delete API with closed plans and closed subscriptions [\#342](https://github.com/gravitee-io/issues/issues/342)
+
+***Portal***
+- Admin dashboard [\#290](https://github.com/gravitee-io/issues/issues/290)
+- Analytics API - Hit by applications not shown [\#336](https://github.com/gravitee-io/issues/issues/336)
+- Error when trying to subscribe to an API plan [\#296](https://github.com/gravitee-io/issues/issues/296)
+- Import / export an API does not work anymore [\#320](https://github.com/gravitee-io/issues/issues/320)
+- Not able to create a new path in API policies view [\#315](https://github.com/gravitee-io/issues/issues/315)
+- Sharding tagsmixin [\#340](https://github.com/gravitee-io/issues/issues/340)
+- Tooltip typo to edit a plan [\#309](https://github.com/gravitee-io/issues/issues/309)
+- Unable to subscribe to a plan [\#323](https://github.com/gravitee-io/issues/issues/323)
+
+###Features
+
+***Gateway***
+- Add a transaction-id value for each request [\#307](https://github.com/gravitee-io/issues/issues/307)
+
+***Management-api***
+- Close a plan [\#277](https://github.com/gravitee-io/issues/issues/277)
+
+***Portal***
+- API publisher can add consuming application by himself (subscription). [\#114](https://github.com/gravitee-io/issues/issues/114)
+- Automatically show policy configuration after drag and drop [\#19](https://github.com/gravitee-io/issues/issues/19)
+
+###Improvements
+
+***Docs***
+- Rewrite introduction and provide more inputs about API Management concepts [\#334](https://github.com/gravitee-io/issues/issues/334)
+
+***Gateway***
+- Compression must be enabled by default [\#343](https://github.com/gravitee-io/issues/issues/343)
+- SSL automatically enabled for HTTPS endpoint [\#303](https://github.com/gravitee-io/issues/issues/303)
+- Support for exclusion of sharding tags [\#319](https://github.com/gravitee-io/issues/issues/319)
+
+***Management-api***
+- Disable sending mail from the rest-api component [\#332](https://github.com/gravitee-io/issues/issues/332)
+
+***Policy***
+- [oauth2] Provide OAuth2 attributes through execution context [\#289](https://github.com/gravitee-io/issues/issues/289)
+- [transformheaders] Apply policy for requests and responses [\#321](https://github.com/gravitee-io/issues/issues/321)
+
+***Portal***
+- Be able to re-order API plans using drag & drop [\#308](https://github.com/gravitee-io/issues/issues/308)
+- Better management of sharding tags [\#318](https://github.com/gravitee-io/issues/issues/318)
+- Change message when there is no plan for an API [\#297](https://github.com/gravitee-io/issues/issues/297)
+- Change setting menu on plan screen [\#339](https://github.com/gravitee-io/issues/issues/339)
+- Enhance empty states [\#279](https://github.com/gravitee-io/issues/issues/279)
+- Prevent multiple analytics executions [\#311](https://github.com/gravitee-io/issues/issues/311)
+- Prevent multiple analytics executions for the admin dashboard [\#312](https://github.com/gravitee-io/issues/issues/312)
+
+
 ## [1.0.2 (2016-11-07)](https://github.com/gravitee-io/issues/milestone/13?closed=1)
 
 ###Bug fixes
