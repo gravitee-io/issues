@@ -31,6 +31,9 @@
 - API publisher can add consuming application by himself (subscription). [\#114](https://github.com/gravitee-io/issues/issues/114)
 - Automatically show policy configuration after drag and drop [\#19](https://github.com/gravitee-io/issues/issues/19)
 
+***Technical***
+- [Docker] Lightweight images based on alpine [\#211](https://github.com/gravitee-io/issues/issues/211) (Thanks to [Leansys team](http://www.leansys.fr/) and [Blake-Lead](https://github.com/Blake-Lead))
+
 ###Improvements
 
 ***Docs***
