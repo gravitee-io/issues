@@ -1,0 +1,347 @@
+= Change Log
+
+== https://github.com/gravitee-io/issues/milestone/11?closed=1[1.1.0 (2016-11-29)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Error when deleting a view already linked to an API https://github.com/gravitee-io/issues/issues/317[#317]
+- Send email asynchronously https://github.com/gravitee-io/issues/issues/325[#325]
+- Unable to delete API with closed plans and closed subscriptions https://github.com/gravitee-io/issues/issues/342[#342]
+
+*_Portal_*
+
+- Admin dashboard https://github.com/gravitee-io/issues/issues/290[#290]
+- Analytics API - Hit by applications not shown https://github.com/gravitee-io/issues/issues/336[#336]
+- Error when trying to subscribe to an API plan https://github.com/gravitee-io/issues/issues/296[#296]
+- Import / export an API does not work anymore https://github.com/gravitee-io/issues/issues/320[#320]
+- Not able to create a new path in API policies view https://github.com/gravitee-io/issues/issues/315[#315]
+- Sharding tagsmixin https://github.com/gravitee-io/issues/issues/340[#340]
+- Tooltip typo to edit a plan https://github.com/gravitee-io/issues/issues/309[#309]
+- Unable to subscribe to a plan https://github.com/gravitee-io/issues/issues/323[#323]
+
+=== Features
+
+*_Gateway_*
+
+- Add a transaction-id value for each request https://github.com/gravitee-io/issues/issues/307[#307]
+
+*_Management-api_*
+
+- Close a plan https://github.com/gravitee-io/issues/issues/277[#277]
+
+*_Portal_*
+
+- API publisher can add consuming application by himself (subscription). https://github.com/gravitee-io/issues/issues/114[#114]
+- Automatically show policy configuration after drag and drop https://github.com/gravitee-io/issues/issues/19[#19]
+
+***Technical***
+- http://www.leansys.fr/[Docker] Lightweight images based on alpine https://github.com/gravitee-io/issues/issues/211[#211] (Thanks to http://www.leansys.fr/[Leansys team] and https://github.com/Blake-Lead[Blake-Lead]
+
+=== Improvements
+
+***Docs***
+- Rewrite introduction and provide more inputs about API Management concepts https://github.com/gravitee-io/issues/issues/334[#334]
+
+*_Gateway_*
+
+- Compression must be enabled by default https://github.com/gravitee-io/issues/issues/343[#343]
+- SSL automatically enabled for HTTPS endpoint https://github.com/gravitee-io/issues/issues/303[#303]
+- Support for exclusion of sharding tags https://github.com/gravitee-io/issues/issues/319[#319]
+
+*_Management-api_*
+
+- Disable sending mail from the rest-api component https://github.com/gravitee-io/issues/issues/332[#332]
+
+*_Policy_*
+
+- [oauth2] Provide OAuth2 attributes through execution context https://github.com/gravitee-io/issues/issues/289[#289]
+- [transformheaders] Apply policy for requests and responses https://github.com/gravitee-io/issues/issues/321[#321]
+
+*_Portal_*
+
+- Be able to re-order API plans using drag & drop https://github.com/gravitee-io/issues/issues/308[#308]
+- Better management of sharding tags https://github.com/gravitee-io/issues/issues/318[#318]
+- Change message when there is no plan for an API https://github.com/gravitee-io/issues/issues/297[#297]
+- Change setting menu on plan screen https://github.com/gravitee-io/issues/issues/339[#339]
+- Enhance empty states https://github.com/gravitee-io/issues/issues/279[#279]
+- Prevent multiple analytics executions https://github.com/gravitee-io/issues/issues/311[#311]
+- Prevent multiple analytics executions for the admin dashboard https://github.com/gravitee-io/issues/issues/312[#312]
+
+
+== https://github.com/gravitee-io/issues/milestone/13?closed=1[1.0.2 (2016-11-07)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- API publisher cannot create a plan https://github.com/gravitee-io/issues/issues/295[#295]
+- Application's owner must see inherited members from associated group https://github.com/gravitee-io/issues/issues/302[#302]
+- Primary-owner / owner of an application not able to subscribe to a plan https://github.com/gravitee-io/issues/issues/299[#299]
+- User does not have access to published pages https://github.com/gravitee-io/issues/issues/300[#300]
+
+
+== https://github.com/gravitee-io/issues/milestone/12?closed=1[1.0.1 (2016-10-28)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- ConcurrentModificationException while stopping an API with multiple endpoints https://github.com/gravitee-io/issues/issues/286[#286]
+- NullPointerException when no underlying invoker is available https://github.com/gravitee-io/issues/issues/287[#287]
+- Stack trace in case of HTTP Client exception https://github.com/gravitee-io/issues/issues/283[#283]
+
+*_Management-api_*
+
+- Subscription service is fat https://github.com/gravitee-io/issues/issues/285[#285]
+
+*_Portal_*
+
+- Resources are not shown in plugin page https://github.com/gravitee-io/issues/issues/284[#284]
+- Wrong version number in constants.js https://github.com/gravitee-io/issues/issues/282[#282]
+
+
+== https://github.com/gravitee-io/issues/milestone/7?closed=1[1.0.0 (2016-10-25)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Manage import/export with groups https://github.com/gravitee-io/issues/issues/275[#275]
+
+*_Portal_*
+
+- API icon disappearing sometimes https://github.com/gravitee-io/issues/issues/267[#267]
+- API properties empty mode issue https://github.com/gravitee-io/issues/issues/273[#273]
+- API sync banner size https://github.com/gravitee-io/issues/issues/271[#271]
+- Add a logo for 'resource' plugins in instance environment view https://github.com/gravitee-io/issues/issues/265[#265]
+- Bad redirection after saving a page's configuration https://github.com/gravitee-io/issues/issues/224[#224]
+- Cannot fix context-path in the wizard https://github.com/gravitee-io/issues/issues/215[#215]
+- Confirm before delete API's resources https://github.com/gravitee-io/issues/issues/268[#268]
+- Do not show views without any API https://github.com/gravitee-io/issues/issues/220[#220]
+- Manage documentation (+) button - bad position https://github.com/gravitee-io/issues/issues/225[#225]
+- Not able to rename a view in portal configuration https://github.com/gravitee-io/issues/issues/270[#270]
+- Style issues in Portal views configuration https://github.com/gravitee-io/issues/issues/269[#269]
+- Unable to import api on Firefox https://github.com/gravitee-io/issues/issues/231[#231]
+
+=== Features
+
+*_Gateway_*
+
+- Be able to configure finely HTTP / HTTPS / Proxy per endpoint https://github.com/gravitee-io/issues/issues/242[#242]
+
+*_General_*
+
+- API Plans https://github.com/gravitee-io/issues/issues/257[#257]
+
+*_Management-api_*
+
+- Create a default application during the first user connection https://github.com/gravitee-io/issues/issues/208[#208]
+- Create mail subscription templates  https://github.com/gravitee-io/issues/issues/274[#274]
+- Fine-grained rights management https://github.com/gravitee-io/issues/issues/180[#180]
+
+*_Policy_*
+
+- Resource filtering  https://github.com/gravitee-io/issues/issues/251[#251]
+
+*_Portal_*
+
+- "Portal" mode disable management features https://github.com/gravitee-io/issues/issues/181[#181]
+- Add a registration view https://github.com/gravitee-io/issues/issues/246[#246]
+- Add application analytics https://github.com/gravitee-io/issues/issues/238[#238]
+- Remove Home page https://github.com/gravitee-io/issues/issues/260[#260]
+- Show context-path of an api https://github.com/gravitee-io/issues/issues/136[#136]
+
+=== Improvements
+
+*_Gateway_*
+
+- Expression Language path params from policies https://github.com/gravitee-io/issues/issues/253[#253]
+
+*_General_*
+
+- Do not start container with plugin conflict https://github.com/gravitee-io/issues/issues/262[#262]
+- Remove views from API definition and define a dedicated field https://github.com/gravitee-io/issues/issues/272[#272]
+
+*_Policy_*
+
+- [rate-limit] Split the rate-limiting policy into two policies https://github.com/gravitee-io/issues/issues/245[#245]
+
+*_Portal_*
+
+- API analytics use application name instead of application ID https://github.com/gravitee-io/issues/issues/193[#193]
+- Change API/Application header style https://github.com/gravitee-io/issues/issues/243[#243]
+- Do not display last deployment date in header in portal mode https://github.com/gravitee-io/issues/issues/249[#249]
+- Handle empty states https://github.com/gravitee-io/issues/issues/247[#247]
+- Move view configuration in a sub menu https://github.com/gravitee-io/issues/issues/244[#244]
+- Remove api/application list page https://github.com/gravitee-io/issues/issues/266[#266]
+- Upload API icon via API header https://github.com/gravitee-io/issues/issues/263[#263]
+- Views not sorted alphabetically  https://github.com/gravitee-io/issues/issues/280[#280]
+- [analytics] Do not reload page when selecting a new timeframe https://github.com/gravitee-io/issues/issues/199[#199]
+
+*_Repository_*
+
+- Refactor how to manage memberships https://github.com/gravitee-io/issues/issues/228[#228]
+
+
+== https://github.com/gravitee-io/issues/milestone/10?closed=1[0.19.2 (2016-10-06)]
+
+=== Bug fixes
+
+- [gateway] Do not send a 'CONNECT' request when invoking HTTP uri with an HTTP proxy https://github.com/gravitee-io/issues/issues/241[#241]
+- [gateway][health-check] Health-check service does not check correct endpoints https://github.com/gravitee-io/issues/issues/240[#240]
+- [portal] Redirected to home after using the try-it feature in documentation https://github.com/gravitee-io/issues/issues/239[#239]
+- [portal] Bad SwaggerUI URL when try-it is enabled https://github.com/gravitee-io/issues/issues/221[#221]
+
+== https://github.com/gravitee-io/issues/milestone/9?closed=1[0.19.1 (2016-10-03)]
+
+=== Bug fixes
+
+- [policy] [gravitee-policy-transformqueryparams] Parameters are deleted before using them https://github.com/gravitee-io/issues/issues/236[#236]
+- [gateway] Query parameters must not be decoded https://github.com/gravitee-io/issues/issues/235[#235]
+- [policy] [gravitee-policy-transformheaders] Headers are deleted before using them https://github.com/gravitee-io/issues/issues/237[#237]
+- [portal] Small ui bug the OK popup is red https://github.com/gravitee-io/issues/issues/82[#82]
+
+=== Features
+
+- [repository] ES : select indices according to the range from query https://github.com/gravitee-io/issues/issues/217[#217]
+- [portal] Try-it for anonymous user https://github.com/gravitee-io/issues/issues/222[#222]
+- [policy] [transform-headers] Expression language in query parameters value https://github.com/gravitee-io/issues/issues/227[#227]
+- [policy] [transform-headers] Expression language in headers value https://github.com/gravitee-io/issues/issues/226[#226]
+
+== https://github.com/gravitee-io/issues/milestone/6?closed=1[0.19.0 (2016-09-07)]
+
+=== Bug fixes
+
+- [management-api] : API full descriptor must be restricted to PRIMARY_OWER and OWNER https://github.com/gravitee-io/issues/issues/202[#202]
+- [policy] [cors] NPE when handling preflight request without Access-Control-Request-Headers https://github.com/gravitee-io/issues/issues/195[#195]
+- [management-api] Unable to add a new API member https://github.com/gravitee-io/issues/issues/194[#194]
+- Optimization of APIs display with views https://github.com/gravitee-io/issues/issues/229[#229]
+
+=== Features
+
+- [portal] Change markdown JS library https://github.com/gravitee-io/issues/issues/214[#214]
+- [management-api] Dynamic documentation page's content https://github.com/gravitee-io/issues/issues/213[#213]
+- [management-api] Normalize Elasticsearch configuration https://github.com/gravitee-io/issues/issues/212[#212]
+- [magagement-api][portal] : Transfer API ownership https://github.com/gravitee-io/issues/issues/210[#210]
+- [portal] Automatically save policies with no configuration https://github.com/gravitee-io/issues/issues/209[#209]
+- [repository] Simplify Event API by preserving a single search method https://github.com/gravitee-io/issues/issues/207[#207]
+- [portal] : API list : display primary owner https://github.com/gravitee-io/issues/issues/206[#206]
+- [gateway] Multiple event-loop https://github.com/gravitee-io/issues/issues/205[#205]
+- [gateway] Enable / disable a policy in the policy chain https://github.com/gravitee-io/issues/issues/204[#204]
+- [management-api] API's owner must not be able to change context-path https://github.com/gravitee-io/issues/issues/203[#203]
+- [portal] Moving healthcheck charts to ChartJS https://github.com/gravitee-io/issues/issues/197[#197]
+- [portal] : Improve Admin dashboard https://github.com/gravitee-io/issues/issues/192[#192]
+- [management-api] generate api descriptor with swagger https://github.com/gravitee-io/issues/issues/184[#184]
+- [portal] "Try it" to test an API https://github.com/gravitee-io/issues/issues/22[#22]
+- [portal] APIs views https://github.com/gravitee-io/issues/issues/112[#112]
+- [management-ui] API picture - overlay https://github.com/gravitee-io/issues/issues/178[#178]
+- [portal] Global events history https://github.com/gravitee-io/issues/issues/113[#113]
+
+== https://github.com/gravitee-io/issues/milestone/5?closed=1[0.18.0 (2016-08-02)]
+
+=== Bug fixes
+
+- [portal] Members must not be searched or added if they already exist https://github.com/gravitee-io/issues/issues/183[#183]
+- [management-api] [portal] Security and permissions improvements https://github.com/gravitee-io/issues/issues/176[#176]
+- [policy] [mock] NullPointerException https://github.com/gravitee-io/issues/issues/172[#172]
+- [portal] Fetch an external resource to create a page https://github.com/gravitee-io/issues/issues/171[#171]
+- [management-api] Create an API from a Swagger descriptor results in NullPointerException https://github.com/gravitee-io/issues/issues/168[#168]
+
+=== Features
+
+- [portal] Create an API from a Swagger descriptor exposed through HTTP / HTTPS https://github.com/gravitee-io/issues/issues/170[#170]
+- [policy] [rest-to-soap] Add a SOAP Action attribute to invoke WS https://github.com/gravitee-io/issues/issues/177[#177]
+- [portal] Rename json file when exporting an API https://github.com/gravitee-io/issues/issues/173[#173]
+- [management-api] Full export of an API, including members, pages, ... https://github.com/gravitee-io/issues/issues/164[#164]
+- [repository] [hazelcast] Cache implementation based on Hazelcast provider https://github.com/gravitee-io/issues/issues/167[#167]
+- [policy] JWT Policy https://github.com/gravitee-io/issues/issues/46[#46]
+- [repository] Key-value repository type https://github.com/gravitee-io/issues/issues/165[#165]
+
+== https://github.com/gravitee-io/issues/milestone/8?closed=1[0.17.1 (2016-07-21)]
+
+=== Bug fixes
+
+- [gateway] Do not load useless repository (if not required by the configuration) https://github.com/gravitee-io/issues/issues/161[#161]
+- [portal] Invalid API dialog when clicking on "Create API" button https://github.com/gravitee-io/issues/issues/162[#162]
+
+== https://github.com/gravitee-io/issues/milestone/4?closed=1[0.17.0 (2016-07-20)]
+
+=== Bug fixes
+
+- [management-api] User does not have access to API even if role is settled https://github.com/gravitee-io/issues/issues/156[#156]
+- [portal] [policy] Do not update policy description when cancelling the dialog https://github.com/gravitee-io/issues/issues/153[#153]
+- [portal] LDAP admins cannot create api keys https://github.com/gravitee-io/issues/issues/151[#151]
+- [gateway] [reporter] Shutdown LMAX disruptor before reporter processors https://github.com/gravitee-io/issues/issues/131[#131]
+- [docker] Error in launch.sh https://github.com/gravitee-io/issues/issues/128[#128]
+
+=== Features
+
+- [policy] [groovy] Use codemirror for groovy scripts textarea https://github.com/gravitee-io/issues/issues/152[#152]
+- [fetcher http] test must not depend on external http server https://github.com/gravitee-io/issues/issues/150[#150]
+- [management-api] Page ids don't have to contain the page title https://github.com/gravitee-io/issues/issues/148[#148]
+- [portal] add a text-editor for webui's textarea https://github.com/gravitee-io/issues/issues/147[#147]
+- [archetype] Update dependencies version https://github.com/gravitee-io/issues/issues/144[#144]
+- [policy] [dynamic-routing] Regex naming group https://github.com/gravitee-io/issues/issues/142[#142]
+- [web-ui] [policy] Add a title and/or description in policy configuration https://github.com/gravitee-io/issues/issues/141[#141]
+- [management-api] Create an API from a Swagger descriptor https://github.com/gravitee-io/issues/issues/139[#139]
+- [reporter] Gravitee may silently drop some Reportable events https://github.com/gravitee-io/issues/issues/134[#134]
+- [gateway] Set endpoint selected by load-balancer in execution context https://github.com/gravitee-io/issues/issues/133[#133]
+- [gateway] AbstractHttpInvoker creates Regexp objects wastefully  https://github.com/gravitee-io/issues/issues/129[#129]
+- [reporter] [file] Reporter does too many unneeded memory allocations https://github.com/gravitee-io/issues/issues/127[#127]
+- [management-api] Add a developer profile to run management-api from command-line https://github.com/gravitee-io/issues/issues/126[#126]
+- [reporter] [file] Incoherent thread synchronisation https://github.com/gravitee-io/issues/issues/123[#123]
+
+== https://github.com/gravitee-io/issues/milestone/3?closed=1[0.16.0 (2016-07-05)]
+
+=== Bug fixes
+
+- [policy] [mock] Issue with special character  https://github.com/gravitee-io/issues/issues/118[#118]
+- [portal] Policy view not well refreshed https://github.com/gravitee-io/issues/issues/117[#117]
+- [management-api] spring-webmvc version mismatch  https://github.com/gravitee-io/issues/issues/116[#116]
+- [policy] [oauth2] Send a 503 status code if oauth2 server is unavailable https://github.com/gravitee-io/issues/issues/103[#103]
+- [portal] Unable to export API Definition https://github.com/gravitee-io/issues/issues/102[#102]
+- [portal] Overlap problem on resource form https://github.com/gravitee-io/issues/issues/98[#98]
+- [portal] Unable to upload a documentation file under Firefox https://github.com/gravitee-io/issues/issues/90[#90]
+- [portal] Admin user must be able to manage all APIs / Applications https://github.com/gravitee-io/issues/issues/85[#85]
+
+=== Features
+
+- [policy] [xslt] XSL stylesheet should be templatable https://github.com/gravitee-io/issues/issues/122[#122]
+- [policy] [cache] Force cache to refresh for a specific key https://github.com/gravitee-io/issues/issues/119[#119]
+- [gateway] [health-check] Default expectation https://github.com/gravitee-io/issues/issues/111[#111]
+- [gateway] Add jsonPath to expression language https://github.com/gravitee-io/issues/issues/109[#109]
+- [policy] Logging policy https://github.com/gravitee-io/issues/issues/108[#108]
+- [policy] [rest-to-soap] Use @OnRequestContent to push SOAP envelope https://github.com/gravitee-io/issues/issues/107[#107]
+- [tools] Upgrade Vagrant box for Virtualbox https://github.com/gravitee-io/issues/issues/105[#105]
+- [gateway] Upgrade to Vert.x 3.3.0 https://github.com/gravitee-io/issues/issues/104[#104]
+- [gateway] Per-api HTTP proxy settings https://github.com/gravitee-io/issues/issues/96[#96]
+- [policy] [dynamic-routing] Simplify dynamic routing policy matchers https://github.com/gravitee-io/issues/issues/94[#94]
+- [gateway] [health-check] Disable endpoint automatically https://github.com/gravitee-io/issues/issues/92[#92]
+- [gateway] [health-check] Endpoint state https://github.com/gravitee-io/issues/issues/91[#91]
+- [gateway] @OnRequestContent https://github.com/gravitee-io/issues/issues/62[#62]
+- [portal] Login page : focus on username input field. https://github.com/gravitee-io/issues/issues/14[#14]
+- [doc] move all url to https https://github.com/gravitee-io/issues/issues/3[#3]
+
+== https://github.com/gravitee-io/issues/milestone/2?closed=1[0.15.0 (2016-06-22)]
+
+=== Bug fixes
+
+- [portal] Login page: Logo not well displayed under Safari https://github.com/gravitee-io/issues/issues/81[#81]
+
+=== Features
+
+- [healthcheck] Enable / disable health-check by endpoint  https://github.com/gravitee-io/issues/issues/88[#88]
+- [policy] Dynamic routing policy https://github.com/gravitee-io/issues/issues/87[#87]
+
+== https://github.com/gravitee-io/issues/milestone/1?closed=1[0.14.1 (2016-06-21)]
+
+=== Bug fixes
+
+- [management-api] Unable to create a new API https://github.com/gravitee-io/issues/issues/84[#84]
+- [gateway] gateway cannot connect to elastic reporter https://github.com/gravitee-io/issues/issues/1[#1]
+
+=== Features
+
+- [portal] redirect user to login page when he's disconnected https://github.com/gravitee-io/issues/issues/80[#80]
