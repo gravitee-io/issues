@@ -1,3 +1,79 @@
+# Change Log
+
+== https://github.com/gravitee-io/issues/milestone/14?closed=1[1.2.0 (2017-01-10)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Close pending subscriptions when closing plan https://github.com/gravitee-io/issues/issues/349[#349]
+- Fix empty analytics data https://github.com/gravitee-io/issues/issues/394[#394]
+- We can create pages without type https://github.com/gravitee-io/issues/issues/351[#351]
+
+*_Policy_*
+
+- [xml-json] Remove charset in content-type header https://github.com/gravitee-io/issues/issues/391[#391]
+
+*_Portal_*
+
+- API visibility icons aren't correctly separated https://github.com/gravitee-io/issues/issues/368[#368]
+- Instance ip is not in the title anymore https://github.com/gravitee-io/issues/issues/363[#363]
+- Label pass over the switch button when not published https://github.com/gravitee-io/issues/issues/370[#370]
+- Not able to create a new path https://github.com/gravitee-io/issues/issues/373[#373]
+- Remove double 'required field' asterix https://github.com/gravitee-io/issues/issues/396[#396]
+- Resource plugins list must be dynamic https://github.com/gravitee-io/issues/issues/355[#355]
+
+=== Features
+
+*_Docs_*
+
+- Improve documentation by providing multi-pages https://github.com/gravitee-io/issues/issues/348[#348]
+
+*_Gateway_*
+
+- Provide a transformable content request builder https://github.com/gravitee-io/issues/issues/350[#350]
+
+*_General_*
+
+- Authentication method per plan https://github.com/gravitee-io/issues/issues/379[#379]
+
+*_Management-api_*
+
+- [fetcher] GitLab - access to non public project https://github.com/gravitee-io/issues/issues/326[#326]
+
+=== Improvements
+
+*_Doc_*
+
+- Write quickstart guide for 1.2.0 version https://github.com/gravitee-io/issues/issues/403[#403]
+
+*_Gateway_*
+
+- Add elasticsearch's cluster configuration in gravitee.yml https://github.com/gravitee-io/issues/issues/374[#374]
+- Inject transaction id into the response https://github.com/gravitee-io/issues/issues/401[#401]
+- Make uniform streaming API  https://github.com/gravitee-io/issues/issues/356[#356]
+- Mesure the length of HTTP requests and responses https://github.com/gravitee-io/issues/issues/397[#397]
+- Rename healthcheck thread https://github.com/gravitee-io/issues/issues/361[#361]
+
+*_General_*
+
+- Optimization of data analytics transfer https://github.com/gravitee-io/issues/issues/385[#385]
+
+*_Management-api_*
+
+- Swagger descriptor is not up-to-date https://github.com/gravitee-io/issues/issues/357[#357]
+
+*_Portal_*
+
+- Allows to synchronize and zoom on analytics charts https://github.com/gravitee-io/issues/issues/384[#384]
+- Better redirection after API plan management operations https://github.com/gravitee-io/issues/issues/404[#404]
+- Better representation of numbers in dashboard https://github.com/gravitee-io/issues/issues/360[#360]
+- Replace the actual chart library by Highcharts https://github.com/gravitee-io/issues/issues/341[#341]
+
+*_Repository_*
+
+- Cassandra implementation https://github.com/gravitee-io/issues/issues/201[#201]
+- [elasticsearch] Do not check existing indices when searching ES https://github.com/gravitee-io/issues/issues/380[#380]
 = Change Log
 
 == https://github.com/gravitee-io/issues/milestone/11?closed=1[1.1.0 (2016-11-29)]
