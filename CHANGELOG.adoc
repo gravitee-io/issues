@@ -50,7 +50,7 @@
 *_Gateway_*
 
 - Add elasticsearch's cluster configuration in gravitee.yml https://github.com/gravitee-io/issues/issues/374[#374]
-- Inject transaction id into the response https://github.com/gravitee-io/issues/issues/401[#401]
+- Inject transaction id into the response https://github.com/gravitee-io/issues/issues/401[#401](Thanks to https://github.com/lusoalex[lusoalex])
 - Make uniform streaming API  https://github.com/gravitee-io/issues/issues/356[#356]
 - Mesure the length of HTTP requests and responses https://github.com/gravitee-io/issues/issues/397[#397]
 - Rename healthcheck thread https://github.com/gravitee-io/issues/issues/361[#361]
@@ -72,9 +72,8 @@
 
 *_Repository_*
 
-- Cassandra implementation https://github.com/gravitee-io/issues/issues/201[#201]
+- Cassandra implementation https://github.com/gravitee-io/issues/issues/201[#201] (Thanks to https://github.com/Blake-Lead[Blake-Lead])
 - [elasticsearch] Do not check existing indices when searching ES https://github.com/gravitee-io/issues/issues/380[#380]
-= Change Log
 
 == https://github.com/gravitee-io/issues/milestone/11?closed=1[1.1.0 (2016-11-29)]
 
@@ -113,7 +112,7 @@
 - Automatically show policy configuration after drag and drop https://github.com/gravitee-io/issues/issues/19[#19]
 
 ***Technical***
-- http://www.leansys.fr/[Docker] Lightweight images based on alpine https://github.com/gravitee-io/issues/issues/211[#211] (Thanks to http://www.leansys.fr/[Leansys team] and https://github.com/Blake-Lead[Blake-Lead]
+- http://www.leansys.fr/[Docker] Lightweight images based on alpine https://github.com/gravitee-io/issues/issues/211[#211] (Thanks to http://www.leansys.fr/[Leansys team] and https://github.com/Blake-Lead[Blake-Lead])
 
 === Improvements
 
