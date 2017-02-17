@@ -1,5 +1,19 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/19?closed=1[1.3.3 (2017-02-17)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- API is not well-initialized after creation https://github.com/gravitee-io/issues/issues/451[#451]
+- Error 500 when creating a new API from Swagger descriptor https://github.com/gravitee-io/issues/issues/454[#454]
+
+*_Portal_*
+
+- Persistent scrollbar https://github.com/gravitee-io/issues/issues/456[#456]
+
+
 == https://github.com/gravitee-io/issues/milestone/18?closed=1[1.3.2 (2017-02-16)]
 
 === Bug fixes
