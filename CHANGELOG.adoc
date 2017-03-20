@@ -1,5 +1,62 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/16?closed=1[1.4.0 (2017-03-17)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Clean empty arrays in policies configuration https://github.com/gravitee-io/issues/issues/469[#469]
+
+*_Management-api_*
+
+- Create api by import file doesn't create policies https://github.com/gravitee-io/issues/issues/496[#496]
+- Failed to login via LDAP if role-mapping is set to false (default value) https://github.com/gravitee-io/issues/issues/492[#492]
+- User registration link not correct https://github.com/gravitee-io/issues/issues/487[#487]
+
+*_Policy_*
+
+- [cors] Access-Control-Allow-Methods must be returned in upper-case https://github.com/gravitee-io/issues/issues/480[#480]
+- [cors] Bad request when no Access-Control-Request-Headers specified https://github.com/gravitee-io/issues/issues/474[#474]
+- [cors] Error on call to api with policy CORS https://github.com/gravitee-io/issues/issues/464[#464]
+- [json-to-json] Error occurred while starting graviteeio-gateway in Windows 7 Env  https://github.com/gravitee-io/issues/issues/461[#461]
+
+*_Portal_*
+
+- Error on defining OAuth resource https://github.com/gravitee-io/issues/issues/484[#484]
+- Exception when sending email during user registration https://github.com/gravitee-io/issues/issues/485[#485]
+- Fix delete policy button icon width https://github.com/gravitee-io/issues/issues/497[#497]
+- Hide "Start creating an API" https://github.com/gravitee-io/issues/issues/489[#489]
+- Issues after typescript migration  https://github.com/gravitee-io/issues/issues/501[#501]
+- No error when defining duplicated endpoint's name https://github.com/gravitee-io/issues/issues/436[#436]
+- Typescript migration issues https://github.com/gravitee-io/issues/issues/493[#493]
+
+*_Repository_*
+
+- [elasticsearch] Aggregations order is not kept in ES response https://github.com/gravitee-io/issues/issues/498[#498]
+- [mongodb] Apis with same name are not correctly returned https://github.com/gravitee-io/issues/issues/500[#500]
+
+=== Features
+
+*_Portal_*
+
+- Archive an application https://github.com/gravitee-io/issues/issues/185[#185]
+
+=== Improvements
+
+*_Management-api_*
+
+- Finest configuration for SMTP server https://github.com/gravitee-io/issues/issues/488[#488]
+
+*_Policy_*
+
+- [apikey] Avoid call to repository API https://github.com/gravitee-io/issues/issues/499[#499]
+
+*_Portal_*
+
+- Tenant display in gateway settings https://github.com/gravitee-io/issues/issues/452[#452]
+
+
 == https://github.com/gravitee-io/issues/milestone/19?closed=1[1.3.3 (2017-02-17)]
 
 === Bug fixes
