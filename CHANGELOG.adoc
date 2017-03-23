@@ -1,5 +1,20 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/21?closed=1[1.4.1 (2017-03-22)]
+
+=== Bug fixes
+
+*_Portal_*
+
+- Not able to create a new endpoint https://github.com/gravitee-io/issues/issues/507[#507]
+
+=== Improvements
+
+*_Gateway_*
+
+- Show available endpoints while deploying API https://github.com/gravitee-io/issues/issues/508[#508]
+
+
 == https://github.com/gravitee-io/issues/milestone/16?closed=1[1.4.0 (2017-03-17)]
 
 === Bug fixes
