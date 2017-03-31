@@ -1,5 +1,14 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/25?closed=1[1.4.2 (2017-03-31)]
+
+=== Bug fixes
+
+*_Portal_*
+
+- API not well refreshed when managing it  https://github.com/gravitee-io/issues/issues/519[#519]
+
+
 == https://github.com/gravitee-io/issues/milestone/21?closed=1[1.4.1 (2017-03-22)]
 
 === Bug fixes
