@@ -1,5 +1,58 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/20?closed=1[1.5.0 (2017-04-19)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Endpoint configuration not correctly selected with dynamic routing https://github.com/gravitee-io/issues/issues/515[#515]
+
+*_Portal_*
+
+- Application menu disappear when login with user https://github.com/gravitee-io/issues/issues/518[#518]
+- Impossible to change group of application https://github.com/gravitee-io/issues/issues/527[#527]
+
+=== Features
+
+*_Policy_*
+
+- [api-key] Customize api-key header https://github.com/gravitee-io/issues/issues/444[#444]
+- [oauth2] Check required scopes https://github.com/gravitee-io/issues/issues/537[#537]
+
+*_Portal_*
+
+- Edit content of the api home page https://github.com/gravitee-io/issues/issues/467[#467]
+- Portal pages https://github.com/gravitee-io/issues/issues/468[#468]
+
+*_Resource_*
+
+- [oauth2] Gravitee.io AM OAuth2 resource https://github.com/gravitee-io/issues/issues/535[#535]
+
+=== Improvements
+
+*_Gateway_*
+
+- Do not check the concrete class when accessing a resource from policy  https://github.com/gravitee-io/issues/issues/532[#532]
+- Log more information in addition to stacktrace https://github.com/gravitee-io/issues/issues/528[#528]
+- Policy can send a json content for a policy failure https://github.com/gravitee-io/issues/issues/531[#531]
+- Sync service is memory and CPU consuming https://github.com/gravitee-io/issues/issues/504[#504]
+- Upgrade Vert.x to 3.4.1 https://github.com/gravitee-io/issues/issues/516[#516]
+- [health-check] Refactor service to use Vert.x instead of async-http-client https://github.com/gravitee-io/issues/issues/536[#536]
+
+*_Policy_*
+
+- [oauth2] Abstract OAuth2 resource https://github.com/gravitee-io/issues/issues/534[#534]
+
+*_Portal_*
+
+- New developer portal https://github.com/gravitee-io/issues/issues/517[#517]
+
+*_Repository_*
+
+- [mongodb] Driver upgrade https://github.com/gravitee-io/issues/issues/523[#523]
+
+
 == https://github.com/gravitee-io/issues/milestone/25?closed=1[1.4.2 (2017-03-31)]
 
 === Bug fixes
