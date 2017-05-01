@@ -1,5 +1,37 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/26?closed=1[1.5.1 (2017-05-01)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- [sync] Remove check on sharding tags https://github.com/gravitee-io/issues/issues/562[#562]
+
+*_Policy_*
+
+- [oauth2] HTTPS is not well supported https://github.com/gravitee-io/issues/issues/563[#563]
+
+*_Portal_*
+
+- API is not correctly refreshed on UI https://github.com/gravitee-io/issues/issues/564[#564]
+- Context-path column empty in apis listing screen https://github.com/gravitee-io/issues/issues/551[#551]
+- Dynamic properties - missing output expected example https://github.com/gravitee-io/issues/issues/566[#566]
+- Regex deactivate the drag and drop func https://github.com/gravitee-io/issues/issues/560[#560]
+- User with `owner` role is not able to create a new documentation page https://github.com/gravitee-io/issues/issues/549[#549]
+- We cannot change the user picture anymore https://github.com/gravitee-io/issues/issues/530[#530]
+
+=== Improvements
+
+*_Gateway_*
+
+- Sync logs are very verbose with sharding tags https://github.com/gravitee-io/issues/issues/553[#553]
+
+*_Portal_*
+
+- All users must have access to api list https://github.com/gravitee-io/issues/issues/559[#559]
+
+
 == https://github.com/gravitee-io/issues/milestone/20?closed=1[1.5.0 (2017-04-19)]
 
 === Bug fixes
