@@ -1,5 +1,14 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/27?closed=1[1.6.1 (2017-05-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- By default, listen for all sharding tags https://github.com/gravitee-io/issues/issues/593[#593]
+
+
 == https://github.com/gravitee-io/issues/milestone/22?closed=1[1.6.0 (2017-05-17)]
 
 === Bug fixes
