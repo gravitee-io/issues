@@ -1,5 +1,61 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/22?closed=1[1.6.0 (2017-05-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API with sharding tags are not deployed https://github.com/gravitee-io/issues/issues/581[#581]
+- After closing a plan, gateway must be refreshed https://github.com/gravitee-io/issues/issues/383[#383]
+
+*_Management_*
+
+- Error when calling the rest API service of export API https://github.com/gravitee-io/issues/issues/580[#580]
+
+*_Management-api_*
+
+- Allowed to set unknown group to an api https://github.com/gravitee-io/issues/issues/354[#354]
+- Swagger import crash https://github.com/gravitee-io/issues/issues/570[#570]
+
+*_Management-ui_*
+
+- List APIsdo not show API with `user` permission https://github.com/gravitee-io/issues/issues/589[#589]
+- No context-path for non-admin users https://github.com/gravitee-io/issues/issues/590[#590]
+
+*_Portal_*
+
+- Charts are always displayed using UTC timezone https://github.com/gravitee-io/issues/issues/587[#587]
+- Resolve superseded error from ui-router for documentation pages https://github.com/gravitee-io/issues/issues/588[#588]
+- Sync banner is not shown after plan creation https://github.com/gravitee-io/issues/issues/574[#574]
+
+=== Features
+
+*_General_*
+
+- AWS DynamoDB Repository https://github.com/gravitee-io/issues/issues/558[#558]
+
+*_Portal_*
+
+- Display a customizable endpoint for APIs https://github.com/gravitee-io/issues/issues/550[#550]
+- Metadata https://github.com/gravitee-io/issues/issues/554[#554]
+- Request / response diagnostic https://github.com/gravitee-io/issues/issues/568[#568]
+
+=== Improvements
+
+*_Plugin_*
+
+- Should be able to specify a custom folder for custom plugins https://github.com/gravitee-io/issues/issues/585[#585]
+
+*_Policy_*
+
+- [mock] Headers should not be required https://github.com/gravitee-io/issues/issues/573[#573]
+
+*_Portal_*
+
+- API header is not clear enough https://github.com/gravitee-io/issues/issues/592[#592]
+
+
 == https://github.com/gravitee-io/issues/milestone/26?closed=1[1.5.1 (2017-05-01)]
 
 === Bug fixes
