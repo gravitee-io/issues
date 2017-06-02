@@ -1,5 +1,24 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/30?closed=1[1.6.3 (2017-06-02)]
+
+=== Bug fixes
+
+*_Policy_*
+
+- [cache] Memory consuming cache element https://github.com/gravitee-io/issues/issues/606[#606]
+
+*_Portal_*
+
+- Add multiple members to a group https://github.com/gravitee-io/issues/issues/301[#301]
+- Export definition set a wrong name https://github.com/gravitee-io/issues/issues/557[#557]
+- Metadata key should not be updatable on update https://github.com/gravitee-io/issues/issues/613[#613]
+- Need to refresh ui when adding a new endpoint on gateway configuration https://github.com/gravitee-io/issues/issues/582[#582]
+- Unknown policy https://github.com/gravitee-io/issues/issues/611[#611]
+- User not loggue can't see public api documentation https://github.com/gravitee-io/issues/issues/603[#603]
+- [policy] Updating a policy description must not generate a to_deploy event https://github.com/gravitee-io/issues/issues/154[#154]
+
+
 == https://github.com/gravitee-io/issues/milestone/28?closed=1[1.6.2 (2017-05-19)]
 
 === Bug fixes
