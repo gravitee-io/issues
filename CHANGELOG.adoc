@@ -1,5 +1,66 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/23?closed=1[1.7.0 (2017-06-20)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Changing API visibility must not cause an 'out of sync' status https://github.com/gravitee-io/issues/issues/607[#607]
+- Lost some ms between each sync https://github.com/gravitee-io/issues/issues/579[#579]
+
+*_Portal_*
+
+- Error on user subscription https://github.com/gravitee-io/issues/issues/632[#632]
+- Fallback to a default language https://github.com/gravitee-io/issues/issues/604[#604]
+- Not able to update view's name / description  https://github.com/gravitee-io/issues/issues/635[#635]
+
+*_Repository_*
+
+- [elasticsearch] Healthcheck is not working for ES5.x https://github.com/gravitee-io/issues/issues/610[#610]
+- [redis] events are not well managed https://github.com/gravitee-io/issues/issues/576[#576]
+
+=== Features
+
+*_Gateway_*
+
+- Enable requests to internal endpoints to override the Host header https://github.com/gravitee-io/issues/issues/644[#644]
+- [management-api] Should be able to customize plugins work directory https://github.com/gravitee-io/issues/issues/615[#615]
+
+*_Policy_*
+
+- [jwt] Extract claims from JWT token https://github.com/gravitee-io/issues/issues/631[#631]
+
+*_Portal_*
+
+- Associate labels to an API https://github.com/gravitee-io/issues/issues/617[#617]
+- Customize the portal https://github.com/gravitee-io/issues/issues/596[#596]
+- OAuth2 authentication https://github.com/gravitee-io/issues/issues/625[#625]
+- Social authentication https://github.com/gravitee-io/issues/issues/602[#602]
+
+=== Improvements
+
+*_Gateway_*
+
+- Do not deploy an API if no published plan https://github.com/gravitee-io/issues/issues/586[#586]
+- [healthcheck] need to enable https for healthcheck https://github.com/gravitee-io/issues/issues/649[#649]
+
+*_Management-api_*
+
+- Jetty should bind to specific IP instead of 0.0.0.0 https://github.com/gravitee-io/issues/issues/621[#621]
+
+*_Portal_*
+
+- Dashboard viewadd direct link to API / application https://github.com/gravitee-io/issues/issues/645[#645]
+- Display view name on the api card https://github.com/gravitee-io/issues/issues/533[#533]
+- Override HTTP timeout for analytics https://github.com/gravitee-io/issues/issues/624[#624]
+- Show "API out of sync" when closing a plan https://github.com/gravitee-io/issues/issues/619[#619]
+
+*_Reporting_*
+
+- Associate analytics to a gateway instance https://github.com/gravitee-io/issues/issues/65[#65]
+
+
 == https://github.com/gravitee-io/issues/milestone/30?closed=1[1.6.3 (2017-06-02)]
 
 === Bug fixes
