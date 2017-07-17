@@ -1,5 +1,64 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/24?closed=1[1.8.0 (2017-07-11)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Mixin configuration for HTTP server https://github.com/gravitee-io/issues/issues/667[#667]
+- Query parameters without key not encoded (IllegalArgumentException) https://github.com/gravitee-io/issues/issues/665[#665]
+- [healthcheck] how to detect/alert on slow backend - with healthcheck ? https://github.com/gravitee-io/issues/issues/656[#656]
+- [policy] Unrecognized field in policy configuration https://github.com/gravitee-io/issues/issues/672[#672]
+
+*_General_*
+
+- UnexpectedRollbackException when doing View Logs https://github.com/gravitee-io/issues/issues/660[#660]
+
+*_Management-api_*
+
+- Can not search for user authenticated with oauth2, google or github account https://github.com/gravitee-io/issues/issues/682[#682]
+- Picture property value for OAuth2 authentication is not well associated  https://github.com/gravitee-io/issues/issues/675[#675]
+- [dynamic-property] Properties are not injected https://github.com/gravitee-io/issues/issues/676[#676]
+
+*_Portal_*
+
+- Can't save a documentation by fetching swagger from gitlab https://github.com/gravitee-io/issues/issues/664[#664]
+- Portal is not loaded when userCreationEnabled set to false https://github.com/gravitee-io/issues/issues/655[#655]
+- Swagger not rendered with OpenAPI specification validation issues https://github.com/gravitee-io/issues/issues/668[#668]
+
+=== Features
+
+*_Gateway_*
+
+- Being able to cancel request / response while working with stream https://github.com/gravitee-io/issues/issues/657[#657]
+- HTTP/2 support https://github.com/gravitee-io/issues/issues/673[#673]
+- Move errors from the response body to the logs associated with the transaction ID https://github.com/gravitee-io/issues/issues/651[#651]
+- [management-api] Have a PID file for Gravitee processes https://github.com/gravitee-io/issues/issues/681[#681]
+- [management-api] Healthcheck https://github.com/gravitee-io/issues/issues/543[#543]
+
+=== Improvements
+
+*_Gateway_*
+
+- HTTP Serverchange the host to listen on https://github.com/gravitee-io/issues/issues/666[#666]
+- Upgrade to vert.x 3.4.2 https://github.com/gravitee-io/issues/issues/671[#671]
+
+*_Management-api_*
+
+- Performance issue when searching for users in LDAP https://github.com/gravitee-io/issues/issues/654[#654]
+
+*_Policy_*
+
+- [jwt] Public key resolver property must be mandatory https://github.com/gravitee-io/issues/issues/674[#674]
+
+*_Portal_*
+
+- API log add gateway instance https://github.com/gravitee-io/issues/issues/683[#683]
+- Default user icon must not be the same as the one used for portal logo https://github.com/gravitee-io/issues/issues/653[#653]
+- Enable Client SSL & Trust all settings UX improvements https://github.com/gravitee-io/issues/issues/663[#663]
+
+
 == https://github.com/gravitee-io/issues/milestone/23?closed=1[1.7.0 (2017-06-20)]
 
 === Bug fixes
