@@ -1,5 +1,31 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/31?closed=1[1.8.1 (2017-07-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Downgrade Vert.x version to 3.4.1 https://github.com/gravitee-io/issues/issues/687[#687]
+
+*_Portal_*
+
+- Could not update/delete a configuration elt (tenant/shard/views) after creation https://github.com/gravitee-io/issues/issues/690[#690]
+- Impossible to change group of application https://github.com/gravitee-io/issues/issues/527[#527]
+
+=== Features
+
+*_Portal_*
+
+- Custom user Roles https://github.com/gravitee-io/issues/issues/555[#555]
+
+=== Improvements
+
+*_Gateway_*
+
+- Check endpoint availability when using dynamic-routing policy https://github.com/gravitee-io/issues/issues/453[#453]
+
+
 == https://github.com/gravitee-io/issues/milestone/24?closed=1[1.8.0 (2017-07-11)]
 
 === Bug fixes
