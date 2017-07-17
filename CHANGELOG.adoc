@@ -1,5 +1,37 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/31?closed=1[1.8.1 (2017-07-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Downgrade Vert.x version to 3.4.1 https://github.com/gravitee-io/issues/issues/687[#687]
+
+*_Portal_*
+
+- Could not update/delete a configuration elt (tenant/shard/views) after creation https://github.com/gravitee-io/issues/issues/690[#690]
+- Impossible to change group of application https://github.com/gravitee-io/issues/issues/527[#527]
+- [portal] Ratio of the logo https://github.com/gravitee-io/issues/issues/685[#685]
+
+=== Features
+
+*_Portal_*
+
+- Custom user Roles https://github.com/gravitee-io/issues/issues/555[#555]
+- [policy][groovy]Request attribute is of type String for onRequestContent scope https://github.com/gravitee-io/issues/issues/692[#692]
+
+=== Improvements
+
+*_Gateway_*
+
+- Check endpoint availability when using dynamic-routing policy https://github.com/gravitee-io/issues/issues/453[#453]
+
+*_Portal_*
+
+- [portal] Homepage - Display views below each API https://github.com/gravitee-io/issues/issues/686[#686]
+
+
 == https://github.com/gravitee-io/issues/milestone/24?closed=1[1.8.0 (2017-07-11)]
 
 === Bug fixes
