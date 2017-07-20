@@ -1,5 +1,19 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/32?closed=1[1.8.2 (2017-07-20)]
+
+=== Bug fixes
+
+*_Documentation_*
+
+- The documentation tab disappeared from gravitee management https://github.com/gravitee-io/issues/issues/701[#701]
+
+*_Portal_*
+
+- Problem with the alignment of APIs https://github.com/gravitee-io/issues/issues/695[#695]
+- Unable to display a public API as an unauthenticated user https://github.com/gravitee-io/issues/issues/696[#696]
+
+
 == https://github.com/gravitee-io/issues/milestone/31?closed=1[1.8.1 (2017-07-17)]
 
 === Bug fixes
