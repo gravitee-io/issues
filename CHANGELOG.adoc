@@ -1,5 +1,26 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/33?closed=1[1.8.3 (2017-07-24)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Thread deadlock https://github.com/gravitee-io/issues/issues/709[#709]
+
+*_Portal_*
+
+- APIM global logs not showing up https://github.com/gravitee-io/issues/issues/708[#708]
+- Multiple role management issues https://github.com/gravitee-io/issues/issues/707[#707]
+- Use relative path for the default user profile picture https://github.com/gravitee-io/issues/issues/705[#705]
+
+=== Improvements
+
+*_Management_*
+
+- Improve the UX when edit an API https://github.com/gravitee-io/issues/issues/694[#694]
+
+
 == https://github.com/gravitee-io/issues/milestone/32?closed=1[1.8.2 (2017-07-20)]
 
 === Bug fixes
