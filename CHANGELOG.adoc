@@ -1,5 +1,28 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/34?closed=1[1.8.4 (2017-08-23)]
+
+=== Bug fixes
+
+*_General_*
+
+- Incorrect mail content for New subscription  https://github.com/gravitee-io/issues/issues/728[#728]
+
+*_Management_*
+
+- Bad template https://github.com/gravitee-io/issues/issues/721[#721]
+
+=== Improvements
+
+*_Management_*
+
+- Improve log details on dynamic properties error https://github.com/gravitee-io/issues/issues/722[#722]
+
+*_Policy_*
+
+- Groovy] Better reporting in case of error while running groovy script https://github.com/gravitee-io/issues/issues/732[#732]
+
+
 == https://github.com/gravitee-io/issues/milestone/33?closed=1[1.8.3 (2017-07-24)]
 
 === Bug fixes
