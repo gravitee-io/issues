@@ -1,5 +1,97 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/29?closed=1[1.9.0 (2017-09-13)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Gateway rewrites same query parameter and keep only last one https://github.com/gravitee-io/issues/issues/720[#720]
+- Policy stream issuebackend still invoked after a streamFailWith https://github.com/gravitee-io/issues/issues/762[#762]
+- Some path are not correctly handled and policies are not correct https://github.com/gravitee-io/issues/issues/773[#773]
+
+*_Management_*
+
+- Application owners must be notify when their subscriptions are closed after the close of a plan https://github.com/gravitee-io/issues/issues/743[#743]
+
+*_Management-api_*
+
+- Unable to delete application https://github.com/gravitee-io/issues/issues/753[#753]
+- Wrong mail subject when apiKey expired https://github.com/gravitee-io/issues/issues/767[#767]
+- X-forwarded-host not properly handled when rewriting Location header https://github.com/gravitee-io/issues/issues/735[#735]
+
+*_Policy_*
+
+- [ip-filtering] Policy needs gravitee-policy-api.version to be updated https://github.com/gravitee-io/issues/issues/755[#755]
+
+*_Portal_*
+
+- API creationcontext-path does not accept underscore https://github.com/gravitee-io/issues/issues/750[#750]
+- Admin user cannot see documentation pages https://github.com/gravitee-io/issues/issues/734[#734]
+- Admin without rights https://github.com/gravitee-io/issues/issues/715[#715]
+- Authentication URL issue when using authentication provider https://github.com/gravitee-io/issues/issues/769[#769]
+- Authorization cookie not properly handled in case of cross-domain https://github.com/gravitee-io/issues/issues/771[#771]
+- Tenant not shown in endpoints table https://github.com/gravitee-io/issues/issues/760[#760]
+
+*_Repository_*
+
+- Inconsistent requirements in repository unit tests - updating item that doesn't exist in the repo https://github.com/gravitee-io/issues/issues/641[#641]
+
+*_Service_*
+
+- [node-healthcheck] Change http port strategy https://github.com/gravitee-io/issues/issues/712[#712]
+
+=== Features
+
+*_Management-api_*
+
+- Add default groups on API/Apps creation https://github.com/gravitee-io/issues/issues/763[#763]
+
+*_Policy_*
+
+- Policy to check existing param https://github.com/gravitee-io/issues/issues/650[#650]
+- [override-method] Override HTTP method https://github.com/gravitee-io/issues/issues/749[#749]
+
+*_Portal_*
+
+- Refactor group management https://github.com/gravitee-io/issues/issues/727[#727]
+
+=== Improvements
+
+*_Gateway_*
+
+- Error reporting improvement - incorrect keystore credentials for Gateway SSL config https://github.com/gravitee-io/issues/issues/733[#733]
+
+*_Management_*
+
+- Improve the email message of a subscription request https://github.com/gravitee-io/issues/issues/776[#776]
+
+*_Management-api_*
+
+- Email notification when closing a plan https://github.com/gravitee-io/issues/issues/752[#752]
+- Missing property for email subject https://github.com/gravitee-io/issues/issues/765[#765]
+
+*_Oauth2_*
+
+- Improve the Generic OAuth2 resource with appropriate param to the token introspection endpoint https://github.com/gravitee-io/issues/issues/770[#770]
+- Token introspection check active flag (rfc7662) https://github.com/gravitee-io/issues/issues/772[#772]
+
+*_Policy_*
+
+- [quota] [rate-limit] Update possible time-window for rate-limiting policies https://github.com/gravitee-io/issues/issues/744[#744]
+
+*_Portal_*
+
+- Admin must be allowed to change primary owner https://github.com/gravitee-io/issues/issues/774[#774]
+- Customize footer links https://github.com/gravitee-io/issues/issues/757[#757]
+- Include gateway version and gateway tenant in instances view https://github.com/gravitee-io/issues/issues/779[#779]
+- Sort groups by name https://github.com/gravitee-io/issues/issues/740[#740]
+
+*_Service_*
+
+- [healthcheck] Endpoint healthcheck https://github.com/gravitee-io/issues/issues/704[#704]
+
+
 == https://github.com/gravitee-io/issues/milestone/34?closed=1[1.8.4 (2017-08-23)]
 
 === Bug fixes
