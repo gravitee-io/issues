@@ -1,5 +1,33 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/36?closed=1[1.9.1 (2017-09-19)]
+
+=== Bug fixes
+
+*_General_*
+
+- Healthcheck probe must connect on declared host in config https://github.com/gravitee-io/issues/issues/789[#789]
+
+*_Management_*
+
+- Base url is not correctly overridden on swagger try it https://github.com/gravitee-io/issues/issues/787[#787]
+- Email templates issue after upgraded to APIM 1.9.0 https://github.com/gravitee-io/issues/issues/785[#785]
+- The email template is not correct for user registration https://github.com/gravitee-io/issues/issues/784[#784]
+
+*_Management-api_*
+
+- Admin rights not always checked in the same way https://github.com/gravitee-io/issues/issues/797[#797]
+
+*_Management-ui_*
+
+- API group are not well displayed in case of read-only right https://github.com/gravitee-io/issues/issues/796[#796]
+- Dynamic properties form not displayed with rate and interval https://github.com/gravitee-io/issues/issues/798[#798]
+
+*_Portal_*
+
+- Markdown page incorrect ul / li https://github.com/gravitee-io/issues/issues/794[#794]
+
+
 == https://github.com/gravitee-io/issues/milestone/29?closed=1[1.9.0 (2017-09-13)]
 
 === Bug fixes
