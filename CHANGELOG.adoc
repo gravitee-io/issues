@@ -1,5 +1,33 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/37?closed=1[1.9.2 (2017-09-20)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Add the remote IP on the logs https://github.com/gravitee-io/issues/issues/810[#810]
+- Display expiration date on revocation's email https://github.com/gravitee-io/issues/issues/809[#809]
+- Sorting is not working on gateway endpoints https://github.com/gravitee-io/issues/issues/807[#807]
+- The default API's picture disappear on save https://github.com/gravitee-io/issues/issues/800[#800]
+- Validation's message is not the same on context-path modification and creation https://github.com/gravitee-io/issues/issues/808[#808]
+
+*_Management-api_*
+
+- Not able to transfer ownership for an API https://github.com/gravitee-io/issues/issues/805[#805]
+
+=== Improvements
+
+*_Management_*
+
+- Allows to configure the max age on the Authorization's cookie https://github.com/gravitee-io/issues/issues/811[#811]
+- Impossible to disable global HC without filling mandatory fields https://github.com/gravitee-io/issues/issues/801[#801]
+
+*_Management-ui_*
+
+- Add button to refresh health-check infos https://github.com/gravitee-io/issues/issues/812[#812]
+
+
 == https://github.com/gravitee-io/issues/milestone/36?closed=1[1.9.1 (2017-09-19)]
 
 === Bug fixes
