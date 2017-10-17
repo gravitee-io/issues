@@ -1,5 +1,96 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/35?closed=1[1.10.0 (2017-10-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Gateway must not enforce character encoding if not required https://github.com/gravitee-io/issues/issues/832[#832]
+
+*_General_*
+
+- Healthcheck probe must connect on declared host in config https://github.com/gravitee-io/issues/issues/789[#789]
+
+*_Management_*
+
+- Could not close subscriptions as Primary owner https://github.com/gravitee-io/issues/issues/834[#834]
+- Error on save of gateway endpoint https://github.com/gravitee-io/issues/issues/837[#837]
+- Error when sending email for new members https://github.com/gravitee-io/issues/issues/831[#831]
+- Sometimes some policies modifications are lost https://github.com/gravitee-io/issues/issues/838[#838]
+- Sometimes we have to click twice to access an API/application https://github.com/gravitee-io/issues/issues/790[#790]
+- Wrong name for the "new subscription" email https://github.com/gravitee-io/issues/issues/828[#828]
+
+*_Portal_*
+
+- Use firstname and lastname for each user instead of the member's ID https://github.com/gravitee-io/issues/issues/28[#28]
+
+*_Reporter_*
+
+- [elasticsearch] Unable to create index mapping https://github.com/gravitee-io/issues/issues/829[#829]
+
+=== Features
+
+*_Gateway_*
+
+- API Gateway doesn't failover for all connection failures https://github.com/gravitee-io/issues/issues/754[#754]
+- API Info Endpoint https://github.com/gravitee-io/issues/issues/723[#723]
+- Circuit-breaker support https://github.com/gravitee-io/issues/issues/786[#786]
+- Option to follow redirect https://github.com/gravitee-io/issues/issues/778[#778]
+
+*_General_*
+
+- Assign groups to user from oauth user infos on first login. https://github.com/gravitee-io/issues/issues/781[#781]
+
+*_Management-api_*
+
+- Contact screen to send an email to the support team https://github.com/gravitee-io/issues/issues/819[#819]
+- Encoding/hashing algorithm for passwords for InMemory IDP should be customizable https://github.com/gravitee-io/issues/issues/804[#804]
+- Manage CORS as an integrated feature, not an API Policy https://github.com/gravitee-io/issues/issues/825[#825]
+- Visibility of plans and documentations by groups https://github.com/gravitee-io/issues/issues/764[#764]
+
+*_Policy_*
+
+- OpenID Connect UserInfo policy https://github.com/gravitee-io/issues/issues/803[#803]
+
+*_Portal_*
+
+- Access to http dump through Log menu https://github.com/gravitee-io/issues/issues/788[#788]
+- Add a disclaimer for unsupported browser versions https://github.com/gravitee-io/issues/issues/823[#823]
+
+=== Improvements
+
+*_Gateway_*
+
+- Improve api-key refresher service https://github.com/gravitee-io/issues/issues/833[#833]
+
+*_General_*
+
+- Http core services should not enforce basic authentication https://github.com/gravitee-io/issues/issues/791[#791]
+
+*_Health-check_*
+
+- Store response body when assertion can't be validated https://github.com/gravitee-io/issues/issues/813[#813]
+
+*_Management_*
+
+- Do not round 99,999% to 100% in analytics https://github.com/gravitee-io/issues/issues/826[#826]
+- Include gateway sharding tags in instances view https://github.com/gravitee-io/issues/issues/827[#827]
+
+*_Management-api_*
+
+- JSON importadd/update members only if necessary  https://github.com/gravitee-io/issues/issues/817[#817]
+
+*_Portal_*
+
+- Display ids of sharding tags and tenant https://github.com/gravitee-io/issues/issues/490[#490]
+- Put the localhost target rest API server on the dist's constants.json https://github.com/gravitee-io/issues/issues/792[#792]
+
+*_Reporter_*
+
+- Split analytics and logs in API https://github.com/gravitee-io/issues/issues/836[#836]
+
+
 == https://github.com/gravitee-io/issues/milestone/37?closed=1[1.9.2 (2017-09-20)]
 
 === Bug fixes
