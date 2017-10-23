@@ -1,5 +1,21 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/39?closed=1[1.10.2 (2017-10-23)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Remove subscriptions when deleting an api https://github.com/gravitee-io/issues/issues/846[#846]
+- User not found when dynamic properties is enabled on API https://github.com/gravitee-io/issues/issues/844[#844]
+
+=== Improvements
+
+*_Policy_*
+
+- [dynamic-routing] Regex does not match in case of encoded URI https://github.com/gravitee-io/issues/issues/845[#845]
+
+
 == https://github.com/gravitee-io/issues/milestone/35?closed=1[1.10.0 (2017-10-17)]
 
 === Bug fixes
