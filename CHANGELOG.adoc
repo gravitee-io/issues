@@ -1,5 +1,31 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/40?closed=1[1.10.3 (2017-11-04)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Handle property reporting exception https://github.com/gravitee-io/issues/issues/867[#867]
+- [management-api] Rename 'repository' probe for node healthcheck https://github.com/gravitee-io/issues/issues/866[#866]
+
+*_Management_*
+
+- Gateway instances version is truncated https://github.com/gravitee-io/issues/issues/849[#849]
+
+*_Policy-groovy_*
+
+- Unable to add request scripts https://github.com/gravitee-io/issues/issues/868[#868]
+
+*_Portal_*
+
+- Staging plans are retrieved on public apis  https://github.com/gravitee-io/issues/issues/863[#863]
+
+*_Repository_*
+
+- Dynamodb] unable to load apikeys https://github.com/gravitee-io/issues/issues/860[#860]
+
+
 == https://github.com/gravitee-io/issues/milestone/39?closed=1[1.10.2 (2017-10-23)]
 
 === Bug fixes
