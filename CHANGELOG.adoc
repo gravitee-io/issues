@@ -1,5 +1,75 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/38?closed=1[1.11.0 (2017-11-16)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Bad timestamp for logging https://github.com/gravitee-io/issues/issues/869[#869]
+- Policy path is not well resolved with encoded URL https://github.com/gravitee-io/issues/issues/876[#876]
+- Stop technical API after services https://github.com/gravitee-io/issues/issues/883[#883]
+
+*_Identity_provider_*
+
+- [ldap] LDAP query does not filter on `user-search-base` property https://github.com/gravitee-io/issues/issues/873[#873]
+
+*_Management_*
+
+- Unable to build project under windows https://github.com/gravitee-io/issues/issues/848[#848]
+
+*_Policy_*
+
+- [cors] Preflight request hangs https://github.com/gravitee-io/issues/issues/880[#880]
+
+*_Portal_*
+
+- After installing a new version, the previous version number is displayed https://github.com/gravitee-io/issues/issues/879[#879]
+- Error popup in management-ui for non EN/FR browsers https://github.com/gravitee-io/issues/issues/652[#652]
+- Incorrect oauth2 redirect_uri if serving the application under a path https://github.com/gravitee-io/issues/issues/854[#854]
+
+*_Resource_*
+
+- [oauth2-am] Problem with absolute URL https://github.com/gravitee-io/issues/issues/858[#858]
+
+=== Features
+
+*_Management_*
+
+- Add help on each forms https://github.com/gravitee-io/issues/issues/841[#841]
+- Add the ability to close a subscription https://github.com/gravitee-io/issues/issues/856[#856]
+
+*_Management-api_*
+
+- API history / activity https://github.com/gravitee-io/issues/issues/759[#759]
+
+*_Portal_*
+
+- Add restrictions on portal documentation https://github.com/gravitee-io/issues/issues/839[#839]
+- Contextual documentation https://github.com/gravitee-io/issues/issues/859[#859]
+- Google analytics https://github.com/gravitee-io/issues/issues/842[#842]
+- Rate and comments APIs https://github.com/gravitee-io/issues/issues/840[#840]
+
+=== Improvements
+
+*_Gateway_*
+
+- Apikey refresh service looks for keyless plans. https://github.com/gravitee-io/issues/issues/862[#862]
+- Request reporter handler generates a single reportable https://github.com/gravitee-io/issues/issues/881[#881]
+
+*_Portal_*
+
+- Improve log description https://github.com/gravitee-io/issues/issues/872[#872]
+
+*_Reporter_*
+
+- [elasticsearch] HTTP support https://github.com/gravitee-io/issues/issues/861[#861]
+
+*_Repository_*
+
+- [elasticsearch] HTTP support https://github.com/gravitee-io/issues/issues/871[#871]
+
+
 == https://github.com/gravitee-io/issues/milestone/43?closed=1[1.10.5 (2017-11-16)]
 
 === Bug fixes
