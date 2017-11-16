@@ -1,5 +1,29 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/44?closed=1[1.11.1 (2017-11-16)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Selection of policy path is case sensitive https://github.com/gravitee-io/issues/issues/885[#885]
+- Send content-length header for transformable stream policy https://github.com/gravitee-io/issues/issues/884[#884]
+
+*_Management_*
+
+- Allows to create audit on initialization service with a system user https://github.com/gravitee-io/issues/issues/886[#886]
+
+*_Portal_*
+
+- Error when trying to display contextual documentation https://github.com/gravitee-io/issues/issues/888[#888]
+
+=== Improvements
+
+*_Management_*
+
+- Do not reset system permissions at each reboot https://github.com/gravitee-io/issues/issues/887[#887]
+
+
 == https://github.com/gravitee-io/issues/milestone/38?closed=1[1.11.0 (2017-11-16)]
 
 === Bug fixes
