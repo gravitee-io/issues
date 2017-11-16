@@ -1,5 +1,14 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/43?closed=1[1.10.5 (2017-11-16)]
+
+=== Bug fixes
+
+*_Management_*
+
+- When a subscription has an ending date, the status changes to CLOSED https://github.com/gravitee-io/issues/issues/882[#882]
+
+
 == https://github.com/gravitee-io/issues/milestone/41?closed=1[1.10.4 (2017-11-05)]
 
 === Bug fixes
