@@ -1,5 +1,29 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/45?closed=1[1.11.3 (2017-11-22)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Rate-limit/quota units are not consistent between the wizard and the plan https://github.com/gravitee-io/issues/issues/897[#897]
+
+*_Management-api_*
+
+- Null pointer when getting platform audit items https://github.com/gravitee-io/issues/issues/895[#895]
+- Successful authentication event is handled twice https://github.com/gravitee-io/issues/issues/894[#894]
+- UpdatedAt property is not updated when publishing a plan https://github.com/gravitee-io/issues/issues/899[#899]
+
+*_Reporter_*
+
+- ES http plugin 401 https://github.com/gravitee-io/issues/issues/893[#893]
+- [repository] Elasticsearchsecurity headers not sent https://github.com/gravitee-io/issues/issues/898[#898]
+
+*_Repository_*
+
+- ES http plugin 401 https://github.com/gravitee-io/issues/issues/896[#896]
+
+
 == https://github.com/gravitee-io/issues/milestone/44?closed=1[1.11.1 (2017-11-16)]
 
 === Bug fixes
