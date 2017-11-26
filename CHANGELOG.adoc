@@ -1,5 +1,32 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/46?closed=1[1.11.4 (2017-11-26)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Do not stop node healthcheck in case of probe exception https://github.com/gravitee-io/issues/issues/909[#909]
+- On a fresh install, all roles are not created https://github.com/gravitee-io/issues/issues/901[#901]
+
+*_Portal_*
+
+- Auto validation swith is not well displayed https://github.com/gravitee-io/issues/issues/905[#905]
+- Constants.json properties must be optional https://github.com/gravitee-io/issues/issues/906[#906]
+
+*_Reporter_*
+
+- [elasticsearch] Freemarker template issue https://github.com/gravitee-io/issues/issues/908[#908]
+
+*_Repository_*
+
+- [elasticsearch] Search improvements for HTTP connector https://github.com/gravitee-io/issues/issues/910[#910]
+
+*_Service_*
+
+- [node-healthcheck] Internal server error https://github.com/gravitee-io/issues/issues/902[#902]
+
+
 == https://github.com/gravitee-io/issues/milestone/45?closed=1[1.11.3 (2017-11-22)]
 
 === Bug fixes
