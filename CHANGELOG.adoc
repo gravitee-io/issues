@@ -1,5 +1,64 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/42?closed=1[1.12.0 (2017-12-13)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Api Keys not recognized after migration to 1.11.x https://github.com/gravitee-io/issues/issues/938[#938]
+
+*_General_*
+
+- Weird box remaining visible after canceling doc page creation https://github.com/gravitee-io/issues/issues/914[#914]
+
+*_Management_*
+
+- Proxy host and port required even if the proxy is disabled https://github.com/gravitee-io/issues/issues/917[#917]
+
+*_Management-api_*
+
+- Cannot handle metrics integer based https://github.com/gravitee-io/issues/issues/925[#925]
+- OAuth2 authentication is not working anymore https://github.com/gravitee-io/issues/issues/911[#911]
+- Thread blocked during internal health-check https://github.com/gravitee-io/issues/issues/923[#923]
+
+*_Policy_*
+
+- Groovy] Result is not bind on the onRequest/onResponse contents scripts https://github.com/gravitee-io/issues/issues/913[#913]
+
+*_Portal_*
+
+- UI not working properly if devMode is enabled https://github.com/gravitee-io/issues/issues/919[#919]
+
+=== Features
+
+*_Gateway_*
+
+- Service Discovery for endpoints https://github.com/gravitee-io/issues/issues/843[#843]
+
+*_General_*
+
+- Modify application primary owner https://github.com/gravitee-io/issues/issues/738[#738]
+- Modify primary owner API or application https://github.com/gravitee-io/issues/issues/737[#737]
+
+*_Portal_*
+
+- Add the ability to sort views https://github.com/gravitee-io/issues/issues/892[#892]
+- Endpoint health-check average availability and response time chart https://github.com/gravitee-io/issues/issues/889[#889]
+- [logs] Is there a way to filter requests in Logs screen https://github.com/gravitee-io/issues/issues/703[#703]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add monitoring endpoint to technical API https://github.com/gravitee-io/issues/issues/936[#936]
+- Apply slicing windows for sync and api-keys refresh processes https://github.com/gravitee-io/issues/issues/922[#922]
+
+*_Repository_*
+
+- [mongo] Manage in the yml file the readPreference and readPrefererenceTags https://github.com/gravitee-io/issues/issues/928[#928]
+
+
 == https://github.com/gravitee-io/issues/milestone/46?closed=1[1.11.4 (2017-11-26)]
 
 === Bug fixes
