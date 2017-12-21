@@ -1,5 +1,30 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/49?closed=1[1.12.2 (2017-12-21)]
+
+=== Bug fixes
+
+*_Management_*
+
+- API page keep unsaved data on forms, even on navigation https://github.com/gravitee-io/issues/issues/943[#943]
+- Duplicate permissions https://github.com/gravitee-io/issues/issues/957[#957]
+- Duplicate plans & docs when import json on an existing API https://github.com/gravitee-io/issues/issues/947[#947]
+
+*_Policy_*
+
+- [groovy] No such property parameters https://github.com/gravitee-io/issues/issues/952[#952]
+
+*_Service_*
+
+- [endpoint-discovery] Use local agent address for services without address https://github.com/gravitee-io/issues/issues/953[#953]
+
+=== Improvements
+
+*_Portal_*
+
+- Force authentication to access portal https://github.com/gravitee-io/issues/issues/956[#956]
+
+
 == https://github.com/gravitee-io/issues/milestone/42?closed=1[1.12.0 (2017-12-13)]
 
 === Bug fixes
