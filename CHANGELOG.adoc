@@ -1,5 +1,30 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/50?closed=1[1.12.3 (2018-01-05)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Do not use views in the management https://github.com/gravitee-io/issues/issues/961[#961]
+- Unable to create an api from scratch with a plan https://github.com/gravitee-io/issues/issues/973[#973]
+
+*_Management-api_*
+
+- Social authentication is not working anymore https://github.com/gravitee-io/issues/issues/978[#978]
+
+*_Portal_*
+
+- Oauth2 / social authentication must be done twice https://github.com/gravitee-io/issues/issues/977[#977]
+- The api gallery is slow to display https://github.com/gravitee-io/issues/issues/976[#976]
+
+=== Improvements
+
+*_Management_*
+
+- Hidden views must be available for apis https://github.com/gravitee-io/issues/issues/960[#960]
+
+
 == https://github.com/gravitee-io/issues/milestone/49?closed=1[1.12.2 (2017-12-21)]
 
 === Bug fixes
