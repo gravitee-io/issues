@@ -1,5 +1,39 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/51?closed=1[1.12.4 (2018-01-11)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- ConcurrentModificationException when stopping an API https://github.com/gravitee-io/issues/issues/994[#994]
+- [endpoint-discovery] Use node address for empty service address https://github.com/gravitee-io/issues/issues/984[#984]
+- [health-check] Healthcheck service not aware of dynamic endpoints (consul.io) https://github.com/gravitee-io/issues/issues/993[#993]
+
+*_Management-api_*
+
+- Error while getting user picture https://github.com/gravitee-io/issues/issues/996[#996]
+- [dynamic-properties] Threapool mixin https://github.com/gravitee-io/issues/issues/988[#988]
+- [ldap] Use BaseDN for every LDAP requests https://github.com/gravitee-io/issues/issues/983[#983]
+
+=== Features
+
+*_Portal_*
+
+- Login onto the portal is case sensitive https://github.com/gravitee-io/issues/issues/548[#548]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- [http] Configure number of replicas or shards https://github.com/gravitee-io/issues/issues/986[#986]
+
+*_Management_*
+
+- Add more information on DynamicProperties logs https://github.com/gravitee-io/issues/issues/995[#995]
+- Remove unnecessary request in convert method https://github.com/gravitee-io/issues/issues/992[#992]
+
+
 == https://github.com/gravitee-io/issues/milestone/50?closed=1[1.12.3 (2018-01-05)]
 
 === Bug fixes
