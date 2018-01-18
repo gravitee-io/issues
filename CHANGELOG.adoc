@@ -1,5 +1,18 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/52?closed=1[1.12.5 (2018-01-18)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- [ldap] Use the identifier from LDAP instead of the one provided by the user https://github.com/gravitee-io/issues/issues/1014[#1014]
+
+*_Management-ui_*
+
+- Sometimes apis list are not well displayed https://github.com/gravitee-io/issues/issues/1010[#1010]
+
+
 == https://github.com/gravitee-io/issues/milestone/51?closed=1[1.12.4 (2018-01-11)]
 
 === Bug fixes
