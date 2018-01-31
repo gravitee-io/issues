@@ -1,5 +1,86 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/47?closed=1[1.13.0 (2018-01-31)]
+
+=== Bug fixes
+
+*_General_*
+
+- Internal server error when the failover timeout is set to 0 https://github.com/gravitee-io/issues/issues/1038[#1038]
+- Publish planMissing redeploy sync menu  https://github.com/gravitee-io/issues/issues/1043[#1043]
+
+*_Management_*
+
+- Documentation pages order does not work correctly https://github.com/gravitee-io/issues/issues/1016[#1016]
+- Dynamic properties generate a changes if the order changes https://github.com/gravitee-io/issues/issues/942[#942]
+- Unable to scroll contextual documentation https://github.com/gravitee-io/issues/issues/1022[#1022]
+
+*_Management-api_*
+
+- User authorities / permissions not loaded with oauth / social authentication https://github.com/gravitee-io/issues/issues/1035[#1035]
+
+*_Policy_*
+
+- [jwt] authentification scheme is not checked https://github.com/gravitee-io/issues/issues/966[#966]
+
+*_Portal_*
+
+- User picture not properly handled if picture is an URL https://github.com/gravitee-io/issues/issues/1036[#1036]
+- User signup fails https://github.com/gravitee-io/issues/issues/1000[#1000]
+
+=== Features
+
+*_General_*
+
+- Choose Oauth2 on a plan https://github.com/gravitee-io/issues/issues/741[#741]
+- Override configuration with system properties or environment variables https://github.com/gravitee-io/issues/issues/1042[#1042]
+
+*_Portal_*
+
+- Allow to choose between "tiles mode" and "list mode" for the API gallery. https://github.com/gravitee-io/issues/issues/1004[#1004]
+- Task List https://github.com/gravitee-io/issues/issues/971[#971]
+
+*_Reporter_*
+
+- [elasticsearch] manage the ingest geoip processor pipeline https://github.com/gravitee-io/issues/issues/970[#970]
+
+=== Improvements
+
+*_Gateway_*
+
+- Assign ip of x-forwared-for header to remoteAddress metric https://github.com/gravitee-io/issues/issues/969[#969]
+- Performance improvements https://github.com/gravitee-io/issues/issues/1048[#1048]
+
+*_General_*
+
+- Subscription section overlaps with description section https://github.com/gravitee-io/issues/issues/1047[#1047]
+
+*_Management_*
+
+- Do not allow to add/remove the `All` view on an API. https://github.com/gravitee-io/issues/issues/1034[#1034]
+- Do not enable healthcheck by default https://github.com/gravitee-io/issues/issues/1032[#1032]
+- Handle concurrent modifications with eTag https://github.com/gravitee-io/issues/issues/999[#999]
+- Improve the http status list on log filters https://github.com/gravitee-io/issues/issues/1044[#1044]
+- Save the open/close state of the sidenav https://github.com/gravitee-io/issues/issues/1023[#1023]
+
+*_Management-api_*
+
+- Allows to configure specific CORS headers https://github.com/gravitee-io/issues/issues/160[#160]
+- Inject the subscription reject reason in the mail template https://github.com/gravitee-io/issues/issues/1033[#1033]
+- Oauth2]Update firstname and lastname https://github.com/gravitee-io/issues/issues/1020[#1020]
+- [ldap] [roles] Adding roles to users in Gravitee requires a specific design of an organizations LDAP tree https://github.com/gravitee-io/issues/issues/948[#948]
+
+*_Portal_*
+
+- Add personal css with my theme https://github.com/gravitee-io/issues/issues/963[#963]
+- Flag documents as non-published when the owner is on preview  https://github.com/gravitee-io/issues/issues/1007[#1007]
+- New markdown symbols https://github.com/gravitee-io/issues/issues/964[#964]
+- Plan description is truncated if too long https://github.com/gravitee-io/issues/issues/941[#941]
+- Save the open/close state of the new help panel on the right for a user in his browser https://github.com/gravitee-io/issues/issues/951[#951]
+- Show the owner name in the API header in place of the login https://github.com/gravitee-io/issues/issues/1003[#1003]
+- Swagger customize style https://github.com/gravitee-io/issues/issues/1028[#1028]
+
+
 == https://github.com/gravitee-io/issues/milestone/52?closed=1[1.12.5 (2018-01-18)]
 
 === Bug fixes
