@@ -1,5 +1,18 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/53?closed=1[1.13.1 (2018-01-31)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Sync service is deploying all API updates after a single deployment https://github.com/gravitee-io/issues/issues/1050[#1050]
+
+*_Portal_*
+
+- CORS default values are wrong https://github.com/gravitee-io/issues/issues/1049[#1049]
+
+
 == https://github.com/gravitee-io/issues/milestone/47?closed=1[1.13.0 (2018-01-31)]
 
 === Bug fixes
