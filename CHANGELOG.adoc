@@ -1,5 +1,33 @@
 # Change Log
 
+== https://github.com/gravitee-io/issues/milestone/54?closed=1[1.13.2 (2018-02-06)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Dynamic properties services crash when the response is an array https://github.com/gravitee-io/issues/issues/1051[#1051]
+- Unable to close a plan with only closed subscriptions https://github.com/gravitee-io/issues/issues/1067[#1067]
+
+*_Management-api_*
+
+- An other OAuth2 or JWT plan is already subscribed by the same application. https://github.com/gravitee-io/issues/issues/1062[#1062]
+
+*_Portal_*
+
+- API [undefined] error when creating new API https://github.com/gravitee-io/issues/issues/1068[#1068]
+
+=== Improvements
+
+*_Policy_*
+
+- [oauth2] Add the possibility to specify OAuth scope delimiter https://github.com/gravitee-io/issues/issues/1001[#1001]
+
+*_Repository_*
+
+- [mongodb] Missing unique index https://github.com/gravitee-io/issues/issues/1063[#1063]
+
+
 == https://github.com/gravitee-io/issues/milestone/53?closed=1[1.13.1 (2018-01-31)]
 
 === Bug fixes
