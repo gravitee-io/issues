@@ -1,5 +1,18 @@
 # Change Log
 
+For upgrade instructions, please refer to https://docs.gravitee.io/apim_installguide_migration.html[APIM Migration Guide]
+
+*Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
+
+== https://github.com/gravitee-io/issues/milestone/55?closed=1[1.13.3 (2018-02-18)]
+
+=== Bug fixes
+
+*_Reporter_*
+
+- [elasticsearch] Unable to index some logs https://github.com/gravitee-io/issues/issues/1077[#1077]
+
+
 == https://github.com/gravitee-io/issues/milestone/54?closed=1[1.13.2 (2018-02-06)]
 
 === Bug fixes
