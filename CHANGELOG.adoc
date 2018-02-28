@@ -4,6 +4,70 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
+== https://github.com/gravitee-io/issues/milestone/48?closed=1[1.14.0 (2018-02-28)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Audit / Group - user anonymisation https://github.com/gravitee-io/issues/issues/1093[#1093]
+
+*_Management-api_*
+
+- User anonymization https://github.com/gravitee-io/issues/issues/1053[#1053]
+
+*_Policy_*
+
+- [dynamic-routing] Policies rewrite '?' into '%3F' https://github.com/gravitee-io/issues/issues/1089[#1089]
+
+=== Features
+
+*_Management_*
+
+- Webhook https://github.com/gravitee-io/issues/issues/930[#930]
+
+*_Portal_*
+
+- Notification https://github.com/gravitee-io/issues/issues/929[#929]
+- Swagger UI 3 support https://github.com/gravitee-io/issues/issues/1108[#1108]
+- Top APIs configurable https://github.com/gravitee-io/issues/issues/932[#932]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add routes to improve technical API for api-key refresher and subscription refresher https://github.com/gravitee-io/issues/issues/1095[#1095]
+- Manage different endpoint configuration per multi-tenant https://github.com/gravitee-io/issues/issues/1056[#1056]
+
+*_General_*
+
+- Do not treat LDAP adminLimitExceeded as an error https://github.com/gravitee-io/issues/issues/1091[#1091]
+- Improve the stars rendering for star rating https://github.com/gravitee-io/issues/issues/1109[#1109]
+
+*_Management_*
+
+- Analyticsadd informations about failed requests https://github.com/gravitee-io/issues/issues/1070[#1070]
+- Filter global dashboard with authorized API/APP https://github.com/gravitee-io/issues/issues/1072[#1072]
+
+*_Management-api_*
+
+- [ldap] Full name of LDAP users not shown if LDAP object lacks givenname/sn https://github.com/gravitee-io/issues/issues/1030[#1030]
+
+*_Management-ui_*
+
+- Improvements to OAuth integration https://github.com/gravitee-io/issues/issues/1060[#1060]
+
+*_Policy_*
+
+- Dynamic-routing] How-to remove subpath https://github.com/gravitee-io/issues/issues/1065[#1065]
+
+*_Reporter_*
+
+- Elasticsearch] refactor geoip  https://github.com/gravitee-io/issues/issues/1074[#1074]
+
+*_Service_*
+
+- Health-check] Execute health-check rule from root path https://github.com/gravitee-io/issues/issues/1078[#1078]
 == https://github.com/gravitee-io/issues/milestone/55?closed=1[1.13.3 (2018-02-18)]
 
 === Bug fixes
