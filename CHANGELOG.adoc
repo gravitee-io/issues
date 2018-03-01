@@ -80,6 +80,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *_Service_*
 
 - Health-check] Execute health-check rule from root path https://github.com/gravitee-io/issues/issues/1078[#1078]
+
 == https://github.com/gravitee-io/issues/milestone/55?closed=1[1.13.3 (2018-02-18)]
 
 === Bug fixes
