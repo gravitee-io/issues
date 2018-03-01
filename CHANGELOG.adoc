@@ -15,6 +15,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *_Repository_*
 
 - [elasticsearch] Blocked thread in case of ES fail https://github.com/gravitee-io/issues/issues/1112[#1112]
+
 == https://github.com/gravitee-io/issues/milestone/48?closed=1[1.14.0 (2018-02-28)]
 
 === Bug fixes
