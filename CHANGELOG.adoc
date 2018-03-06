@@ -4,6 +4,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
+== https://github.com/gravitee-io/issues/milestone/58?closed=1[1.14.2 (2018-03-06)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Do not handle stream if a streaming policy return null streamer https://github.com/gravitee-io/issues/issues/1115[#1115]
+
+*_General_*
+
+- SSL handshake failure for some urls https://github.com/gravitee-io/issues/issues/1119[#1119]
+
+*_Management_*
+
+- Double scroll when contextual documentation is displayed https://github.com/gravitee-io/issues/issues/1120[#1120]
+- Parameter [portal.top-apis] can not be found on api delete action https://github.com/gravitee-io/issues/issues/1131[#1131]
+
+*_Reporter_*
+
+- Failed to execute pipeline [gravitee_pipeline] https://github.com/gravitee-io/issues/issues/1126[#1126]
+
+=== Improvements
+
+*_General_*
+
+- Allows all envvar variations https://github.com/gravitee-io/issues/issues/1129[#1129]
+
+*_Management_*
+
+- On the notification part, "api-key" is written differently https://github.com/gravitee-io/issues/issues/1122[#1122]
 == https://github.com/gravitee-io/issues/milestone/57?closed=1[1.14.1 (2018-02-28)]
 
 === Bug fixes
