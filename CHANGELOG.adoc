@@ -34,6 +34,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *_Management_*
 
 - On the notification part, "api-key" is written differently https://github.com/gravitee-io/issues/issues/1122[#1122]
+
 == https://github.com/gravitee-io/issues/milestone/57?closed=1[1.14.1 (2018-02-28)]
 
 === Bug fixes
