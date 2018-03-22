@@ -4,6 +4,60 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
+
+== https://github.com/gravitee-io/issues/milestone/59?closed=1[1.14.3 (2018-03-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- The first deployment fails sometime https://github.com/gravitee-io/issues/issues/1128[#1128]
+
+*_Management_*
+
+- Error on the first start https://github.com/gravitee-io/issues/issues/1168[#1168]
+- Reference data identifying a user is not consistent accross management API cluster https://github.com/gravitee-io/issues/issues/1133[#1133]
+- Refresh correctly API when the API picture is changed https://github.com/gravitee-io/issues/issues/1138[#1138]
+
+*_Management-api_*
+
+-  user login oauth2 map key can not be null https://github.com/gravitee-io/issues/issues/1132[#1132]
+- 404 Subscription can not be found while deleting an API https://github.com/gravitee-io/issues/issues/1143[#1143]
+
+*_Portal_*
+
+- API logos are not displayed correctly over HTTPS on apis list https://github.com/gravitee-io/issues/issues/1142[#1142]
+- Filter top APIs by user right https://github.com/gravitee-io/issues/issues/1166[#1166]
+- First portal page is not visually selected when selecting menu documentation https://github.com/gravitee-io/issues/issues/1154[#1154]
+- Swagger UI CSS incorrect and SVGs are missing https://github.com/gravitee-io/issues/issues/1121[#1121]
+
+*_Reporter_*
+
+- [elasticsearch] logging fail when header has null value https://github.com/gravitee-io/issues/issues/1140[#1140]
+
+=== Improvements
+
+*_General_*
+
+-  Add the i18n for chinese https://github.com/gravitee-io/issues/issues/1160[#1160]
+- Allow array in envvar https://github.com/gravitee-io/issues/issues/1163[#1163]
+
+*_Management_*
+
+- SwaggerParser crash when using OpenAPI 3.0 swagger https://github.com/gravitee-io/issues/issues/1117[#1117]
+
+*_Plugin_*
+
+- Add ability to extend the plugin classloader with additional dependencies https://github.com/gravitee-io/issues/issues/1137[#1137]
+
+*_Portal_*
+
+- Allows to configure home title https://github.com/gravitee-io/issues/issues/1148[#1148]
+- Better display swagger ui documentation https://github.com/gravitee-io/issues/issues/1135[#1135]
+
+*_Repository_*
+
+- Jdbc] Allows to execute tests on real DBMS instead of in-memory https://github.com/gravitee-io/issues/issues/1150[#1150]
 == https://github.com/gravitee-io/issues/milestone/58?closed=1[1.14.2 (2018-03-06)]
 
 === Bug fixes
