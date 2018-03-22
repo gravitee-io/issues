@@ -54,10 +54,12 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 - Allows to configure home title https://github.com/gravitee-io/issues/issues/1148[#1148]
 - Better display swagger ui documentation https://github.com/gravitee-io/issues/issues/1135[#1135]
+- Upgrade swagger-ui to 3.11 version https://github.com/gravitee-io/issues/issues/1118[#1118]
 
 *_Repository_*
 
 - Jdbc] Allows to execute tests on real DBMS instead of in-memory https://github.com/gravitee-io/issues/issues/1150[#1150]
+
 == https://github.com/gravitee-io/issues/milestone/58?closed=1[1.14.2 (2018-03-06)]
 
 === Bug fixes
