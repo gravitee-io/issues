@@ -5,6 +5,59 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/56?closed=1[1.15.0 (2018-04-04)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Clear LMAX ringbuffer when a reportable event is successfully published https://github.com/gravitee-io/issues/issues/1175[#1175]
+
+*_Management_*
+
+- Impossible to create an application with same client_id than a deleted application https://github.com/gravitee-io/issues/issues/1180[#1180]
+- Unable to change my profile avatar https://github.com/gravitee-io/issues/issues/1181[#1181]
+
+*_Reporter_*
+
+- [elasticsearch] In the analytics, the datas for geolocation by country is displayed https://github.com/gravitee-io/issues/issues/1188[#1188]
+
+=== Features
+
+*_Elasticsearch_*
+
+- Elastic 6.x support https://github.com/gravitee-io/issues/issues/1170[#1170]
+
+*_Gateway_*
+
+- Blue-green deployment https://github.com/gravitee-io/issues/issues/1052[#1052]
+
+*_Management_*
+
+- Create User management screen https://github.com/gravitee-io/issues/issues/1099[#1099]
+
+=== Improvements
+
+*_Management_*
+
+- Add a reason when an app request for a subscription https://github.com/gravitee-io/issues/issues/1098[#1098]
+- Display user name on audit screens https://github.com/gravitee-io/issues/issues/1189[#1189]
+- Forward fetcher exceptions https://github.com/gravitee-io/issues/issues/1106[#1106]
+- Refactor Configuration menu https://github.com/gravitee-io/issues/issues/1124[#1124]
+- Subscriptionsdisplay who has requested the subscription. https://github.com/gravitee-io/issues/issues/1096[#1096]
+- Swagger document should be parsed only if needed https://github.com/gravitee-io/issues/issues/1183[#1183]
+
+*_Portal_*
+
+- Add in the dashboard tenant repartition, response status, response time https://github.com/gravitee-io/issues/issues/1186[#1186]
+- Minor styling issues with swagger 3.0 https://github.com/gravitee-io/issues/issues/1178[#1178]
+- Refactor API Menu https://github.com/gravitee-io/issues/issues/1101[#1101]
+
+*_Repository_*
+
+- Add some tests on sorted page results https://github.com/gravitee-io/issues/issues/1073[#1073]
+- Redis] Allows to test on an embedded redis server https://github.com/gravitee-io/issues/issues/1164[#1164]
+
 == https://github.com/gravitee-io/issues/milestone/60?closed=1[1.14.4 (2018-03-27)]
 
 === Bug fixes
