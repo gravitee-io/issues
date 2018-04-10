@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/62?closed=1[1.15.1 (2018-04-10)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Group by query are limited to 20 elements only https://github.com/gravitee-io/issues/issues/1195[#1195]
+
+*_Gateway_*
+
+- Load a policy only if required https://github.com/gravitee-io/issues/issues/1199[#1199]
+- Request ends with a timeout in case of bad HTTP verb. https://github.com/gravitee-io/issues/issues/1193[#1193]
+
+*_General_*
+
+- Routing doesn't fail with non existing endpoint https://github.com/gravitee-io/issues/issues/1204[#1204]
+
+*_Management_*
+
+- I can't submit a support ticket ! https://github.com/gravitee-io/issues/issues/1202[#1202]
+- Lost labels when dynamic properties are configured https://github.com/gravitee-io/issues/issues/1200[#1200]
+
+=== Improvements
+
+*_Gateway_*
+
+- Associate preflight request (cors) to Unknown application https://github.com/gravitee-io/issues/issues/1192[#1192]
+
 == https://github.com/gravitee-io/issues/milestone/56?closed=1[1.15.0 (2018-04-04)]
 
 === Bug fixes
