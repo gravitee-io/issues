@@ -5,6 +5,74 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/61?closed=1[1.16.0 (2018-05-10)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Healthcheck detail are empty https://github.com/gravitee-io/issues/issues/1110[#1110]
+
+*_Management_*
+
+- Add contextual doc on plan creation wizard https://github.com/gravitee-io/issues/issues/1222[#1222]
+- Display delete button of user and group management screen in low resolution https://github.com/gravitee-io/issues/issues/1223[#1223]
+- Import API does not work when LDAP is not reachable https://github.com/gravitee-io/issues/issues/1231[#1231]
+- Plan preview is not correctly displayed on low resolution https://github.com/gravitee-io/issues/issues/1221[#1221]
+- Refresh members after adding / removing a group to an API https://github.com/gravitee-io/issues/issues/1218[#1218]
+
+*_Management-api_*
+
+- Show the reason of a subscription https://github.com/gravitee-io/issues/issues/1234[#1234]
+- Sign up with NullPointerException in graviteeio-management-api-1.15.1 https://github.com/gravitee-io/issues/issues/1207[#1207]
+- User registration fails https://github.com/gravitee-io/issues/issues/1209[#1209]
+
+*_Repository_*
+
+- [jdbc] Plan security definition is not stored https://github.com/gravitee-io/issues/issues/1226[#1226]
+
+=== Features
+
+*_Elasticsearch_*
+
+- Index per type support for ES2.x and ES5.x https://github.com/gravitee-io/issues/issues/1210[#1210]
+
+*_General_*
+
+- Managementexpose the rest-api in https https://github.com/gravitee-io/issues/issues/1232[#1232]
+
+*_Management_*
+
+- Allows to reset a password of an internal user https://github.com/gravitee-io/issues/issues/1230[#1230]
+- Delegate the management of a group https://github.com/gravitee-io/issues/issues/1100[#1100]
+- Manage Portal configuration with the UI https://github.com/gravitee-io/issues/issues/1197[#1197]
+
+*_Management-api_*
+
+- Authentication token exchange https://github.com/gravitee-io/issues/issues/1228[#1228]
+
+=== Improvements
+
+*_Gateway_*
+
+- Reporting switch from LMAX disruptor to Vert.x event-bus https://github.com/gravitee-io/issues/issues/1190[#1190]
+
+*_Management_*
+
+- Disable autofill in the endpoint proxy configuration https://github.com/gravitee-io/issues/issues/916[#916]
+
+*_Management-api_*
+
+- Remove authentication by cookies https://github.com/gravitee-io/issues/issues/1191[#1191]
+
+*_Management-ui_*
+
+- Add highlight.js extension for documentation pages https://github.com/gravitee-io/issues/issues/1194[#1194]
+
+*_Repository_*
+
+- [mongodb] Add Support for MongoDB SRV Records https://github.com/gravitee-io/issues/issues/1208[#1208]
+
 == https://github.com/gravitee-io/issues/milestone/62?closed=1[1.15.1 (2018-04-10)]
 
 === Bug fixes
