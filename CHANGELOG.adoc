@@ -5,6 +5,20 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/66?closed=1[1.16.1 (2018-05-16)]
+
+=== Bug fixes
+
+*_Management-api_*
+
+- Do not authenticate an unknown user https://github.com/gravitee-io/issues/issues/1238[#1238]
+
+=== Improvements
+
+*_Portal_*
+
+- Access or leave the login form blink effect https://github.com/gravitee-io/issues/issues/1237[#1237]
+
 == https://github.com/gravitee-io/issues/milestone/61?closed=1[1.16.0 (2018-05-10)]
 
 === Bug fixes
