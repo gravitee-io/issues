@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/63?closed=1[1.15.2 (2018-05-23)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Top failed APIs is always empty https://github.com/gravitee-io/issues/issues/1249[#1249]
+
+*_Gateway_*
+
+- Missing trailing slash when using user-defined endpoint https://github.com/gravitee-io/issues/issues/1250[#1250]
+
+*_General_*
+
+- Importing v3.0 openAPI yaml/json is not working while creating new API. https://github.com/gravitee-io/issues/issues/1246[#1246]
+
+*_Management_*
+
+- PO role must not be available for a user in a group https://github.com/gravitee-io/issues/issues/1244[#1244]
+
+*_Management-ui_*
+
+- Endpoint's tenants are not well displayed https://github.com/gravitee-io/issues/issues/1251[#1251]
+
+=== Improvements
+
+*_Management_*
+
+- Center sidenav items https://github.com/gravitee-io/issues/issues/1245[#1245]
+
 == https://github.com/gravitee-io/issues/milestone/66?closed=1[1.16.1 (2018-05-16)]
 
 === Bug fixes
