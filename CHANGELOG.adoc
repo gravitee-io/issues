@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/70?closed=1[1.15.4 (2018-06-12)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Impossible to generate from template /es6x/index/log.ftl https://github.com/gravitee-io/issues/issues/1270[#1270]
+
+*_Gateway_*
+
+- Perform healthcheck on all available endpoints https://github.com/gravitee-io/issues/issues/1284[#1284]
+
+*_Management_*
+
+- Do not display owner name on email https://github.com/gravitee-io/issues/issues/1280[#1280]
+
+=== Improvements
+
+*_Management_*
+
+- Unable to read % when it's to low https://github.com/gravitee-io/issues/issues/1304[#1304]
+
 == https://github.com/gravitee-io/issues/milestone/67?closed=1[1.16.2 (2018-05-24)]
 
 === Bug fixes
