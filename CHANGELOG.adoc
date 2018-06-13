@@ -5,6 +5,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/71?closed=1[1.16.4 (2018-06-13)]
+
+=== Bug fixes
+
+*_Portal_*
+
+- Social authentication does not work https://github.com/gravitee-io/issues/issues/1289[#1289]
+
 == https://github.com/gravitee-io/issues/milestone/70?closed=1[1.15.4 (2018-06-12)]
 
 === Bug fixes
