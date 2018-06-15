@@ -5,6 +5,64 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/64?closed=1[1.17.0 (2018-06-14)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Take care of visibility when importing an API https://github.com/gravitee-io/issues/issues/1295[#1295]
+- The portal is not accessible when the documentation URL is empty https://github.com/gravitee-io/issues/issues/1293[#1293]
+- Toggle public/private button is rollback after the save action https://github.com/gravitee-io/issues/issues/1171[#1171]
+- Typo in the portal settings https://github.com/gravitee-io/issues/issues/1301[#1301]
+- When the client id of an application is changed, its subscriptions must be updated with this new client id https://github.com/gravitee-io/issues/issues/1287[#1287]
+- When user is logged out or session is expired the UI display a blank screen https://github.com/gravitee-io/issues/issues/1303[#1303]
+- Zoom is not working correctly on HC https://github.com/gravitee-io/issues/issues/1083[#1083]
+
+*_Management-api_*
+
+- Better handling error when looking for APIs https://github.com/gravitee-io/issues/issues/818[#818]
+- Initializer service https://github.com/gravitee-io/issues/issues/1305[#1305]
+
+*_Portal_*
+
+- A user not authenticated cannot access to a public API https://github.com/gravitee-io/issues/issues/1309[#1309]
+- A user with role USER is not able to subscribe to an API plan https://github.com/gravitee-io/issues/issues/1297[#1297]
+- Avoid js error when user is logging out https://github.com/gravitee-io/issues/issues/1290[#1290]
+- Image is not well displayed on portal api header https://github.com/gravitee-io/issues/issues/1296[#1296]
+- Missing translations on english version https://github.com/gravitee-io/issues/issues/1294[#1294]
+- Widgets and charts are not resizing correctly https://github.com/gravitee-io/issues/issues/939[#939]
+
+=== Features
+
+*_Gateway_*
+
+- Group endpoints into load balancing/failover sets https://github.com/gravitee-io/issues/issues/756[#756]
+
+*_Management_*
+
+- Choose the type of security plan available https://github.com/gravitee-io/issues/issues/1242[#1242]
+- Display the status change history https://github.com/gravitee-io/issues/issues/1240[#1240]
+
+*_Portal_*
+
+- Add a `Support` link on each API https://github.com/gravitee-io/issues/issues/1241[#1241]
+
+=== Improvements
+
+*_Management_*
+
+- Add a message to explain the goal of the settings of portal api-key configuration https://github.com/gravitee-io/issues/issues/1302[#1302]
+- Add a warning if the jwt secret is the default one. https://github.com/gravitee-io/issues/issues/1269[#1269]
+
+*_Policy_*
+
+- [jwt] Using the aud field as a fallback for application reference https://github.com/gravitee-io/issues/issues/1235[#1235]
+
+*_Portal_*
+
+- Increase size of rating comment field https://github.com/gravitee-io/issues/issues/1288[#1288]
+
 == https://github.com/gravitee-io/issues/milestone/71?closed=1[1.16.4 (2018-06-13)]
 
 === Bug fixes
