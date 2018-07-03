@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/72?closed=1[1.15.5 (2018-07-03)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Too many Response is closed logs https://github.com/gravitee-io/issues/issues/1352[#1352]
+
+*_Management_*
+
+- A user without subscriptions permissions see all tasks https://github.com/gravitee-io/issues/issues/1332[#1332]
+- Some platform analytics take into account all apis https://github.com/gravitee-io/issues/issues/1327[#1327]
+
+*_Policy_*
+
+- [JWT] When a token expire we should not log in error https://github.com/gravitee-io/issues/issues/1329[#1329]
+
+=== Improvements
+
+*_Portal_*
+
+- Add a portal configuration to force user to add title and comment to rate an API https://github.com/gravitee-io/issues/issues/1335[#1335]
+
 == https://github.com/gravitee-io/issues/milestone/64?closed=1[1.17.0 (2018-06-14)]
 
 === Bug fixes
