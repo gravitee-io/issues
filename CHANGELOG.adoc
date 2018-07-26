@@ -5,6 +5,16 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/74?closed=1[1.18.1 (2018-07-26)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Api menu displays entry even if you're not authorized https://github.com/gravitee-io/issues/issues/1392[#1392]
+- Unable to configure scopes for oauth2 authentication https://github.com/gravitee-io/issues/issues/1398[#1398]
+- Unable to get apis list for a member https://github.com/gravitee-io/issues/issues/1390[#1390]
+
 == https://github.com/gravitee-io/issues/milestone/65?closed=1[1.18.0 (2018-07-11)]
 
 === Bug fixes
