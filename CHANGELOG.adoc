@@ -5,6 +5,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/78?closed=1[1.16.5 (2018-08-16)]
+
+=== Improvements
+
+*_Analytics_*
+
+- [logs] Log detail search is done across full elasticsearch indices https://github.com/gravitee-io/issues/issues/1412[#1412]
+
 == https://github.com/gravitee-io/issues/milestone/77?closed=1[1.15.6 (2018-08-16)]
 
 === Bug fixes
