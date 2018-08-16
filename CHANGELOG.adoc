@@ -5,6 +5,19 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/77?closed=1[1.15.6 (2018-08-16)]
+
+=== Bug fixes
+
+*_Policy_*
+
+- [apikey] Check that the configuration is not null (backward compatibility) https://github.com/gravitee-io/issues/issues/1426[#1426]
+- [jwt] do not accept JWT token with empty signature https://github.com/gravitee-io/issues/issues/1417[#1417]
+
+*_Portal_*
+
+- Display parameter enum in swagger UI documentation pages https://github.com/gravitee-io/issues/issues/1416[#1416]
+
 == https://github.com/gravitee-io/issues/milestone/74?closed=1[1.18.1 (2018-07-26)]
 
 === Bug fixes
