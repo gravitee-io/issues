@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/76?closed=1[1.18.2 (2018-08-29)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Issue when calling SSL endpoint https://github.com/gravitee-io/issues/issues/1456[#1456]
+
+*_Portal_*
+
+- Redirections does not work well for registration/login https://github.com/gravitee-io/issues/issues/1405[#1405]
+
 == https://github.com/gravitee-io/issues/milestone/78?closed=1[1.16.5 (2018-08-16)]
 
 === Improvements
