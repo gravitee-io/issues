@@ -5,6 +5,19 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/81?closed=1[1.18.3 (2018-09-05)]
+
+=== Bug fixes
+
+*_Policy_*
+
+- [api-key] consider null as false for the "propagate api-key" configuration https://github.com/gravitee-io/issues/issues/1462[#1462]
+
+*_Portal_*
+
+- Invalid redirection when accessing a page directly from URL https://github.com/gravitee-io/issues/issues/1466[#1466]
+- User with no apis see everything https://github.com/gravitee-io/issues/issues/1463[#1463]
+
 == https://github.com/gravitee-io/issues/milestone/80?closed=1[1.15.8 (2018-08-30)]
 
 === Bug fixes
