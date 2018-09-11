@@ -5,6 +5,85 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/73?closed=1[1.19.0 (2018-09-11)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Error when path is missing in endpoint's target https://github.com/gravitee-io/issues/issues/1491[#1491]
+- Plans of the same type are mixed https://github.com/gravitee-io/issues/issues/1474[#1474]
+- Request not logged when X-Forwarded-For header contains host with port number https://github.com/gravitee-io/issues/issues/1468[#1468]
+
+*_Management_*
+
+- Button add page disappear when using back history of browser https://github.com/gravitee-io/issues/issues/1472[#1472]
+- CORS form can not be saved https://github.com/gravitee-io/issues/issues/1489[#1489]
+- Error when enabling health check https://github.com/gravitee-io/issues/issues/1467[#1467]
+- Filters should not be selectable multiple times in analytics https://github.com/gravitee-io/issues/issues/1411[#1411]
+- Unable to set the css class used in a theme https://github.com/gravitee-io/issues/issues/1454[#1454]
+- When writing first API page and refreshing the browser, the page type is lost and it's impossible to save https://github.com/gravitee-io/issues/issues/1374[#1374]
+
+*_Management-api_*
+
+- Internal Server Error when querying `/management/user` with basic auth https://github.com/gravitee-io/issues/issues/1435[#1435]
+
+*_Portal_*
+
+- Unable to reconnect a user after changing the jwtSecret https://github.com/gravitee-io/issues/issues/1471[#1471]
+
+=== Features
+
+*_Gateway_*
+
+- Add the response into the expression language engine https://github.com/gravitee-io/issues/issues/1476[#1476]
+
+*_Management_*
+
+- Add quality rating on apis https://github.com/gravitee-io/issues/issues/1403[#1403]
+- Communication by POST message https://github.com/gravitee-io/issues/issues/1402[#1402]
+- Global properties https://github.com/gravitee-io/issues/issues/1400[#1400]
+- Remove RAML support https://github.com/gravitee-io/issues/issues/1428[#1428]
+- SPEL for API endpoints https://github.com/gravitee-io/issues/issues/1401[#1401]
+- Show apps/apis for a group or a user https://github.com/gravitee-io/issues/issues/1429[#1429]
+
+*_Management-api_*
+
+- Add service to refresh pages configured with a fetcher https://github.com/gravitee-io/issues/issues/1449[#1449]
+- Using oauth scopes to assign roles in gravitee https://github.com/gravitee-io/issues/issues/1058[#1058]
+
+*_Portal_*
+
+- [analytics] Auto refresh button on dashboard and analytics page https://github.com/gravitee-io/issues/issues/1421[#1421]
+- [analytics] Refresh button on dashboard and analytics page https://github.com/gravitee-io/issues/issues/1420[#1420]
+- [documentation] Add Markdown editor https://github.com/gravitee-io/issues/issues/1425[#1425]
+- [documentation] Collapse for the folders in the documentation https://github.com/gravitee-io/issues/issues/1415[#1415]
+
+=== Improvements
+
+*_Management_*
+
+- Add a confirm dialog when deleting a notification configuration. https://github.com/gravitee-io/issues/issues/1372[#1372]
+- Default role for group members https://github.com/gravitee-io/issues/issues/1452[#1452]
+- Do not allow a read-only user to search for members https://github.com/gravitee-io/issues/issues/1391[#1391]
+- To avoid collision, we should store the bearer token on a cookie with a unique (non-standard) name https://github.com/gravitee-io/issues/issues/1470[#1470]
+- [logs] remove transactionId and requestId https://github.com/gravitee-io/issues/issues/1465[#1465]
+
+*_Management-api_*
+
+- Allow management-api to use HTTPS without HSTS header. https://github.com/gravitee-io/issues/issues/1459[#1459]
+
+*_Portal_*
+
+- API cardset a CSS class per view https://github.com/gravitee-io/issues/issues/1447[#1447]
+- Remove some roles https://github.com/gravitee-io/issues/issues/1330[#1330]
+- [analytics] Top slow and Top failed metrics will help in Application Analytics https://github.com/gravitee-io/issues/issues/1431[#1431]
+
+*_Resource_*
+
+- [am-oauth2] update OAuth2 AM resource to match the new introspection endpoint https://github.com/gravitee-io/issues/issues/1406[#1406]
+- [keycloak] Upgrade to Keycloak 4.x https://github.com/gravitee-io/issues/issues/1487[#1487]
+
 == https://github.com/gravitee-io/issues/milestone/81?closed=1[1.18.3 (2018-09-05)]
 
 === Bug fixes
