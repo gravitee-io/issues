@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/82?closed=1[1.19.1 (2018-09-14)]
+
+=== Bug fixes
+
+*_Management_*
+
+- [message] unable to send messages https://github.com/gravitee-io/issues/issues/1499[#1499]
+
+*_Repository_*
+
+- [jdbc] Error when using mysql 8.0.11 (new keywords) https://github.com/gravitee-io/issues/issues/1498[#1498]
+
 == https://github.com/gravitee-io/issues/milestone/73?closed=1[1.19.0 (2018-09-11)]
 
 === Bug fixes
