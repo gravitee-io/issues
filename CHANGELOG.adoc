@@ -5,6 +5,109 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/75?closed=1[1.20.0 (2018-10-18)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- CORS headers are overriden by upstream headers https://github.com/gravitee-io/issues/issues/1528[#1528]
+- CORS headers must also be set in case of error (invalid security token) https://github.com/gravitee-io/issues/issues/1576[#1576]
+- Exit handler is not map properly for request chain https://github.com/gravitee-io/issues/issues/1563[#1563]
+- Gateway select first endpoint for dynamic routing https://github.com/gravitee-io/issues/issues/1515[#1515]
+- Response must be returned to the client in case of security error https://github.com/gravitee-io/issues/issues/1579[#1579]
+- Skip endpoint group without endpoints on stop https://github.com/gravitee-io/issues/issues/1572[#1572]
+- Skip the request's stream end() if we encounter a streamError https://github.com/gravitee-io/issues/issues/1569[#1569]
+- Sometimes errors occurs while reporting HC https://github.com/gravitee-io/issues/issues/1583[#1583]
+- When an API is redeployed, old handle should be remove from registry https://github.com/gravitee-io/issues/issues/1570[#1570]
+
+*_Management_*
+
+- Create empty group list on import https://github.com/gravitee-io/issues/issues/1317[#1317]
+- Error on rollback https://github.com/gravitee-io/issues/issues/1530[#1530]
+- Health check configuration of an endpoint is broken https://github.com/gravitee-io/issues/issues/1543[#1543]
+- Polling dictionnary is not stopped when the dictionnary is deleted https://github.com/gravitee-io/issues/issues/1586[#1586]
+- Wrong default search index dir https://github.com/gravitee-io/issues/issues/1562[#1562]
+
+*_Management-ui_*
+
+- CORS cant save customer Access-Control-Allow-Headers,for excample X-Gravitee-Api-Key. https://github.com/gravitee-io/issues/issues/1524[#1524]
+- Do not put application's type in title if none is set https://github.com/gravitee-io/issues/issues/1541[#1541]
+- Unable to parse log path with not encoded character https://github.com/gravitee-io/issues/issues/1527[#1527]
+
+*_Portal_*
+
+- Force login is not working as expected (always redirected to login form) https://github.com/gravitee-io/issues/issues/1542[#1542]
+- Search engine must be called also as anonymous user https://github.com/gravitee-io/issues/issues/1577[#1577]
+- Try it result of swagger is not readable as the text color is too clear https://github.com/gravitee-io/issues/issues/1582[#1582]
+
+=== Features
+
+*_Gateway_*
+
+- Identify the policy which is causing an internal server https://github.com/gravitee-io/issues/issues/1480[#1480]
+
+*_Management_*
+
+- Add a Bitbucket fetcher https://github.com/gravitee-io/issues/issues/1546[#1546]
+- Add filters for application's logs https://github.com/gravitee-io/issues/issues/1539[#1539]
+- [fetcher-gitlab] add v4 support https://github.com/gravitee-io/issues/issues/1488[#1488]
+
+*_Portal_*
+
+- Search Engine https://github.com/gravitee-io/issues/issues/1477[#1477]
+
+=== Improvements
+
+*_Analytics_*
+
+- Add Host header in ES index and analytics screen https://github.com/gravitee-io/issues/issues/1536[#1536]
+- Elasticsearch analytics requests don't hit the cache properly https://github.com/gravitee-io/issues/issues/1545[#1545]
+
+*_Gateway_*
+
+- Do not log complete stacktrace when logging condition fails https://github.com/gravitee-io/issues/issues/1568[#1568]
+- Improve support for SSL / TS and client authentication https://github.com/gravitee-io/issues/issues/1492[#1492]
+
+*_Management_*
+
+- Create empty arrays in policies configuration https://github.com/gravitee-io/issues/issues/1511[#1511]
+- Improve search engine https://github.com/gravitee-io/issues/issues/1585[#1585]
+- Improve the list of APIs https://github.com/gravitee-io/issues/issues/1483[#1483]
+- Improve the logging feature https://github.com/gravitee-io/issues/issues/1482[#1482]
+- Logs filteringadd a tenant filter https://github.com/gravitee-io/issues/issues/1538[#1538]
+- POST message https://github.com/gravitee-io/issues/issues/1526[#1526]
+- Redesign the forms https://github.com/gravitee-io/issues/issues/1481[#1481]
+- Remove configuration envvar from the environment gateway screen https://github.com/gravitee-io/issues/issues/1484[#1484]
+- [analytics] keep filters between overview and logs https://github.com/gravitee-io/issues/issues/1500[#1500]
+- [logs] improve filters https://github.com/gravitee-io/issues/issues/1501[#1501]
+
+*_Management-ui_*
+
+- Improve analytics filtering https://github.com/gravitee-io/issues/issues/1517[#1517]
+
+*_Node_*
+
+- Add a technical endpoint to retrieve the current configuration https://github.com/gravitee-io/issues/issues/1485[#1485]
+
+*_Policy_*
+
+- [request-content-limit] Request Content Limit Policy does not support transfer-encoding https://github.com/gravitee-io/issues/issues/1547[#1547]
+
+*_Portal_*
+
+- Improve the API general page https://github.com/gravitee-io/issues/issues/1479[#1479]
+- Swagger UI redirect_uri for OAuth2 authentication needs to be configured https://github.com/gravitee-io/issues/issues/1529[#1529]
+- [Doc] Add style for http verbs in the documentation page https://github.com/gravitee-io/issues/issues/1537[#1537]
+
+*_Reporter_*
+
+- [elasticsearch] Configure request timeout and use the pooled buffer https://github.com/gravitee-io/issues/issues/1508[#1508]
+
+*_Repository_*
+
+- [mongodb] Add mongodb repository TLS/SSL CA trusted compatibility https://github.com/gravitee-io/issues/issues/1460[#1460]
+
 == https://github.com/gravitee-io/issues/milestone/83?closed=1[1.19.3 (2018-09-25)]
 
 === Features
