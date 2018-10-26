@@ -5,6 +5,51 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/89?closed=1[1.20.1 (2018-10-26)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Stream must not be paused if response is ended before https://github.com/gravitee-io/issues/issues/1611[#1611]
+- Technical API does not expose /_node/apis anymore https://github.com/gravitee-io/issues/issues/1601[#1601]
+
+*_Identity-provider_*
+
+- [ldap] Wrong mapping https://github.com/gravitee-io/issues/issues/1587[#1587]
+
+*_Management_*
+
+- API not refreshed correctly when stopping it https://github.com/gravitee-io/issues/issues/1603[#1603]
+- API's picture reference does not take care about proto https://github.com/gravitee-io/issues/issues/1610[#1610]
+- Application permissions are not refreshed on ui https://github.com/gravitee-io/issues/issues/1535[#1535]
+- Delete button of the properties screen is not well displayed https://github.com/gravitee-io/issues/issues/1617[#1617]
+- Do not allow to add an existing members in api or apps https://github.com/gravitee-io/issues/issues/1532[#1532]
+- Forms title disappear on small screen https://github.com/gravitee-io/issues/issues/1615[#1615]
+- Hide the delete member button on application https://github.com/gravitee-io/issues/issues/1534[#1534]
+- Top APIs service is returning improper images URL. https://github.com/gravitee-io/issues/issues/1616[#1616]
+
+*_Management-api_*
+
+- Generated swagger describes date-time fields as strings, but they serialize as longs https://github.com/gravitee-io/issues/issues/1593[#1593]
+
+*_Portal_*
+
+- Keep gallery mode choice https://github.com/gravitee-io/issues/issues/1573[#1573]
+- Search subscriptions for application https://github.com/gravitee-io/issues/issues/1607[#1607]
+- Too much tasks for a user without groups https://github.com/gravitee-io/issues/issues/1590[#1590]
+
+=== Improvements
+
+*_General_*
+
+- Add a `search` button https://github.com/gravitee-io/issues/issues/1602[#1602]
+
+*_Management_*
+
+- API_PUBLISHER should have PLATFORM read right by default https://github.com/gravitee-io/issues/issues/1588[#1588]
+- No min length for application's clientId https://github.com/gravitee-io/issues/issues/1598[#1598]
+
 == https://github.com/gravitee-io/issues/milestone/75?closed=1[1.20.0 (2018-10-18)]
 
 === Bug fixes
