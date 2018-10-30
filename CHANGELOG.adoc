@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/90?closed=1[1.20.2 (2018-10-30)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Request stream must be paused as soon as possible https://github.com/gravitee-io/issues/issues/1625[#1625]
+
+*_Management_*
+
+- Transfer ownership cause duplicate primary owner https://github.com/gravitee-io/issues/issues/1623[#1623]
+
+=== Improvements
+
+*_Gateway_*
+
+- Consider null logging condition as always true https://github.com/gravitee-io/issues/issues/1631[#1631]
+
+*_Management-api_*
+
+- Search API by exact match on name field https://github.com/gravitee-io/issues/issues/1626[#1626]
+
 == https://github.com/gravitee-io/issues/milestone/89?closed=1[1.20.1 (2018-10-26)]
 
 === Bug fixes
