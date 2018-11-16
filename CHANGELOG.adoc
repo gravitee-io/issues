@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/93?closed=1[1.20.5 (2018-11-15)]
+
+=== Bug fixes
+
+*_Management_*
+
+- User with LOG[READ] right is not able to access logs view https://github.com/gravitee-io/issues/issues/1659[#1659]
+
+*_Portal_*
+
+- Markdown editorstyle tag are not handled correctly https://github.com/gravitee-io/issues/issues/1671[#1671]
+
+*_Service_*
+
+- [healthcheck] Healthcheck is not running when specified at endpoint level https://github.com/gravitee-io/issues/issues/1664[#1664]
+
 == https://github.com/gravitee-io/issues/milestone/92?closed=1[1.20.4 (2018-11-08)]
 
 === Bug fixes
