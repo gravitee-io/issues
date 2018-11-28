@@ -5,6 +5,73 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/84?closed=1[1.21.0 (2018-11-28)]
+
+=== Bug fixes
+
+*_Management_*
+
+- API Key plans contain JWT securityDefinition https://github.com/gravitee-io/issues/issues/1686[#1686]
+- OAuth2AuthenticationResource doesn't distinguish users by source https://github.com/gravitee-io/issues/issues/1486[#1486]
+
+*_Resource_*
+
+- [keycloak] Typo error in access denied message https://github.com/gravitee-io/issues/issues/1667[#1667]
+
+=== Features
+
+*_Alert_*
+
+- Add a dedicated page/module to configure alerts https://github.com/gravitee-io/issues/issues/1548[#1548]
+- Alert the API owner when reaching a threshold of the configured quota https://github.com/gravitee-io/issues/issues/1551[#1551]
+
+*_General_*
+
+- Alerting https://github.com/gravitee-io/issues/issues/63[#63]
+
+*_Policy_*
+
+- [callout-http] Policy callout HTTP https://github.com/gravitee-io/issues/issues/1665[#1665]
+- [jwt] HMAC support https://github.com/gravitee-io/issues/issues/1677[#1677]
+- [jwt] OIDC discovery support https://github.com/gravitee-io/issues/issues/1673[#1673]
+
+=== Improvements
+
+*_Gateway_*
+
+- Access API version number in Expression language https://github.com/gravitee-io/issues/issues/1102[#1102]
+- Add the tenant into the execution context https://github.com/gravitee-io/issues/issues/1656[#1656]
+- Performance improvements https://github.com/gravitee-io/issues/issues/1622[#1622]
+
+*_Management_*
+
+- Add a property to a plan to ask the consumer for a message when subscribing https://github.com/gravitee-io/issues/issues/1660[#1660]
+- Add username mapping in the oauth idp https://github.com/gravitee-io/issues/issues/1370[#1370]
+- Be able to remove log condition https://github.com/gravitee-io/issues/issues/1629[#1629]
+- Configure OAuth2 authentication provider from the management-api https://github.com/gravitee-io/issues/issues/1595[#1595]
+
+*_Management-ui_*
+
+- Add animation for the contextual menu https://github.com/gravitee-io/issues/issues/1648[#1648]
+- Menu items in Settings must be ordered alphabetically https://github.com/gravitee-io/issues/issues/1596[#1596]
+
+*_Policy_*
+
+- Support EL in field "parameter" for policy "validate request" https://github.com/gravitee-io/issues/issues/1605[#1605]
+- [jwt] Moving from jjwt to nimbus https://github.com/gravitee-io/issues/issues/1672[#1672]
+- [request-validation] Validate request body https://github.com/gravitee-io/issues/issues/1654[#1654]
+
+*_Portal_*
+
+- Add animation for the portal api headers https://github.com/gravitee-io/issues/issues/1619[#1619]
+- Add language negociation to find the best translation https://github.com/gravitee-io/issues/issues/1621[#1621]
+- Allows to persist images to use it on documentation pages https://github.com/gravitee-io/issues/issues/1159[#1159]
+- Connection button must be hidden when current page is login https://github.com/gravitee-io/issues/issues/1628[#1628]
+
+*_Repository_*
+
+- [elasticsearch] Optimize cross-cluster / tenancy analytics search https://github.com/gravitee-io/issues/issues/1663[#1663]
+
 == https://github.com/gravitee-io/issues/milestone/94?closed=1[1.20.6 (2018-11-19)]
 
 === Bug fixes
