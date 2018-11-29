@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/95?closed=1[1.20.7 (2018-11-29)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Do not run healthcheck if disabled https://github.com/gravitee-io/issues/issues/1697[#1697]
+
+*_Management_*
+
+- Calendar widget is displayed wrong week days on analytics filters https://github.com/gravitee-io/issues/issues/1684[#1684]
+- Danger zone is displayed to USER https://github.com/gravitee-io/issues/issues/1666[#1666]
+- Swagger import should guarantee uniqueness of endpoint group / endpoint name https://github.com/gravitee-io/issues/issues/1685[#1685]
+- Unable to map ldap group to role https://github.com/gravitee-io/issues/issues/1700[#1700]
+
+=== Improvements
+
+*_Portal_*
+
+- Add a loading spinner while searching for APIs https://github.com/gravitee-io/issues/issues/1544[#1544]
+
 == https://github.com/gravitee-io/issues/milestone/84?closed=1[1.21.0 (2018-11-28)]
 
 === Bug fixes
