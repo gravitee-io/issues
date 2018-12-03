@@ -5,6 +5,15 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/96?closed=1[1.20.8 (2018-12-03)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Show the right configuration in the endpoint healthcheck https://github.com/gravitee-io/issues/issues/1707[#1707]
+- The UI freeze when adding/removing a user in a role. https://github.com/gravitee-io/issues/issues/1705[#1705]
+
 == https://github.com/gravitee-io/issues/milestone/95?closed=1[1.20.7 (2018-11-29)]
 
 === Bug fixes
