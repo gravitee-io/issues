@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/99?closed=1[1.21.2 (2018-12-06)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Alert should be disabled by default https://github.com/gravitee-io/issues/issues/1714[#1714]
+- Can't see current security definition for JWT plan https://github.com/gravitee-io/issues/issues/1724[#1724]
+- Imported Swagger documentation page is empty https://github.com/gravitee-io/issues/issues/1725[#1725]
+- JS error on dist https://github.com/gravitee-io/issues/issues/1720[#1720]
+- Loading spinner is not centered when searching APIs on the management part https://github.com/gravitee-io/issues/issues/1717[#1717]
+- No hook template for application on a new subscription https://github.com/gravitee-io/issues/issues/1718[#1718]
+- No security definition for plan from API wizard https://github.com/gravitee-io/issues/issues/1715[#1715]
+- Unable to map picture for user profile (IDP AM) https://github.com/gravitee-io/issues/issues/1711[#1711]
+
+=== Improvements
+
+*_Management_*
+
+- Add description for the default plugin config https://github.com/gravitee-io/issues/issues/1721[#1721]
+- Create empty data dir https://github.com/gravitee-io/issues/issues/1723[#1723]
+
 == https://github.com/gravitee-io/issues/milestone/97?closed=1[1.21.1 (2018-12-03)]
 
 === Bug fixes
