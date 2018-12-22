@@ -5,6 +5,49 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/98?closed=1[1.20.9 (2018-12-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- 100-continue not correctly handle https://github.com/gravitee-io/issues/issues/1733[#1733]
+
+*_General_*
+
+- Technical API is not secured on sub paths https://github.com/gravitee-io/issues/issues/1759[#1759]
+
+*_Management_*
+
+- (+) button is floating if the groups management is empty https://github.com/gravitee-io/issues/issues/1765[#1765]
+- A user can see all tasks https://github.com/gravitee-io/issues/issues/1729[#1729]
+- An admin/user have a mix of permissions https://github.com/gravitee-io/issues/issues/1739[#1739]
+- No hook template for API on a closed subscription https://github.com/gravitee-io/issues/issues/1735[#1735]
+- Not able to change the weight of an endpoint https://github.com/gravitee-io/issues/issues/1749[#1749]
+
+*_Management-ui_*
+
+- Missing user name in API history https://github.com/gravitee-io/issues/issues/1764[#1764]
+- Path-mappings content should occupy the whole width https://github.com/gravitee-io/issues/issues/1756[#1756]
+
+*_Policy_*
+
+- [rate-limit] Unable to retrieve latest values of rate-limit from repository https://github.com/gravitee-io/issues/issues/1748[#1748]
+
+*_Portal_*
+
+- Use anchor in markdown pages https://github.com/gravitee-io/issues/issues/852[#852]
+
+=== Improvements
+
+*_Policy_*
+
+- [jwt] Provide more logs for an invalid JWT token https://github.com/gravitee-io/issues/issues/1768[#1768]
+
+*_Resource_*
+
+- [oauth2-generic] Default timeout https://github.com/gravitee-io/issues/issues/1728[#1728]
+
 == https://github.com/gravitee-io/issues/milestone/99?closed=1[1.21.2 (2018-12-06)]
 
 === Bug fixes
