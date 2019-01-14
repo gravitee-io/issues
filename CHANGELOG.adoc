@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/101?closed=1[1.20.10 (2019-01-14)]
+
+=== Bug fixes
+
+*_Identity-provider_*
+
+- [ldap] Complex query are not supported for authentication https://github.com/gravitee-io/issues/issues/1804[#1804]
+
+*_Management_*
+
+- Better handling of swagger descriptor with wrong format https://github.com/gravitee-io/issues/issues/1785[#1785]
+- Can not import a definition to update an API with an existing plan https://github.com/gravitee-io/issues/issues/1808[#1808]
+- Dashboard analytics is not allowing to set multiple filters https://github.com/gravitee-io/issues/issues/1780[#1780]
+- Display errors notifications correctly https://github.com/gravitee-io/issues/issues/1784[#1784]
+- New endpoints are systematically created with ssl configuration https://github.com/gravitee-io/issues/issues/1776[#1776]
+- Sometimes the tasks screen is blank https://github.com/gravitee-io/issues/issues/1760[#1760]
+- The dictionary can not be updated anymore https://github.com/gravitee-io/issues/issues/1783[#1783]
+- [ldap] User dn pattern configuration name incorrect in yml https://github.com/gravitee-io/issues/issues/1788[#1788]
+
+*_Management-ui_*
+
+- Close modal when clicking outside https://github.com/gravitee-io/issues/issues/1758[#1758]
+- Sharding tags do not appear in API history https://github.com/gravitee-io/issues/issues/1774[#1774]
+
+=== Improvements
+
+*_Management_*
+
+- Configure the root entrypoint https://github.com/gravitee-io/issues/issues/1792[#1792]
+
 == https://github.com/gravitee-io/issues/milestone/98?closed=1[1.20.9 (2018-12-22)]
 
 === Bug fixes
