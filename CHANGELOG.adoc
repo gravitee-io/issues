@@ -5,6 +5,43 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/100?closed=1[1.21.3 (2019-01-14)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Response is handled twice https://github.com/gravitee-io/issues/issues/1732[#1732]
+
+*_General_*
+
+- Merge bugfixes from 1.20.10 https://github.com/gravitee-io/issues/issues/1814[#1814]
+
+*_Management_*
+
+- API is trying to create a new user when creating a new membership https://github.com/gravitee-io/issues/issues/1751[#1751]
+- Email subject user the user Id instead of displayname https://github.com/gravitee-io/issues/issues/1747[#1747]
+- Identity provider's description is not persisted after an update https://github.com/gravitee-io/issues/issues/1736[#1736]
+- Support for none authentification for alert default notifier https://github.com/gravitee-io/issues/issues/1793[#1793]
+- [idp] The idp type is lost on update https://github.com/gravitee-io/issues/issues/1738[#1738]
+
+*_Management-ui_*
+
+- (+) button is not well positioned https://github.com/gravitee-io/issues/issues/1754[#1754]
+- Not able to transfer ownership to in-memory user https://github.com/gravitee-io/issues/issues/1752[#1752]
+- Properties configuration or resource configuration on top of contextual documentation https://github.com/gravitee-io/issues/issues/1757[#1757]
+- Users from audit are not well displayed https://github.com/gravitee-io/issues/issues/1755[#1755]
+
+*_Repository_*
+
+- [mongodb] Alert is not correctly mapped on some cases https://github.com/gravitee-io/issues/issues/1801[#1801]
+
+=== Improvements
+
+*_Policy_*
+
+- [callout-http] Apply expression language on the URL https://github.com/gravitee-io/issues/issues/1810[#1810]
+
 == https://github.com/gravitee-io/issues/milestone/101?closed=1[1.20.10 (2019-01-14)]
 
 === Bug fixes
