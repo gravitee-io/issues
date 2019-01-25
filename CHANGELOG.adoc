@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/104?closed=1[1.20.11 (2019-01-25)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Back-pressure for client request log not correctly handled https://github.com/gravitee-io/issues/issues/1837[#1837]
+- Error if endpoint has an empty ssl configuration https://github.com/gravitee-io/issues/issues/1838[#1838]
+
+*_General_*
+
+- Hybrid plugin / 1.20 compatibility https://github.com/gravitee-io/issues/issues/1614[#1614]
+
+*_Identityprovider_*
+
+- [ldap] LDAP authenticator is case insensitive https://github.com/gravitee-io/issues/issues/1844[#1844]
+
+*_Management_*
+
+- Qualitypages inside a folder are not taking account https://github.com/gravitee-io/issues/issues/1843[#1843]
+- Unable to create a metadata with the `date` type https://github.com/gravitee-io/issues/issues/1824[#1824]
+
+=== Improvements
+
+*_Global_*
+
+- Upgrade to Vert.x 3.5.4 https://github.com/gravitee-io/issues/issues/1839[#1839]
+
 == https://github.com/gravitee-io/issues/milestone/85?closed=1[1.22.0 (2019-01-16)]
 
 === Bug fixes
