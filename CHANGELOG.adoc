@@ -5,6 +5,67 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/85?closed=1[1.22.0 (2019-01-16)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Display correctly application title when no type defined https://github.com/gravitee-io/issues/issues/1767[#1767]
+- When filtering analytics the requests contains same filters appended multiple times https://github.com/gravitee-io/issues/issues/1779[#1779]
+
+*_Portal_*
+
+- Banner of unsupported browser version is not displayed https://github.com/gravitee-io/issues/issues/1731[#1731]
+- Unable to authenticate an LDAP user https://github.com/gravitee-io/issues/issues/1782[#1782]
+
+=== Features
+
+*_Fetcher_*
+
+- Add a github fetcher https://github.com/gravitee-io/issues/issues/1750[#1750]
+
+*_Gateway_*
+
+- Allow Endpoints to Specify Header Values https://github.com/gravitee-io/issues/issues/1740[#1740]
+
+*_General_*
+
+- Service discovery plugin support https://github.com/gravitee-io/issues/issues/1701[#1701]
+
+*_Management_*
+
+- API publisher should be able to "pause" a subscription https://github.com/gravitee-io/issues/issues/1753[#1753]
+- Add a "deprecated" status for a plan https://github.com/gravitee-io/issues/issues/1762[#1762]
+- Add options when created apis from swagger https://github.com/gravitee-io/issues/issues/1566[#1566]
+- An application should be able to close a plan's subscription https://github.com/gravitee-io/issues/issues/1746[#1746]
+- Be able to differentiate analytics log which reach the target endpoint from others https://github.com/gravitee-io/issues/issues/1743[#1743]
+- Display entrypoints by API sharding tags https://github.com/gravitee-io/issues/issues/1706[#1706]
+
+=== Improvements
+
+*_Management_*
+
+- Add a "remove all" button in properties and dictionaries https://github.com/gravitee-io/issues/issues/1670[#1670]
+- Add a link to the logs config from the log screen https://github.com/gravitee-io/issues/issues/1644[#1644]
+- Add a non strict mode to valide scopes in oauth plan https://github.com/gravitee-io/issues/issues/1689[#1689]
+- Add explanation on configuration of tiles mode display https://github.com/gravitee-io/issues/issues/1822[#1822]
+- Add rollback action to the audit trail of an API https://github.com/gravitee-io/issues/issues/1658[#1658]
+- Better handling of character of escaping on analytics https://github.com/gravitee-io/issues/issues/1766[#1766]
+- Create an endpoint without trustall and trustore https://github.com/gravitee-io/issues/issues/1811[#1811]
+- Display a flag on the analytic's logs to know if the backend has been reached or not https://github.com/gravitee-io/issues/issues/1761[#1761]
+- List roles/permissions dynamically and sort alphabetically https://github.com/gravitee-io/issues/issues/1709[#1709]
+- Redesign the documentation management https://github.com/gravitee-io/issues/issues/1564[#1564]
+
+*_Policy_*
+
+- [jwt/oauth2] Add an option to not propagate the Authorization header https://github.com/gravitee-io/issues/issues/1737[#1737]
+
+*_Portal_*
+
+- Fix better management of select item in the right menu of the doc https://github.com/gravitee-io/issues/issues/1800[#1800]
+- Preserve height of APIs card https://github.com/gravitee-io/issues/issues/1796[#1796]
+
 == https://github.com/gravitee-io/issues/milestone/100?closed=1[1.21.3 (2019-01-14)]
 
 === Bug fixes
