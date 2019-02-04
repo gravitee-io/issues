@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/103?closed=1[1.22.1 (2019-02-04)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- A deprecated plan is not redeploying correctly after modification https://github.com/gravitee-io/issues/issues/1857[#1857]
+
+*_Gateway-bridge_*
+
+- Add 1.22 compatibility https://github.com/gravitee-io/issues/issues/1876[#1876]
+
+*_Management_*
+
+- Message incorrect when deprecating a plan https://github.com/gravitee-io/issues/issues/1858[#1858]
+- Service discovery is not working anymore https://github.com/gravitee-io/issues/issues/1865[#1865]
+- Unable to calculate analytics when filtering by host (host:port) https://github.com/gravitee-io/issues/issues/1886[#1886]
+
+*_Portal_*
+
+- Anonymous users can not access to public APIs anymore https://github.com/gravitee-io/issues/issues/1872[#1872]
+
+=== Improvements
+
+*_General_*
+
+- Merge release 1.21.4 https://github.com/gravitee-io/issues/issues/1873[#1873]
+
 == https://github.com/gravitee-io/issues/milestone/106?closed=1[1.21.4 (2019-01-30)]
 
 === Bug fixes
