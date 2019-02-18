@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/105?closed=1[APIM - 1.20.12 (2019-02-16)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API Key plans are not well selected https://github.com/gravitee-io/issues/issues/1884[#1884]
+- HTTP2 requests are not well handled https://github.com/gravitee-io/issues/issues/1913[#1913]
+
+*_Management_*
+
+- Apply a default role on a group change the group attributes https://github.com/gravitee-io/issues/issues/1917[#1917]
+- Do not detect redeploy on each plan update https://github.com/gravitee-io/issues/issues/1827[#1827]
+- Email subject incorrect on new subscription (application) https://github.com/gravitee-io/issues/issues/1859[#1859]
+- Global empty date metadata cannot be overriden https://github.com/gravitee-io/issues/issues/1869[#1869]
+- Not able to create an API from a swagger from https based url https://github.com/gravitee-io/issues/issues/1897[#1897]
+- Unable to change the apikey expiration date https://github.com/gravitee-io/issues/issues/1842[#1842]
+- [analytics] unable to change the end date https://github.com/gravitee-io/issues/issues/1879[#1879]
+- [logs] api outdated when configuring a logging condition https://github.com/gravitee-io/issues/issues/1901[#1901]
+
+*_Reporter_*
+
+- [elasticsearch] Request not indexed with complex request's message https://github.com/gravitee-io/issues/issues/1021[#1021]
+
+=== Features
+
+*_Management_*
+
+- [logs] add a global max duration https://github.com/gravitee-io/issues/issues/1919[#1919]
+
 == https://github.com/gravitee-io/issues/milestone/103?closed=1[1.22.1 (2019-02-04)]
 
 === Bug fixes
