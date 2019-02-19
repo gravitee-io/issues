@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/113?closed=1[APIM - 1.22.2 (2019-02-16)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.21.5 https://github.com/gravitee-io/issues/issues/1927[#1927]
+
+*_Management_*
+
+- Swagger options should be available when importing by a swagger link https://github.com/gravitee-io/issues/issues/1906[#1906]
+
 == https://github.com/gravitee-io/issues/milestone/112?closed=1[APIM - 1.21.5 (2019-02-16)]
 
 === Bug fixes
