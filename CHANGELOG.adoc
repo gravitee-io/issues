@@ -5,6 +5,65 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/86?closed=1[APIM - 1.23.0 (2019-02-25)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Impossible to save portal settings from UI https://github.com/gravitee-io/issues/issues/1941[#1941]
+- Keep http image links on emails https://github.com/gravitee-io/issues/issues/1972[#1972]
+
+*_Portal_*
+
+- Api headers name are duplicate. https://github.com/gravitee-io/issues/issues/1971[#1971]
+
+*_Repository_*
+
+- [redis] Unable to create new APIs https://github.com/gravitee-io/issues/issues/1882[#1882]
+
+=== Features
+
+*_Management_*
+
+- Add a link to the git repository defined on a documentation page https://github.com/gravitee-io/issues/issues/1825[#1825]
+- Allows to configure sharding / tenants when creating an API from scratch https://github.com/gravitee-io/issues/issues/1819[#1819]
+- Allows to create a template for HTTP configuration for endpoints discovered by Service Discovery https://github.com/gravitee-io/issues/issues/1141[#1141]
+- Create mocks in API imported from swagger/OAI https://github.com/gravitee-io/issues/issues/1567[#1567]
+- Define a picture on a portal view https://github.com/gravitee-io/issues/issues/1821[#1821]
+- Exchange JWT with API key https://github.com/gravitee-io/issues/issues/1817[#1817]
+- Fetch pages recursively https://github.com/gravitee-io/issues/issues/1565[#1565]
+- Invite a user in a group https://github.com/gravitee-io/issues/issues/1818[#1818]
+
+*_Policy_*
+
+- [assign-attribute] Add a policy assign-attribute https://github.com/gravitee-io/issues/issues/1820[#1820]
+- [callout-http] Condition to end the request https://github.com/gravitee-io/issues/issues/1904[#1904]
+- [generate-jwt] Provide a Generate JWT policy https://github.com/gravitee-io/issues/issues/1863[#1863]
+
+=== Improvements
+
+*_Expression-language_*
+
+- Performance improvements https://github.com/gravitee-io/issues/issues/1902[#1902]
+
+*_Gateway_*
+
+- Attach SSLSession to the incoming HTTP request https://github.com/gravitee-io/issues/issues/1922[#1922]
+- Performance issues when API contains lot of properties https://github.com/gravitee-io/issues/issues/1903[#1903]
+
+*_Management_*
+
+- Avoid to list all policy's schemas https://github.com/gravitee-io/issues/issues/1914[#1914]
+- Define policies at the plan level https://github.com/gravitee-io/issues/issues/1846[#1846]
+- Define trustAll for authentication providers https://github.com/gravitee-io/issues/issues/1924[#1924]
+- Select multiple conditions to send messages https://github.com/gravitee-io/issues/issues/1802[#1802]
+- We should allow to go to the next step by pressing enter on the wizard creation https://github.com/gravitee-io/issues/issues/1716[#1716]
+
+*_Policy_*
+
+- [assign-content] add EL support https://github.com/gravitee-io/issues/issues/1860[#1860]
+
 == https://github.com/gravitee-io/issues/milestone/113?closed=1[APIM - 1.22.2 (2019-02-16)]
 
 === Bug fixes
