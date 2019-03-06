@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/114?closed=1[APIM - 1.20.13 (2019-03-06)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Plans security order is not respected https://github.com/gravitee-io/issues/issues/1985[#1985]
+
+*_Management_*
+
+- Api outdated when configuring the healthcheck https://github.com/gravitee-io/issues/issues/1918[#1918]
+- Avoid duplicate name for groups and endpoints https://github.com/gravitee-io/issues/issues/1578[#1578]
+- Exclude groups in api export is not take into account. https://github.com/gravitee-io/issues/issues/1962[#1962]
+- [documentation]  unable to create a page and import content from disk https://github.com/gravitee-io/issues/issues/1940[#1940]
+- [policies]Unable to only change the method of a policy https://github.com/gravitee-io/issues/issues/1932[#1932]
+
+*_Policy_*
+
+- [cache] Required type parameter does not match the resource type https://github.com/gravitee-io/issues/issues/962[#962]
+- [dynamic-routing] Unable to handle some endpoints and url https://github.com/gravitee-io/issues/issues/1939[#1939]
+
+=== Improvements
+
+*_Management_*
+
+- Add a tooltip on the api name https://github.com/gravitee-io/issues/issues/1956[#1956]
+- Backport github fetcher https://github.com/gravitee-io/issues/issues/1942[#1942]
+- Handle 405 status code on the management api https://github.com/gravitee-io/issues/issues/1976[#1976]
+
 == https://github.com/gravitee-io/issues/milestone/86?closed=1[APIM - 1.23.0 (2019-02-25)]
 
 === Bug fixes
