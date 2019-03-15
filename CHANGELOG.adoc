@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/121?closed=1[APIM - 1.20.14 (2019-03-15)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Could not start an api with an empty endpoint group https://github.com/gravitee-io/issues/issues/2024[#2024]
+- The last `/` of a request disappears https://github.com/gravitee-io/issues/issues/2012[#2012]
+
+*_Management_*
+
+- Do not try to import an invalid json file https://github.com/gravitee-io/issues/issues/2022[#2022]
+- Error on duplicate endpoint names when creating via API https://github.com/gravitee-io/issues/issues/2023[#2023]
+- Error while importing an API in some particular case https://github.com/gravitee-io/issues/issues/1883[#1883]
+- [analytics] top failed==top apis when a tenant is selected https://github.com/gravitee-io/issues/issues/1938[#1938]
+
+*_Portal_*
+
+- Oauth login button color is always grey. https://github.com/gravitee-io/issues/issues/2013[#2013]
+
+=== Improvements
+
+*_Management_*
+
+- Add the prometheus configuration https://github.com/gravitee-io/issues/issues/2035[#2035]
+
+*_Portal_*
+
+- Improve the search accuracy https://github.com/gravitee-io/issues/issues/1937[#1937]
+
+*_Reporter_*
+
+- Default elasticsearch configuration is not efficient https://github.com/gravitee-io/issues/issues/2019[#2019]
+
 == https://github.com/gravitee-io/issues/milestone/114?closed=1[APIM - 1.20.13 (2019-03-06)]
 
 === Bug fixes
