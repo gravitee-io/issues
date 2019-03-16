@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/124?closed=1[APIM - 1.23.1 (2019-03-16)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.22.3 https://github.com/gravitee-io/issues/issues/2048[#2048]
+
+*_Portal_*
+
+- Wrong oauth2 redirect uri https://github.com/gravitee-io/issues/issues/2011[#2011]
+
 == https://github.com/gravitee-io/issues/milestone/123?closed=1[APIM - 1.22.3 (2019-03-15)]
 
 === Bug fixes
