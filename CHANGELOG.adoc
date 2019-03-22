@@ -5,6 +5,101 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/87?closed=1[APIM - 1.24.0 (2019-03-22)]
+
+=== Bug fixes
+
+*_Expression-language_*
+
+- Jayway jsonpath lib has issue for Cache https://github.com/gravitee-io/issues/issues/1713[#1713]
+
+*_Gateway_*
+
+- Discovered endpoints are not getting properly HTTP group configuration when no endpoints are configured https://github.com/gravitee-io/issues/issues/2049[#2049]
+- Server request without body are ended even while in paused-state with Vert.x 3.6.x https://github.com/gravitee-io/issues/issues/2020[#2020]
+- The application is not settled for metrics / analytics https://github.com/gravitee-io/issues/issues/2039[#2039]
+
+*_General_*
+
+- Swagger Import Root context path not mapped correctly https://github.com/gravitee-io/issues/issues/2010[#2010]
+- Wrong openapi 3 securityScheme types when base url is set https://github.com/gravitee-io/issues/issues/2014[#2014]
+
+*_Management_*
+
+- Search users is not ordered https://github.com/gravitee-io/issues/issues/1988[#1988]
+- Service discovery configuration is lost when deleting an endpoint https://github.com/gravitee-io/issues/issues/2059[#2059]
+
+*_Portal_*
+
+- Exception when authenticating to the portal using GitHub account https://github.com/gravitee-io/issues/issues/2045[#2045]
+
+*_Reporter_*
+
+- [kafka] reporter dont work if configuration is not in  gravitee.yml https://github.com/gravitee-io/issues/issues/1803[#1803]
+- [kafka]ClassNotFoundException io.gravitee.reporter.kafka.spring.EnabledKafkaReporter https://github.com/gravitee-io/issues/issues/1805[#1805]
+
+*_Service-discovery_*
+
+- Health-check is not well started with discovered endpoints https://github.com/gravitee-io/issues/issues/2054[#2054]
+- [consul] Endpoint is not well updated when changing host or port of an existing service https://github.com/gravitee-io/issues/issues/2069[#2069]
+
+=== Features
+
+*_Gateway_*
+
+- Global logging max size body configuration https://github.com/gravitee-io/issues/issues/1891[#1891]
+
+*_General_*
+
+- JDK9 support https://github.com/gravitee-io/issues/issues/979[#979]
+
+*_Management_*
+
+- Add a timestamp and API id in the index ES log https://github.com/gravitee-io/issues/issues/1993[#1993]
+- Add an option to get hits by user agent in analytics dashboard https://github.com/gravitee-io/issues/issues/1951[#1951]
+- Allow to audit the people who consult the log detail https://github.com/gravitee-io/issues/issues/1947[#1947]
+- Allows to transfer a subscription to another plan without changing API key or token https://github.com/gravitee-io/issues/issues/1946[#1946]
+- Audit on API user from JWT https://github.com/gravitee-io/issues/issues/1948[#1948]
+- HC Availability per gateway should be displayed to admins only https://github.com/gravitee-io/issues/issues/1949[#1949]
+- User creation from management gui / management API https://github.com/gravitee-io/issues/issues/1505[#1505]
+
+*_Policy_*
+
+- [mock] Allows to use spEL in header value https://github.com/gravitee-io/issues/issues/1992[#1992]
+
+*_Service-discovery_*
+
+- [eureka] Implementation of Eureka Service Discovery plugin https://github.com/gravitee-io/issues/issues/1311[#1311]
+
+=== Improvements
+
+*_Gateway_*
+
+- Default max_header size for the gateway is not configurable https://github.com/gravitee-io/issues/issues/2037[#2037]
+- Internal refactoring https://github.com/gravitee-io/issues/issues/1744[#1744]
+- Refactor endpoint management thanks to unique reference https://github.com/gravitee-io/issues/issues/1989[#1989]
+
+*_Identity-provider_*
+
+- [ldap] use the same filter to user search and authentication https://github.com/gravitee-io/issues/issues/2026[#2026]
+
+*_Management_*
+
+- Improve log detail screen https://github.com/gravitee-io/issues/issues/1950[#1950]
+- Instances management screen not accessible sometimes https://github.com/gravitee-io/issues/issues/1908[#1908]
+- Optimizing event recuperation https://github.com/gravitee-io/issues/issues/2067[#2067]
+- Stay on the current tab when saving a page modification https://github.com/gravitee-io/issues/issues/1813[#1813]
+- [analytics] Configurable http request timeout for analytics requests https://github.com/gravitee-io/issues/issues/1920[#1920]
+
+*_Policy_*
+
+- [mock] Improve policy with body injection https://github.com/gravitee-io/issues/issues/1789[#1789]
+- [oauth2] Configure user claim for AM and Keycloak Oauth2 providers https://github.com/gravitee-io/issues/issues/2046[#2046]
+
+*_Repository_*
+
+- [jdbc] Improve performance on search events https://github.com/gravitee-io/issues/issues/1982[#1982]
+
 == https://github.com/gravitee-io/issues/milestone/124?closed=1[APIM - 1.23.1 (2019-03-16)]
 
 === Bug fixes
