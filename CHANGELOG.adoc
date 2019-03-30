@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/125?closed=1[APIM - 1.20.15 (2019-03-29)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- OutOfMemory when scrapping metrics for Prometheus https://github.com/gravitee-io/issues/issues/2057[#2057]
+
+*_Management_*
+
+- Missing some audit event types https://github.com/gravitee-io/issues/issues/2099[#2099]
+- Old user references exists after its deletion. https://github.com/gravitee-io/issues/issues/1986[#1986]
+
+*_Portal_*
+
+- Email template not found for hook SUBSCRIPTION_REJECTED https://github.com/gravitee-io/issues/issues/2056[#2056]
+- Unable to finish registration if "Force Login" is enabled https://github.com/gravitee-io/issues/issues/2097[#2097]
+- [ldap] unable to use a complex password https://github.com/gravitee-io/issues/issues/2076[#2076]
+
 == https://github.com/gravitee-io/issues/milestone/87?closed=1[APIM - 1.24.0 (2019-03-22)]
 
 === Bug fixes
