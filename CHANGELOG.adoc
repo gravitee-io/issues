@@ -5,6 +5,33 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/127?closed=1[APIM - 1.24.1 (2019-04-11)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- No suitable driver with any JDBC driver https://github.com/gravitee-io/issues/issues/2116[#2116]
+
+*_General_*
+
+- Merge release 1.23.2 https://github.com/gravitee-io/issues/issues/2142[#2142]
+
+*_Management_*
+
+- Missing notification when a user is created https://github.com/gravitee-io/issues/issues/2143[#2143]
+- NPE in ApiPage when not authenticated https://github.com/gravitee-io/issues/issues/2108[#2108]
+- Registration not available when not logged in https://github.com/gravitee-io/issues/issues/2131[#2131]
+- [ldap] user dn is case sensitive https://github.com/gravitee-io/issues/issues/2091[#2091]
+
+*_Policy_*
+
+- [dynamic-routing]unable to select an endpoint https://github.com/gravitee-io/issues/issues/2130[#2130]
+
+*_Repository_*
+
+- [bridge] not able to use the technical api for /health https://github.com/gravitee-io/issues/issues/2125[#2125]
+
 == https://github.com/gravitee-io/issues/milestone/128?closed=1[APIM - 1.23.2 (2019-04-11)]
 
 === Bug fixes
