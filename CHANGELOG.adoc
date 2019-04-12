@@ -5,6 +5,20 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/128?closed=1[APIM - 1.23.2 (2019-04-11)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.20.15 https://github.com/gravitee-io/issues/issues/2141[#2141]
+
+=== Improvements
+
+*_Repository_*
+
+- [redis] set pool size for test https://github.com/gravitee-io/issues/issues/2122[#2122]
+
 == https://github.com/gravitee-io/issues/milestone/125?closed=1[APIM - 1.20.15 (2019-03-29)]
 
 === Bug fixes
