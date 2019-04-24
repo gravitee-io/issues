@@ -5,6 +5,76 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/88?closed=1[APIM - 1.25.0 (2019-04-24)]
+
+=== Bug fixes
+
+*_Analytics_*
+
+- User does not appear in logs https://github.com/gravitee-io/issues/issues/2150[#2150]
+
+*_Management_*
+
+- Portal notification of new user is missing user.username https://github.com/gravitee-io/issues/issues/2132[#2132]
+- Users connected with a social provider should get all APIs when giving ADMIN rights https://github.com/gravitee-io/issues/issues/2087[#2087]
+
+*_Policies_*
+
+- [dynamic-routing] Select a discovered endpoint https://github.com/gravitee-io/issues/issues/2155[#2155]
+
+*_Policy_*
+
+- [jwt] unable to parse RS384 SSH Given Key https://github.com/gravitee-io/issues/issues/2147[#2147]
+
+*_Repository_*
+
+- [jdbc] Update page with metadata is not working https://github.com/gravitee-io/issues/issues/2088[#2088]
+
+=== Features
+
+*_Gateway_*
+
+- Allows to define response templates per API https://github.com/gravitee-io/issues/issues/972[#972]
+
+*_Management_*
+
+- Add a button to fetch API/portal docs https://github.com/gravitee-io/issues/issues/2001[#2001]
+- Add support for Dynamic Client Registration https://github.com/gravitee-io/issues/issues/1580[#1580]
+- Allows to configure the message displayed when subscribing to an API https://github.com/gravitee-io/issues/issues/2005[#2005]
+- Allows to define permission to publish on a sharding tag https://github.com/gravitee-io/issues/issues/1995[#1995]
+- Allows to define response templates per API https://github.com/gravitee-io/issues/issues/2083[#2083]
+- Allows to export logs in a CSV file https://github.com/gravitee-io/issues/issues/2004[#2004]
+- Allows to extend ES index mapping https://github.com/gravitee-io/issues/issues/2084[#2084]
+- Change ES mapping (request) to store security type / token instead of api key https://github.com/gravitee-io/issues/issues/1994[#1994]
+- [audit] create API logging audit log https://github.com/gravitee-io/issues/issues/2103[#2103]
+
+*_Policy_*
+
+- [OIDC - UserInfo] support Expression Language for the OAuth 2.0 resource field https://github.com/gravitee-io/issues/issues/2016[#2016]
+- [api-key] Policy failures always produce json content https://github.com/gravitee-io/issues/issues/1719[#1719]
+- [validate-request] Override error message https://github.com/gravitee-io/issues/issues/1945[#1945]
+
+=== Improvements
+
+*_Idp_*
+
+- [oauth] be able to configure oauth idps by file (like in release 1.20) https://github.com/gravitee-io/issues/issues/2031[#2031]
+
+*_Management_*
+
+- Allows to define the number of logs to display per page https://github.com/gravitee-io/issues/issues/2002[#2002]
+- Allows to sort the logs by date, path, status https://github.com/gravitee-io/issues/issues/2003[#2003]
+- Hits by host in the global dashboard analytics https://github.com/gravitee-io/issues/issues/2044[#2044]
+
+*_Policy_*
+
+- [groovy] add dictionary support https://github.com/gravitee-io/issues/issues/2123[#2123]
+
+*_Repository_*
+
+- [bridge] add 1.25 compatibility https://github.com/gravitee-io/issues/issues/2148[#2148]
+- [jdbc] SQL Server support https://github.com/gravitee-io/issues/issues/1772[#1772]
+
 == https://github.com/gravitee-io/issues/milestone/127?closed=1[APIM - 1.24.1 (2019-04-11)]
 
 === Bug fixes
