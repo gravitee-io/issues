@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/131?closed=1[APIM - 1.25.1 (2019-05-06)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Request not logged when X-Forwarded-For header contains IPv4-mapped IPv6 address https://github.com/gravitee-io/issues/issues/2186[#2186]
+
+*_Management_*
+
+- Error in audit trail when creating and deleting an application https://github.com/gravitee-io/issues/issues/2196[#2196]
+- Unable to access api with a sharding tag in certain condition https://github.com/gravitee-io/issues/issues/2191[#2191]
+- Undefined response template key when pressing enter before to select a value https://github.com/gravitee-io/issues/issues/2184[#2184]
+
+*_Management-ui_*
+
+- [health-check] No HTTP headers for request or response https://github.com/gravitee-io/issues/issues/2163[#2163]
+- [health-check] Response template is selected when viewing a single HC log https://github.com/gravitee-io/issues/issues/2162[#2162]
+
+*_Reporter_*
+
+- [elasticsearch] unable to create mapping in es5 + index per type https://github.com/gravitee-io/issues/issues/2199[#2199]
+
+=== Improvements
+
+*_Monitoring_*
+
+- Prometheus metrics configuration https://github.com/gravitee-io/issues/issues/2179[#2179]
+
 == https://github.com/gravitee-io/issues/milestone/88?closed=1[APIM - 1.25.0 (2019-04-24)]
 
 === Bug fixes
