@@ -5,6 +5,37 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/130?closed=1[APIM - 1.20.16 (2019-05-10)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Healthcheck fails with an empty endpoint group https://github.com/gravitee-io/issues/issues/2205[#2205]
+
+*_Management_*
+
+- Indexing datas is not synchronized beetween all management-api nodes https://github.com/gravitee-io/issues/issues/2166[#2166]
+
+*_Policy_*
+
+- [request-validation] Handle null input for regex validator https://github.com/gravitee-io/issues/issues/2157[#2157]
+
+*_Reporter_*
+
+- [elasticsearch] backport #2199 https://github.com/gravitee-io/issues/issues/2200[#2200]
+
+=== Improvements
+
+*_Idp_*
+
+- [oauth] email could be not required in cas of technical account https://github.com/gravitee-io/issues/issues/2124[#2124]
+
+*_Management_*
+
+- Add more precision when rounded the healthcheck percentage https://github.com/gravitee-io/issues/issues/2168[#2168]
+- [search] the delay between the last key pressed and the research is too short https://github.com/gravitee-io/issues/issues/2193[#2193]
+
 == https://github.com/gravitee-io/issues/milestone/133?closed=1[APIM - 1.25.2 (2019-05-09)]
 
 === Bug fixes
