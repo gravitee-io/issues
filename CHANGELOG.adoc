@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/136?closed=1[APIM - 1.25.3 (2019-05-16)]
+
+=== Bug fixes
+
+*_Documentation_*
+
+- Unable to load images https://github.com/gravitee-io/issues/issues/2225[#2225]
+
+*_Gateway_*
+
+- NPE is raised in case of dynamic-routing and no endpoints available https://github.com/gravitee-io/issues/issues/2243[#2243]
+
+*_General_*
+
+- Merge release 1.20.16 https://github.com/gravitee-io/issues/issues/2230[#2230]
+
+*_Management_*
+
+- Circular bean injection https://github.com/gravitee-io/issues/issues/2238[#2238]
+- Export as CSV works only with Chrome https://github.com/gravitee-io/issues/issues/2201[#2201]
+
+*_Security_*
+
+- CVE 621 https://github.com/gravitee-io/issues/issues/2232[#2232]
+
+=== Features
+
+*_Gateway_*
+
+- Add more logs for "Connection was closed" exception https://github.com/gravitee-io/issues/issues/1589[#1589]
+
+=== Improvements
+
+*_Management_*
+
+- Add tooltip on the endpoints icons https://github.com/gravitee-io/issues/issues/2176[#2176]
+- Disable fetch all button if no pages to fetch https://github.com/gravitee-io/issues/issues/2172[#2172]
+
 == https://github.com/gravitee-io/issues/milestone/130?closed=1[APIM - 1.20.16 (2019-05-10)]
 
 === Bug fixes
