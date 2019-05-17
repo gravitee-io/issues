@@ -28,9 +28,9 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 *_Security_*
 
-- CVE 619 https://github.com/gravitee-io/issues/issues/2232[#2231]
+- CVE 619 https://github.com/gravitee-io/issues/issues/2231[#2231]
 - CVE 621 https://github.com/gravitee-io/issues/issues/2232[#2232]
-- CVE 623 https://github.com/gravitee-io/issues/issues/2232[#2236]
+- CVE 623 https://github.com/gravitee-io/issues/issues/2236[#2236]
 
 === Features
 
