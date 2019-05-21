@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/116?closed=1[APIM - 1.26.0 (2019-05-21)]
+
+=== Features
+
+*_Gateway_*
+
+- Add a server timeout https://github.com/gravitee-io/issues/issues/1834[#1834]
+
+*_General_*
+
+- Support websocket protocol https://github.com/gravitee-io/issues/issues/1899[#1899]
+
+*_Management_*
+
+- Allows to copy request/response body on the clipboard easily https://github.com/gravitee-io/issues/issues/2052[#2052]
+- Allows to search in logs payloads https://github.com/gravitee-io/issues/issues/2053[#2053]
+- Lifecycle API https://github.com/gravitee-io/issues/issues/1996[#1996]
+
+*_Management-api_*
+
+- Allow application's primary owner to select a group https://github.com/gravitee-io/issues/issues/824[#824]
+
+*_Policy_*
+
+- Role based Access Policy https://github.com/gravitee-io/issues/issues/731[#731]
+
+=== Improvements
+
+*_Management_*
+
+- Allow a subset of application types https://github.com/gravitee-io/issues/issues/2195[#2195]
+- Dynamic client registrationsupport initial access token https://github.com/gravitee-io/issues/issues/2207[#2207]
+- Trace each authentication failure https://github.com/gravitee-io/issues/issues/2117[#2117]
+
+*_Repository_*
+
+- [mongodb] Write concern driver configuration https://github.com/gravitee-io/issues/issues/2177[#2177]
+
 == https://github.com/gravitee-io/issues/milestone/136?closed=1[APIM - 1.25.3 (2019-05-16)]
 
 === Bug fixes
