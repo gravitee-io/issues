@@ -5,6 +5,47 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/135?closed=1[APIM - 1.20.17 (2019-05-21)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- [logging] all requests failed if logging condition contains errors https://github.com/gravitee-io/issues/issues/2249[#2249]
+
+*_Management_*
+
+- Changes are not reseted when leaving the Settings screen https://github.com/gravitee-io/issues/issues/2265[#2265]
+- Malformed url when you come from top failed api https://github.com/gravitee-io/issues/issues/2194[#2194]
+- [analytics] Status widget does not count all the events https://github.com/gravitee-io/issues/issues/2214[#2214]
+- [healthcheck] take into account the `From root Path` boolean when display the healthcheck summary https://github.com/gravitee-io/issues/issues/2192[#2192]
+
+*_Management-ui_*
+
+- DevMode should not be used for an admin https://github.com/gravitee-io/issues/issues/2240[#2240]
+
+*_Policy_*
+
+- [url-rewriting] No response received when empty response body form the backend https://github.com/gravitee-io/issues/issues/2235[#2235]
+
+*_Portal_*
+
+- Impossible to login when login form is hidden and no idp define https://github.com/gravitee-io/issues/issues/2007[#2007]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- Simple performance improvements https://github.com/gravitee-io/issues/issues/2247[#2247]
+
+*_Management_*
+
+- Log jwt error in warning, not error https://github.com/gravitee-io/issues/issues/2121[#2121]
+
+*_Management-ui_*
+
+- Revert 'Developer Portal Only' option https://github.com/gravitee-io/issues/issues/1525[#1525]
+
 == https://github.com/gravitee-io/issues/milestone/116?closed=1[APIM - 1.26.0 (2019-05-21)]
 
 === Features
