@@ -5,6 +5,37 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/137?closed=1[APIM - 1.25.4 (2019-05-24)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.20.17 https://github.com/gravitee-io/issues/issues/2292[#2292]
+
+*_Management_*
+
+- Attributes not interpreted anymore on api pages https://github.com/gravitee-io/issues/issues/2171[#2171]
+- Quality metric percentage must be rounded https://github.com/gravitee-io/issues/issues/2263[#2263]
+- Template for API's pages is not working as expected https://github.com/gravitee-io/issues/issues/2264[#2264]
+- Unable to uncheck a group in the groups menu https://github.com/gravitee-io/issues/issues/2274[#2274]
+- [logs] Endpoint is checked even if we use the mock policy https://github.com/gravitee-io/issues/issues/2269[#2269]
+
+*_Portal_*
+
+- Unable to display views picture if not admin https://github.com/gravitee-io/issues/issues/2252[#2252]
+
+=== Improvements
+
+*_Management_*
+
+- Import all endpoints from swagger/openapi https://github.com/gravitee-io/issues/issues/2241[#2241]
+- On swagger/openapi import, display the gravitee endpoints instead of the server list https://github.com/gravitee-io/issues/issues/2242[#2242]
+
+*_Policy_*
+
+- [dynamic-routing-policy] allow to not encode path https://github.com/gravitee-io/issues/issues/2239[#2239]
+
 == https://github.com/gravitee-io/issues/milestone/135?closed=1[APIM - 1.20.17 (2019-05-21)]
 
 === Bug fixes
