@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/139?closed=1[APIM - 1.25.5 (2019-05-29)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Reduce log level when trailing slash is missing in endpoint https://github.com/gravitee-io/issues/issues/2303[#2303]
+
+*_Management_*
+
+- Add support for export API as 1.20.x https://github.com/gravitee-io/issues/issues/2293[#2293]
+- Better support of swagger mock generation. https://github.com/gravitee-io/issues/issues/2291[#2291]
+- I can create a page without the permission https://github.com/gravitee-io/issues/issues/2261[#2261]
+- Unable to search apis by context-path https://github.com/gravitee-io/issues/issues/2290[#2290]
+- [healthcheck] take into account the `From root Path` boolean when display the healthcheck summary https://github.com/gravitee-io/issues/issues/2192[#2192]
+
+*_Policy_*
+
+- [jwt] Algorithm not compatible when moving from gravitee 1.20 to 1.25 https://github.com/gravitee-io/issues/issues/2294[#2294]
+- [oauth2] Strict mode is not working when introspection response contains more scopes than required scopes https://github.com/gravitee-io/issues/issues/2295[#2295]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- Remove compile dependencies and some refactor https://github.com/gravitee-io/issues/issues/2305[#2305]
+
+*_Gateway_*
+
+- Manage errors on target endpoint https://github.com/gravitee-io/issues/issues/1653[#1653]
+
+*_Portal_*
+
+- Add an option to enable the swagger try out in anonymous mode https://github.com/gravitee-io/issues/issues/2278[#2278]
+
 == https://github.com/gravitee-io/issues/milestone/140?closed=1[APIM - 1.26.1 (2019-05-27)]
 
 === Bug fixes
