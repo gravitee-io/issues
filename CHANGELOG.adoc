@@ -5,6 +5,30 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/143?closed=1[APIM - 1.20.18 (2019-06-12)]
+
+=== Bug fixes
+
+*_Reporter_*
+
+- [elasticsearch] Thread Blocked are thrown in production https://github.com/gravitee-io/issues/issues/2363[#2363]
+
+=== Features
+
+*_General_*
+
+- Backport issue #1920 https://github.com/gravitee-io/issues/issues/2115[#2115]
+
+=== Improvements
+
+*_Management_*
+
+- [audit] when updating a parameter, do not log when nothing change https://github.com/gravitee-io/issues/issues/2100[#2100]
+
+*_Portal_*
+
+- Add more debug log in the oauth authentication https://github.com/gravitee-io/issues/issues/2352[#2352]
+
 == https://github.com/gravitee-io/issues/milestone/139?closed=1[APIM - 1.25.5 (2019-05-29)]
 
 === Bug fixes
