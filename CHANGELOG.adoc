@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/142?closed=1[APIM - 1.25.6 (2019-06-13)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.20.18 https://github.com/gravitee-io/issues/issues/2367[#2367]
+
+*_Management_*
+
+- (+) button not well positioned in users management https://github.com/gravitee-io/issues/issues/2316[#2316]
+- [logs] keep the pagination configuration https://github.com/gravitee-io/issues/issues/2309[#2309]
+- [plans] form is not well displayed https://github.com/gravitee-io/issues/issues/2311[#2311]
+- [plans] icons can be outside the card https://github.com/gravitee-io/issues/issues/2310[#2310]
+
+*_Management-ui_*
+
+- DocumentationEdit on github does not have correct icon https://github.com/gravitee-io/issues/issues/2038[#2038]
+
+*_Portal_*
+
+- Warn box does not have the same red color https://github.com/gravitee-io/issues/issues/2032[#2032]
+
+*_Repository_*
+
+- [bridge-http] Retry client connection until the server is available https://github.com/gravitee-io/issues/issues/2318[#2318]
+- [mongodb] Upgrade script 1.25 fails when application.metadata field does not exist https://github.com/gravitee-io/issues/issues/2331[#2331]
+
+=== Improvements
+
+*_Gateway_*
+
+- [policy] Ratelimitchange log level when using the default cache config https://github.com/gravitee-io/issues/issues/2332[#2332]
+
+*_Management_*
+
+- Do not use href on <tr> for tables https://github.com/gravitee-io/issues/issues/2314[#2314]
+
 == https://github.com/gravitee-io/issues/milestone/143?closed=1[APIM - 1.20.18 (2019-06-12)]
 
 === Bug fixes
