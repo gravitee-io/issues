@@ -5,6 +5,68 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/117?closed=1[APIM - 1.27.0 (2019-06-19)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Error when indexing empty user-agent https://github.com/gravitee-io/issues/issues/2256[#2256]
+
+*_Fetchers_*
+
+- Gravitee-fetcher-http does not work with Envoy https://github.com/gravitee-io/issues/issues/2380[#2380]
+
+*_Gateway_*
+
+- Memory leak https://github.com/gravitee-io/issues/issues/2304[#2304]
+- Policy API is not up to date https://github.com/gravitee-io/issues/issues/2329[#2329]
+
+*_Management_*
+
+- API can not be started without being reviewed https://github.com/gravitee-io/issues/issues/2372[#2372]
+- API search is not working as expected https://github.com/gravitee-io/issues/issues/2382[#2382]
+- Lifecycle state is required when updating an API https://github.com/gravitee-io/issues/issues/2337[#2337]
+- Minor translation errors in nl & nl-be https://github.com/gravitee-io/issues/issues/2334[#2334]
+
+*_Reporter_*
+
+- [elasticsearch] Reporter should override canHandle(...) method https://github.com/gravitee-io/issues/issues/2320[#2320]
+
+=== Features
+
+*_Application_*
+
+- Renew client secret https://github.com/gravitee-io/issues/issues/2350[#2350]
+
+*_Gateway_*
+
+- Restriction of Plans by gateway https://github.com/gravitee-io/issues/issues/2219[#2219]
+
+*_Management_*
+
+- Allow developers to subscribe to multiple API plans from a single view https://github.com/gravitee-io/issues/issues/2223[#2223]
+- Allows to subscribe to multiple API plans during creation of application https://github.com/gravitee-io/issues/issues/2222[#2222]
+- Multi analytics dashboards https://github.com/gravitee-io/issues/issues/1997[#1997]
+- Selection of Plans by condition   https://github.com/gravitee-io/issues/issues/2220[#2220]
+- Support DCR client credentials https://github.com/gravitee-io/issues/issues/2226[#2226]
+
+=== Improvements
+
+*_Gateway_*
+
+- Response templates improvement https://github.com/gravitee-io/issues/issues/2208[#2208]
+
+*_Management_*
+
+- Default user mapping for OAuth 2.0 authentication https://github.com/gravitee-io/issues/issues/2170[#2170]
+- Redirect URIs not necessaries in some cases when creating applications https://github.com/gravitee-io/issues/issues/2227[#2227]
+
+*_Policy_*
+
+- [callout] Provide information to help user to define a context value https://github.com/gravitee-io/issues/issues/2364[#2364]
+- [http-callout] Response Handler https://github.com/gravitee-io/issues/issues/2258[#2258]
+
 == https://github.com/gravitee-io/issues/milestone/142?closed=1[APIM - 1.25.6 (2019-06-13)]
 
 === Bug fixes
