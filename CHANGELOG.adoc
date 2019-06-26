@@ -5,6 +5,30 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/145?closed=1[APIM - 1.25.7 (2019-06-25)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Take account of  vertx thread options https://github.com/gravitee-io/issues/issues/2403[#2403]
+
+*_Management_*
+
+- Better support of swagger mock generation https://github.com/gravitee-io/issues/issues/2404[#2404]
+- Health check configuration is not working anymore https://github.com/gravitee-io/issues/issues/2399[#2399]
+- Impossible to create path mapping from swagger pages anymore https://github.com/gravitee-io/issues/issues/1935[#1935]
+- Quality rate is not refreshed on save. https://github.com/gravitee-io/issues/issues/2394[#2394]
+- Response template is not part of an API export https://github.com/gravitee-io/issues/issues/2268[#2268]
+- [documentation] Do not display issues after the document is uploaded https://github.com/gravitee-io/issues/issues/2280[#2280]
+
+*_Portal_*
+
+- CSS issue when defining a long description for a view https://github.com/gravitee-io/issues/issues/2066[#2066]
+- Header entrypoints are not displayed on the documentation and support. https://github.com/gravitee-io/issues/issues/2401[#2401]
+- No-rating link is splited when the name of the API is too short https://github.com/gravitee-io/issues/issues/2033[#2033]
+- Rating is not updated https://github.com/gravitee-io/issues/issues/1969[#1969]
+
 == https://github.com/gravitee-io/issues/milestone/117?closed=1[APIM - 1.27.0 (2019-06-19)]
 
 === Bug fixes
