@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/149?closed=1[APIM - 1.27.1 (2019-07-02)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.25.7 https://github.com/gravitee-io/issues/issues/2419[#2419]
+
+*_Management_*
+
+- Button of subscription should not be displayed is there is subs https://github.com/gravitee-io/issues/issues/2389[#2389]
+- Description of additional selection rule is not well readable https://github.com/gravitee-io/issues/issues/2388[#2388]
+
+*_Policy_*
+
+- [generate-jwt] unable to generate JWT https://github.com/gravitee-io/issues/issues/2397[#2397]
+
+=== Improvements
+
+*_General_*
+
+- Minor rework on geo dashboard https://github.com/gravitee-io/issues/issues/2418[#2418]
+
 == https://github.com/gravitee-io/issues/milestone/145?closed=1[APIM - 1.25.7 (2019-06-25)]
 
 === Bug fixes
