@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/150?closed=1[APIM - 1.27.2 (2019-07-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Plan keyless is always evaluated even if a wrong apikey is provided https://github.com/gravitee-io/issues/issues/2444[#2444]
+
+*_Management_*
+
+- Missing OPTIONS in access-control-allow-methods https://github.com/gravitee-io/issues/issues/2435[#2435]
+
+*_Policy_*
+
+- The Ressources declared in policy on the plan not working well when multiple oauth2 plans https://github.com/gravitee-io/issues/issues/2390[#2390]
+
+*_Portal_*
+
+- Angular issue when getting entrypoints by tags https://github.com/gravitee-io/issues/issues/2462[#2462]
+
 == https://github.com/gravitee-io/issues/milestone/147?closed=1[APIM - 1.25.8 (2019-07-16)]
 
 === Bug fixes
