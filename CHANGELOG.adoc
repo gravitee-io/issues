@@ -5,6 +5,32 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/118?closed=1[APIM - 1.28.0 (2019-07-18)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Error while importing an API when no default entrypoint is defined https://github.com/gravitee-io/issues/issues/2469[#2469]
+
+*_Policy_*
+
+- [json-to-json] Jolt should not update Content-Type header https://github.com/gravitee-io/issues/issues/1024[#1024]
+
+=== Features
+
+*_Management_*
+
+- Adding a filter to set the date range in the health check screen https://github.com/gravitee-io/issues/issues/2378[#2378]
+- Import API definition via a URL https://github.com/gravitee-io/issues/issues/2377[#2377]
+- Update API with swagger / OAI https://github.com/gravitee-io/issues/issues/2376[#2376]
+
+=== Improvements
+
+*_Policy_*
+
+- [xslt] EL support for XSL stylesheet parameters https://github.com/gravitee-io/issues/issues/2393[#2393]
+
 == https://github.com/gravitee-io/issues/milestone/153?closed=1[APIM - 1.27.3 (2019-07-18)]
 
 === Bug fixes
