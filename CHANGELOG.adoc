@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/155?closed=1[APIM - 1.25.9 (2019-07-23)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Application's name mustn't be empty https://github.com/gravitee-io/issues/issues/2466[#2466]
+- Close PAUSED subscriptions when closing plan https://github.com/gravitee-io/issues/issues/2484[#2484]
+
+*_Policy_*
+
+- [jwt] Header propagation must be done after token validation https://github.com/gravitee-io/issues/issues/2486[#2486]
+
+=== Features
+
+*_Reporter_*
+
+- [elasticsearch] backport #2379 https://github.com/gravitee-io/issues/issues/2489[#2489]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add more logs in case of logging condition failure https://github.com/gravitee-io/issues/issues/2488[#2488]
+
+*_Policy_*
+
+- [generate-jwt] Add support for HS384 and HS512 https://github.com/gravitee-io/issues/issues/2487[#2487]
+
 == https://github.com/gravitee-io/issues/milestone/118?closed=1[APIM - 1.28.0 (2019-07-18)]
 
 === Bug fixes
