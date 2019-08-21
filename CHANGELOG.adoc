@@ -5,6 +5,42 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/158?closed=1[APIM - 1.25.10 (2019-08-21)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Cross Cluster Search does not show logs/monitoring/hc https://github.com/gravitee-io/issues/issues/2534[#2534]
+- Extended request mapping is not taken into account https://github.com/gravitee-io/issues/issues/2539[#2539]
+
+*_Management_*
+
+- Filter on hits should be based on "endpoint" field https://github.com/gravitee-io/issues/issues/2536[#2536]
+- Unable to login with an email containing a "+" https://github.com/gravitee-io/issues/issues/2519[#2519]
+- [subscriptions] keep filters and pagination https://github.com/gravitee-io/issues/issues/2421[#2421]
+
+*_Policy_*
+
+- [dynamic-routing] `:` not working in path https://github.com/gravitee-io/issues/issues/2533[#2533]
+- [request-validation] check null parameters https://github.com/gravitee-io/issues/issues/2531[#2531]
+
+*_Portal_*
+
+- Redirect user to wished url after login https://github.com/gravitee-io/issues/issues/2093[#2093]
+
+=== Improvements
+
+*_Management_*
+
+- Allow applications to close pending and paused subscriptions https://github.com/gravitee-io/issues/issues/2530[#2530]
+- Completely change the sourceId of a deleted user https://github.com/gravitee-io/issues/issues/2537[#2537]
+- [documentation] disable fetchAll when its in progress https://github.com/gravitee-io/issues/issues/2538[#2538]
+
+*_Policy_*
+
+- [generate-jwt] Optimize performances https://github.com/gravitee-io/issues/issues/2507[#2507]
+
 == https://github.com/gravitee-io/issues/milestone/159?closed=1[APIM - 1.20.19 (2019-08-21)]
 
 === Improvements
