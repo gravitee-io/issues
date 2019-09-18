@@ -5,6 +5,94 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/119?closed=1[APIM - 1.29.0 (2019-09-18)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API gateway is not forwarding HTTP/1.1 error code statustext in response header https://github.com/gravitee-io/issues/issues/2381[#2381]
+- Bad plan selection with empty query-param api-key https://github.com/gravitee-io/issues/issues/2478[#2478]
+- HTTP 500 when call API with wrong context path https://github.com/gravitee-io/issues/issues/2504[#2504]
+- Port is missing in the configuration of rate limit https://github.com/gravitee-io/issues/issues/2548[#2548]
+
+*_Management_*
+
+- API key is not logged in analytics anymore https://github.com/gravitee-io/issues/issues/2492[#2492]
+- APIM portal not sending scope as param on request to Gravitee AM configured as identity provider https://github.com/gravitee-io/issues/issues/2407[#2407]
+- Adapt width of import's modal on a small resolution screen https://github.com/gravitee-io/issues/issues/2475[#2475]
+- I can subscribe to a plan for which I do not have access https://github.com/gravitee-io/issues/issues/2573[#2573]
+- Impossible to detach an API while creating a view https://github.com/gravitee-io/issues/issues/2576[#2576]
+- Jetty server becomes unresponsive after being idle https://github.com/gravitee-io/issues/issues/2549[#2549]
+- Logging configuration filter display closed plans https://github.com/gravitee-io/issues/issues/1845[#1845]
+- Quality metric health-check should check configuration on endpoints also https://github.com/gravitee-io/issues/issues/2596[#2596]
+- Ratings do not display users 'in memory' https://github.com/gravitee-io/issues/issues/2553[#2553]
+- Redirection problem at the first refresh of a connected user when jwt secret is changed https://github.com/gravitee-io/issues/issues/1887[#1887]
+- Renew subscription also renew expired (not revoked) api keys https://github.com/gravitee-io/issues/issues/2578[#2578]
+- The copy to clipboard button of tenant is not correctly centered https://github.com/gravitee-io/issues/issues/1691[#1691]
+- When adding/updating a dictionary element, the item menu should be selected https://github.com/gravitee-io/issues/issues/1599[#1599]
+- When deleting a notification, list is not refreshed https://github.com/gravitee-io/issues/issues/1856[#1856]
+
+*_Policy_*
+
+- [dynamic-routing] EL is not supported correctly in regex pattern https://github.com/gravitee-io/issues/issues/946[#946]
+
+=== Features
+
+*_Elasticsearch_*
+
+- Elastic 7.x support https://github.com/gravitee-io/issues/issues/2165[#2165]
+
+*_Gateway_*
+
+- Route requests by header param instead of context-path https://github.com/gravitee-io/issues/issues/503[#503]
+- Virtual hosting support https://github.com/gravitee-io/issues/issues/1594[#1594]
+
+*_Management_*
+
+- Add a sparkline graph on subscriptions list https://github.com/gravitee-io/issues/issues/2497[#2497]
+- Add analytics widgets to display response times stats (avg/min/max) and number of requests per second on a given period https://github.com/gravitee-io/issues/issues/2499[#2499]
+- Allows to export subscriptions to CSV https://github.com/gravitee-io/issues/issues/2494[#2494]
+- Allows to filter logs by endpoint https://github.com/gravitee-io/issues/issues/2495[#2495]
+- Allows to search subscriptions by api key https://github.com/gravitee-io/issues/issues/2496[#2496]
+- Display client id and not token on logs for JWT/OAuth2 plans https://github.com/gravitee-io/issues/issues/2574[#2574]
+- Display top failed calls as percentage https://github.com/gravitee-io/issues/issues/2498[#2498]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allow websocket support in gravitee.yml https://github.com/gravitee-io/issues/issues/2374[#2374]
+- Implement WebSocket scheme support for ws and wss https://github.com/gravitee-io/issues/issues/2255[#2255]
+- Inefficient and Arbitrary selection of API in DefaultReactorHandlerResolver https://github.com/gravitee-io/issues/issues/1445[#1445]
+- NoClassDefFoundError io/gravitee/resource/oauth2/api/OAuth2Response https://github.com/gravitee-io/issues/issues/2408[#2408]
+
+*_General_*
+
+- Management Option to disallow the api-key in query params https://github.com/gravitee-io/issues/issues/2446[#2446]
+
+*_Management_*
+
+- Ability to easily put an endpoint in backup mode https://github.com/gravitee-io/issues/issues/1890[#1890]
+- Add a header when export logs as CSV https://github.com/gravitee-io/issues/issues/2551[#2551]
+- Remove duplicate context path in definition https://github.com/gravitee-io/issues/issues/2479[#2479]
+- Resource oauth2 provider always trusts all certs and do not verify hosts https://github.com/gravitee-io/issues/issues/2584[#2584]
+- Weak SSL protocols should not be used when authenticating with OAuth2 https://github.com/gravitee-io/issues/issues/2600[#2600]
+- When searching for APIs, empty input does not trigger the search https://github.com/gravitee-io/issues/issues/2559[#2559]
+
+*_Policy_*
+
+- [callout-http] Calls are not reaching when no variable is defined https://github.com/gravitee-io/issues/issues/2383[#2383]
+
+*_Reporter_*
+
+- [elasticsearch] Deprecate version 2.X https://github.com/gravitee-io/issues/issues/2514[#2514]
+
+*_Repository_*
+
+- [elasticsearch] Display an error when a problem occurs while getting info https://github.com/gravitee-io/issues/issues/2572[#2572]
+- [reporter] [elasticsearch] SSL/TLS certificate auth https://github.com/gravitee-io/issues/issues/2508[#2508]
+
 == https://github.com/gravitee-io/issues/milestone/154?closed=1[APIM - 1.28.1 (2019-08-23)]
 
 === Bug fixes
