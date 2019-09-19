@@ -5,6 +5,39 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/161?closed=1[APIM - 1.25.11 (2019-09-18)]
+
+=== Bug fixes
+
+*_General_*
+
+- Groovy error using context.setAttribute https://github.com/gravitee-io/issues/issues/2455[#2455]
+
+*_Management_*
+
+- Pagination size is not working anymore on subscriptions list https://github.com/gravitee-io/issues/issues/2552[#2552]
+- Read permission must be enough to see the healthcheck https://github.com/gravitee-io/issues/issues/2566[#2566]
+- Settings menu is not displaying menu elements according to set permissions https://github.com/gravitee-io/issues/issues/2555[#2555]
+- Users with read right on Entrypoints cannot list https://github.com/gravitee-io/issues/issues/2620[#2620]
+- [policies] don't fail if you create a path without a `/` https://github.com/gravitee-io/issues/issues/2609[#2609]
+
+*_Repository_*
+
+- [elasticsearch] Optimization of date histogram queries is not working on some cases https://github.com/gravitee-io/issues/issues/2503[#2503]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add an option to encode outgoing request https://github.com/gravitee-io/issues/issues/2557[#2557]
+
+*_Management_*
+
+- Allow to retreive users email in search results https://github.com/gravitee-io/issues/issues/2599[#2599]
+- Hide archived applications on user administration. https://github.com/gravitee-io/issues/issues/2597[#2597]
+- [dictionaries] read only users see providers informations https://github.com/gravitee-io/issues/issues/2618[#2618]
+- [user] remove user picture on delete https://github.com/gravitee-io/issues/issues/2598[#2598]
+
 == https://github.com/gravitee-io/issues/milestone/119?closed=1[APIM - 1.29.0 (2019-09-18)]
 
 === Bug fixes
