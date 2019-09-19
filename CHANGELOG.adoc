@@ -7,6 +7,12 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 
 == https://github.com/gravitee-io/issues/milestone/167?closed=1[APIM - 1.28.2 (2019-09-19)]
 
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.25.11 https://github.com/gravitee-io/issues/issues/2635[#2635]
+
 == https://github.com/gravitee-io/issues/milestone/161?closed=1[APIM - 1.25.11 (2019-09-18)]
 
 === Bug fixes
