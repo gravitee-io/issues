@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/164?closed=1[APIM - 1.29.1 (2019-09-25)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API Policy Path is not handled https://github.com/gravitee-io/issues/issues/2632[#2632]
+
+*_General_*
+
+- Merge release 1.28.2 https://github.com/gravitee-io/issues/issues/2639[#2639]
+
+*_Management_*
+
+- ExceptionInInitializerError while upgrading jdk to 11 https://github.com/gravitee-io/issues/issues/2481[#2481]
+- Requests per second is not displayed anymore https://github.com/gravitee-io/issues/issues/2628[#2628]
+
+*_Policy_*
+
+- [dynamic-routing] Invalid path with virtual host feature https://github.com/gravitee-io/issues/issues/2640[#2640]
+
 == https://github.com/gravitee-io/issues/milestone/168?closed=1[APIM - 1.28.3 (2019-09-20)]
 
 === Bug fixes
