@@ -5,6 +5,56 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/165?closed=1[APIM - 1.25.12 (2019-09-30)]
+
+=== Bug fixes
+
+*_Backport_*
+
+- #1599 https://github.com/gravitee-io/issues/issues/2660[#2660]
+- #1691 https://github.com/gravitee-io/issues/issues/2655[#2655]
+- #1691 https://github.com/gravitee-io/issues/issues/2658[#2658]
+- #1845 https://github.com/gravitee-io/issues/issues/2662[#2662]
+- #1856 https://github.com/gravitee-io/issues/issues/2654[#2654]
+- #2256 https://github.com/gravitee-io/issues/issues/2645[#2645]
+- #2266 https://github.com/gravitee-io/issues/issues/2657[#2657]
+- #2407 https://github.com/gravitee-io/issues/issues/2656[#2656]
+- #2435 https://github.com/gravitee-io/issues/issues/2647[#2647]
+- #2462 https://github.com/gravitee-io/issues/issues/2646[#2646]
+- #2469 https://github.com/gravitee-io/issues/issues/2648[#2648]
+- #2481 https://github.com/gravitee-io/issues/issues/2659[#2659]
+- #2548 https://github.com/gravitee-io/issues/issues/2653[#2653]
+- #2553 https://github.com/gravitee-io/issues/issues/2652[#2652]
+- #2573 https://github.com/gravitee-io/issues/issues/2651[#2651]
+- #2576 https://github.com/gravitee-io/issues/issues/2650[#2650]
+- #2596 https://github.com/gravitee-io/issues/issues/2649[#2649]
+- #946 https://github.com/gravitee-io/issues/issues/2661[#2661]
+
+*_Dictionaries_*
+
+- Can't stop a deleted dictionary https://github.com/gravitee-io/issues/issues/2663[#2663]
+
+*_Management_*
+
+- Do not save apis with regex error in path https://github.com/gravitee-io/issues/issues/2642[#2642]
+- Subscriptions failed if an app has no primary owner https://github.com/gravitee-io/issues/issues/2671[#2671]
+- [notification] remove notification when a user is deleted https://github.com/gravitee-io/issues/issues/2593[#2593]
+-  Invalid Path mappings cause management API returns 500 https://github.com/gravitee-io/issues/issues/2424[#2424]
+
+*_Policy_*
+
+- [request-validation] Requests not logged with scope REQUEST-CONTENT https://github.com/gravitee-io/issues/issues/2644[#2644]
+
+=== Improvements
+
+*_Management_*
+
+- Display the end user from the jwt policy https://github.com/gravitee-io/issues/issues/2643[#2643]
+
+*_Policy_*
+
+- [rate-limit] move to a reactive implementation https://github.com/gravitee-io/issues/issues/2570[#2570]
+
 == https://github.com/gravitee-io/issues/milestone/164?closed=1[APIM - 1.29.1 (2019-09-25)]
 
 === Bug fixes
