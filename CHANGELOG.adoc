@@ -5,6 +5,53 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/172?closed=1[APIM - 1.25.14 (2019-10-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Errors when empty query param follows a valued query param. https://github.com/gravitee-io/issues/issues/2742[#2742]
+
+*_Management_*
+
+- After a click on an item the notification's screen is broken on Firefox https://github.com/gravitee-io/issues/issues/2704[#2704]
+- Do not display error notification when user's scheduled tasks or notifications failed https://github.com/gravitee-io/issues/issues/2689[#2689]
+- ExceptionInInitializerError while upgrading jdk to 11 https://github.com/gravitee-io/issues/issues/2481[#2481]
+- Help message in the failover configuration is wrong https://github.com/gravitee-io/issues/issues/2684[#2684]
+- Remove an api forom a view removes it for all views https://github.com/gravitee-io/issues/issues/2767[#2767]
+- Sometimes the api list is not refreshing well https://github.com/gravitee-io/issues/issues/2763[#2763]
+- The `reset` feature does not work on application's attributes and tenant configuration https://github.com/gravitee-io/issues/issues/2690[#2690]
+- The group administrator should not need the UPDATE permission https://github.com/gravitee-io/issues/issues/2708[#2708]
+- Unable to access settings for an api publisher https://github.com/gravitee-io/issues/issues/2752[#2752]
+- Unable to delete a dictionary in JDBC https://github.com/gravitee-io/issues/issues/2745[#2745]
+- When deleting an API, alerts should be also deleted https://github.com/gravitee-io/issues/issues/2306[#2306]
+- Wrong color on buttons on the deployments form https://github.com/gravitee-io/issues/issues/2729[#2729]
+
+*_Policy_*
+
+- [request-validation] email are no longer validated https://github.com/gravitee-io/issues/issues/2746[#2746]
+
+*_Repository_*
+
+- [jdbc] Upgrade schema is not working for MySQL https://github.com/gravitee-io/issues/issues/2720[#2720]
+
+=== Improvements
+
+*_Management_*
+
+- Add a confirm dialog when deleting a dictionary https://github.com/gravitee-io/issues/issues/2738[#2738]
+- Allow api/app name with one letter https://github.com/gravitee-io/issues/issues/2707[#2707]
+- Increase the http timeout during "fetch" https://github.com/gravitee-io/issues/issues/2762[#2762]
+
+*_Reporter_*
+
+- [elasticsearch] Message in request metrics should be searchable https://github.com/gravitee-io/issues/issues/2735[#2735]
+
+*_Repository_*
+
+- Retry the connection to the repository on startup https://github.com/gravitee-io/issues/issues/2693[#2693]
+
 == https://github.com/gravitee-io/issues/milestone/176?closed=1[APIM - 1.29.4 (2019-10-07)]
 
 === Bug fixes
