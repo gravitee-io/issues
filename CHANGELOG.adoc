@@ -5,6 +5,48 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/182?closed=1[APIM - 1.25.15 (2019-11-04)]
+
+=== Bug fixes
+
+*_Gravitee-policy-request-validation_*
+
+- Support order of rules https://github.com/gravitee-io/issues/issues/2666[#2666]
+
+*_Management_*
+
+- Delete button is not displayed on metadata sometimes https://github.com/gravitee-io/issues/issues/2703[#2703]
+- Read only right is not well handled on documentation page https://github.com/gravitee-io/issues/issues/2701[#2701]
+- Take care of content type on swagger/OAI specs https://github.com/gravitee-io/issues/issues/2766[#2766]
+- User management delete button is hidden on tight screen resolution https://github.com/gravitee-io/issues/issues/2821[#2821]
+- [analytics] get all HTTP response status for global dashboard https://github.com/gravitee-io/issues/issues/2813[#2813]
+
+*_Policy_*
+
+- [callout-http] Multiple headers not handled correctly in the callout response https://github.com/gravitee-io/issues/issues/2780[#2780]
+- [request-validation] Policy is writing an empty content to backend https://github.com/gravitee-io/issues/issues/2833[#2833]
+
+*_Portal_*
+
+- Redirect to login when the user token expires https://github.com/gravitee-io/issues/issues/2824[#2824]
+
+=== Improvements
+
+*_Management_*
+
+- Add a more informative message when a user close an api, an application or a plan https://github.com/gravitee-io/issues/issues/2405[#2405]
+- Analyticsmissing name for deleted plans https://github.com/gravitee-io/issues/issues/2815[#2815]
+- Increase the max length of API name https://github.com/gravitee-io/issues/issues/2800[#2800]
+- [idp] Add email support for inmemory users https://github.com/gravitee-io/issues/issues/2590[#2590]
+
+*_Notification_*
+
+- [email] use a dynamic value for the Primary Owner email https://github.com/gravitee-io/issues/issues/2831[#2831]
+
+*_Policy_*
+
+- [transform-headers] Add validation constraint on the key https://github.com/gravitee-io/issues/issues/2712[#2712]
+
 == https://github.com/gravitee-io/issues/milestone/185?closed=1[APIM - 1.29.5 (2019-10-25)]
 
 === Bug fixes
