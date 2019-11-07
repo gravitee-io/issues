@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/188?closed=1[APIM - 1.29.6 (2019-11-07)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Fail to translate from wss gateway to wss on endpoint sockets https://github.com/gravitee-io/issues/issues/2811[#2811]
+
+*_General_*
+
+- Merge release 1.25.15 https://github.com/gravitee-io/issues/issues/2856[#2856]
+
+*_Management_*
+
+- Can subscribe to an API with an archived application https://github.com/gravitee-io/issues/issues/2732[#2732]
+- Error on page template because of virtual hosting https://github.com/gravitee-io/issues/issues/2719[#2719]
+- WebhookNotifier doesn't support multiple languages https://github.com/gravitee-io/issues/issues/2727[#2727]
+
+*_Management-ui_*
+
+- Portal.entrypoint overriding constants.json has no effect https://github.com/gravitee-io/issues/issues/2676[#2676]
+
+=== Improvements
+
+*_Portal_*
+
+- Applications menu item visible even though no permission is granted https://github.com/gravitee-io/issues/issues/2565[#2565]
+
 == https://github.com/gravitee-io/issues/milestone/182?closed=1[APIM - 1.25.15 (2019-11-04)]
 
 === Bug fixes
