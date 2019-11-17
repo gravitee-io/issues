@@ -5,6 +5,66 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/120?closed=1[APIM - 1.30.0 (2019-11-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- [plan] token extractor for JWT/OAuth 2.0 plan should look for token in request parameter https://github.com/gravitee-io/issues/issues/2891[#2891]
+
+*_General_*
+
+- Merge release 1.29.6 https://github.com/gravitee-io/issues/issues/2859[#2859]
+
+*_Management_*
+
+- Minor changes in multi analytics dashboard https://github.com/gravitee-io/issues/issues/2819[#2819]
+
+=== Features
+
+*_General_*
+
+- Alerting Integration https://github.com/gravitee-io/issues/issues/2777[#2777]
+
+*_Management_*
+
+- Allows to define manual rules for the reviewer which will affect the API quality https://github.com/gravitee-io/issues/issues/2601[#2601]
+- Dynamic global dashboards of analytics https://github.com/gravitee-io/issues/issues/2595[#2595]
+- Lifecycle - allows to deprecate an API https://github.com/gravitee-io/issues/issues/55[#55]
+
+*_Node_*
+
+- Provide a way to intercept node instantiation https://github.com/gravitee-io/issues/issues/2878[#2878]
+
+*_Plugin_*
+
+- Add an interceptor while deploying a plugin https://github.com/gravitee-io/issues/issues/2880[#2880]
+
+*_Portal_*
+
+- Duplicate an api to create a new version of the API https://github.com/gravitee-io/issues/issues/433[#433]
+
+=== Improvements
+
+*_Gateway_*
+
+- Notify reporters of requests to unhandled contexts https://github.com/gravitee-io/issues/issues/2625[#2625]
+
+*_Gravitee-policy-oauth2_*
+
+- Support EL in resource name https://github.com/gravitee-io/issues/issues/2629[#2629]
+
+*_Management_*
+
+- Client registration (dcr)manage software_id https://github.com/gravitee-io/issues/issues/2836[#2836]
+- [health check] The timeline in summary shouldn't be centered https://github.com/gravitee-io/issues/issues/2447[#2447]
+
+*_Policy_*
+
+- [generate-jwt] Custom claims can be only Strings https://github.com/gravitee-io/issues/issues/2850[#2850]
+- [jwt] Allows to override claim to read for the log of the end user https://github.com/gravitee-io/issues/issues/2741[#2741]
+
 == https://github.com/gravitee-io/issues/milestone/188?closed=1[APIM - 1.29.6 (2019-11-07)]
 
 === Bug fixes
