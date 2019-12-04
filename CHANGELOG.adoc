@@ -5,6 +5,81 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/186?closed=1[APIM - 1.25.16 (2019-12-04)]
+
+=== Bug fixes
+
+*_Analytics_*
+
+- Request headers with the same name are not displayed correctly https://github.com/gravitee-io/issues/issues/2890[#2890]
+
+*_Gateway_*
+
+- No path-mapping when getting 401 or 403 status code https://github.com/gravitee-io/issues/issues/2928[#2928]
+
+*_General_*
+
+- Error 400, IllegalArgumentException in dynamic routing https://github.com/gravitee-io/issues/issues/2875[#2875]
+
+*_Management_*
+
+- API events are not in the select list for logs https://github.com/gravitee-io/issues/issues/2883[#2883]
+- Add controls when creating/updating an api https://github.com/gravitee-io/issues/issues/2938[#2938]
+- Keep pagination when navigate through users https://github.com/gravitee-io/issues/issues/2897[#2897]
+- Platform dashboard rights not correctly handled for widget response status https://github.com/gravitee-io/issues/issues/2868[#2868]
+- Some settings are not save in the current session https://github.com/gravitee-io/issues/issues/2968[#2968]
+- Update page by importing a file doesn't work. https://github.com/gravitee-io/issues/issues/2896[#2896]
+- When deleting an API, its pages should be also deleted https://github.com/gravitee-io/issues/issues/2844[#2844]
+
+*_Management-api_*
+
+- View is loosing its picture when re-ordering https://github.com/gravitee-io/issues/issues/2909[#2909]
+
+*_Management-ui_*
+
+- [dictionaries] Performance issue when dictionary has a lot of properties https://github.com/gravitee-io/issues/issues/2846[#2846]
+
+*_Policy_*
+
+- [request-validation] Requests not logged with scope REQUEST-CONTENT https://github.com/gravitee-io/issues/issues/2644[#2644]
+
+*_Portal_*
+
+- API Gallerycss issue for the API logo https://github.com/gravitee-io/issues/issues/2113[#2113]
+- Blind screen when loading a documentation page https://github.com/gravitee-io/issues/issues/1968[#1968]
+
+*_Repository_*
+
+- [mongodb] Wrong default authSource https://github.com/gravitee-io/issues/issues/2905[#2905]
+
+=== Features
+
+*_Node_*
+
+- Add health data available in the prometheus endpoint https://github.com/gravitee-io/issues/issues/1958[#1958]
+
+=== Improvements
+
+*_Analytics_*
+
+- Index the remote-address on each requests https://github.com/gravitee-io/issues/issues/2895[#2895]
+
+*_Management_*
+
+- Add an header in each dynamic-properties requests https://github.com/gravitee-io/issues/issues/2854[#2854]
+
+*_Management-api_*
+
+- Improve swagger documentation for analytics https://github.com/gravitee-io/issues/issues/2914[#2914]
+
+*_Managment_*
+
+- Add group to all existing apps/apis https://github.com/gravitee-io/issues/issues/2253[#2253]
+
+*_Policy_*
+
+- [groovy] Better management of memory consumption https://github.com/gravitee-io/issues/issues/2782[#2782]
+
 == https://github.com/gravitee-io/issues/milestone/120?closed=1[APIM - 1.30.0 (2019-11-17)]
 
 === Bug fixes
