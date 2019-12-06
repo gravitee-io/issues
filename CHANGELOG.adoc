@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/194?closed=1[APIM - 1.25.17 (2019-12-06)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Do not log stream event requests https://github.com/gravitee-io/issues/issues/2976[#2976]
+- Request not logged when X-Forwarded-For header contains host with port number https://github.com/gravitee-io/issues/issues/2937[#2937]
+
+*_Management_*
+
+- Analyticsunknown application/api are always on top https://github.com/gravitee-io/issues/issues/2988[#2988]
+
+*_Node_*
+
+- NPE if metrics service is disabled https://github.com/gravitee-io/issues/issues/2979[#2979]
+
+=== Improvements
+
+*_Management_*
+
+- Do not log oauth mapping in error https://github.com/gravitee-io/issues/issues/2973[#2973]
+
 == https://github.com/gravitee-io/issues/milestone/186?closed=1[APIM - 1.25.16 (2019-12-04)]
 
 === Bug fixes
