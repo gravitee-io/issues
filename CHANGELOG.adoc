@@ -5,6 +5,49 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/196?closed=1[APIM - 1.30.1 (2019-12-19)]
+
+=== Bug fixes
+
+*_General_*
+
+- Add option do disable log payloads indexation https://github.com/gravitee-io/issues/issues/2952[#2952]
+- Context path not used on the elasticsearch reporter https://github.com/gravitee-io/issues/issues/3030[#3030]
+- Merge release 1.25.17 https://github.com/gravitee-io/issues/issues/3042[#3042]
+- Path not used with the management bridge http https://github.com/gravitee-io/issues/issues/2992[#2992]
+
+*_Management_*
+
+- Add read permission by default on quality rules https://github.com/gravitee-io/issues/issues/2984[#2984]
+- Analytic widgets with latency displayed hits instead of latency https://github.com/gravitee-io/issues/issues/3041[#3041]
+- Analyticsunknown application always shown as deleted application https://github.com/gravitee-io/issues/issues/2987[#2987]
+- Do not allow navigation between api's and application's analytics https://github.com/gravitee-io/issues/issues/2986[#2986]
+
+*_Node_*
+
+- NodeDeployer must managed injectable fields https://github.com/gravitee-io/issues/issues/2963[#2963]
+
+*_Portal_*
+
+- Unable to reset user password from link https://github.com/gravitee-io/issues/issues/2957[#2957]
+
+=== Improvements
+
+*_Alert_*
+
+- Alerts and Notifications implements Serializable https://github.com/gravitee-io/issues/issues/2997[#2997]
+
+*_General_*
+
+- Add PKCS12 support for gateway HTTP server and management HTTP server https://github.com/gravitee-io/issues/issues/2978[#2978]
+- No trust configuration for the bridge client https://github.com/gravitee-io/issues/issues/3031[#3031]
+
+*_Policy_*
+
+- [assign-attributes] Support for on-request-content and on-response-content https://github.com/gravitee-io/issues/issues/2948[#2948]
+- [json-validation] enabling response scope for gravitee-policy-json-validation https://github.com/gravitee-io/issues/issues/2825[#2825]
+- [resource-filtering] Context-path in the pattern https://github.com/gravitee-io/issues/issues/1271[#1271]
+
 == https://github.com/gravitee-io/issues/milestone/194?closed=1[APIM - 1.25.17 (2019-12-06)]
 
 === Bug fixes
