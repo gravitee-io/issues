@@ -5,6 +5,53 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/195?closed=1[APIM - 1.25.18 (2020-01-11)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- The max size configuration of reporters is not well handled https://github.com/gravitee-io/issues/issues/3005[#3005]
+
+*_General_*
+
+- Wrong comment syntax in .bat file https://github.com/gravitee-io/issues/issues/3050[#3050]
+
+*_Management_*
+
+- Do not log message when a field is not mapped on an identity provider https://github.com/gravitee-io/issues/issues/3016[#3016]
+- Improve email errors management https://github.com/gravitee-io/issues/issues/3038[#3038]
+- When deleting an API, memberships and notifications should also be deleted https://github.com/gravitee-io/issues/issues/2711[#2711]
+
+*_Policy_*
+
+- [mock]  JSON schema - duplicate items on status property https://github.com/gravitee-io/issues/issues/3029[#3029]
+
+*_Portal_*
+
+- Overflow of tags and views in the api header. https://github.com/gravitee-io/issues/issues/3053[#3053]
+
+*_Repository_*
+
+- [mongodb] Performance issues when searching into audits https://github.com/gravitee-io/issues/issues/3065[#3065]
+
+=== Improvements
+
+*_Gateway_*
+
+- We should avoid to log binary content https://github.com/gravitee-io/issues/issues/3007[#3007]
+
+*_Management_*
+
+- Add a warning message if `*` is set for allowed origins of CORS https://github.com/gravitee-io/issues/issues/3055[#3055]
+- Change log level if email is disabled https://github.com/gravitee-io/issues/issues/3035[#3035]
+- Create "chips" when leaving the input https://github.com/gravitee-io/issues/issues/3062[#3062]
+- Logs configuratorgenerate a more tolerant condition https://github.com/gravitee-io/issues/issues/3047[#3047]
+
+*_Management-api_*
+
+- Add EL support for the "email-support" API metadata https://github.com/gravitee-io/issues/issues/3049[#3049]
+
 == https://github.com/gravitee-io/issues/milestone/196?closed=1[APIM - 1.30.1 (2019-12-19)]
 
 === Bug fixes
