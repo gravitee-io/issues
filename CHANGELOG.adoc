@@ -5,6 +5,33 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/197?closed=1[APIM - 1.30.2 (2020-01-15)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.25.18 https://github.com/gravitee-io/issues/issues/3090[#3090]
+- Merge release 1.25.19 https://github.com/gravitee-io/issues/issues/3099[#3099]
+
+*_Management_*
+
+- Cannot remove an item on the widget status (pie) https://github.com/gravitee-io/issues/issues/3089[#3089]
+
+*_Policy_*
+
+- [resource-filtering] always fails if multiple resources are configured https://github.com/gravitee-io/issues/issues/3060[#3060]
+
+=== Improvements
+
+*_Gateway_*
+
+- Remove log activity for HTTP client https://github.com/gravitee-io/issues/issues/3056[#3056]
+
+*_Management_*
+
+- Make case-insensitive enum when api is imported https://github.com/gravitee-io/issues/issues/2995[#2995]
+
 == https://github.com/gravitee-io/issues/milestone/199?closed=1[APIM - 1.25.19 (2020-01-15)]
 
 === Bug fixes
