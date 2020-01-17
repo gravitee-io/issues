@@ -5,6 +5,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/201?closed=1[APIM - 1.25.20 (2020-01-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Error[failed to parse field [api-response-time] of type [integer] https://github.com/gravitee-io/issues/issues/2989[#2989]
+
 == https://github.com/gravitee-io/issues/milestone/197?closed=1[APIM - 1.30.2 (2020-01-15)]
 
 === Bug fixes
