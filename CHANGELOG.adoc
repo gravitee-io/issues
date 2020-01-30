@@ -5,6 +5,57 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/202?closed=1[APIM - 1.25.21 (2020-01-30)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Closed oauth subscriptions continue to work https://github.com/gravitee-io/issues/issues/3112[#3112]
+
+*_Management_*
+
+- An apikey cannot ended after subscription https://github.com/gravitee-io/issues/issues/3153[#3153]
+- Error trying to import API with primary owner without email https://github.com/gravitee-io/issues/issues/3104[#3104]
+- Manage import/export Api documentation with folders https://github.com/gravitee-io/issues/issues/3129[#3129]
+- The configuration of an email on a user (in memory) does not work https://github.com/gravitee-io/issues/issues/3103[#3103]
+
+*_Policy_*
+
+- [transform query params] Could not merge params https://github.com/gravitee-io/issues/issues/3158[#3158]
+
+*_Repository_*
+
+- [mongodb] Connection leak https://github.com/gravitee-io/issues/issues/3169[#3169]
+
+=== Features
+
+*_Management_*
+
+- Add a "Maintenance Mode" status in the rest-api https://github.com/gravitee-io/issues/issues/3124[#3124]
+
+=== Improvements
+
+*_Analytics_*
+
+- Be more specific between response time and latency https://github.com/gravitee-io/issues/issues/3113[#3113]
+- Display the complete request on the application side https://github.com/gravitee-io/issues/issues/3107[#3107]
+
+*_Management_*
+
+- Allow api owner to update the souscription end date https://github.com/gravitee-io/issues/issues/3149[#3149]
+- Be more helpful in the CORS description https://github.com/gravitee-io/issues/issues/3133[#3133]
+- [fetcher] Do not retrieve personal token https://github.com/gravitee-io/issues/issues/3082[#3082]
+- [user] synchronize user informations on login. https://github.com/gravitee-io/issues/issues/2592[#2592]
+
+*_Policy_*
+
+- [resource-filtering] backport #1271 https://github.com/gravitee-io/issues/issues/3164[#3164]
+
+*_Repository_*
+
+- [jdbc] Add option to disable Liquibase during startup of a node https://github.com/gravitee-io/issues/issues/3170[#3170]
+
 == https://github.com/gravitee-io/issues/milestone/201?closed=1[APIM - 1.25.20 (2020-01-17)]
 
 === Bug fixes
