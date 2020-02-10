@@ -5,6 +5,61 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/205?closed=1[APIM - 1.30.3 (2020-02-09)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Some calls are reported with a negative response time https://github.com/gravitee-io/issues/issues/3191[#3191]
+
+*_General_*
+
+- Allows to override the claim to read for the log of the end user not released in 1.30.x https://github.com/gravitee-io/issues/issues/3120[#3120]
+- Merge release 1.25.21 https://github.com/gravitee-io/issues/issues/3210[#3210]
+
+*_Management_*
+
+- Analytic widgets with latency displayed hits instead of latency https://github.com/gravitee-io/issues/issues/3041[#3041]
+- As a non admin I want to create portal documentation https://github.com/gravitee-io/issues/issues/3174[#3174]
+- Do not display "Duplicate API" if you're not allowed to create an API https://github.com/gravitee-io/issues/issues/3175[#3175]
+
+*_Management-ui_*
+
+- Not able to save after removing an alert notification https://github.com/gravitee-io/issues/issues/3162[#3162]
+
+*_Portal_*
+
+- Unable to reset user password from link https://github.com/gravitee-io/issues/issues/2957[#2957]
+
+=== Features
+
+*_Alert_*
+
+- Add processor to customize event's properties https://github.com/gravitee-io/issues/issues/3187[#3187]
+
+*_Policy_*
+
+- New SSL Enforcement policy https://github.com/gravitee-io/issues/issues/3159[#3159]
+
+=== Improvements
+
+*_Analytics_*
+
+- Add remote-address in analytics fields https://github.com/gravitee-io/issues/issues/3121[#3121]
+
+*_Gateway_*
+
+- Better support of inbound mutual SSL authentication https://github.com/gravitee-io/issues/issues/3160[#3160]
+
+*_Management_*
+
+- Upgrade node/npm modules https://github.com/gravitee-io/issues/issues/3207[#3207]
+
+*_Policy_*
+
+- [json-validation] enabling response scope for gravitee-policy-json-validation https://github.com/gravitee-io/issues/issues/2825[#2825]
+
 == https://github.com/gravitee-io/issues/milestone/202?closed=1[APIM - 1.25.21 (2020-01-30)]
 
 === Bug fixes
