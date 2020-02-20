@@ -5,6 +5,57 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/207?closed=1[APIM - 1.25.22 (2020-02-20)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Cannot index a cpu loadaverage as long https://github.com/gravitee-io/issues/issues/2692[#2692]
+
+*_Gateway_*
+
+- [response template] multiple "Accept" header is not supported https://github.com/gravitee-io/issues/issues/3212[#3212]
+
+*_Management_*
+
+- Better display on tooltip when too much data to display on a line chart https://github.com/gravitee-io/issues/issues/3244[#3244]
+- Group permissions inheritance https://github.com/gravitee-io/issues/issues/3238[#3238]
+- Typo on configuration of HTTP proxy https://github.com/gravitee-io/issues/issues/3221[#3221]
+- When creating group boolean parameters were ignored https://github.com/gravitee-io/issues/issues/3171[#3171]
+
+*_Management-ui_*
+
+- Scrollbar-x is blocked on data table widget https://github.com/gravitee-io/issues/issues/3243[#3243]
+
+*_Policy_*
+
+- [callout] Add expression language support in error response body https://github.com/gravitee-io/issues/issues/3188[#3188]
+- [jwt] End user is not logged when a policy fail https://github.com/gravitee-io/issues/issues/3189[#3189]
+- [rbac] Strict mode must not check the role from the source https://github.com/gravitee-io/issues/issues/3220[#3220]
+
+*_Portal_*
+
+- Redirect to a given page after an oauth authentication https://github.com/gravitee-io/issues/issues/3231[#3231]
+- The navbar disappeared when scrolling down the page https://github.com/gravitee-io/issues/issues/1823[#1823]
+
+*_Repository_*
+
+- [mongodb] Upgrade to latest 3.x version of the driver. https://github.com/gravitee-io/issues/issues/3235[#3235]
+
+=== Improvements
+
+*_Management_*
+
+- Add a badge for primary_owner user https://github.com/gravitee-io/issues/issues/3245[#3245]
+- Do not allow to click on "delete user" if he's PRIMARY_OWNER https://github.com/gravitee-io/issues/issues/2425[#2425]
+- Rework the gateway monitoring screen to manage large set of data https://github.com/gravitee-io/issues/issues/3222[#3222]
+- [idp] Add firstname and lastname support for inmemory users https://github.com/gravitee-io/issues/issues/3234[#3234]
+
+*_Management-ui_*
+
+- Associate sharding tags / entrypoints in the API portal header https://github.com/gravitee-io/issues/issues/3239[#3239]
+
 == https://github.com/gravitee-io/issues/milestone/205?closed=1[APIM - 1.30.3 (2020-02-09)]
 
 === Bug fixes
