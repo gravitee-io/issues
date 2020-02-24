@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/208?closed=1[APIM - 1.30.4 (2020-02-24)]
+
+=== Bug fixes
+
+*_Analytics_*
+
+- Cors request considered as "Deleted Application" https://github.com/gravitee-io/issues/issues/3228[#3228]
+- Unable to filter on unknown application from dashboard https://github.com/gravitee-io/issues/issues/3226[#3226]
+
+*_Gateway_*
+
+- Calls with a wrong context path have a status code 0 in platform analytics https://github.com/gravitee-io/issues/issues/3216[#3216]
+
+*_General_*
+
+- Merge release 1.25.22 https://github.com/gravitee-io/issues/issues/3247[#3247]
+
+*_Management_*
+
+- Unable to update api-key plan https://github.com/gravitee-io/issues/issues/3242[#3242]
+- Widget timeline does not display the API names correctly https://github.com/gravitee-io/issues/issues/3205[#3205]
+
+=== Features
+
+*_Management_*
+
+- A swagger page must contains the entrypoints depending on sharding-tags https://github.com/gravitee-io/issues/issues/3246[#3246]
+
+=== Improvements
+
+*_Analytics_*
+
+- Log unknown path for unknown APIs https://github.com/gravitee-io/issues/issues/3195[#3195]
+
 == https://github.com/gravitee-io/issues/milestone/207?closed=1[APIM - 1.25.22 (2020-02-20)]
 
 === Bug fixes
