@@ -5,6 +5,30 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/211?closed=1[APIM - 1.30.5 (2020-02-27)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Fail to parse Swagger page with dynamic freemarker values https://github.com/gravitee-io/issues/issues/3259[#3259]
+- Metadata cannot be deleted when value is too long https://github.com/gravitee-io/issues/issues/3266[#3266]
+- Paging functionality of widgets in the dashboards not working https://github.com/gravitee-io/issues/issues/3263[#3263]
+
+*_Management-ui_*
+
+- Missing API Entry Points header https://github.com/gravitee-io/issues/issues/3260[#3260]
+
+*_Policy_*
+
+- [oauth2] User is not logged anymore https://github.com/gravitee-io/issues/issues/3264[#3264]
+
+=== Features
+
+*_Management_*
+
+- Platform logs https://github.com/gravitee-io/issues/issues/3233[#3233]
+
 == https://github.com/gravitee-io/issues/milestone/208?closed=1[APIM - 1.30.4 (2020-02-24)]
 
 === Bug fixes
