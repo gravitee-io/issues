@@ -5,6 +5,42 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/210?closed=1[APIM - 1.25.23 (2020-03-11)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport issue #3264 https://github.com/gravitee-io/issues/issues/3265[#3265]
+
+*_Management_*
+
+- API metadata are not exported https://github.com/gravitee-io/issues/issues/3314[#3314]
+- InMemory users with empty firstname/lastname are displayed as 'null' https://github.com/gravitee-io/issues/issues/3313[#3313]
+- Make clearer the group's selection on a plan or a page https://github.com/gravitee-io/issues/issues/3281[#3281]
+- Manual unlocking of detailed logging limitation https://github.com/gravitee-io/issues/issues/3282[#3282]
+- Some users are wrongly flagged as primary owners https://github.com/gravitee-io/issues/issues/3273[#3273]
+- Wildcard logs search in the "path" field is not working anymore https://github.com/gravitee-io/issues/issues/3256[#3256]
+
+*_Management-ui_*
+
+- Entry Point API Portal headers are truncated https://github.com/gravitee-io/issues/issues/3312[#3312]
+- Unable to save view settings after updating only the visibility https://github.com/gravitee-io/issues/issues/3255[#3255]
+
+*_Policy_*
+
+- [rate-limit] ConcurrentModificationException with async mode https://github.com/gravitee-io/issues/issues/3311[#3311]
+
+*_Repository_*
+
+- [jdbc] Database objects missing when initially starting management api https://github.com/gravitee-io/issues/issues/3272[#3272]
+
+=== Improvements
+
+*_Management_*
+
+- Improve our rest-api documentation https://github.com/gravitee-io/issues/issues/3230[#3230]
+
 == https://github.com/gravitee-io/issues/milestone/211?closed=1[APIM - 1.30.5 (2020-02-27)]
 
 === Bug fixes
