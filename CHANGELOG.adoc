@@ -5,6 +5,85 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/212?closed=1[APIM - 1.30.6 (2020-03-27)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.25.23 https://github.com/gravitee-io/issues/issues/3337[#3337]
+
+*_Management_*
+
+- API Quality is equals to 1% with no validated rules https://github.com/gravitee-io/issues/issues/3325[#3325]
+- Allows to define all policies at the plan's level https://github.com/gravitee-io/issues/issues/3280[#3280]
+- Direct members permissions are not well merged with group permissions https://github.com/gravitee-io/issues/issues/3315[#3315]
+- Unable to resume a subscription https://github.com/gravitee-io/issues/issues/3362[#3362]
+- Use the correct log lever for errors on token exchange https://github.com/gravitee-io/issues/issues/3267[#3267]
+- [analytics] keep order for data table widget https://github.com/gravitee-io/issues/issues/3350[#3350]
+- [dcr] Unable to change app info with using DCR https://github.com/gravitee-io/issues/issues/3180[#3180]
+- [documentation] unable to navigate inside subfolders https://github.com/gravitee-io/issues/issues/3375[#3375]
+- [fetcher] wrong credentials after setting fetcher configuration https://github.com/gravitee-io/issues/issues/3342[#3342]
+
+*_Management-api_*
+
+- Breaking change with virtual_hosts https://github.com/gravitee-io/issues/issues/3356[#3356]
+
+*_Management-ui_*
+
+- Bad ES syntax https://github.com/gravitee-io/issues/issues/3369[#3369]
+- Cannot view API response template key with read-only user role https://github.com/gravitee-io/issues/issues/3331[#3331]
+- Logs show Delete API / Application instead of Unknown https://github.com/gravitee-io/issues/issues/3349[#3349]
+- [analytics] cannot filter on unknown application https://github.com/gravitee-io/issues/issues/3345[#3345]
+
+*_Oauth2_*
+
+- Log in when behind a loadbalancer isn't always working https://github.com/gravitee-io/issues/issues/3329[#3329]
+
+*_Policy_*
+
+- [jwt] Bearer token_type is not case-insensitive https://github.com/gravitee-io/issues/issues/3250[#3250]
+
+*_Portal_*
+
+- When updating the view name, the label is not correct on the API's cards https://github.com/gravitee-io/issues/issues/3279[#3279]
+
+=== Features
+
+*_Policy_*
+
+- Create a policy from a swagger descriptor https://github.com/gravitee-io/issues/issues/3298[#3298]
+
+=== Improvements
+
+*_Alert_*
+
+- Add alert events based on node health-check https://github.com/gravitee-io/issues/issues/3118[#3118]
+
+*_Expression-language_*
+
+- Add support of XPath for internal expression language https://github.com/gravitee-io/issues/issues/3211[#3211]
+
+*_Management_*
+
+- Keep history of alert's notifications https://github.com/gravitee-io/issues/issues/3185[#3185]
+- Option to include API's path to Swagger server https://github.com/gravitee-io/issues/issues/3359[#3359]
+- Setup API alert from platform settings https://github.com/gravitee-io/issues/issues/3335[#3335]
+- Swagger servers based on API entrypoints https://github.com/gravitee-io/issues/issues/3277[#3277]
+
+*_Management-ui_*
+
+- Add more response-time filters to search for logs https://github.com/gravitee-io/issues/issues/3358[#3358]
+
+*_Policy_*
+
+- [generate-jwt] The header x5c is not available in policy https://github.com/gravitee-io/issues/issues/2999[#2999]
+- [ssl-enforcement] Manage multiple RFC for subject format https://github.com/gravitee-io/issues/issues/3321[#3321]
+
+*_Service-discovery_*
+
+- Consul service discovery plugin doesn't have a way of knowing whether it's SSL https://github.com/gravitee-io/issues/issues/3294[#3294]
+
 == https://github.com/gravitee-io/issues/milestone/210?closed=1[APIM - 1.25.23 (2020-03-11)]
 
 === Bug fixes
