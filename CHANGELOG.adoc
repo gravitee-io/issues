@@ -1,5 +1,39 @@
 # Change Log
 
+For upgrade instructions, please refer to https://docs.gravitee.io/apim_installguide_migration.html[APIM Migration Guide]
+
+*Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
+
+
+== https://github.com/gravitee-io/issues/milestone/220?closed=1[APIM - 1.30.8 (2020-04-06)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge release 1.25.24 https://github.com/gravitee-io/issues/issues/3425[#3425]
+
+*_Management_*
+
+- Error on top path column name https://github.com/gravitee-io/issues/issues/3411[#3411]
+- Metadata are not well imported while creating or updating an API https://github.com/gravitee-io/issues/issues/3409[#3409]
+- Unable to filter analytics on paths https://github.com/gravitee-io/issues/issues/3410[#3410]
+
+*_Management-ui_*
+
+- Login button is disabled with credentials settled by browser https://github.com/gravitee-io/issues/issues/3355[#3355]
+
+*_Portal_*
+
+- Entrypoints are incorrect in case of virtual hosting configuration https://github.com/gravitee-io/issues/issues/3404[#3404]
+
+=== Improvements
+
+*_Gateway_*
+
+- Get calls with Content-Type https://github.com/gravitee-io/issues/issues/3426[#3426]
+# Change Log
+
 For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim_installguide_migration.html[APIM Migration Guide]
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
