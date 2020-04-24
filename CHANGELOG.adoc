@@ -5,6 +5,43 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/222?closed=1[APIM - 1.30.9 (2020-04-24)]
+
+=== Bug fixes
+
+*_Alert_*
+
+- Upgrade alert-api dependency https://github.com/gravitee-io/issues/issues/3499[#3499]
+
+*_Gateway_*
+
+- Paused apikey subscriptions still works https://github.com/gravitee-io/issues/issues/3520[#3520]
+
+*_Management_*
+
+- Allows to override virtual host with entrypoints https://github.com/gravitee-io/issues/issues/3626[#3626]
+- Default `all` view has no key https://github.com/gravitee-io/issues/issues/3636[#3636]
+- Enable to connect a new user if simpleApp is disabled and default app is enabled https://github.com/gravitee-io/issues/issues/3523[#3523]
+- Filters are not correctly synched https://github.com/gravitee-io/issues/issues/3445[#3445]
+- Keep the swagger documentation when you update an API from a swagger file https://github.com/gravitee-io/issues/issues/3518[#3518]
+- Oidc "emailRequired" is not mapped https://github.com/gravitee-io/issues/issues/3597[#3597]
+- Searching for subscriptions with api-key does not work if there are many applications https://github.com/gravitee-io/issues/issues/3346[#3346]
+- [alert] metrics are the same for request or node https://github.com/gravitee-io/issues/issues/3514[#3514]
+
+*_Reporter_*
+
+- [elasticsearch] Bulk indexer continue to process data in case of error https://github.com/gravitee-io/issues/issues/3630[#3630]
+
+=== Improvements
+
+*_Management-api_*
+
+- Groups mapping for OAuth2 users are never refreshed https://github.com/gravitee-io/issues/issues/1698[#1698]
+
+*_Policy_*
+
+- [callout-http] Add support for OnRequestContent / OnResponseContent https://github.com/gravitee-io/issues/issues/3628[#3628]
+
 == https://github.com/gravitee-io/issues/milestone/220?closed=1[APIM - 1.30.8 (2020-04-06)]
 
 === Bug fixes
