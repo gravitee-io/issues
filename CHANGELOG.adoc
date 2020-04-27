@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim_installg
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/221?closed=1[APIM - 1.25.25 (2020-04-27)]
+
+=== Bug fixes
+
+*_Backport_*
+
+- #3409 https://github.com/gravitee-io/issues/issues/3443[#3443]
+
+*_Gateway_*
+
+- Handle X-Forwarded-For IPv6 format header https://github.com/gravitee-io/issues/issues/3444[#3444]
+- [request-validation] constraint parameter with EL value is initialized only once https://github.com/gravitee-io/issues/issues/3621[#3621]
+
+*_Management_*
+
+- Unexpected error occurred in scheduled task. io.gravitee.management.service.exceptions.PageNotFoundException https://github.com/gravitee-io/issues/issues/3574[#3574]
+
+*_Repository_*
+
+- [jdbc] Duplicated APIs are returned by the search in some cases https://github.com/gravitee-io/issues/issues/3619[#3619]
+- [jdbc] Fail to save a Client registration config https://github.com/gravitee-io/issues/issues/3617[#3617]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add PLAN_UNRESOLVABLE policy chain error key if no plan has been selected https://github.com/gravitee-io/issues/issues/3513[#3513]
+
 == https://github.com/gravitee-io/issues/milestone/222?closed=1[APIM - 1.30.9 (2020-04-24)]
 
 === Bug fixes
