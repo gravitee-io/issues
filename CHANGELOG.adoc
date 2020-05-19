@@ -1,5 +1,49 @@
 # Change Log
 
+For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim_installguide_migration.html[APIM Migration Guide]
+
+*Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
+
+
+== https://github.com/gravitee-io/issues/milestone/224?closed=1[APIM - 1.30.10 (2020-05-07)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Load API definition with lower-case enum https://github.com/gravitee-io/issues/issues/3682[#3682]
+
+*_Management-api_*
+
+- Do not search user using email domain https://github.com/gravitee-io/issues/issues/3665[#3665]
+- Fix user registration https://github.com/gravitee-io/issues/issues/3656[#3656]
+- X-Forwarded-Host overwrites default port https://github.com/gravitee-io/issues/issues/3641[#3641]
+
+*_Management-ui_*
+
+- Fallback to default theme if custom does not exist https://github.com/gravitee-io/issues/issues/3658[#3658]
+
+=== Improvements
+
+*_Gateway_*
+
+- Save my memory footprintavoid to duplicate API's properties https://github.com/gravitee-io/issues/issues/3683[#3683]
+
+*_Management_*
+
+- Export API with enum value in lowercase https://github.com/gravitee-io/issues/issues/3406[#3406]
+- Import API security plan value lowercase https://github.com/gravitee-io/issues/issues/3402[#3402]
+
+*_Management-api_*
+
+- Allow to optionally enable csrf https://github.com/gravitee-io/issues/issues/3663[#3663]
+- Improve api data filtering https://github.com/gravitee-io/issues/issues/3644[#3644]
+
+*_Platform_*
+
+- [node] Technical API _node/configuration end-point doesn't resolve env variables https://github.com/gravitee-io/issues/issues/3419[#3419]
+# Change Log
+
 For upgrade instructions, please refer to https://docs.gravitee.io/apim_installguide_migration.html[APIM Migration Guide]
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
