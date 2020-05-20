@@ -1,1 +1,72 @@
+# Change Log
+
+For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim_installguide_migration.html[APIM Migration Guide]
+
+*Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
+
+
+== https://github.com/gravitee-io/issues/milestone/187?closed=1[APIM - 3.0.0 (2020-05-20)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.x https://github.com/gravitee-io/issues/issues/3392[#3392]
+
+*_Management_*
+
+- Empty mode is not well displayed on Gateway Instances screen https://github.com/gravitee-io/issues/issues/3739[#3739]
+- User/avatar should return 200 with no body when user doesn't have avatar https://github.com/gravitee-io/issues/issues/3330[#3330]
+
+*_Portal_*
+
+- Display labels on API cards https://github.com/gravitee-io/issues/issues/3116[#3116]
+
+=== Features
+
+*_Gateway_*
+
+- Remove the legacy mode for url encoding https://github.com/gravitee-io/issues/issues/2634[#2634]
+
+*_Management_*
+
+- I18n for documentation https://github.com/gravitee-io/issues/issues/3071[#3071]
+- [multi-env] Adapt memberships scopes and permissions to multi-env https://github.com/gravitee-io/issues/issues/3206[#3206]
+
+*_Multi-env_*
+
+- Add organization feature https://github.com/gravitee-io/issues/issues/3182[#3182]
+
+*_Portal_*
+
+- Add a link to admin in user menu https://github.com/gravitee-io/issues/issues/3109[#3109]
+- Add message for Cookies https://github.com/gravitee-io/issues/issues/2956[#2956]
+- Add the possibility to comment / rate an API https://github.com/gravitee-io/issues/issues/3061[#3061]
+- Allow a user to change his avatar https://github.com/gravitee-io/issues/issues/2806[#2806]
+- Allow a user to consult analytics of an application https://github.com/gravitee-io/issues/issues/2804[#2804]
+- Allow a user to consult logs of an application https://github.com/gravitee-io/issues/issues/2805[#2805]
+- Allow a user to consult subscriptions of an application https://github.com/gravitee-io/issues/issues/3114[#3114]
+- Allow a user to consult/edit global settings of an application https://github.com/gravitee-io/issues/issues/2799[#2799]
+- Allow a user to consult/edit members of an application https://github.com/gravitee-io/issues/issues/2803[#2803]
+- Allow a user to create an application https://github.com/gravitee-io/issues/issues/2798[#2798]
+- Allow a user to reset his password https://github.com/gravitee-io/issues/issues/2822[#2822]
+- Allow a user to subscribe to notifications on an application https://github.com/gravitee-io/issues/issues/3115[#3115]
+- Allow users to subscribe to newsletters https://github.com/gravitee-io/issues/issues/3420[#3420]
+- Allows to consult a subscription https://github.com/gravitee-io/issues/issues/3108[#3108]
+- Generate a custom default icon for user/apis/application https://github.com/gravitee-io/issues/issues/2853[#2853]
+- Integrate Google Analytics https://github.com/gravitee-io/issues/issues/3344[#3344]
+
+=== Improvements
+
+*_Platform_*
+
+- Update v3 configuration https://github.com/gravitee-io/issues/issues/3668[#3668]
+
+*_Portal_*
+
+- Add a 404 page https://github.com/gravitee-io/issues/issues/2991[#2991]
+- Generate dist on the root https://github.com/gravitee-io/issues/issues/3737[#3737]
+- Keep API display preference to the user https://github.com/gravitee-io/issues/issues/3110[#3110]
+- Work on route transition animations https://github.com/gravitee-io/issues/issues/3010[#3010]
+- Work on scroll to top strategy router navigation https://github.com/gravitee-io/issues/issues/3012[#3012]
 
