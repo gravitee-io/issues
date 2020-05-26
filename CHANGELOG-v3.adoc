@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/203?closed=1[APIM - 3.0.1 (2020-05-26)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Default admin can't go to the dashboard and settings menu https://github.com/gravitee-io/issues/issues/3834[#3834]
+- Unable to create a folder in TopFooter system folder https://github.com/gravitee-io/issues/issues/3825[#3825]
+
+*_Portal_*
+
+- Api rating issues https://github.com/gravitee-io/issues/issues/3824[#3824]
+- Link in aside reloads all the application https://github.com/gravitee-io/issues/issues/3810[#3810]
+- Swagger OAuth integration https://github.com/gravitee-io/issues/issues/3813[#3813]
+- Take care of defined properties to display API's aside https://github.com/gravitee-io/issues/issues/3812[#3812]
+- Unpublished pages are displayed on API's documentation https://github.com/gravitee-io/issues/issues/3837[#3837]
+- Use the color defined on the identity providers display on the login https://github.com/gravitee-io/issues/issues/3811[#3811]
+- When creating view the picture is broken https://github.com/gravitee-io/issues/issues/3841[#3841]
+- When forceLogin is enabled, we cannot register anymore https://github.com/gravitee-io/issues/issues/3845[#3845]
+
 == https://github.com/gravitee-io/issues/milestone/187?closed=1[APIM - 3.0.0 (2020-05-20)]
 
 === Bug fixes
