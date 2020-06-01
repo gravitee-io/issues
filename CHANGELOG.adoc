@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/226?closed=1[APIM - 1.25.26 (2020-06-01)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Handle unknown X-Forwarded-For headers https://github.com/gravitee-io/issues/issues/3863[#3863]
+
+*_Management_*
+
+- Import not possible when a closed plan has the same name than an active one https://github.com/gravitee-io/issues/issues/3680[#3680]
+
 == https://github.com/gravitee-io/issues/milestone/227?closed=1[APIM - 1.30.11 (2020-06-01)]
 
 === Bug fixes
