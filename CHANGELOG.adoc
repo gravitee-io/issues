@@ -5,6 +5,65 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/227?closed=1[APIM - 1.30.11 (2020-06-01)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Unable to run health-check query ES7.x https://github.com/gravitee-io/issues/issues/3864[#3864]
+
+*_Gateway_*
+
+- Rate-limit probe should not share a common identifier https://github.com/gravitee-io/issues/issues/3867[#3867]
+- Upgrade jetty ALPN java agent https://github.com/gravitee-io/issues/issues/3862[#3862]
+
+*_General_*
+
+- The LinkedCaseInsensitiveMap is not well implemented https://github.com/gravitee-io/issues/issues/3830[#3830]
+
+*_Management_*
+
+- Filters are not working on the same widget https://github.com/gravitee-io/issues/issues/3866[#3866]
+- Group notification on each login when dynamic mapping is enabled with OIDC https://github.com/gravitee-io/issues/issues/3860[#3860]
+- NPE when login with GitHub Account without an email https://github.com/gravitee-io/issues/issues/3738[#3738]
+
+*_Management-api_*
+
+- Management-api 1.30.10 fails to start https://github.com/gravitee-io/issues/issues/3820[#3820]
+
+*_Management-ui_*
+
+- Health-check widgets are well refreshed https://github.com/gravitee-io/issues/issues/3865[#3865]
+
+*_Policy_*
+
+- [rate-limit] Inaccurate rate with small window (<= 1s) https://github.com/gravitee-io/issues/issues/3884[#3884]
+
+*_Portal_*
+
+- Timeout to display the gallery with a lot of APIs https://github.com/gravitee-io/issues/issues/3881[#3881]
+
+*_Service-discovery_*
+
+- EndpointGroupLifecycleManager - NullPointerExceptionno null host accepted https://github.com/gravitee-io/issues/issues/3814[#3814]
+
+=== Features
+
+*_Alert_*
+
+- Provide API / APP / User info to alert-engine https://github.com/gravitee-io/issues/issues/3754[#3754]
+
+=== Improvements
+
+*_Gateway_*
+
+- Support regex to CORS allowed origins https://github.com/gravitee-io/issues/issues/3840[#3840]
+
+*_Reporter_*
+
+- [elasticsearch] Change the default value for the number of shards https://github.com/gravitee-io/issues/issues/3855[#3855]
+
 == https://github.com/gravitee-io/issues/milestone/224?closed=1[APIM - 1.30.10 (2020-05-07)]
 
 === Bug fixes
