@@ -5,6 +5,43 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/232?closed=1[APIM - 3.0.2 (2020-06-03)]
+
+=== Bug fixes
+
+*_General_*
+
+- APIM3.0.1 Portal-UI uri baseurl not configurable https://github.com/gravitee-io/issues/issues/3883[#3883]
+- Merge 1.30.11 https://github.com/gravitee-io/issues/issues/3890[#3890]
+- Update in FROM clause Error in MySQL environment when use gravitee-repository-jdbc-3.0.0 https://github.com/gravitee-io/issues/issues/3853[#3853]
+
+*_Management-api_*
+
+- ID is sent on create View and this cause error https://github.com/gravitee-io/issues/issues/3882[#3882]
+
+*_Portal_*
+
+- Access URL not well displayed when too long https://github.com/gravitee-io/issues/issues/3898[#3898]
+- Application default icon is not well generated in subscriptions lists https://github.com/gravitee-io/issues/issues/3847[#3847]
+- Console error when trying to rate an API https://github.com/gravitee-io/issues/issues/3902[#3902]
+- Error message on application creation & api subscription https://github.com/gravitee-io/issues/issues/3875[#3875]
+- On the dashboard, the version of API is not well displayed with a large API name https://github.com/gravitee-io/issues/issues/3832[#3832]
+- Should not be able to subscribe to a JWT API without a client id https://github.com/gravitee-io/issues/issues/3874[#3874]
+- Sometimes my subscriptions are not well displayed on hover https://github.com/gravitee-io/issues/issues/3804[#3804]
+- Tags and views are not displayed anymore on cards when not configured in API's aside https://github.com/gravitee-io/issues/issues/3897[#3897]
+- The error message is not displayed until we click https://github.com/gravitee-io/issues/issues/3817[#3817]
+
+=== Improvements
+
+*_Management_*
+
+- Better handling of read access on API's items https://github.com/gravitee-io/issues/issues/3886[#3886]
+- Change the wording of the views to categories https://github.com/gravitee-io/issues/issues/3843[#3843]
+
+*_Portal_*
+
+- Enable to click on a tag displayed on a card https://github.com/gravitee-io/issues/issues/3842[#3842]
+
 == https://github.com/gravitee-io/issues/milestone/203?closed=1[APIM - 3.0.1 (2020-05-26)]
 
 === Bug fixes
