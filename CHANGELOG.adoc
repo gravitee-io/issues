@@ -5,6 +5,61 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/253?closed=1[APIM - 1.30.12 (2020-06-16)]
+
+=== Bug fixes
+
+*_Discovery_*
+
+- [eureka] failed to load spring context https://github.com/gravitee-io/issues/issues/3929[#3929]
+
+*_Gateway_*
+
+- Hardcoded content-type text/plain in NotFoundProcessor https://github.com/gravitee-io/issues/issues/3639[#3639]
+- If policy in chain fail, than following policies will be execute https://github.com/gravitee-io/issues/issues/3599[#3599]
+- Reporter may throw a NullPointerException https://github.com/gravitee-io/issues/issues/3888[#3888]
+
+*_Management_*
+
+- Export CSV is not working anymore on subscriptions https://github.com/gravitee-io/issues/issues/3642[#3642]
+- Markdown editor broken https://github.com/gravitee-io/issues/issues/3946[#3946]
+- [documentation] can't fetch API Documentation since Gitlab 12.9 https://github.com/gravitee-io/issues/issues/3677[#3677]
+
+*_Reporter_*
+
+- [file] Gateway seems to fail to load FileReporter plugin https://github.com/gravitee-io/issues/issues/3915[#3915]
+
+=== Features
+
+*_Elasticsearch_*
+
+- Ability to add proxy for ES HTTP client https://github.com/gravitee-io/issues/issues/3354[#3354]
+
+*_Management_*
+
+- Provide an access token to the management-api for each API for CI/CD purposes https://github.com/gravitee-io/issues/issues/2749[#2749]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allow API logging for unknown / CORS request https://github.com/gravitee-io/issues/issues/3891[#3891]
+
+*_Management_*
+
+- Add primary-owner to alert commands https://github.com/gravitee-io/issues/issues/3942[#3942]
+- Display the URI instead of the path in logs page and file export https://github.com/gravitee-io/issues/issues/3393[#3393]
+- Logsadd a field to search on remote-ip https://github.com/gravitee-io/issues/issues/3879[#3879]
+
+*_Notifier_*
+
+- [email] Support for EL in 'from' https://github.com/gravitee-io/issues/issues/3944[#3944]
+
+*_Policy_*
+
+- [jwt] Support more key format https://github.com/gravitee-io/issues/issues/3930[#3930]
+- [request-validation] Date format validator https://github.com/gravitee-io/issues/issues/3896[#3896]
+
 == https://github.com/gravitee-io/issues/milestone/226?closed=1[APIM - 1.25.26 (2020-06-01)]
 
 === Bug fixes
