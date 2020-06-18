@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/256?closed=1[APIM - 3.0.3 (2020-06-18)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.12 https://github.com/gravitee-io/issues/issues/3971[#3971]
+
+*_Portal_*
+
+- A simple user without permissions on API plan read get an exception on subscription https://github.com/gravitee-io/issues/issues/3953[#3953]
+- Better handling of logos with a large width https://github.com/gravitee-io/issues/issues/3892[#3892]
+- Pagination is broken when browsing APIs https://github.com/gravitee-io/issues/issues/3960[#3960]
+- The subscribe button should not disappear on scroll https://github.com/gravitee-io/issues/issues/3955[#3955]
+- Unable to get plans list for subscriptions https://github.com/gravitee-io/issues/issues/3914[#3914]
+
+*_Repository_*
+
+- [jdbc] When opening portal as not logged in user, getting browser error https://github.com/gravitee-io/issues/issues/3913[#3913]
+- [jdbc] in apim 3 requires super user privilege to gravitee user in postgresql https://github.com/gravitee-io/issues/issues/3909[#3909]
+- [jdbc] upgraded users should be linked to an ORGANIZATION https://github.com/gravitee-io/issues/issues/3912[#3912]
+
+=== Features
+
+*_Management_*
+
+- Support for redirection after authentication https://github.com/gravitee-io/issues/issues/3857[#3857]
+
 == https://github.com/gravitee-io/issues/milestone/232?closed=1[APIM - 3.0.2 (2020-06-03)]
 
 === Bug fixes
