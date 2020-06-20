@@ -5,6 +5,38 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/235?closed=1[APIM - 1.30.13 (2020-06-20)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- [HC] handle response exception https://github.com/gravitee-io/issues/issues/3979[#3979]
+
+*_Management_*
+
+- Attach base64 image to email templates https://github.com/gravitee-io/issues/issues/3988[#3988]
+- Error on application audit log https://github.com/gravitee-io/issues/issues/3991[#3991]
+- Timeout to display API list (non admin user) https://github.com/gravitee-io/issues/issues/3957[#3957]
+- Unable to set default roles on group https://github.com/gravitee-io/issues/issues/3992[#3992]
+- [alert] Not able to save notifications in some case https://github.com/gravitee-io/issues/issues/3972[#3972]
+
+*_Portal_*
+
+- Bad format when swagger in yaml format is indented with tabs instead of spaces https://github.com/gravitee-io/issues/issues/3982[#3982]
+
+=== Features
+
+*_Management_*
+
+- Add custom info to applications https://github.com/gravitee-io/issues/issues/3058[#3058]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allows to pass a request id in outgoing headers https://github.com/gravitee-io/issues/issues/3974[#3974]
+
 == https://github.com/gravitee-io/issues/milestone/253?closed=1[APIM - 1.30.12 (2020-06-16)]
 
 === Bug fixes
