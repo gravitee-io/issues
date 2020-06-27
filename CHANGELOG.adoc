@@ -5,6 +5,42 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/260?closed=1[APIM - 1.30.14 (2020-06-27)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Allows to filter alerts on health check status https://github.com/gravitee-io/issues/issues/4019[#4019]
+- Bad template used when a subscription is approved https://github.com/gravitee-io/issues/issues/4014[#4014]
+- Better handling of indexation of searchable data https://github.com/gravitee-io/issues/issues/4012[#4012]
+- Breaking change with virtual_hosts https://github.com/gravitee-io/issues/issues/4013[#4013]
+- Documentation is missing for the application metadata https://github.com/gravitee-io/issues/issues/4015[#4015]
+- Error while removing an API with an alert trigger configured when alerting is disabled https://github.com/gravitee-io/issues/issues/4008[#4008]
+- Export in uppercase for backward compatibility and accept to import in case insensitive https://github.com/gravitee-io/issues/issues/4023[#4023]
+- Plan cannot be subscribed in some case https://github.com/gravitee-io/issues/issues/4024[#4024]
+
+=== Features
+
+*_Gateway_*
+
+- Execute API policies on a preflight-request https://github.com/gravitee-io/issues/issues/3964[#3964]
+
+*_Management_*
+
+- API Alert template https://github.com/gravitee-io/issues/issues/3970[#3970]
+
+=== Improvements
+
+*_Management_*
+
+- Allows to refresh the alerts history with a button https://github.com/gravitee-io/issues/issues/4017[#4017]
+- Allows to search / register user on OIDC provider https://github.com/gravitee-io/issues/issues/3904[#3904]
+
+*_Repository_*
+
+- [redis] Support Redis SSL connections https://github.com/gravitee-io/issues/issues/4010[#4010]
+
 == https://github.com/gravitee-io/issues/milestone/235?closed=1[APIM - 1.30.13 (2020-06-20)]
 
 === Bug fixes
