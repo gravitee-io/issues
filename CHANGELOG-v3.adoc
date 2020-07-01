@@ -5,6 +5,47 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/259?closed=1[APIM - 3.0.4 (2020-07-01)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.13 https://github.com/gravitee-io/issues/issues/4026[#4026]
+- Merge 1.30.14 https://github.com/gravitee-io/issues/issues/4027[#4027]
+
+*_Management_*
+
+- Cannot save API in some case with http headers https://github.com/gravitee-io/issues/issues/4001[#4001]
+- Configuration of logging don't work https://github.com/gravitee-io/issues/issues/4021[#4021]
+- Exported APIs to 1.x version incorrect https://github.com/gravitee-io/issues/issues/3996[#3996]
+- Geo map is not displayed https://github.com/gravitee-io/issues/issues/4007[#4007]
+
+*_Management-ui_*
+
+- Checkbox "override entrypoint" is very big in api virtualhost mode https://github.com/gravitee-io/issues/issues/3999[#3999]
+
+*_Platform_*
+
+- EL sandbox is not well instantiated https://github.com/gravitee-io/issues/issues/4003[#4003]
+
+*_Portal_*
+
+- Cannot list my subscriptions in some cases https://github.com/gravitee-io/issues/issues/3994[#3994]
+- Configure the baseUrl on default distribution config https://github.com/gravitee-io/issues/issues/4005[#4005]
+- Try it with oauth2 is not working when the UI is served with a base path https://github.com/gravitee-io/issues/issues/4038[#4038]
+- With different basePath sends redirect request for openid without the basePath https://github.com/gravitee-io/issues/issues/3993[#3993]
+
+*_Repository_*
+
+- [jdbc] Increase the client id to allow 128 characters https://github.com/gravitee-io/issues/issues/4040[#4040]
+
+=== Improvements
+
+*_Portal_*
+
+- Adapt configuration to be more consistant with the mgmt config https://github.com/gravitee-io/issues/issues/3968[#3968]
+
 == https://github.com/gravitee-io/issues/milestone/256?closed=1[APIM - 3.0.3 (2020-06-18)]
 
 === Bug fixes
