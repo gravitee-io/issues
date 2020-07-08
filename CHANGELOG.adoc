@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/261?closed=1[APIM - 1.30.15 (2020-07-08)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Rate-limiting issue when policies are run on preflight-request https://github.com/gravitee-io/issues/issues/4044[#4044]
+
+*_Management_*
+
+- Typo in healthcheck metrics https://github.com/gravitee-io/issues/issues/4025[#4025]
+
+*_Management-ui_*
+
+- [analytics] Filtering by host doesn't work when host contains ':' https://github.com/gravitee-io/issues/issues/4049[#4049]
+
 == https://github.com/gravitee-io/issues/milestone/260?closed=1[APIM - 1.30.14 (2020-06-27)]
 
 === Bug fixes
