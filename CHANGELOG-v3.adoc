@@ -5,6 +5,42 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/217?closed=1[APIM - 3.1.0 (2020-07-17)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.0.4 https://github.com/gravitee-io/issues/issues/4042[#4042]
+
+=== Features
+
+*_Gateway_*
+
+- Support zone in order to group analytics https://github.com/gravitee-io/issues/issues/3858[#3858]
+- Use backup endpoints as secondary choice https://github.com/gravitee-io/issues/issues/3877[#3877]
+
+*_Policy_*
+
+- Json Threat Protection policy https://github.com/gravitee-io/issues/issues/3950[#3950]
+- Regex Threat Protection Policy https://github.com/gravitee-io/issues/issues/3949[#3949]
+- Xml Threat Protection Policy https://github.com/gravitee-io/issues/issues/3951[#3951]
+- [ip-filtering] Add DNS resolution option for host filtering https://github.com/gravitee-io/issues/issues/3880[#3880]
+
+=== Improvements
+
+*_Gateway_*
+
+- Accept backends/entrypoints supporting only HTTP/2 https://github.com/gravitee-io/issues/issues/3105[#3105]
+
+*_Policy_*
+
+- [request-validation] support for type "ENUM" https://github.com/gravitee-io/issues/issues/3556[#3556]
+
+*_Portal_*
+
+- Allows to define a background on the APIs/Apps/Categories headers https://github.com/gravitee-io/issues/issues/3761[#3761]
+
 == https://github.com/gravitee-io/issues/milestone/263?closed=1[APIM - 3.0.5 (2020-07-17)]
 
 === Bug fixes
