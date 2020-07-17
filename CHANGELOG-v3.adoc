@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/263?closed=1[APIM - 3.0.5 (2020-07-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Websocket and stompgetting "Error during WebSocket handshakeSent non-empty 'Sec-WebSocket-Protocol' header but no response was received" https://github.com/gravitee-io/issues/issues/4060[#4060]
+
+*_General_*
+
+- Merge 1.30.15 https://github.com/gravitee-io/issues/issues/4083[#4083]
+
+*_Management_*
+
+- HtmlSanitizer can sometimes generate an error when creating or updating a markdown page https://github.com/gravitee-io/issues/issues/4077[#4077]
+- Incorrect audit when deleting a portal page https://github.com/gravitee-io/issues/issues/4099[#4099]
+- Sometimes social login is not working https://github.com/gravitee-io/issues/issues/4088[#4088]
+
+*_Portal_*
+
+- Application image not well displayed if too large in last step of application creation https://github.com/gravitee-io/issues/issues/4063[#4063]
+- Wrong table headers in last step of application creation https://github.com/gravitee-io/issues/issues/4057[#4057]
+
 == https://github.com/gravitee-io/issues/milestone/259?closed=1[APIM - 3.0.4 (2020-07-01)]
 
 === Bug fixes
