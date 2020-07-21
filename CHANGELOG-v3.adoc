@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/265?closed=1[APIM - 3.1.1 (2020-07-20)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Bad merge with 1.30.14 https://github.com/gravitee-io/issues/issues/4121[#4121]
+
+*_Management_*
+
+- Node cannot start on an empty database in some context https://github.com/gravitee-io/issues/issues/4118[#4118]
+
 == https://github.com/gravitee-io/issues/milestone/217?closed=1[APIM - 3.1.0 (2020-07-17)]
 
 === Bug fixes
