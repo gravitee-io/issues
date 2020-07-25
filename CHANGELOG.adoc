@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/264?closed=1[APIM - 1.30.16 (2020-07-25)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Cannot deprecate an API when contains a plan in staging state https://github.com/gravitee-io/issues/issues/4112[#4112]
+- Do not display unknown instances after a configured time parameter https://github.com/gravitee-io/issues/issues/4100[#4100]
+- Sometimes "400 - Invalid Image Format" when updating a picture https://github.com/gravitee-io/issues/issues/4086[#4086]
+- Use "Reply-To" instead of from when sending support email https://github.com/gravitee-io/issues/issues/4105[#4105]
+- When the property info is missing in a OAI file, there is no log https://github.com/gravitee-io/issues/issues/4129[#4129]
+
+*_Policy_*
+
+- [request-validation] handle empty query parameters https://github.com/gravitee-io/issues/issues/4111[#4111]
+
+*_Reporter_*
+
+- [elasticsearch] Escape invalid characters before to index data https://github.com/gravitee-io/issues/issues/4126[#4126]
+
+=== Improvements
+
+*_Gateway_*
+
+- Traceparent support https://github.com/gravitee-io/issues/issues/4122[#4122]
+
+*_Management_*
+
+- Improve audit to display more information / context https://github.com/gravitee-io/issues/issues/3876[#3876]
+
 == https://github.com/gravitee-io/issues/milestone/261?closed=1[APIM - 1.30.15 (2020-07-08)]
 
 === Bug fixes
