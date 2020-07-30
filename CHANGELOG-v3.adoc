@@ -5,6 +5,19 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/267?closed=1[APIM - 3.0.6 (2020-07-30)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.16 https://github.com/gravitee-io/issues/issues/4132[#4132]
+
+*_Portal_*
+
+- Confirmation message when deleting a member is not well displayed https://github.com/gravitee-io/issues/issues/4140[#4140]
+- Copy to sender not work in user contact form https://github.com/gravitee-io/issues/issues/4136[#4136]
+
 == https://github.com/gravitee-io/issues/milestone/265?closed=1[APIM - 3.1.1 (2020-07-20)]
 
 === Bug fixes
