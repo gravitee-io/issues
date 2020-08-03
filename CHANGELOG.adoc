@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/268?closed=1[APIM - 1.30.17 (2020-07-31)]
+
+=== Bug fixes
+
+*_Elasticsearch_*
+
+- Template mapping for user_agent https://github.com/gravitee-io/issues/issues/4138[#4138]
+
+*_Gateway_*
+
+- Concurrency issue with gateway processors https://github.com/gravitee-io/issues/issues/4146[#4146]
+
+*_Management_*
+
+- Copy to sender not working anymore when creating a ticket https://github.com/gravitee-io/issues/issues/4141[#4141]
+- When a group is deleted, it's not removed from APIs https://github.com/gravitee-io/issues/issues/4143[#4143]
+
+*_Reporter_*
+
+- [elasticsearch] UserAgent empty value can't be indexed anymore https://github.com/gravitee-io/issues/issues/4139[#4139]
+
+=== Improvements
+
+*_Management_*
+
+- Disable the sending of the e-mail notifications which occur when I assign an user as member of a Group, Api or Application https://github.com/gravitee-io/issues/issues/4134[#4134]
+- Provide more information about the application on subscription screen https://github.com/gravitee-io/issues/issues/3965[#3965]
+
 == https://github.com/gravitee-io/issues/milestone/264?closed=1[APIM - 1.30.16 (2020-07-25)]
 
 === Bug fixes
