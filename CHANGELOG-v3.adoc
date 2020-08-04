@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/266?closed=1[APIM - 3.1.2 (2020-08-04)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Disable logging activity https://github.com/gravitee-io/issues/issues/4131[#4131]
+
+*_General_*
+
+- Merge 3.0.6 https://github.com/gravitee-io/issues/issues/4142[#4142]
+
+*_Management_*
+
+- Allows to export from 3.1 to 3.0 also with grpc endpoints https://github.com/gravitee-io/issues/issues/4098[#4098]
+
+*_Policy_*
+
+- [rest-to-soap] Can not save the form after updating prefill soap envelope in some case https://github.com/gravitee-io/issues/issues/4087[#4087]
+
+=== Improvements
+
+*_Management_*
+
+- Allows a user to subscribe to the newsletter after first login https://github.com/gravitee-io/issues/issues/4096[#4096]
+
+*_Service-discovery_*
+
+- Consul.io MTLS support https://github.com/gravitee-io/issues/issues/4116[#4116]
+
 == https://github.com/gravitee-io/issues/milestone/267?closed=1[APIM - 3.0.6 (2020-07-30)]
 
 === Bug fixes
