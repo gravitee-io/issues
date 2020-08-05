@@ -9,10 +9,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 
 === Bug fixes
 
-*_Elasticsearch_*
-
-- Template mapping for user_agent https://github.com/gravitee-io/issues/issues/4138[#4138]
-
 *_Gateway_*
 
 - Concurrency issue with gateway processors https://github.com/gravitee-io/issues/issues/4146[#4146]
@@ -21,10 +17,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 
 - Copy to sender not working anymore when creating a ticket https://github.com/gravitee-io/issues/issues/4141[#4141]
 - When a group is deleted, it's not removed from APIs https://github.com/gravitee-io/issues/issues/4143[#4143]
-
-*_Reporter_*
-
-- [elasticsearch] UserAgent empty value can't be indexed anymore https://github.com/gravitee-io/issues/issues/4139[#4139]
 
 === Improvements
 
