@@ -5,6 +5,15 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/271?closed=1[APIM - 1.30.18 (2020-08-05)]
+
+=== Bug fixes
+
+*_Reporter_*
+
+- [elasticsearch] Template mapping for user_agent https://github.com/gravitee-io/issues/issues/4138[#4138]
+- [elasticsearch] UserAgent empty value can't be indexed anymore https://github.com/gravitee-io/issues/issues/4139[#4139]
+
 == https://github.com/gravitee-io/issues/milestone/268?closed=1[APIM - 1.30.17 (2020-07-31)]
 
 === Bug fixes
