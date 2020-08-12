@@ -5,6 +5,37 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/272?closed=1[APIM - 1.30.19 (2020-08-12)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Add API information on HC logs https://github.com/gravitee-io/issues/issues/4160[#4160]
+
+*_Management_*
+
+- Add consistency on field properties in EL https://github.com/gravitee-io/issues/issues/4162[#4162]
+- Useless stacktrace when a document cannot be indexed https://github.com/gravitee-io/issues/issues/4164[#4164]
+
+*_Reporter_*
+
+- [elasticsearch] Index proxy-latency https://github.com/gravitee-io/issues/issues/4165[#4165]
+
+*_Service-discovery_*
+
+- [consul] Discovery is not working on a group which is not the first https://github.com/gravitee-io/issues/issues/4155[#4155]
+
+=== Improvements
+
+*_Management_*
+
+- Provide the capability to expand list of subscriptions with api keys https://github.com/gravitee-io/issues/issues/4167[#4167]
+
+*_Reporter_*
+
+- [elasticsearch] Allows to configure custom regexes on the user agent processor https://github.com/gravitee-io/issues/issues/4170[#4170]
+
 == https://github.com/gravitee-io/issues/milestone/271?closed=1[APIM - 1.30.18 (2020-08-05)]
 
 === Bug fixes
