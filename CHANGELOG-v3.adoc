@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/270?closed=1[APIM - 3.0.7 (2020-08-19)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- APIM gateway 3.0.4 -> 3.0.6 causes WARN  No plan has been selected and apis does not work https://github.com/gravitee-io/issues/issues/4169[#4169]
+
+*_General_*
+
+- Merge 1.30.17 https://github.com/gravitee-io/issues/issues/4157[#4157]
+- Merge 1.30.18 https://github.com/gravitee-io/issues/issues/4163[#4163]
+- Merge 1.30.19 https://github.com/gravitee-io/issues/issues/4181[#4181]
+
+*_Management_*
+
+- Make markdown documentation visually similar to the one present in version 1.30 https://github.com/gravitee-io/issues/issues/4147[#4147]
+- Members inherited from group doesn't work on 3.1.1 and 3.0.6 https://github.com/gravitee-io/issues/issues/4154[#4154]
+
+*_Portal_*
+
+- Application's metadata management https://github.com/gravitee-io/issues/issues/4089[#4089]
+
+=== Improvements
+
+*_Management_*
+
+- Use URLs of the portal and management from settings https://github.com/gravitee-io/issues/issues/4144[#4144]
+
 == https://github.com/gravitee-io/issues/milestone/266?closed=1[APIM - 3.1.2 (2020-08-04)]
 
 === Bug fixes
