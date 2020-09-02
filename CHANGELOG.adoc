@@ -5,6 +5,46 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/277?closed=1[APIM - 1.30.20 (2020-08-28)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Weighted load-balancing algorithm are not always refreshed https://github.com/gravitee-io/issues/issues/4208[#4208]
+
+*_Management_*
+
+- Identity provider group mapping is not updated when a group is deleted https://github.com/gravitee-io/issues/issues/4201[#4201]
+- NPE when deleting a group https://github.com/gravitee-io/issues/issues/4200[#4200]
+
+*_Management-api_*
+
+- String parse issue https://github.com/gravitee-io/issues/issues/4204[#4204]
+
+*_Policy_*
+
+- [callout] Failed to create SSL connection https://github.com/gravitee-io/issues/issues/4191[#4191]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- [ILM] support Open Distro ISM API https://github.com/gravitee-io/issues/issues/4190[#4190]
+
+*_Gateway_*
+
+- Reorder transaction and traceparent processor to use traceparent as the transactionid https://github.com/gravitee-io/issues/issues/4212[#4212]
+
+*_Management_*
+
+- [swagger] add api information in log for parsing exception https://github.com/gravitee-io/issues/issues/4197[#4197]
+
+*_Management-ui_*
+
+- Apply pattern validator for CORS allow origin field https://github.com/gravitee-io/issues/issues/4202[#4202]
+- [alert] Define health-check rule's template https://github.com/gravitee-io/issues/issues/4210[#4210]
+
 == https://github.com/gravitee-io/issues/milestone/272?closed=1[APIM - 1.30.19 (2020-08-12)]
 
 === Bug fixes
