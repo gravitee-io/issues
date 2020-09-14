@@ -5,6 +5,55 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/279?closed=1[APIM - 1.30.21 (2020-09-14)]
+
+=== Bug fixes
+
+*_Alerts_*
+
+- Handle default values for notifiers configuration https://github.com/gravitee-io/issues/issues/4248[#4248]
+
+*_Gateway_*
+
+- ConcurrentModificationException when parallel access https://github.com/gravitee-io/issues/issues/4221[#4221]
+
+*_Management_*
+
+- Add image popup in markdown editor is broken https://github.com/gravitee-io/issues/issues/4249[#4249]
+- After creating a role, we should be redirected on it https://github.com/gravitee-io/issues/issues/3584[#3584]
+- Do not display a gauge when no health check value https://github.com/gravitee-io/issues/issues/4230[#4230]
+- Infinite scroll not working on APIs on high resolution https://github.com/gravitee-io/issues/issues/3591[#3591]
+- Member's list component seems broken https://github.com/gravitee-io/issues/issues/3650[#3650]
+- Mocks are not based anymore on examples https://github.com/gravitee-io/issues/issues/3334[#3334]
+- Release memory correctly in case of error in dynamic properties / dictionaries https://github.com/gravitee-io/issues/issues/4244[#4244]
+- [analytics] Path mappings not correctly detected https://github.com/gravitee-io/issues/issues/4216[#4216]
+
+*_Management-api_*
+
+- Missing PORTAL.USER_CREATED.yml file https://github.com/gravitee-io/issues/issues/3168[#3168]
+- NullPointerException on CORS https://github.com/gravitee-io/issues/issues/4252[#4252]
+- Typo in OAI documentation https://github.com/gravitee-io/issues/issues/4232[#4232]
+
+=== Features
+
+*_Management_*
+
+- Allows to a publisher to enable an expired API key https://github.com/gravitee-io/issues/issues/4227[#4227]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allow to use the system proxy for an endpoint https://github.com/gravitee-io/issues/issues/4256[#4256]
+
+*_Management_*
+
+- Allow a user to delete his own account https://github.com/gravitee-io/issues/issues/4250[#4250]
+
+*_Policy_*
+
+- [jwt] Use JWKS behind an HTTP proxy https://github.com/gravitee-io/issues/issues/4254[#4254]
+
 == https://github.com/gravitee-io/issues/milestone/277?closed=1[APIM - 1.30.20 (2020-08-28)]
 
 === Bug fixes
