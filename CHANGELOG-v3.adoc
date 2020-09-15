@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/280?closed=1[APIM - 3.0.8 (2020-09-15)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.20 https://github.com/gravitee-io/issues/issues/4259[#4259]
+- Merge 1.30.21 https://github.com/gravitee-io/issues/issues/4282[#4282]
+
+*_Management_*
+
+- All user invitations are made for the idp "gravitee" https://github.com/gravitee-io/issues/issues/4226[#4226]
+- Cannot save an API with health check inheritance https://github.com/gravitee-io/issues/issues/4251[#4251]
+- When we import an api, documentation is brokeninternal link, image, order of appearance https://github.com/gravitee-io/issues/issues/4149[#4149]
+
+*_Repository_*
+
+- [jdbc] Cannot update custom roles https://github.com/gravitee-io/issues/issues/4258[#4258]
+- [mongodb]index script contains an error on memberships https://github.com/gravitee-io/issues/issues/4233[#4233]
+
 == https://github.com/gravitee-io/issues/milestone/274?closed=1[APIM - 3.1.3 (2020-09-02)]
 
 === Bug fixes
