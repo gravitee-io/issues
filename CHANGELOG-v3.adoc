@@ -5,6 +5,30 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/281?closed=1[APIM - 3.1.4 (2020-09-16)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- NPE on windows environment when using alerting https://github.com/gravitee-io/issues/issues/4240[#4240]
+
+*_General_*
+
+- Merge 3.0.8 https://github.com/gravitee-io/issues/issues/4286[#4286]
+
+*_Management-api_*
+
+- Inconsistent behavior of Gravitee https://github.com/gravitee-io/issues/issues/4130[#4130]
+
+*_Portal_*
+
+- Unable to logout when using AM IDP https://github.com/gravitee-io/issues/issues/4215[#4215]
+
+*_Repository_*
+
+- [jdbc] Impossible to delete a group https://github.com/gravitee-io/issues/issues/4234[#4234]
+
 == https://github.com/gravitee-io/issues/milestone/280?closed=1[APIM - 3.0.8 (2020-09-15)]
 
 === Bug fixes
