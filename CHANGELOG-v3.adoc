@@ -5,6 +5,64 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/234?closed=1[APIM - 3.2.0 (2020-09-22)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.1.3 https://github.com/gravitee-io/issues/issues/4261[#4261]
+- Merge 3.1.4 https://github.com/gravitee-io/issues/issues/4299[#4299]
+
+*_Reporter_*
+
+- [elasticsearch] invalid default value for ILM lifecycle property name https://github.com/gravitee-io/issues/issues/4303[#4303]
+
+=== Features
+
+*_Fetcher_*
+
+- Add a cron task to fetch the documentation https://github.com/gravitee-io/issues/issues/3196[#3196]
+
+*_Management_*
+
+- Associate assets to a page https://github.com/gravitee-io/issues/issues/4066[#4066]
+- Associate page to a category https://github.com/gravitee-io/issues/issues/4067[#4067]
+- Custom user fields https://github.com/gravitee-io/issues/issues/4070[#4070]
+- General Conditions of use (when subscribing to a plan) https://github.com/gravitee-io/issues/issues/4068[#4068]
+- Process to validate an account (registration) https://github.com/gravitee-io/issues/issues/4069[#4069]
+
+*_Management-api_*
+
+- Create api from a WSDL https://github.com/gravitee-io/issues/issues/322[#322]
+
+*_Policy_*
+
+- WS-Security based authentication https://github.com/gravitee-io/issues/issues/4247[#4247]
+- [basic-auth] Protect api w/ simple basic auth https://github.com/gravitee-io/issues/issues/689[#689]
+- [rate-limit] Increase configurability of the rate-limit policy https://github.com/gravitee-io/issues/issues/4128[#4128]
+
+*_Portal_*
+
+- Add versioning on documentation pages https://github.com/gravitee-io/issues/issues/146[#146]
+- Allows to link pages in markdown https://github.com/gravitee-io/issues/issues/4072[#4072]
+
+*_Resource_*
+
+- [auth-provider] Provide user attributes https://github.com/gravitee-io/issues/issues/4281[#4281]
+
+=== Improvements
+
+*_Management_*
+
+- Enable / disable swagger's rendering editor https://github.com/gravitee-io/issues/issues/4055[#4055]
+- Enable logging without condition https://github.com/gravitee-io/issues/issues/2778[#2778]
+
+*_Management-ui_*
+
+- Provide more logs about CORS issue https://github.com/gravitee-io/issues/issues/4231[#4231]
+- Show API status icons on API portal page https://github.com/gravitee-io/issues/issues/4229[#4229]
+
 == https://github.com/gravitee-io/issues/milestone/281?closed=1[APIM - 3.1.4 (2020-09-16)]
 
 === Bug fixes
