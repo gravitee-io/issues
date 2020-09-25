@@ -5,6 +5,60 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/285?closed=1[APIM - 1.30.22 (2020-09-25)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Avoid the downtime when redeploying an API https://github.com/gravitee-io/issues/issues/4320[#4320]
+
+*_General_*
+
+- Unable to show/edit group even if user has all GROUP permissions https://github.com/gravitee-io/issues/issues/4285[#4285]
+
+*_Management_*
+
+- Do not add same acknowledgments for a node https://github.com/gravitee-io/issues/issues/4327[#4327]
+- Do not display idp identifier on user pre-creation when no idps https://github.com/gravitee-io/issues/issues/4279[#4279]
+- Expose API metadata in alert notification templates https://github.com/gravitee-io/issues/issues/4334[#4334]
+- Permissions are not the same between Basic and Bearer https://github.com/gravitee-io/issues/issues/2353[#2353]
+- Target is not readable on the audit screen in some cases https://github.com/gravitee-io/issues/issues/4291[#4291]
+- User authorities should be retrieved when using personal token security filter https://github.com/gravitee-io/issues/issues/4289[#4289]
+
+*_Notifier_*
+
+- [email] Subject prefix is not used https://github.com/gravitee-io/issues/issues/4333[#4333]
+
+*_Policy_*
+
+- [callout] exit on error option should be apply for connectivity issue https://github.com/gravitee-io/issues/issues/4301[#4301]
+
+*_Reporter_*
+
+- [elasticsearch] invalid default value for ILM lifecycle property name https://github.com/gravitee-io/issues/issues/4303[#4303]
+
+*_Reporters_*
+
+- [elasticsearch] Load balancing is not well done on runtime https://github.com/gravitee-io/issues/issues/4321[#4321]
+
+=== Features
+
+*_Management_*
+
+- Remove the API / View / Application / User picture https://github.com/gravitee-io/issues/issues/4268[#4268]
+
+=== Improvements
+
+*_Management_*
+
+- Add more information to the user profile https://github.com/gravitee-io/issues/issues/4300[#4300]
+- [swagger] add api information in log for parsing exception https://github.com/gravitee-io/issues/issues/4197[#4197]
+
+*_Policy_*
+
+- [callout] Access request / response properties for onRequest and onResponse https://github.com/gravitee-io/issues/issues/4277[#4277]
+
 == https://github.com/gravitee-io/issues/milestone/279?closed=1[APIM - 1.30.21 (2020-09-14)]
 
 === Bug fixes
