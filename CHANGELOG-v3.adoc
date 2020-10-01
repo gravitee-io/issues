@@ -5,6 +5,15 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/286?closed=1[APIM - 3.2.1 (2020-10-01)]
+
+=== Bug fixes
+
+*_Policy_*
+
+- [ipfiltering] Socket leak with DNS resolution https://github.com/gravitee-io/issues/issues/4362[#4362]
+- [quota] Inconsistent body for Quota at V3.2 https://github.com/gravitee-io/issues/issues/4345[#4345]
+
 == https://github.com/gravitee-io/issues/milestone/234?closed=1[APIM - 3.2.0 (2020-09-22)]
 
 === Bug fixes
