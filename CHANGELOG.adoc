@@ -5,6 +5,53 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/289?closed=1[APIM - 1.30.23 (2020-10-06)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Alert's template must be considered as enabled https://github.com/gravitee-io/issues/issues/4374[#4374]
+- Display swagger / OAI errors to the console's user and API caller https://github.com/gravitee-io/issues/issues/4349[#4349]
+- Do not add additional parenthesis on logging configuration https://github.com/gravitee-io/issues/issues/4377[#4377]
+- Missing API id when defining alert notification with ${api.id} https://github.com/gravitee-io/issues/issues/4364[#4364]
+- Reorder application's apikey https://github.com/gravitee-io/issues/issues/4357[#4357]
+
+*_Management-api_*
+
+- Closing and deletion of API in quick succession leads to unauthorized 401 error https://github.com/gravitee-io/issues/issues/4338[#4338]
+
+*_Management-ui_*
+
+- Angularjs error on cors settings screen https://github.com/gravitee-io/issues/issues/4253[#4253]
+
+*_Notifier_*
+
+- [email] Allows to completely disable TLS https://github.com/gravitee-io/issues/issues/4348[#4348]
+- [webhook] Add some logs when the webhook is successfully sent or not https://github.com/gravitee-io/issues/issues/4347[#4347]
+
+*_Policy_*
+
+- [jwt] request hang if an exception is thrown https://github.com/gravitee-io/issues/issues/4372[#4372]
+
+*_Portal_*
+
+- Links to open API's redirects to the login page https://github.com/gravitee-io/issues/issues/3721[#3721]
+
+*_Reporter_*
+
+- [elasticsearch] Disable health check when the reporter / repository is disabled https://github.com/gravitee-io/issues/issues/4350[#4350]
+
+=== Improvements
+
+*_Management_*
+
+- Post a page content without having to stringify the content. https://github.com/gravitee-io/issues/issues/4365[#4365]
+
+*_Policy_*
+
+- [jwt] Add the api_id to the log output for debugging purpose https://github.com/gravitee-io/issues/issues/4351[#4351]
+
 == https://github.com/gravitee-io/issues/milestone/285?closed=1[APIM - 1.30.22 (2020-09-25)]
 
 === Bug fixes
