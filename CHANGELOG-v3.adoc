@@ -5,6 +5,55 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/287?closed=1[APIM - 3.0.9 (2020-10-09)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 1.30.22 https://github.com/gravitee-io/issues/issues/4346[#4346]
+- Merge 1.30.23 https://github.com/gravitee-io/issues/issues/4390[#4390]
+
+*_Management_*
+
+- Blank page when selecting multiple times the setting menu https://github.com/gravitee-io/issues/issues/4392[#4392]
+- Error popup after a login with an OIDC provider https://github.com/gravitee-io/issues/issues/4290[#4290]
+- Import of an existing api fail since 3.2 https://github.com/gravitee-io/issues/issues/4397[#4397]
+
+*_Migration_*
+
+- Duplicate memberships after v3 migration https://github.com/gravitee-io/issues/issues/4382[#4382]
+
+*_Portal_*
+
+- Align EN translations for rating https://github.com/gravitee-io/issues/issues/4388[#4388]
+- Cannot display payloads on a log https://github.com/gravitee-io/issues/issues/4048[#4048]
+- Fix typo in EN https://github.com/gravitee-io/issues/issues/4383[#4383]
+- In Prod mode, folders in documentation can not be expanded https://github.com/gravitee-io/issues/issues/4275[#4275]
+- Log's title truncated https://github.com/gravitee-io/issues/issues/4054[#4054]
+- Redoc does not use gateway url but portal url https://github.com/gravitee-io/issues/issues/4389[#4389]
+- Remove the useless portal title from settings https://github.com/gravitee-io/issues/issues/4370[#4370]
+
+*_Repository_*
+
+- [jdbc] Startup repository error when using MySQL 8.0.15 plugin/driver https://github.com/gravitee-io/issues/issues/4255[#4255]
+
+=== Features
+
+*_Management_*
+
+- Remove the Application picture https://github.com/gravitee-io/issues/issues/4316[#4316]
+
+=== Improvements
+
+*_Management_*
+
+- Improve canReadAPI method https://github.com/gravitee-io/issues/issues/4401[#4401]
+
+*_Management-api_*
+
+- Create Subscription not returning subscription keys https://github.com/gravitee-io/issues/issues/4171[#4171]
+
 == https://github.com/gravitee-io/issues/milestone/286?closed=1[APIM - 3.2.1 (2020-10-01)]
 
 === Bug fixes
