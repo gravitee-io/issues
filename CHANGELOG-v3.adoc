@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/236?closed=1[APIM - 3.3.0 (2020-10-15)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.2.1 https://github.com/gravitee-io/issues/issues/4385[#4385]
+
+*_Management_*
+
+- Import of OpenAPI/Swagger containing path definition with parentheses and url parameters failed https://github.com/gravitee-io/issues/issues/4336[#4336]
+
+*_Policy_*
+
+- [json-validation] Scope Enum modification https://github.com/gravitee-io/issues/issues/4420[#4420]
+
+*_Portal_*
+
+- Fix typo in EN https://github.com/gravitee-io/issues/issues/4379[#4379]
+
+=== Features
+
+*_Management_*
+
+- Support for custom Swagger tags to define API's information https://github.com/gravitee-io/issues/issues/4295[#4295]
+- [identity-provider]Users and IdentityProviders can only be attached to an organization https://github.com/gravitee-io/issues/issues/3973[#3973]
+
+*_Policy_*
+
+- AWS Lambda Function https://github.com/gravitee-io/issues/issues/4276[#4276]
+- [json-validation] Integration with swagger / OpenAPI https://github.com/gravitee-io/issues/issues/4293[#4293]
+- [spike-arrest] Protect backend against overload https://github.com/gravitee-io/issues/issues/4296[#4296]
+- [xml-validation] Integration with swagger / OpenAPI https://github.com/gravitee-io/issues/issues/4294[#4294]
+
 == https://github.com/gravitee-io/issues/milestone/287?closed=1[APIM - 3.0.9 (2020-10-09)]
 
 === Bug fixes
