@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/293?closed=1[APIM - 1.30.24 (2020-10-16)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Add coherency between list applications and get application settings https://github.com/gravitee-io/issues/issues/4469[#4469]
+- Alert's template must be considered as enabled https://github.com/gravitee-io/issues/issues/4374[#4374]
+- Do not send emails to an unresolved expression https://github.com/gravitee-io/issues/issues/4403[#4403]
+- Select box truncated under firefox https://github.com/gravitee-io/issues/issues/4288[#4288]
+
+*_Policy_*
+
+- [resource-filtering] Handle also the case when the method not match https://github.com/gravitee-io/issues/issues/4454[#4454]
+
+*_Portal_*
+
+- Links to published API gallery pages redirects anonymous users to the login page https://github.com/gravitee-io/issues/issues/4402[#4402]
+
+*_Swagger_*
+
+- Error in swagger Management API some array items type https://github.com/gravitee-io/issues/issues/4405[#4405]
+
+=== Improvements
+
+*_Management_*
+
+- Audit API review actions https://github.com/gravitee-io/issues/issues/4462[#4462]
+- Be notified when my subscription is accepted https://github.com/gravitee-io/issues/issues/3920[#3920]
+- Set the default time range to the last 5 minutes in analytics https://github.com/gravitee-io/issues/issues/4463[#4463]
+
+*_Policy_*
+
+- [callout] Allow to use the system proxy https://github.com/gravitee-io/issues/issues/4448[#4448]
+
 == https://github.com/gravitee-io/issues/milestone/289?closed=1[APIM - 1.30.23 (2020-10-06)]
 
 === Bug fixes
