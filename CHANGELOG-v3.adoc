@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/294?closed=1[APIM - 3.0.10 (2020-10-27)]
+
+=== Bug fixes
+
+*_General_*
+
+- Create dedicated resource to change user password https://github.com/gravitee-io/issues/issues/4480[#4480]
+- Ensure bad response are considered as errors https://github.com/gravitee-io/issues/issues/4513[#4513]
+- Merge 1.30.24 https://github.com/gravitee-io/issues/issues/4491[#4491]
+- Missing mapping for orgId and envId in swagger definition generated for management Rest-API https://github.com/gravitee-io/issues/issues/4394[#4394]
+
+*_Management_*
+
+- As standard user i see an administration link on portal UI https://github.com/gravitee-io/issues/issues/4399[#4399]
+- Change background color for theme logo https://github.com/gravitee-io/issues/issues/4444[#4444]
+- Error while searching through LDAP to transfer application https://github.com/gravitee-io/issues/issues/4441[#4441]
+- Improve the force login feature https://github.com/gravitee-io/issues/issues/4412[#4412]
+- Removing a user from a role, removes the user from all roles of the scope https://github.com/gravitee-io/issues/issues/4501[#4501]
+- Resetting password from Portal UI should not invalidate password https://github.com/gravitee-io/issues/issues/4410[#4410]
+
+*_Portal_*
+
+- Anchor links not working correctly https://github.com/gravitee-io/issues/issues/2161[#2161]
+- Code preview display as block for inline code https://github.com/gravitee-io/issues/issues/4404[#4404]
+- Display of a large API name broken on a table list https://github.com/gravitee-io/issues/issues/4035[#4035]
+- Version too large in the dashboard's subscriptions https://github.com/gravitee-io/issues/issues/4461[#4461]
+
+*_Repository_*
+
+- [http-bridge] Gateway does not resync (gateway-bridge-http) after network issue https://github.com/gravitee-io/issues/issues/4505[#4505]
+
+=== Improvements
+
+*_Portal_*
+
+- Allows to get the portal's version https://github.com/gravitee-io/issues/issues/4459[#4459]
+- Hide empty categories https://github.com/gravitee-io/issues/issues/4477[#4477]
+
 == https://github.com/gravitee-io/issues/milestone/236?closed=1[APIM - 3.3.0 (2020-10-15)]
 
 === Bug fixes
