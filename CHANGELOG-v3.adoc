@@ -5,6 +5,20 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/301?closed=1[APIM - 3.0.11 (2020-10-31)]
+
+=== Bug fixes
+
+*_Jdbc-repository_*
+
+- Liquibase checksum fail when migrating from 3.0.6 to 3.0.7 https://github.com/gravitee-io/issues/issues/4526[#4526]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allowing constructors in expression language https://github.com/gravitee-io/issues/issues/4514[#4514]
+
 == https://github.com/gravitee-io/issues/milestone/294?closed=1[APIM - 3.0.10 (2020-10-27)]
 
 === Bug fixes
