@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/292?closed=1[APIM - 3.3.1 (2020-11-03)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.2.2 https://github.com/gravitee-io/issues/issues/4559[#4559]
+
+*_Management_*
+
+- Impossible to create Cache Policy https://github.com/gravitee-io/issues/issues/4478[#4478]
+
+=== Improvements
+
+*_Management_*
+
+- Coherence between api import with definition and with swagger https://github.com/gravitee-io/issues/issues/4411[#4411]
+- Typo in _depreciate subpath https://github.com/gravitee-io/issues/issues/4414[#4414]
+
 == https://github.com/gravitee-io/issues/milestone/291?closed=1[APIM - 3.2.2 (2020-11-04)]
 
 === Bug fixes
