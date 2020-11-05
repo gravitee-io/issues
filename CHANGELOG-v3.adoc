@@ -5,6 +5,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/306?closed=1[APIM - 3.3.3 (2020-11-04)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Cannot update roles of a user anymore https://github.com/gravitee-io/issues/issues/4551[#4551]
+
 == https://github.com/gravitee-io/issues/milestone/305?closed=1[APIM - 3.3.2 (2020-11-03)]
 
 === Bug fixes
