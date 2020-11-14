@@ -5,6 +5,52 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/295?closed=1[APIM - 1.30.25 (2020-11-14)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Assign-Content policy duplicates content when failover is activated on endpoint https://github.com/gravitee-io/issues/issues/4557[#4557]
+
+*_General_*
+
+- Backport #4570 https://github.com/gravitee-io/issues/issues/4600[#4600]
+
+*_Management_*
+
+- Add help for configuring alert rules https://github.com/gravitee-io/issues/issues/4443[#4443]
+- Cannot filter on a status code in analytics https://github.com/gravitee-io/issues/issues/4554[#4554]
+- Dictionary property not well refreshed when updating a value https://github.com/gravitee-io/issues/issues/4545[#4545]
+- Do not reduce the menu automatically while browsing settings https://github.com/gravitee-io/issues/issues/4536[#4536]
+- Impossible to sort the properties in the dictionaries https://github.com/gravitee-io/issues/issues/4540[#4540]
+- Patch section in audit log not fully displayed https://github.com/gravitee-io/issues/issues/4473[#4473]
+- Polling configuration is lost when disabling and saving dynamic properties on API https://github.com/gravitee-io/issues/issues/4547[#4547]
+- [logs] elasticsearch query special characters are not escaped https://github.com/gravitee-io/issues/issues/4518[#4518]
+
+*_Reporter_*
+
+- [elasticsearch] Invalid mapping for index request for ES6 https://github.com/gravitee-io/issues/issues/4482[#4482]
+- [elasticsearch] Logging not working on proxy only mode https://github.com/gravitee-io/issues/issues/4537[#4537]
+
+*_Resource_*
+
+- [am] Missing version 3.x in the list https://github.com/gravitee-io/issues/issues/4538[#4538]
+
+*_Swagger_*
+
+- Only validate swagger content on create/update https://github.com/gravitee-io/issues/issues/4506[#4506]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- Add settings to search slow log https://github.com/gravitee-io/issues/issues/4524[#4524]
+
+*_Management_*
+
+- Allows to be alerted when no event during a period https://github.com/gravitee-io/issues/issues/4445[#4445]
+
 == https://github.com/gravitee-io/issues/milestone/293?closed=1[APIM - 1.30.24 (2020-10-16)]
 
 === Bug fixes
