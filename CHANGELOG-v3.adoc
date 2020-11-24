@@ -5,6 +5,83 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/237?closed=1[APIM - 3.4.0 (2020-11-24)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Graceful shutdown on streamFailWith https://github.com/gravitee-io/issues/issues/4648[#4648]
+- Manage graceful shutdown for 3.x https://github.com/gravitee-io/issues/issues/4632[#4632]
+
+*_General_*
+
+- Add an API from another docker-compose stack than the Gravitee one https://github.com/gravitee-io/issues/issues/4640[#4640]
+- Typo in french portal translation when connection issues https://github.com/gravitee-io/issues/issues/4504[#4504]
+
+*_Management_*
+
+- Cannot create an API from a Gravitee.io definition anymore https://github.com/gravitee-io/issues/issues/4570[#4570]
+- Default admin can't see/go to the dashboard and settings menu https://github.com/gravitee-io/issues/issues/4591[#4591]
+- Default application is not correctly created for social / OAuth login https://github.com/gravitee-io/issues/issues/4634[#4634]
+- Impossible to move documentation page to folder https://github.com/gravitee-io/issues/issues/4655[#4655]
+- Portal and Schedulers sections appear two times in settings https://github.com/gravitee-io/issues/issues/4578[#4578]
+- Redoc is not working with a private API on dist https://github.com/gravitee-io/issues/issues/4585[#4585]
+- [quality-rules]unable to create a new quality-rule https://github.com/gravitee-io/issues/issues/4602[#4602]
+
+*_Plugin_*
+
+- Ensure plugin loading order https://github.com/gravitee-io/issues/issues/4486[#4486]
+
+*_Portal_*
+
+- Image links are broken on portal documentation https://github.com/gravitee-io/issues/issues/4620[#4620]
+
+=== Features
+
+*_Gateway_*
+
+- Forward the X-Forwarded-Prefix to the backend endpoint https://github.com/gravitee-io/issues/issues/4434[#4434]
+- Support for path-named parameters in Expression Language (EL) https://github.com/gravitee-io/issues/issues/4431[#4431]
+
+*_Management_*
+
+- Allows to manage authentication identity providers on the portal https://github.com/gravitee-io/issues/issues/3963[#3963]
+- Global reviewer https://github.com/gravitee-io/issues/issues/4436[#4436]
+- Label's dictionary https://github.com/gravitee-io/issues/issues/4437[#4437]
+- Move CORS from static to dynamic configuration https://github.com/gravitee-io/issues/issues/4432[#4432]
+- Move SMTP from static to dynamic configuration https://github.com/gravitee-io/issues/issues/4433[#4433]
+- Move notification templates in the UI https://github.com/gravitee-io/issues/issues/4297[#4297]
+- Override settings via envvars https://github.com/gravitee-io/issues/issues/4452[#4452]
+- Support tickets history https://github.com/gravitee-io/issues/issues/4435[#4435]
+- [audit] Adapt audit system to Orgs & Envs https://github.com/gravitee-io/issues/issues/3976[#3976]
+
+*_Policy_*
+
+- [api-key] Allows to define custom api-key https://github.com/gravitee-io/issues/issues/4318[#4318]
+
+*_Reporter_*
+
+- [file] File reporter to write raw data (csv format) https://github.com/gravitee-io/issues/issues/4236[#4236]
+- [tcp] Add support for a TCP reporter https://github.com/gravitee-io/issues/issues/4584[#4584]
+
+*_Repository_*
+
+- [hazelcast] Rate-limit support https://github.com/gravitee-io/issues/issues/4527[#4527]
+
+=== Improvements
+
+*_Management_*
+
+- Allows to configure statically the theme https://github.com/gravitee-io/issues/issues/4456[#4456]
+- Allows to define the background color of the login page from the theme https://github.com/gravitee-io/issues/issues/4458[#4458]
+- Improve API Quality checks display https://github.com/gravitee-io/issues/issues/3201[#3201]
+- Remove i18n support on the management UI https://github.com/gravitee-io/issues/issues/4485[#4485]
+
+*_Policy_*
+
+- [aws-lambda] Allows to extract data in execution context from payload https://github.com/gravitee-io/issues/issues/4395[#4395]
+
 == https://github.com/gravitee-io/issues/milestone/303?closed=1[APIM - 3.0.12 (2020-11-15)]
 
 === Bug fixes
