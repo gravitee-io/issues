@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/311?closed=1[APIM - 1.30.26 (2020-11-24)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport 4513 https://github.com/gravitee-io/issues/issues/4614[#4614]
+- Backport 4640 https://github.com/gravitee-io/issues/issues/4654[#4654]
+
+*_Management_*
+
+- We must not close an API plan if there are some paused subscriptions https://github.com/gravitee-io/issues/issues/4626[#4626]
+
+*_Reporter_*
+
+- [elasticsearch] listen for events after error https://github.com/gravitee-io/issues/issues/4612[#4612]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- Add settings to search indexing slow log https://github.com/gravitee-io/issues/issues/4615[#4615]
+
 == https://github.com/gravitee-io/issues/milestone/295?closed=1[APIM - 1.30.25 (2020-11-14)]
 
 === Bug fixes
