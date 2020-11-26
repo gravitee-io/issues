@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/310?closed=1[APIM - 3.0.13 (2020-11-26)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #4620 to 3.0.x https://github.com/gravitee-io/issues/issues/4629[#4629]
+- Backport 4585 https://github.com/gravitee-io/issues/issues/4606[#4606]
+- Backport 4591 to 3.0.x https://github.com/gravitee-io/issues/issues/4619[#4619]
+- Merge 1.30.26 https://github.com/gravitee-io/issues/issues/4663[#4663]
+
+*_Management_*
+
+- API not found on global dashboard when deleted https://github.com/gravitee-io/issues/issues/4573[#4573]
+- Cannot create an API and ask for review https://github.com/gravitee-io/issues/issues/4571[#4571]
+- Config file user roles are ignored when user is assigned to a group before his first login https://github.com/gravitee-io/issues/issues/4586[#4586]
+- Export logs in CSV should contain the user when it is displayed https://github.com/gravitee-io/issues/issues/4659[#4659]
+- Importing theme with images fails https://github.com/gravitee-io/issues/issues/4179[#4179]
+- Improve UI when search user to add https://github.com/gravitee-io/issues/issues/4599[#4599]
+- Location header does not contain full path to resource https://github.com/gravitee-io/issues/issues/4624[#4624]
+- Unable to delete the homepage background https://github.com/gravitee-io/issues/issues/4213[#4213]
+
+*_Portal_*
+
+- Cannot list more than 10 plans during the subscription https://github.com/gravitee-io/issues/issues/4653[#4653]
+- Cannot search on labels with some special characters https://github.com/gravitee-io/issues/issues/4661[#4661]
+- Missing X-Xsrf-Token header from the portal UI in APIM https://github.com/gravitee-io/issues/issues/4628[#4628]
+- Size list of application log is not well updated https://github.com/gravitee-io/issues/issues/4662[#4662]
+
+=== Improvements
+
+*_Management_*
+
+- Allows to export all the logs in a CSV and not only the current page https://github.com/gravitee-io/issues/issues/4664[#4664]
+
 == https://github.com/gravitee-io/issues/milestone/237?closed=1[APIM - 3.4.0 (2020-11-24)]
 
 === Bug fixes
