@@ -5,6 +5,21 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/313?closed=1[APIM - 1.30.27 (2020-11-30)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport 4661 https://github.com/gravitee-io/issues/issues/4683[#4683]
+- Backport 4685 https://github.com/gravitee-io/issues/issues/4686[#4686]
+
+=== Improvements
+
+*_General_*
+
+- Backport 4664 https://github.com/gravitee-io/issues/issues/4666[#4666]
+
 == https://github.com/gravitee-io/issues/milestone/311?closed=1[APIM - 1.30.26 (2020-11-24)]
 
 === Bug fixes
