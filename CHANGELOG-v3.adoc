@@ -5,6 +5,38 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/309?closed=1[APIM - 3.3.4 (2020-12-01)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #4655 to 3.3.x https://github.com/gravitee-io/issues/issues/4657[#4657]
+- Backport 4578 https://github.com/gravitee-io/issues/issues/4608[#4608]
+- Backport 4591 https://github.com/gravitee-io/issues/issues/4607[#4607]
+- Backport 4620 and 4669 to 3.3.x https://github.com/gravitee-io/issues/issues/4630[#4630]
+- Backport 4634 to 3.3.x https://github.com/gravitee-io/issues/issues/4636[#4636]
+- Merge 3.2.3 https://github.com/gravitee-io/issues/issues/4676[#4676]
+
+*_Portal_*
+
+- Example cURL not displayed for an unpublished API on subscriptions https://github.com/gravitee-io/issues/issues/4680[#4680]
+
+*_Reporter_*
+
+- [elasticsearch] Template mapping of log is incorrect with ES 7.x https://github.com/gravitee-io/issues/issues/4685[#4685]
+
+*_Repository_*
+
+- [jdbc] Simple user without groups can see all the applications https://github.com/gravitee-io/issues/issues/4678[#4678]
+
+=== Improvements
+
+*_Management_*
+
+- Check that the version of the accepted CGU is the current one https://github.com/gravitee-io/issues/issues/4603[#4603]
+- Manage attached resources in API import/export https://github.com/gravitee-io/issues/issues/4315[#4315]
+
 == https://github.com/gravitee-io/issues/milestone/304?closed=1[APIM - 3.2.3 (2020-11-27)]
 
 === Bug fixes
