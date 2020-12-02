@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/319?closed=1[APIM - 1.30.28 (2020-12-02)]
+
+=== Bug fixes
+
+*_Management_*
+
+- We should inform than a subscription is paused and not avoid to close the plan https://github.com/gravitee-io/issues/issues/4688[#4688]
+
+=== Improvements
+
+*_Management_*
+
+- Dynamic dictionary updates ignored when it is started https://github.com/gravitee-io/issues/issues/4535[#4535]
+
+*_Resource_*
+
+- [oauth2] Hide client id / secret in the configuration https://github.com/gravitee-io/issues/issues/4673[#4673]
+
 == https://github.com/gravitee-io/issues/milestone/313?closed=1[APIM - 1.30.27 (2020-11-30)]
 
 === Bug fixes
