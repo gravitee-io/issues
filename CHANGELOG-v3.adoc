@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/317?closed=1[APIM - 3.4.1 (2020-12-08)]
+
+=== Bug fixes
+
+*_Management_*
+
+- API importing block is too small and does not scroll https://github.com/gravitee-io/issues/issues/4723[#4723]
+- Cannot create a plan with rate limiting restriction on an API created with the new design studio https://github.com/gravitee-io/issues/issues/4700[#4700]
+- Cannot save good script values on Grooy policy with policy-studio https://github.com/gravitee-io/issues/issues/4712[#4712]
+- Create or Update API with duplicated label fails with SQLIntegrityConstraintViolationException https://github.com/gravitee-io/issues/issues/4704[#4704]
+- Ignore missing properties when updating settings. https://github.com/gravitee-io/issues/issues/4682[#4682]
+- Not able to define mock body with policy studio https://github.com/gravitee-io/issues/issues/4665[#4665]
+- Sometimes APIs are not well deployed in gateway https://github.com/gravitee-io/issues/issues/4707[#4707]
+- Wrong format of securitydefinition when create a plan https://github.com/gravitee-io/issues/issues/4714[#4714]
+- [policy-validate-request] unable to create a complex validation https://github.com/gravitee-io/issues/issues/4722[#4722]
+
+*_Portal_*
+
+- Media links are not well computed https://github.com/gravitee-io/issues/issues/4669[#4669]
+
 == https://github.com/gravitee-io/issues/milestone/309?closed=1[APIM - 3.3.4 (2020-12-01)]
 
 === Bug fixes
