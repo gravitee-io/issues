@@ -5,6 +5,37 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/322?closed=1[APIM - 1.30.29 (2020-12-14)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #4659 https://github.com/gravitee-io/issues/issues/4753[#4753]
+
+*_Management_*
+
+- Admin user can not subscribe to plan associated to specific groups https://github.com/gravitee-io/issues/issues/4720[#4720]
+- Empty user page https://github.com/gravitee-io/issues/issues/4752[#4752]
+
+*_Policy_*
+
+- [jwt] add api id into the logging MDC https://github.com/gravitee-io/issues/issues/4782[#4782]
+
+*_Reporter_*
+
+- [elasticsearch] Limit of total fields on logs index can sometimes be reached https://github.com/gravitee-io/issues/issues/4566[#4566]
+
+=== Improvements
+
+*_Gateway_*
+
+- [failover] add API ID in case of failure https://github.com/gravitee-io/issues/issues/4738[#4738]
+
+*_Management_*
+
+- Exposing APIs from multiple entrypoints for the same tag https://github.com/gravitee-io/issues/issues/4713[#4713]
+
 == https://github.com/gravitee-io/issues/milestone/319?closed=1[APIM - 1.30.28 (2020-12-02)]
 
 === Bug fixes
