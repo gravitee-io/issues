@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/321?closed=1[APIM - 3.4.2 (2020-12-13)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport 4762 to 3.4.x https://github.com/gravitee-io/issues/issues/4780[#4780]
+
+*_Management_*
+
+- Wrong email template when resetting a password https://github.com/gravitee-io/issues/issues/4756[#4756]
+
+=== Improvements
+
+*_Management_*
+
+- Better handling of settings https://github.com/gravitee-io/issues/issues/4787[#4787]
+
 == https://github.com/gravitee-io/issues/milestone/317?closed=1[APIM - 3.4.1 (2020-12-08)]
 
 === Bug fixes
