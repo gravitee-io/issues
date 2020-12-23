@@ -5,6 +5,79 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/238?closed=1[APIM - 3.5.0 (2020-12-23)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Avoid usage of URI.create to handle properly path and query parameters with special caracters https://github.com/gravitee-io/issues/issues/4837[#4837]
+
+*_General_*
+
+- Merge 3.4.1 https://github.com/gravitee-io/issues/issues/4775[#4775]
+- Merge 3.4.2 https://github.com/gravitee-io/issues/issues/4790[#4790]
+- Report bug 4756 to master https://github.com/gravitee-io/issues/issues/4757[#4757]
+
+*_Identity-providers_*
+
+- Can't sign in on console with an IDP that is not enabled for portal https://github.com/gravitee-io/issues/issues/4797[#4797]
+
+*_Management_*
+
+- An api-key can not be reactivated for a closed plan https://github.com/gravitee-io/issues/issues/4798[#4798]
+- Cannot change an existing plan to add restrictions https://github.com/gravitee-io/issues/issues/4761[#4761]
+- Environment Role is not being set with Role Mapping https://github.com/gravitee-io/issues/issues/4762[#4762]
+
+*_Policy_*
+
+- [CalloutHttp] variables should be optional https://github.com/gravitee-io/issues/issues/4818[#4818]
+
+*_Portal_*
+
+- 404 when filtering on all APIs https://github.com/gravitee-io/issues/issues/4823[#4823]
+- Missing one API when filtering by category https://github.com/gravitee-io/issues/issues/4825[#4825]
+
+=== Features
+
+*_Gateway_*
+
+- Fine-grained conditional policies https://github.com/gravitee-io/issues/issues/60[#60]
+- Handle best match on the policy flows https://github.com/gravitee-io/issues/issues/4598[#4598]
+
+*_Management_*
+
+- Allows to migrate from policy studio v1 to v2 https://github.com/gravitee-io/issues/issues/4589[#4589]
+- Default response template per API https://github.com/gravitee-io/issues/issues/4464[#4464]
+
+*_Policy_*
+
+- Retry policy https://github.com/gravitee-io/issues/issues/4802[#4802]
+
+=== Improvements
+
+*_Gateway_*
+
+- Support for cipher suites configuration https://github.com/gravitee-io/issues/issues/4541[#4541]
+
+*_General_*
+
+- Change the subject of emails about adding members https://github.com/gravitee-io/issues/issues/4809[#4809]
+
+*_Management_*
+
+- Better handling of settings (report #4787) https://github.com/gravitee-io/issues/issues/4804[#4804]
+- Make APIM Console multi-env ready https://github.com/gravitee-io/issues/issues/4151[#4151]
+- Multi tenancy parameters - implementation https://github.com/gravitee-io/issues/issues/4642[#4642]
+
+*_Policies_*
+
+- Update documentation https://github.com/gravitee-io/issues/issues/4831[#4831]
+
+*_Repository_*
+
+- [redis] Add support for Redis Sentinel https://github.com/gravitee-io/issues/issues/79[#79]
+
 == https://github.com/gravitee-io/issues/milestone/321?closed=1[APIM - 3.4.2 (2020-12-13)]
 
 === Bug fixes
