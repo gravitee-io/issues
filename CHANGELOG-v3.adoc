@@ -5,6 +5,47 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/316?closed=1[APIM - 3.0.14 (2020-12-28)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Unable to disable websockets support https://github.com/gravitee-io/issues/issues/4476[#4476]
+- Unable to establish websocket connection https://github.com/gravitee-io/issues/issues/4768[#4768]
+
+*_General_*
+
+- Backport #4798 to 3.0.x https://github.com/gravitee-io/issues/issues/4846[#4846]
+- Backport #4825 to 3.0.x https://github.com/gravitee-io/issues/issues/4826[#4826]
+- Backport 4669 to 3.0.x https://github.com/gravitee-io/issues/issues/4670[#4670]
+- Backport 4678 https://github.com/gravitee-io/issues/issues/4679[#4679]
+- Backport 4680 https://github.com/gravitee-io/issues/issues/4681[#4681]
+- Backport 4823 to 3.0.x https://github.com/gravitee-io/issues/issues/4824[#4824]
+- Inconsistent synchronization between portal and management ui when using OIDC https://github.com/gravitee-io/issues/issues/4532[#4532]
+- Merge 1.30.29 https://github.com/gravitee-io/issues/issues/4794[#4794]
+
+*_Management_*
+
+- API import not working with a documentation fetcher from a future version (configuration not compatible) https://github.com/gravitee-io/issues/issues/4806[#4806]
+- Add HTTP proxy configuration for the AMAuthenticationResource https://github.com/gravitee-io/issues/issues/4832[#4832]
+- Cannot define a scope on Authentication creation but only on update https://github.com/gravitee-io/issues/issues/4684[#4684]
+- Closing a subscription with an expiry date is still active https://github.com/gravitee-io/issues/issues/4799[#4799]
+- Hits by country not well sorted https://github.com/gravitee-io/issues/issues/4668[#4668]
+- Markdown generation issue with too big images https://github.com/gravitee-io/issues/issues/4810[#4810]
+
+*_Portal_*
+
+- Do not display error when metrics cannot be retrieved on an application https://github.com/gravitee-io/issues/issues/4677[#4677]
+- Link to an unpublished API should not be display in subscriptions https://github.com/gravitee-io/issues/issues/4836[#4836]
+- User without rights on Applications should not see the menu and be able to browse the dashboard https://github.com/gravitee-io/issues/issues/4675[#4675]
+
+=== Improvements
+
+*_Management_*
+
+- Update user profile information https://github.com/gravitee-io/issues/issues/4618[#4618]
+
 == https://github.com/gravitee-io/issues/milestone/238?closed=1[APIM - 3.5.0 (2020-12-23)]
 
 === Bug fixes
