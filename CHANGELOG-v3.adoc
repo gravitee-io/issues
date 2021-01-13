@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/324?closed=1[APIM - 3.5.1 (2021-01-13)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Contextual documentation `management-configuration-identityproviders.md` is missing https://github.com/gravitee-io/issues/issues/4890[#4890]
+- Revoked apikey can not be reactived https://github.com/gravitee-io/issues/issues/4850[#4850]
+
+*_Gateway_*
+
+- ALPN is enabled by default if ssl is disabled https://github.com/gravitee-io/issues/issues/4887[#4887]
+
+*_Management_*
+
+- Mails are not sent anymore with authenticated smtp https://github.com/gravitee-io/issues/issues/4904[#4904]
+- Missing environment id when fetching current user tasks https://github.com/gravitee-io/issues/issues/4862[#4862]
+- Swagger parsing with fully resolve mode may result in OOM https://github.com/gravitee-io/issues/issues/4906[#4906]
+- WSDL import generate wrong scope for `xml-to-json` policy https://github.com/gravitee-io/issues/issues/4879[#4879]
+
+*_Ui_*
+
+- Alert menu does not appears anymore at API level https://github.com/gravitee-io/issues/issues/4908[#4908]
+
+=== Improvements
+
+*_Policy_*
+
+- [Retry] Use Expression Language Editor in schema-form https://github.com/gravitee-io/issues/issues/4844[#4844]
+
 == https://github.com/gravitee-io/issues/milestone/316?closed=1[APIM - 3.0.14 (2020-12-28)]
 
 === Bug fixes
