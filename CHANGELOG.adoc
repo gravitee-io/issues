@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/326?closed=1[APIM - 1.30.30 (2021-01-14)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Error JS on APIs list screen https://github.com/gravitee-io/issues/issues/4840[#4840]
+
+*_Gateway_*
+
+- Better handling of multiple OAuth2/JWT plans with a single subscription https://github.com/gravitee-io/issues/issues/4817[#4817]
+
+*_General_*
+
+- Backport #4534 https://github.com/gravitee-io/issues/issues/4865[#4865]
+
+*_Management_*
+
+- APIs confusion when performing particular manipulations on analytics https://github.com/gravitee-io/issues/issues/4560[#4560]
+- Api-key can not be reactivate for a closed plan https://github.com/gravitee-io/issues/issues/4889[#4889]
+- Disable import button while importing https://github.com/gravitee-io/issues/issues/4795[#4795]
+- Use api permissions instead of env one for alert https://github.com/gravitee-io/issues/issues/4877[#4877]
+
+=== Improvements
+
+*_Management_*
+
+- Multiple emails sent to subscriber (Application) if email notif enabled https://github.com/gravitee-io/issues/issues/4822[#4822]
+
 == https://github.com/gravitee-io/issues/milestone/322?closed=1[APIM - 1.30.29 (2020-12-14)]
 
 === Bug fixes
