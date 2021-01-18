@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/329?closed=1[APIM - 3.0.15 (2021-01-18)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Add HTTP proxy configuration for the OAuth2AuthenticationResource https://github.com/gravitee-io/issues/issues/4398[#4398]
+- I18n error on console start in production mode https://github.com/gravitee-io/issues/issues/4878[#4878]
+- Input not disable for application group https://github.com/gravitee-io/issues/issues/4710[#4710]
+- Unable to finalize user invitation https://github.com/gravitee-io/issues/issues/4858[#4858]
+
+*_Repository_*
+
+- [jdbc] Cannot remove a group anymore in some case https://github.com/gravitee-io/issues/issues/4785[#4785]
+
+=== Improvements
+
+*_Resource_*
+
+- [am] Add trailing slash to the URL automatically https://github.com/gravitee-io/issues/issues/4907[#4907]
+
 == https://github.com/gravitee-io/issues/milestone/324?closed=1[APIM - 3.5.1 (2021-01-13)]
 
 === Bug fixes
