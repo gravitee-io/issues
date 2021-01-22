@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/334?closed=1[APIM - 3.5.2 (2021-01-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- PathParametersIndexProcessor error for specific request pathInfo https://github.com/gravitee-io/issues/issues/4960[#4960]
+
+*_Management_*
+
+- Disable default username / password for SMTP https://github.com/gravitee-io/issues/issues/4913[#4913]
+- Error when trying to access Design menu with new design studio and without admin rights https://github.com/gravitee-io/issues/issues/4925[#4925]
+- Social authentication is not working anymore https://github.com/gravitee-io/issues/issues/4937[#4937]
+
+*_Policy_*
+
+- [ip-filtering] Empty IPs can be defined as part of whitelist / blacklist https://github.com/gravitee-io/issues/issues/4912[#4912]
+- [rest-to-soap] do not override request path info https://github.com/gravitee-io/issues/issues/4860[#4860]
+
+*_Repository_*
+
+- [elasticsearch] Retry is not working in case of non 2xx status code https://github.com/gravitee-io/issues/issues/4919[#4919]
+
+=== Improvements
+
+*_Management_*
+
+- Newsletter improvment https://github.com/gravitee-io/issues/issues/4692[#4692]
+- Social idp are not enabled after creation https://github.com/gravitee-io/issues/issues/4956[#4956]
+
+*_Portal_*
+
+- Align delete link in aside box https://github.com/gravitee-io/issues/issues/4926[#4926]
+
 == https://github.com/gravitee-io/issues/milestone/329?closed=1[APIM - 3.0.15 (2021-01-18)]
 
 === Bug fixes
