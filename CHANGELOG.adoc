@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/1.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/336?closed=1[APIM - 1.30.31 (2021-02-07)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Cannot use OAuth 2.0/JWT multiple plans https://github.com/gravitee-io/issues/issues/4931[#4931]
+
+*_Management_*
+
+- Metadata cannot be deleted when value is too long https://github.com/gravitee-io/issues/issues/3266[#3266]
+
+*_Repository_*
+
+- [elasticsearch] Retry is not working in case of non 2xx status code https://github.com/gravitee-io/issues/issues/4977[#4977]
+
 == https://github.com/gravitee-io/issues/milestone/326?closed=1[APIM - 1.30.30 (2021-01-14)]
 
 === Bug fixes

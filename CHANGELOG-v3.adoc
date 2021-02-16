@@ -5,6 +5,111 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/342?closed=1[APIM - 3.5.4 (2021-02-15)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Policies are executed following wrong order for response stream policy flow https://github.com/gravitee-io/issues/issues/5054[#5054]
+- [healthcheck] Exception on HC request should return a 502 instead of 503 https://github.com/gravitee-io/issues/issues/5059[#5059]
+
+*_General_*
+
+- Backport #4653 https://github.com/gravitee-io/issues/issues/5076[#5076]
+
+*_Management_*
+
+- Enable to search APIs https://github.com/gravitee-io/issues/issues/5080[#5080]
+- Unable to delete a metadata when I delete an API https://github.com/gravitee-io/issues/issues/5000[#5000]
+- [policy-studio] Impossible to scroll on code field when have long text https://github.com/gravitee-io/issues/issues/5060[#5060]
+
+*_Management-api_*
+
+- Do not expose sensitive information from settings endpoint https://github.com/gravitee-io/issues/issues/5034[#5034]
+
+*_Management-ui_*
+
+- Calendar widget is not accurate https://github.com/gravitee-io/issues/issues/5027[#5027]
+
+*_Policy_*
+
+- [groovy] add documentation in the studio https://github.com/gravitee-io/issues/issues/5077[#5077]
+- [groovy] unable to whitelist array.getAt https://github.com/gravitee-io/issues/issues/5075[#5075]
+
+*_Repository_*
+
+- [mongodb] Unable to save dictionary with properties containing a dot https://github.com/gravitee-io/issues/issues/5072[#5072]
+
+=== Improvements
+
+*_General_*
+
+- Missing id_token_hint on logout endpoint https://github.com/gravitee-io/issues/issues/4975[#4975]
+
+== https://github.com/gravitee-io/issues/milestone/339?closed=1[APIM - 3.5.3 (2021-02-06)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Problem with the execution order of the policies of a response flow https://github.com/gravitee-io/issues/issues/4973[#4973]
+
+*_General_*
+
+- Merge 3.4.3 https://github.com/gravitee-io/issues/issues/5001[#5001]
+
+*_Management_*
+
+- Cannot deploy APIs with configured HTTP headers at the endpoint level or health check https://github.com/gravitee-io/issues/issues/4963[#4963]
+- Manage WSDL imports when creating or updating an API https://github.com/gravitee-io/issues/issues/4976[#4976]
+- Policies on path are not updated when updating an API with swagger https://github.com/gravitee-io/issues/issues/4970[#4970]
+- SecurityDefinition is missing when migrating API from v1 to v2 definition https://github.com/gravitee-io/issues/issues/4979[#4979]
+
+== https://github.com/gravitee-io/issues/milestone/327?closed=1[APIM - 3.4.3 (2021-02-01)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #4592 to 3.4.x https://github.com/gravitee-io/issues/issues/4864[#4864]
+- Backport #4797 to 3.4.x https://github.com/gravitee-io/issues/issues/4800[#4800]
+- Backport 4761 https://github.com/gravitee-io/issues/issues/4783[#4783]
+- Client ID and Client Secret are not shown in developer portal https://github.com/gravitee-io/issues/issues/4779[#4779]
+- Merge 3.0.14 https://github.com/gravitee-io/issues/issues/4853[#4853]
+- Merge 3.0.15 https://github.com/gravitee-io/issues/issues/4923[#4923]
+
+*_Management_*
+
+- A new invited user does not have environment role https://github.com/gravitee-io/issues/issues/4833[#4833]
+- Dictionary start/stop API fails in case of empty Accept header https://github.com/gravitee-io/issues/issues/4740[#4740]
+- Duplicate pages when importing an API https://github.com/gravitee-io/issues/issues/4944[#4944]
+- Fix swagger documentation https://github.com/gravitee-io/issues/issues/4726[#4726]
+- Improve attach media feature https://github.com/gravitee-io/issues/issues/4702[#4702]
+- Manage rights on the plans displayed on the policy studio https://github.com/gravitee-io/issues/issues/4770[#4770]
+- OpenAPI with external $ref is not well parsed https://github.com/gravitee-io/issues/issues/4967[#4967]
+- Swagger type is not sync with API model https://github.com/gravitee-io/issues/issues/4788[#4788]
+- [studio] scope is not automaticaly selected https://github.com/gravitee-io/issues/issues/4801[#4801]
+
+*_Portal_*
+
+- Enable to subscribe to a jwt plan with an app with a client_id https://github.com/gravitee-io/issues/issues/4724[#4724]
+- Has invalid dates when viewing a pending subscription https://github.com/gravitee-io/issues/issues/4873[#4873]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allow to use the system proxy for the endpoint health check https://github.com/gravitee-io/issues/issues/4627[#4627]
+
+*_Management_*
+
+- Handle input type password in schema form https://github.com/gravitee-io/issues/issues/4701[#4701]
+
+*_Repository_*
+
+- [mongodb] Improve 3.4.0 update script https://github.com/gravitee-io/issues/issues/4881[#4881]
+
 == https://github.com/gravitee-io/issues/milestone/334?closed=1[APIM - 3.5.2 (2021-01-22)]
 
 === Bug fixes
