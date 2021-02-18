@@ -5,6 +5,71 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/239?closed=1[APIM - 3.6.0 (2021-02-18)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.2 https://github.com/gravitee-io/issues/issues/4961[#4961]
+- Merge 3.5.3 https://github.com/gravitee-io/issues/issues/5025[#5025]
+- Merge 3.5.4 https://github.com/gravitee-io/issues/issues/5084[#5084]
+
+=== Features
+
+*_Management_*
+
+- Advanced API logging configuration https://github.com/gravitee-io/issues/issues/4745[#4745]
+- Associate a label to an API deployment https://github.com/gravitee-io/issues/issues/4742[#4742]
+- Be able to enable / disable health-check during some periods https://github.com/gravitee-io/issues/issues/4043[#4043]
+- Cockpit authentication support https://github.com/gravitee-io/issues/issues/4522[#4522]
+- Console dashboard page https://github.com/gravitee-io/issues/issues/4747[#4747]
+- Define HTTP verb for dynamic properties and dictionaries https://github.com/gravitee-io/issues/issues/4746[#4746]
+- Display deployments markups on analytics charts https://github.com/gravitee-io/issues/issues/4743[#4743]
+- Improve logging configuration for GDPR compliance https://github.com/gravitee-io/issues/issues/3919[#3919]
+- Manage Cockpit installation registration https://github.com/gravitee-io/issues/issues/4766[#4766]
+- Move organization & environment creation to command handler https://github.com/gravitee-io/issues/issues/4287[#4287]
+- Policy studio history preview https://github.com/gravitee-io/issues/issues/4749[#4749]
+- Propagate installation events to APIM https://github.com/gravitee-io/issues/issues/4945[#4945]
+- Status page for endpoints based on HC https://github.com/gravitee-io/issues/issues/4750[#4750]
+- [multi-env] Display current environment id in the console URL https://github.com/gravitee-io/issues/issues/4778[#4778]
+
+*_Policy_*
+
+- [assign-metrics] Allows to add some custom metrics in analytics https://github.com/gravitee-io/issues/issues/4769[#4769]
+- [hmac] Enable HMAC authentication https://github.com/gravitee-io/issues/issues/4813[#4813]
+
+*_Reporter_*
+
+- [elasticsearch] Auto-enable geo-ip, user-agent when Elasticsearch >= 7.x https://github.com/gravitee-io/issues/issues/4744[#4744]
+
+=== Improvements
+
+*_Analytics_*
+
+- Improve Log detail view https://github.com/gravitee-io/issues/issues/4815[#4815]
+
+*_Identity-providers_*
+
+- [multi-env] Adapt role mapping screen for multi-environment https://github.com/gravitee-io/issues/issues/4803[#4803]
+
+*_Management_*
+
+- Add more configuration options on dynamic dictionaries / properties https://github.com/gravitee-io/issues/issues/4447[#4447]
+- Allows to select groups while creating an API https://github.com/gravitee-io/issues/issues/4449[#4449]
+- [multi-env] Handle environment switching https://github.com/gravitee-io/issues/issues/4777[#4777]
+- [multi-env] Handle user without environments permissions https://github.com/gravitee-io/issues/issues/4774[#4774]
+- [multi-env]Default application creation https://github.com/gravitee-io/issues/issues/4776[#4776]
+
+*_Policy_*
+
+- [json-xml] Allows to transform a JSON to a XML https://github.com/gravitee-io/issues/issues/4561[#4561]
+
+*_Portal_*
+
+- Display the category selected to navigate to the current API page https://github.com/gravitee-io/issues/issues/4466[#4466]
+- EN typo https://github.com/gravitee-io/issues/issues/4857[#4857]
+
 == https://github.com/gravitee-io/issues/milestone/342?closed=1[APIM - 3.5.4 (2021-02-15)]
 
 === Bug fixes
