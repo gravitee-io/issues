@@ -5,6 +5,36 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/344?closed=1[APIM - 3.5.5 (2021-02-24)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- [hc] handle DAYS time unit https://github.com/gravitee-io/issues/issues/5085[#5085]
+
+*_Management_*
+
+- A user should only see APIs it can manage https://github.com/gravitee-io/issues/issues/5096[#5096]
+- EL inputs should be in single line mode https://github.com/gravitee-io/issues/issues/5086[#5086]
+- Handle default value during policy schema validation https://github.com/gravitee-io/issues/issues/5095[#5095]
+- Missing response templates when creating or updating a plan https://github.com/gravitee-io/issues/issues/5110[#5110]
+- User not found when looking for subscriptions https://github.com/gravitee-io/issues/issues/5091[#5091]
+
+*_Policy_*
+
+- [circuit-breaker] Use the correct types in the UI form https://github.com/gravitee-io/issues/issues/5116[#5116]
+
+*_Portal_*
+
+- Css issue when displaying my subscriptions https://github.com/gravitee-io/issues/issues/5094[#5094]
+
+=== Improvements
+
+*_Management-ui_*
+
+- Hide swagger authorization button if try it option is disabled https://github.com/gravitee-io/issues/issues/5100[#5100]
+
 == https://github.com/gravitee-io/issues/milestone/239?closed=1[APIM - 3.6.0 (2021-02-18)]
 
 === Bug fixes
