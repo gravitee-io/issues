@@ -1,0 +1,62 @@
+version: 2.1
+
+parameters:
+  dry_run:
+    type: boolean
+    enum: true
+    default: blank
+  gio_action:
+    type: enum
+    enum: [changelog_apim, changelog_am, blank]
+    default: blank
+  gio_milestone_version:
+    type: string
+    default: $GIO_MILESTONE_VERSION
+    description: "The Gravitee.io Milestone version https://github.com/gravitee-io/issues/milestones for which we want to generate Changelog"
+
+orbs:
+  secrethub: secrethub/cli@1.0.0
+  gravitee: gravitee-io/gravitee@dev:1.0.4
+
+jobs:
+  empty_job:
+    docker:
+     - image: alpine
+    resource_class: small
+    working_directory: /mnt/ramdisk
+    steps:
+      - run:
+          name: "This is a blank job"
+          command: echo "No task is executed."
+
+workflows:
+  version: 2.1
+  # Blank process invoked when git / pull requests events are triggered
+  blank:
+    when:
+      equal: [ blank, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - empty_job:
+          context: cicd-orchestrator
+
+  changelog_apim:
+    when:
+      equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - gravitee/changelog_apim:
+          context: cicd-orchestrator
+          dry_run: << pipeline.parameters.dry_run >>
+          secrethub_org: graviteeio
+          secrethub_repo: cicd
+          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+
+  changelog_am:
+    when:
+      equal: [ changelog_am, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - gravitee/changelog_am:
+          context: cicd-orchestrator
+              dry_run: << pipeline.parameters.dry_run >>
+          secrethub_org: graviteeio
+          secrethub_repo: cicd
+          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
