@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/349?closed=1[APIM - 3.5.6 (2021-03-09)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Can't access a group page if too many users https://github.com/gravitee-io/issues/issues/5083[#5083]
+- Closed plans are visible in the design studio https://github.com/gravitee-io/issues/issues/5122[#5122]
+
+*_Portal_*
+
+- Permissions issue when accessing category documentation https://github.com/gravitee-io/issues/issues/5114[#5114]
+
+*_Repository_*
+
+- [bridge] Unable to retrieve subscriptions for some APIs https://github.com/gravitee-io/issues/issues/5176[#5176]
+
+=== Features
+
+*_Repository_*
+
+- [bridge] Add support for HTTP/S proxy https://github.com/gravitee-io/issues/issues/5178[#5178]
+
+=== Improvements
+
+*_Management_*
+
+- Improve /apis performance https://github.com/gravitee-io/issues/issues/5045[#5045]
+
 == https://github.com/gravitee-io/issues/milestone/344?closed=1[APIM - 3.5.5 (2021-02-24)]
 
 === Bug fixes
