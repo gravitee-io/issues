@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/353?closed=1[APIM - 3.5.7 (2021-03-11)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Cannot delete a deprecated API anymore https://github.com/gravitee-io/issues/issues/5113[#5113]
+- Some API Logging settings get lost after saving https://github.com/gravitee-io/issues/issues/5164[#5164]
+
+*_Reporter_*
+
+- [tcp | file] Monitor elasticsearch output contains a wrong id value https://github.com/gravitee-io/issues/issues/5181[#5181]
+- [tcp] Reporter must be disabled by default https://github.com/gravitee-io/issues/issues/5183[#5183]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add SNI support https://github.com/gravitee-io/issues/issues/5194[#5194]
+- Heartbeat is storing unlimited events which may cause OOM https://github.com/gravitee-io/issues/issues/5191[#5191]
+
 == https://github.com/gravitee-io/issues/milestone/349?closed=1[APIM - 3.5.6 (2021-03-09)]
 
 === Bug fixes
