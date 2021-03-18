@@ -3,8 +3,8 @@ version: 2.1
 parameters:
   dry_run:
     type: boolean
-    enum: true
-    default: blank
+    default: true
+    description: "run in dry run ?"
   gio_action:
     type: enum
     enum: [changelog_apim, changelog_am, blank]
