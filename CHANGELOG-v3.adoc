@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/355?closed=1[APIM - 3.5.8 (2021-03-18)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Cannot create dynamic properties https://github.com/gravitee-io/issues/issues/5230[#5230]
+- I18n base path reference is incorrect https://github.com/gravitee-io/issues/issues/5240[#5240]
+- Quality metrics not shown in APIs main page https://github.com/gravitee-io/issues/issues/5238[#5238]
+- Using the right naming convention https://github.com/gravitee-io/issues/issues/5235[#5235]
+- [portal] image media uri is not right https://github.com/gravitee-io/issues/issues/5244[#5244]
+
+*_Policy_*
+
+- [rest-to-soap] Can not use query parameters from SOAP envelope template https://github.com/gravitee-io/issues/issues/5209[#5209]
+
+*_Portal_*
+
+- Application menus are not correctly displayed https://github.com/gravitee-io/issues/issues/5207[#5207]
+- Cannot read menu entries when is in a sticky mode https://github.com/gravitee-io/issues/issues/5233[#5233]
+- Dasboard list have wrong style https://github.com/gravitee-io/issues/issues/5121[#5121]
+- Display type selector cannot be seen well https://github.com/gravitee-io/issues/issues/5234[#5234]
+
+*_Repository_*
+
+- [http] Improve server to execute repository requests https://github.com/gravitee-io/issues/issues/5203[#5203]
+- [http] Remove strong constraint on client / server version https://github.com/gravitee-io/issues/issues/5204[#5204]
+
 == https://github.com/gravitee-io/issues/milestone/353?closed=1[APIM - 3.5.7 (2021-03-11)]
 
 === Bug fixes
