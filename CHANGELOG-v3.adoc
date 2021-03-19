@@ -5,6 +5,31 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/348?closed=1[APIM - 3.6.1 (2021-03-19)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.5 https://github.com/gravitee-io/issues/issues/5246[#5246]
+- Merge 3.5.6 https://github.com/gravitee-io/issues/issues/5248[#5248]
+- Merge 3.5.7 https://github.com/gravitee-io/issues/issues/5249[#5249]
+- Merge 3.5.8 https://github.com/gravitee-io/issues/issues/5264[#5264]
+- Migration from 3.5.x to 3.6.x fails with MySQL https://github.com/gravitee-io/issues/issues/5175[#5175]
+
+*_Management_*
+
+- Error when trying to log in using an OpenIDConnect Provider https://github.com/gravitee-io/issues/issues/5144[#5144]
+- [multi-org] Allow to change the current organization in the console https://github.com/gravitee-io/issues/issues/5044[#5044]
+
+*_Policy_*
+
+- [hmac]Error 500 on HMAC Http Signature policy https://github.com/gravitee-io/issues/issues/5180[#5180]
+
+*_Portal_*
+
+- Fix the api subscription screen https://github.com/gravitee-io/issues/issues/5103[#5103]
+
 == https://github.com/gravitee-io/issues/milestone/355?closed=1[APIM - 3.5.8 (2021-03-18)]
 
 === Bug fixes
