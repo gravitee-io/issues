@@ -5,6 +5,45 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/240?closed=1[APIM - 3.7.0 (2021-03-23)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.6.1 https://github.com/gravitee-io/issues/issues/5273[#5273]
+
+=== Features
+
+*_Management_*
+
+- Define Group as Primary Owner of an API https://github.com/gravitee-io/issues/issues/5016[#5016]
+- Global markdown template pages https://github.com/gravitee-io/issues/issues/4465[#4465]
+- Searchable Metadata https://github.com/gravitee-io/issues/issues/5017[#5017]
+
+*_Policy_*
+
+- [cache] Support of cache replication across an APIM cluster https://github.com/gravitee-io/issues/issues/599[#599]
+- [oauth2] Add a cache at the policy level https://github.com/gravitee-io/issues/issues/2298[#2298]
+
+*_Repository_*
+
+- Allows to define a prefix for collections / tables https://github.com/gravitee-io/issues/issues/4715[#4715]
+
+=== Improvements
+
+*_Gateway_*
+
+- Add the libraries to allow to write application logs in JSON by changing the logback configuration https://github.com/gravitee-io/issues/issues/5139[#5139]
+
+*_Reporter_*
+
+- Metrics do not expose timestamp for formatters https://github.com/gravitee-io/issues/issues/5097[#5097]
+
+*_Resource_*
+
+- [cache] Allows to limit the cache usage at the platform level https://github.com/gravitee-io/issues/issues/4455[#4455]
+
 == https://github.com/gravitee-io/issues/milestone/348?closed=1[APIM - 3.6.1 (2021-03-19)]
 
 === Bug fixes
