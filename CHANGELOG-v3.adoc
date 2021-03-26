@@ -5,6 +5,48 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/337?closed=1[APIM - 3.0.16 (2021-03-24)]
+
+=== Bug fixes
+
+*_Console_*
+
+- User can not access application analytics https://github.com/gravitee-io/issues/issues/4843[#4843]
+
+*_General_*
+
+- Merge 1.30.30 https://github.com/gravitee-io/issues/issues/4962[#4962]
+- Merge 1.30.31 https://github.com/gravitee-io/issues/issues/5288[#5288]
+
+*_Management_*
+
+- Client side code injection https://github.com/gravitee-io/issues/issues/5031[#5031]
+- Do not use system proxy by default for OAuth authentication https://github.com/gravitee-io/issues/issues/5281[#5281]
+- Enable to search APIs https://github.com/gravitee-io/issues/issues/5043[#5043]
+- Event type button in dashboards are too big https://github.com/gravitee-io/issues/issues/4983[#4983]
+
+*_Oauth2_*
+
+- Oauth2 Authentication of API Portal and API Management have not the same behavior https://github.com/gravitee-io/issues/issues/4058[#4058]
+
+*_Policy_*
+
+- [assign-content] Template Injection https://github.com/gravitee-io/issues/issues/5033[#5033]
+
+*_Portal_*
+
+- Do not display the "add application members" section if the current user has not the permission https://github.com/gravitee-io/issues/issues/4635[#4635]
+
+=== Improvements
+
+*_Management_*
+
+- Access-Control-Allow-Origin regex fail and do not conform with rfc6454 and rfc3986 https://github.com/gravitee-io/issues/issues/4796[#4796]
+
+*_Repository_*
+
+- [jdbc] Add ability to set db schema name https://github.com/gravitee-io/issues/issues/4940[#4940]
+
 == https://github.com/gravitee-io/issues/milestone/240?closed=1[APIM - 3.7.0 (2021-03-23)]
 
 === Bug fixes
