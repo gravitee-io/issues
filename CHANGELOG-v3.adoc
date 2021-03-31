@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/361?closed=1[APIM - 3.5.9 (2021-03-30)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.0.16 https://github.com/gravitee-io/issues/issues/5299[#5299]
+- ResonseContainer Annotation does not work for `Page` and `PagedResult` https://github.com/gravitee-io/issues/issues/5289[#5289]
+
+*_Management_*
+
+- Dates are not updated when create/update a category https://github.com/gravitee-io/issues/issues/5275[#5275]
+- JWT Plan - resolver param using JWKS URL with EL get unresolved (Error 404) https://github.com/gravitee-io/issues/issues/5206[#5206]
+- Minimum limit on IDP name is too short https://github.com/gravitee-io/issues/issues/5297[#5297]
+- Unable to subscribe to public apis from an application https://github.com/gravitee-io/issues/issues/5223[#5223]
+- [portal] Groups get lost while changing the Application image in Portal https://github.com/gravitee-io/issues/issues/5274[#5274]
+- [portal] unable to logout with OIDC provider https://github.com/gravitee-io/issues/issues/5247[#5247]
+
+*_Repository_*
+
+- [jdbc] Make the repositories transactional https://github.com/gravitee-io/issues/issues/5284[#5284]
+
+=== Improvements
+
+*_Management_*
+
+- Dynamic newsletter taglines https://github.com/gravitee-io/issues/issues/5269[#5269]
+
 == https://github.com/gravitee-io/issues/milestone/337?closed=1[APIM - 3.0.16 (2021-03-24)]
 
 === Bug fixes
