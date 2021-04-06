@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/358?closed=1[APIM - 3.6.2 (2021-04-06)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.9 https://github.com/gravitee-io/issues/issues/5326[#5326]
+
+*_Management_*
+
+- As a simple USER I can see the Analytics dashboard but I have a permission error https://github.com/gravitee-io/issues/issues/5251[#5251]
+- In a multi env context search of APIs is not working well https://github.com/gravitee-io/issues/issues/5296[#5296]
+- Portal authentication settings has disappeared https://github.com/gravitee-io/issues/issues/5278[#5278]
+- Unable to save an api Cron expression must consist of 6 fields (found 0 in \"\") https://github.com/gravitee-io/issues/issues/5118[#5118]
+- User pre-registration does not work with an OIDC provider https://github.com/gravitee-io/issues/issues/5159[#5159]
+
+*_Portal_*
+
+- Example and schema imported from swagger document not displayed in portal https://github.com/gravitee-io/issues/issues/5202[#5202]
+
 == https://github.com/gravitee-io/issues/milestone/361?closed=1[APIM - 3.5.9 (2021-03-30)]
 
 === Bug fixes
