@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/363?closed=1[APIM - 3.7.1 (2021-04-10)]
+
+=== Bug fixes
+
+*_General_*
+
+- . This error mainly occurs when the policy is linked to a missing resource, for example a cache or an oauth2 resource. Please check your policy configuration!" https://github.com/gravitee-io/issues/issues/5354[#5354]
+- Merge 3.6.2 https://github.com/gravitee-io/issues/issues/5360[#5360]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/358?closed=1[APIM - 3.6.2 (2021-04-06)]
 
 === Bug fixes
