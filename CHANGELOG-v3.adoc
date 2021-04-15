@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/370?closed=1[APIM - 3.6.3 (2021-04-15)]
+
+=== Bug fixes
+
+*_Cockpit_*
+
+- Backport #5170 (delete installation) https://github.com/gravitee-io/issues/issues/5430[#5430]
+
+*_Management_*
+
+- Cannot login with new users with newsletter https://github.com/gravitee-io/issues/issues/5423[#5423]
+
+=== Features
+
+*_General_*
+
+- New http-signature policy with support for base64 encoding https://github.com/gravitee-io/issues/issues/5408[#5408]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/363?closed=1[APIM - 3.7.1 (2021-04-10)]
 
 === Bug fixes
