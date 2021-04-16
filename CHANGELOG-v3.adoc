@@ -5,6 +5,58 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/241?closed=1[APIM - 3.8.0 (2021-04-16)]
+
+=== Bug fixes
+
+*_Management_*
+
+- API creation and permissions https://github.com/gravitee-io/issues/issues/5416[#5416]
+
+=== Features
+
+*_Gateway_*
+
+- Readiness vs Liveness https://github.com/gravitee-io/issues/issues/4902[#4902]
+- Resource information in health API https://github.com/gravitee-io/issues/issues/4903[#4903]
+
+*_Management_*
+
+- Allow to navigate to previous / next log https://github.com/gravitee-io/issues/issues/4871[#4871]
+- Allows to restore an archived application https://github.com/gravitee-io/issues/issues/4453[#4453]
+- Contact subscribers as an API publisher https://github.com/gravitee-io/issues/issues/4896[#4896]
+- Dashboard of all alerts https://github.com/gravitee-io/issues/issues/4892[#4892]
+- Display groups in user account information https://github.com/gravitee-io/issues/issues/4870[#4870]
+- Private page https://github.com/gravitee-io/issues/issues/4893[#4893]
+- Traffic shadowing https://github.com/gravitee-io/issues/issues/5186[#5186]
+
+*_Policy_*
+
+- [jwt] Allows to configure the client id claims https://github.com/gravitee-io/issues/issues/4900[#4900]
+
+*_Portal_*
+
+- Allows to change favicon https://github.com/gravitee-io/issues/issues/4855[#4855]
+- Override the main sentence in the homepage https://github.com/gravitee-io/issues/issues/4856[#4856]
+
+=== Improvements
+
+*_Gateway_*
+
+- Allow to filter probes on health resource https://github.com/gravitee-io/issues/issues/5236[#5236]
+
+*_Management_*
+
+- Add ACL on the custom links https://github.com/gravitee-io/issues/issues/4563[#4563]
+- [portal] Update ui-component library to 2.3.1 https://github.com/gravitee-io/issues/issues/5389[#5389]
+
+*_Policy_*
+
+- Endpoint reference from policy https://github.com/gravitee-io/issues/issues/5268[#5268]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/370?closed=1[APIM - 3.6.3 (2021-04-15)]
 
 === Bug fixes
