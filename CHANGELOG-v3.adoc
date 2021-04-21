@@ -5,6 +5,55 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/364?closed=1[APIM - 3.5.10 (2021-04-21)]
+
+=== Bug fixes
+
+*_General_*
+
+- API Design Cannot save and deploy policy more than once https://github.com/gravitee-io/issues/issues/5336[#5336]
+- Backport #5159 https://github.com/gravitee-io/issues/issues/5381[#5381]
+- CVE#2168 https://github.com/gravitee-io/issues/issues/5450[#5450]
+- CVE#2169 https://github.com/gravitee-io/issues/issues/5451[#5451]
+
+*_Management_*
+
+- 502 response received on health-check timeout https://github.com/gravitee-io/issues/issues/5342[#5342]
+- A Membership for member USER and ref GROUP already exists. https://github.com/gravitee-io/issues/issues/5413[#5413]
+- Health availability is KO when HC is disabled on a specific endpoint https://github.com/gravitee-io/issues/issues/5365[#5365]
+- Health-check details Response colors to be consistent with colors in the Platform logs https://github.com/gravitee-io/issues/issues/5309[#5309]
+- Improve the user account screen https://github.com/gravitee-io/issues/issues/5376[#5376]
+- Nullpointer exception on OIDC provider login after migration from 1.30 https://github.com/gravitee-io/issues/issues/5410[#5410]
+- Policies configuration form not well displayed https://github.com/gravitee-io/issues/issues/5351[#5351]
+- Search criteria and table offset get lost when clicking 'back to Health-check' https://github.com/gravitee-io/issues/issues/5302[#5302]
+- [portal] unable to logout with OIDC provider https://github.com/gravitee-io/issues/issues/5247[#5247]
+
+*_Managment_*
+
+- API Analytics response payload not displayed, fails with javascript error e.getTextArea is not a function https://github.com/gravitee-io/issues/issues/5364[#5364]
+
+*_Portal_*
+
+- AddressException when trying to submit a Ticket with custom "from" configuration that contains <> https://github.com/gravitee-io/issues/issues/5352[#5352]
+- Documentation pages not displayed (imported from 1.30) https://github.com/gravitee-io/issues/issues/5192[#5192]
+- Inconsistent display in Portal search box https://github.com/gravitee-io/issues/issues/5160[#5160]
+
+=== Features
+
+*_Management_*
+
+- Add icon on policies https://github.com/gravitee-io/issues/issues/5399[#5399]
+
+=== Improvements
+
+*_Management_*
+
+- Allows to sort the logs by API response time https://github.com/gravitee-io/issues/issues/3391[#3391]
+- Naming confusion between path authorizations and resource filtering https://github.com/gravitee-io/issues/issues/5464[#5464]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/241?closed=1[APIM - 3.8.0 (2021-04-16)]
 
 === Bug fixes
