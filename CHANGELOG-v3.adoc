@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/371?closed=1[APIM - 3.7.2 (2021-04-23)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5416 https://github.com/gravitee-io/issues/issues/5421[#5421]
+- Merge 3.5.10 https://github.com/gravitee-io/issues/issues/5466[#5466]
+- Merge 3.6.3 https://github.com/gravitee-io/issues/issues/5446[#5446]
+
+=== Improvements
+
+*_Management_*
+
+- Default Schema is now set to "public" for jdbc https://github.com/gravitee-io/issues/issues/5468[#5468]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/364?closed=1[APIM - 3.5.10 (2021-04-21)]
 
 === Bug fixes
