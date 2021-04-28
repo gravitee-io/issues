@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/378?closed=1[APIM - 3.8.1 (2021-04-28)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.7.2 https://github.com/gravitee-io/issues/issues/5467[#5467]
+
+=== Features
+
+*_General_*
+
+- APIM dependencies upgrade https://github.com/gravitee-io/issues/issues/5471[#5471]
+- EE docker image jdk upgrade openjdk11:jre-11.0.10_9-alpine https://github.com/gravitee-io/issues/issues/5472[#5472]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/371?closed=1[APIM - 3.7.2 (2021-04-23)]
 
 === Bug fixes
