@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/376?closed=1[APIM - 3.5.11 (2021-05-07)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- File descriptors exhaustion on POST method with form-data inputfile https://github.com/gravitee-io/issues/issues/5517[#5517]
+- Issue when flushing inbound request queue on an already ended request https://github.com/gravitee-io/issues/issues/5539[#5539]
+
+*_General_*
+
+- Backport #5468 https://github.com/gravitee-io/issues/issues/5504[#5504]
+- CVE#2168 https://github.com/gravitee-io/issues/issues/5450[#5450]
+
+*_Management_*
+
+- /applications?query=A accessible to unauthorized users https://github.com/gravitee-io/issues/issues/5518[#5518]
+- A Membership for member USER and ref GROUP already exists. https://github.com/gravitee-io/issues/issues/5413[#5413]
+- API logs and permissions https://github.com/gravitee-io/issues/issues/5412[#5412]
+- Get an API by its context-path doesn't seem to work on latest version https://github.com/gravitee-io/issues/issues/5298[#5298]
+- Make /portal protected by authentication https://github.com/gravitee-io/issues/issues/5435[#5435]
+- Plan id not preserved on API import https://github.com/gravitee-io/issues/issues/5489[#5489]
+- [healthcheck] add a query parameter in the path without / https://github.com/gravitee-io/issues/issues/5433[#5433]
+
+*_Portal_*
+
+- Do not display "Create an Application" in Portal if user has insufficient privileges https://github.com/gravitee-io/issues/issues/5403[#5403]
+
+*_Reporter_*
+
+- [file] OOM when flush takes a long time https://github.com/gravitee-io/issues/issues/5515[#5515]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/378?closed=1[APIM - 3.8.1 (2021-04-28)]
 
 === Bug fixes
