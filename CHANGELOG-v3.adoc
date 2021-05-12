@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/381?closed=1[APIM - 3.7.3 (2021-05-12)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.11 https://github.com/gravitee-io/issues/issues/5541[#5541]
+
+*_Management_*
+
+- API Health-check screen is broken https://github.com/gravitee-io/issues/issues/5511[#5511]
+- Environment permission is needed to display the api events in analytics https://github.com/gravitee-io/issues/issues/5473[#5473]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/376?closed=1[APIM - 3.5.11 (2021-05-07)]
 
 === Bug fixes
