@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/383?closed=1[APIM - 3.8.2 (2021-05-14)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5559 https://github.com/gravitee-io/issues/issues/5569[#5569]
+- Backport 5533 https://github.com/gravitee-io/issues/issues/5552[#5552]
+- Merge 3.7.3 https://github.com/gravitee-io/issues/issues/5553[#5553]
+
+*_Management_*
+
+- Missing plan selection rule for V2 Definition APIs https://github.com/gravitee-io/issues/issues/5564[#5564]
+
+*_Management-ui_*
+
+- As a user I should see user assigned to the group without refreshing the page https://github.com/gravitee-io/issues/issues/5401[#5401]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/381?closed=1[APIM - 3.7.3 (2021-05-12)]
 
 === Bug fixes
