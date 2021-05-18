@@ -5,6 +5,38 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/384?closed=1[APIM - 3.5.12 (2021-05-18)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5558 https://github.com/gravitee-io/issues/issues/5568[#5568]
+- Backport #5564 https://github.com/gravitee-io/issues/issues/5590[#5590]
+- Backport #5567 https://github.com/gravitee-io/issues/issues/5589[#5589]
+- Default_api_logo.png can not be overriden https://github.com/gravitee-io/issues/issues/5524[#5524]
+
+*_IdentityProvider_*
+
+- Not default role when user created with external IDP https://github.com/gravitee-io/issues/issues/5561[#5561]
+
+*_Management_*
+
+- Disabling Newsletter does not disable bottom right Pop-in https://github.com/gravitee-io/issues/issues/5502[#5502]
+
+=== Improvements
+
+*_Elasticsearch_*
+
+- Do not include date as part of the index name for ILM managed indices https://github.com/gravitee-io/issues/issues/5551[#5551]
+
+*_General_*
+
+- Add postman for /applications?query=A accessible to unauthorized users https://github.com/gravitee-io/issues/issues/5535[#5535]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/383?closed=1[APIM - 3.8.2 (2021-05-14)]
 
 === Bug fixes
