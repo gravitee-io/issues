@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/365?closed=1[APIM - 3.0.17 (2021-05-20)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5468 https://github.com/gravitee-io/issues/issues/5503[#5503]
+- Backport #5517 https://github.com/gravitee-io/issues/issues/5534[#5534]
+- The API footer overlap the redoc documentation https://github.com/gravitee-io/issues/issues/5597[#5597]
+
+*_Management_*
+
+- Update start date label for audit logs https://github.com/gravitee-io/issues/issues/5256[#5256]
+- User search is not accurate https://github.com/gravitee-io/issues/issues/5150[#5150]
+
+*_Portal_*
+
+- "information" is singular https://github.com/gravitee-io/issues/issues/5595[#5595]
+- Unable to create an App from the portal https://github.com/gravitee-io/issues/issues/5563[#5563]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/388?closed=1[APIM - 3.7.4 (2021-05-22)]
 
 === Bug fixes
