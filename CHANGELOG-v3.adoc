@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/386?closed=1[APIM - 3.5.13 (2021-06-04)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5621 https://github.com/gravitee-io/issues/issues/5633[#5633]
+- Default_api_logo.png can not be overriden https://github.com/gravitee-io/issues/issues/5524[#5524]
+- Merge 3.0.17 https://github.com/gravitee-io/issues/issues/5647[#5647]
+
+*_Helm_*
+
+- Cannot disable the Alert Engine connector https://github.com/gravitee-io/issues/issues/5662[#5662]
+
+*_Management_*
+
+- CORS Access-Control-Allow-Origin regex fails on pattern as ".*.mydomain.com" https://github.com/gravitee-io/issues/issues/5611[#5611]
+- Cannot update Quality Rules https://github.com/gravitee-io/issues/issues/5626[#5626]
+- Invalid logout url construction with external OIDC Provider https://github.com/gravitee-io/issues/issues/5593[#5593]
+- Plan Flows get lost when re-importing API from a swagger/oas3 specification https://github.com/gravitee-io/issues/issues/5651[#5651]
+- Policies on path are not updated when updating an API with swagger https://github.com/gravitee-io/issues/issues/4970[#4970]
+- Unable to use default image on API https://github.com/gravitee-io/issues/issues/5303[#5303]
+
+*_Management-api_*
+
+- Unable to change admin password with the environment variables in Openshift https://github.com/gravitee-io/issues/issues/2680[#2680]
+
+*_Portal_*
+
+- Do not display "Create an Application" in Portal if user has insufficient privileges https://github.com/gravitee-io/issues/issues/5403[#5403]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/387?closed=1[APIM - 3.8.3 (2021-05-26)]
 
 === Bug fixes
