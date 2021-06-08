@@ -5,6 +5,47 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/242?closed=1[APIM - 3.9.0 (2021-06-08)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.8.1 https://github.com/gravitee-io/issues/issues/5497[#5497]
+- Merge 3.8.2 https://github.com/gravitee-io/issues/issues/5554[#5554]
+- Merge 3.8.3 https://github.com/gravitee-io/issues/issues/5634[#5634]
+
+*_Management_*
+
+- Cannot ask for review anymore https://github.com/gravitee-io/issues/issues/5558[#5558]
+- Cannot publish / unpublish a page with a link https://github.com/gravitee-io/issues/issues/5559[#5559]
+- Check existance of confirmUrl https://github.com/gravitee-io/issues/issues/5567[#5567]
+- Error when updating user's avatar https://github.com/gravitee-io/issues/issues/5533[#5533]
+- [gateway] reintroduce serializers/deserializers on gravitee-definition https://github.com/gravitee-io/issues/issues/5642[#5642]
+
+=== Features
+
+*_Console_*
+
+- Custom templates for alert notifications (HTTP Status Code and Average Response Time) https://github.com/gravitee-io/issues/issues/5481[#5481]
+
+*_Gateway_*
+
+- Allow to associate a gateway to a specific environment https://github.com/gravitee-io/issues/issues/5357[#5357]
+- Platform policies https://github.com/gravitee-io/issues/issues/4460[#4460]
+
+*_Management_*
+
+- Allow an API Publisher to push API Metrics to a specific target https://github.com/gravitee-io/issues/issues/5349[#5349]
+- Configure an alert on a timeframe https://github.com/gravitee-io/issues/issues/4894[#4894]
+
+*_Portal_*
+
+- Allow to define alerts for a consumer https://github.com/gravitee-io/issues/issues/5341[#5341]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/386?closed=1[APIM - 3.5.13 (2021-06-04)]
 
 === Bug fixes
