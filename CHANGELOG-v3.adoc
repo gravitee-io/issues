@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/393?closed=1[APIM - 3.5.14 (2021-06-09)]
+
+=== Bug fixes
+
+*_General_*
+
+- Group/role mapping lost after OIDC login https://github.com/gravitee-io/issues/issues/5686[#5686]
+
+*_Management_*
+
+- Allow to specify multiple roles to map with ldap idp https://github.com/gravitee-io/issues/issues/5619[#5619]
+- Gravitee_http_cors_alloworigin environment variable setting not reflected in UI https://github.com/gravitee-io/issues/issues/5583[#5583]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/242?closed=1[APIM - 3.9.0 (2021-06-08)]
 
 === Bug fixes
