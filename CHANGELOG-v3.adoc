@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/399?closed=1[APIM - 3.9.1 (2021-06-12)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Loss of data when migrating on 3.9.0 for jdbc users https://github.com/gravitee-io/issues/issues/5711[#5711]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/393?closed=1[APIM - 3.5.14 (2021-06-09)]
 
 === Bug fixes
