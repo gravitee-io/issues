@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/391?closed=1[APIM - 3.8.4 (2021-06-14)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport #5649 https://github.com/gravitee-io/issues/issues/5704[#5704]
+- Merge 3.5.13 https://github.com/gravitee-io/issues/issues/5690[#5690]
+- Merge 3.5.14 https://github.com/gravitee-io/issues/issues/5698[#5698]
+
+*_Management_*
+
+- Categories order field not set at creation https://github.com/gravitee-io/issues/issues/5632[#5632]
+
+*_Resource-cache_*
+
+- Error when redeploy an api https://github.com/gravitee-io/issues/issues/5671[#5671]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/399?closed=1[APIM - 3.9.1 (2021-06-12)]
 
 === Bug fixes
