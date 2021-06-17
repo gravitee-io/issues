@@ -5,6 +5,39 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/396?closed=1[APIM - 3.5.15 (2021-06-17)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Allow to disable "maintenance" mode https://github.com/gravitee-io/issues/issues/5731[#5731]
+- CORS settings doesn't display https://github.com/gravitee-io/issues/issues/5729[#5729]
+
+*_Gateway_*
+
+- Unable to establish websocket connection using Firefox https://github.com/gravitee-io/issues/issues/5722[#5722]
+
+*_General_*
+
+- Backport #5632 https://github.com/gravitee-io/issues/issues/5697[#5697]
+- Check consistency of Plans on API update https://github.com/gravitee-io/issues/issues/5718[#5718]
+
+*_Management_*
+
+- Can not Auto-fetch Documentation Page from an external source https://github.com/gravitee-io/issues/issues/5699[#5699]
+- Inconsistent Sharding Tags behavior compared to the documentation https://github.com/gravitee-io/issues/issues/5600[#5600]
+- Newsletter subscribe link not working anymore https://github.com/gravitee-io/issues/issues/5720[#5720]
+
+=== Features
+
+*_Policy_*
+
+- [Http Signature] Support non quoted String in the signature https://github.com/gravitee-io/issues/issues/5684[#5684]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/391?closed=1[APIM - 3.8.4 (2021-06-14)]
 
 === Bug fixes
