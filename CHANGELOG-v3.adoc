@@ -5,6 +5,21 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/401?closed=1[APIM - 3.5.16 (2021-06-18)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API health check is duplicating slash in some case https://github.com/gravitee-io/issues/issues/5752[#5752]
+
+*_Portal_*
+
+- Login issue on the portal https://github.com/gravitee-io/issues/issues/5748[#5748]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/396?closed=1[APIM - 3.5.15 (2021-06-17)]
 
 === Bug fixes
