@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/398?closed=1[APIM - 3.8.5 (2021-06-29)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.15 https://github.com/gravitee-io/issues/issues/5740[#5740]
+- Merge 3.5.16 https://github.com/gravitee-io/issues/issues/5758[#5758]
+
+*_Management_*
+
+- API_REVIEW_* Audit Event filters are missing in the scrolling list (API and Global Levels) https://github.com/gravitee-io/issues/issues/5673[#5673]
+- Redirection problem when connecting to console from cockpit https://github.com/gravitee-io/issues/issues/5785[#5785]
+- Roles initialized to default after removing a role mapping configuration https://github.com/gravitee-io/issues/issues/5756[#5756]
+- Subscription approval link not correct https://github.com/gravitee-io/issues/issues/5724[#5724]
+
+*_Reporter_*
+
+- Bad timestamp format by reporters https://github.com/gravitee-io/issues/issues/5707[#5707]
+- [file] NPEs thrown in log https://github.com/gravitee-io/issues/issues/5668[#5668]
+
+*_Resource-cache_*
+
+- Error when redeploy an api https://github.com/gravitee-io/issues/issues/5671[#5671]
+
+=== Improvements
+
+*_Helm_*
+
+- Adapt liveness probe of the gateway to check API synchronization https://github.com/gravitee-io/issues/issues/5734[#5734]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/401?closed=1[APIM - 3.5.16 (2021-06-18)]
 
 === Bug fixes
