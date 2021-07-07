@@ -5,6 +5,43 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/404?closed=1[APIM - 3.5.17 (2021-07-06)]
+
+=== Bug fixes
+
+*_General_*
+
+- Backport 5756 https://github.com/gravitee-io/issues/issues/5757[#5757]
+
+*_Management_*
+
+- Strange UI behaviour in the console https://github.com/gravitee-io/issues/issues/5807[#5807]
+- [alerting] When creating "Alert on the health status of the node", CREATE button is disabled https://github.com/gravitee-io/issues/issues/5808[#5808]
+
+*_Managment_*
+
+- API Analytics response payload not displayed, fails with javascript error e.getTextArea is not a function https://github.com/gravitee-io/issues/issues/5364[#5364]
+
+*_Policy_*
+
+- Allow array.length with groovy sandbox https://github.com/gravitee-io/issues/issues/5557[#5557]
+- [transform headers] support null in arrays https://github.com/gravitee-io/issues/issues/5778[#5778]
+
+=== Features
+
+*_Resource_*
+
+- [auth-provider] Support HTTP-based authentication provider https://github.com/gravitee-io/issues/issues/5737[#5737]
+
+=== Improvements
+
+*_Policy_*
+
+- [basic-authentication] Manage async auth providers https://github.com/gravitee-io/issues/issues/5733[#5733]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/400?closed=1[APIM - 3.9.2 (2021-06-29)]
 
 === Bug fixes
