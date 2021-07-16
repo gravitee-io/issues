@@ -5,6 +5,19 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/410?closed=1[APIM - 3.9.3 (2021-07-16)]
+
+=== Bug fixes
+
+*_General_*
+
+- APIM Console Plan creation with Rate Limiting causes an exception https://github.com/gravitee-io/issues/issues/5833[#5833]
+- Merge 3.8.6 https://github.com/gravitee-io/issues/issues/5817[#5817]
+- The GW instance is no longer displayed on the nightly https://github.com/gravitee-io/issues/issues/5782[#5782]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/408?closed=1[APIM - 3.8.6 (2021-07-16)]
 
 === Bug fixes
