@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/408?closed=1[APIM - 3.8.6 (2021-07-16)]
+
+=== Bug fixes
+
+*_General_*
+
+- GetGroupMembers align documentation vs real output https://github.com/gravitee-io/issues/issues/5614[#5614]
+- Merge 3.5.17 https://github.com/gravitee-io/issues/issues/5816[#5816]
+
+=== Features
+
+*_Gateway_*
+
+- [response template] add a GATEWAY_TIMEOUT response template https://github.com/gravitee-io/issues/issues/5501[#5501]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/404?closed=1[APIM - 3.5.17 (2021-07-06)]
 
 === Bug fixes
