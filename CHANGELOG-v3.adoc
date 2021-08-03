@@ -5,6 +5,58 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/243?closed=1[APIM - 3.10.0 (2021-08-03)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Heartbeat stops after 1h https://github.com/gravitee-io/issues/issues/5649[#5649]
+- [apim] gRPC in Server streaming mode the call is never close https://github.com/gravitee-io/issues/issues/5494[#5494]
+
+*_General_*
+
+- Lost documentation pages when duplicating an API https://github.com/gravitee-io/issues/issues/5849[#5849]
+- Merge 3.9.2 https://github.com/gravitee-io/issues/issues/5814[#5814]
+- Merge 3.9.3 https://github.com/gravitee-io/issues/issues/5818[#5818]
+
+*_Management_*
+
+- Error while importing a file https://github.com/gravitee-io/issues/issues/5932[#5932]
+- Not redirect to dashboard when click on gravitee logo https://github.com/gravitee-io/issues/issues/5768[#5768]
+
+=== Features
+
+*_Gateway_*
+
+- OpenTracing support https://github.com/gravitee-io/issues/issues/1581[#1581]
+
+*_General_*
+
+- API Promotion https://github.com/gravitee-io/issues/issues/5530[#5530]
+- Accepting/Rejecting an API promotion request https://github.com/gravitee-io/issues/issues/5528[#5528]
+- Handle `groups` during API Promotion https://github.com/gravitee-io/issues/issues/5844[#5844]
+- Handle `pages` during API Promotion https://github.com/gravitee-io/issues/issues/5841[#5841]
+- Handle `plans` during API Promotion https://github.com/gravitee-io/issues/issues/5842[#5842]
+- Logging events for API promotion https://github.com/gravitee-io/issues/issues/5531[#5531]
+- Making requests for API promotion https://github.com/gravitee-io/issues/issues/5526[#5526]
+- Managing in progress API promotion requests https://github.com/gravitee-io/issues/issues/5746[#5746]
+- Support Redis for cache resource https://github.com/gravitee-io/issues/issues/5712[#5712]
+- Viewing tasks for API promotion requests https://github.com/gravitee-io/issues/issues/5527[#5527]
+
+*_Management_*
+
+- Allows to use Expression Language in health check configuration https://github.com/gravitee-io/issues/issues/4943[#4943]
+- Manage AsciiDoc pages https://github.com/gravitee-io/issues/issues/4717[#4717]
+- Notify consumer before the expiration of its subscription https://github.com/gravitee-io/issues/issues/3887[#3887]
+
+*_Policy_*
+
+- [groovy] add XML support https://github.com/gravitee-io/issues/issues/5891[#5891]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/410?closed=1[APIM - 3.9.3 (2021-07-16)]
 
 === Bug fixes
