@@ -5,49 +5,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
-== https://github.com/gravitee-io/issues/milestone/409?closed=1[APIM - 3.5.18 (2021-08-04)]
-
-=== Bug fixes
-
-*_Definition_*
-
-- Virtual host with '/' is not saved https://github.com/gravitee-io/issues/issues/5859[#5859]
-
-*_Gateway_*
-
-- Upgrade dependency for AE 1.3.3 plugin https://github.com/gravitee-io/issues/issues/5890[#5890]
-
-*_Management_*
-
-- "order" field of Plans get reseted when imported from 3.5.x to 3.8.x https://github.com/gravitee-io/issues/issues/5696[#5696]
-- Allow to specify multiple roles to map with ldap idp https://github.com/gravitee-io/issues/issues/5619[#5619]
-- Check plan policy configuration https://github.com/gravitee-io/issues/issues/5952[#5952]
-- Flows property not accepted in request payload for Update Plan https://github.com/gravitee-io/issues/issues/5694[#5694]
-- Plan Flows get lost on updating an API with an existing API definition (updateApiWithDefinition) https://github.com/gravitee-io/issues/issues/5820[#5820]
-- [analytics] "Display percentage" is never checked https://github.com/gravitee-io/issues/issues/5495[#5495]
-- [github idp] user without space in their username fail to authenticate https://github.com/gravitee-io/issues/issues/5507[#5507]
-
-*_Policy-ratelimit_*
-
-- Unable to use quota notification.properties https://github.com/gravitee-io/issues/issues/5834[#5834]
-
-*_Reporter-file_*
-
-- [reporter-tcp] manage user-agent in the elasticsearch output https://github.com/gravitee-io/issues/issues/5893[#5893]
-
-=== Improvements
-
-*_General_*
-
-- Add the created_at value in the Get API definition response https://github.com/gravitee-io/issues/issues/5455[#5455]
-
-*_Management_*
-
-- Re-enable "retainDays" configuration in file-reporter plugin https://github.com/gravitee-io/issues/issues/5463[#5463]
-
- 
- 
-
 == https://github.com/gravitee-io/issues/milestone/243?closed=1[APIM - 3.10.0 (2021-08-03)]
 
 === Bug fixes
