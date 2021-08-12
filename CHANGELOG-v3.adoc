@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/414?closed=1[APIM - 3.8.7 (2021-08-12)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.5.18 https://github.com/gravitee-io/issues/issues/5943[#5943]
+
+*_Management_*
+
+- Error while importing a file https://github.com/gravitee-io/issues/issues/5933[#5933]
+- Metadata of type URL do not support all characters https://github.com/gravitee-io/issues/issues/5964[#5964]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/409?closed=1[APIM - 3.5.18 (2021-08-04)]
 
 === Bug fixes
