@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/416?closed=1[APIM - 3.9.4 (2021-08-23)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Probem on registration of the proxy conf https://github.com/gravitee-io/issues/issues/5896[#5896]
+
+*_General_*
+
+- Merge 3.8.7 https://github.com/gravitee-io/issues/issues/5944[#5944]
+
+*_Management_*
+
+- JSON Threat Protection Policy unable to adjust default values https://github.com/gravitee-io/issues/issues/5982[#5982]
+
+*_Ratelimit_*
+
+- Rate limiting not working with Redis https://github.com/gravitee-io/issues/issues/5882[#5882]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/414?closed=1[APIM - 3.8.7 (2021-08-12)]
 
 === Bug fixes
