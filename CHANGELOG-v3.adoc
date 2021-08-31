@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/333?closed=1[APIM - 3.11.0 (2021-08-31)]
+
+=== Bug fixes
+
+*_General_*
+
+- OAuth2 plan parsing must accept tokens other than JWT (example 1) https://github.com/gravitee-io/issues/issues/5828[#5828]
+- OAuth2 plan parsing must accept tokens other than JWT (example 2) https://github.com/gravitee-io/issues/issues/5829[#5829]
+- The "Access control" tab of a documentation page does not return the correct list of roles https://github.com/gravitee-io/issues/issues/5789[#5789]
+
+*_Management_*
+
+- Logging is enabled on the wrong api https://github.com/gravitee-io/issues/issues/5991[#5991]
+
+=== Features
+
+*_General_*
+
+- Add `Try it` in Design Studio https://github.com/gravitee-io/issues/issues/5901[#5901]
+- Define the request https://github.com/gravitee-io/issues/issues/5804[#5804]
+- Display the response https://github.com/gravitee-io/issues/issues/5805[#5805]
+- Encrypt API properties https://github.com/gravitee-io/issues/issues/5638[#5638]
+- Javascript policy https://github.com/gravitee-io/issues/issues/5948[#5948]
+- Write documentation with AsyncAPI https://github.com/gravitee-io/issues/issues/5575[#5575]
+
+*_Policy_*
+
+- [gravitee-policy-callout-http] fire & forget mode https://github.com/gravitee-io/issues/issues/5972[#5972]
+
+=== Improvements
+
+*_Policy-groovy_*
+
+- Improve form https://github.com/gravitee-io/issues/issues/6027[#6027]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/416?closed=1[APIM - 3.9.4 (2021-08-23)]
 
 === Bug fixes
