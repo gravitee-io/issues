@@ -5,6 +5,55 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/419?closed=1[APIM - 3.10.1 (2021-09-06)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Logo disappeared after migration to 3.10 https://github.com/gravitee-io/issues/issues/6038[#6038]
+- Metrics of instances are not displayed https://github.com/gravitee-io/issues/issues/6039[#6039]
+- Pending Tasks are visible to any users in the Console https://github.com/gravitee-io/issues/issues/6036[#6036]
+- Portal Settings get reinitialized after changes https://github.com/gravitee-io/issues/issues/6009[#6009]
+- [3.10.0] "Authentication button color" set in Console OIDC Authentication Settings not propagated to Portal https://github.com/gravitee-io/issues/issues/6010[#6010]
+
+*_Gateway_*
+
+- Enabling prometheus Metrics gives java.lang.ClassNotFoundExceptionorg.LatencyUtils.PauseDetector https://github.com/gravitee-io/issues/issues/5996[#5996]
+
+*_General_*
+
+- Cannot access API as a User https://github.com/gravitee-io/issues/issues/6033[#6033]
+- Merge 3.9.4 https://github.com/gravitee-io/issues/issues/5945[#5945]
+
+*_Management_*
+
+- Enable to sync APIs due to NPE https://github.com/gravitee-io/issues/issues/5980[#5980]
+
+*_Platform_*
+
+- El expression request.method leads to an InvocationTargetException https://github.com/gravitee-io/issues/issues/6051[#6051]
+
+=== Features
+
+*_Reporter_*
+
+- Add the ability to filter or rename properties / fields https://github.com/gravitee-io/issues/issues/5831[#5831]
+
+=== Improvements
+
+*_Gateway_*
+
+- Enhance certificate management in keystore to enable to differenciate certificates per domain https://github.com/gravitee-io/issues/issues/5894[#5894]
+- Resource hogging when using many certificates in keystore https://github.com/gravitee-io/issues/issues/5895[#5895]
+
+*_Management_*
+
+- Set spring security dependencies as provided in IDP plugins https://github.com/gravitee-io/issues/issues/5947[#5947]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/333?closed=1[APIM - 3.11.0 (2021-08-31)]
 
 === Bug fixes
