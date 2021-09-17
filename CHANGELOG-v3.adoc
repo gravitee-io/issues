@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/421?closed=1[APIM - 3.10.2 (2021-09-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- [oauth-am-resource] memory leak https://github.com/gravitee-io/issues/issues/6119[#6119]
+
+*_Management_*
+
+- Add missing script and missing documentation https://github.com/gravitee-io/issues/issues/6142[#6142]
+
+*_Repository_*
+
+- [rate-limit] redis health check throws an exception https://github.com/gravitee-io/issues/issues/6111[#6111]
+
+*_Resource-oauth2-provider_*
+
+- Exceptions occur when two many concurrent requests are made https://github.com/gravitee-io/issues/issues/6176[#6176]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/419?closed=1[APIM - 3.10.1 (2021-09-06)]
 
 === Bug fixes
