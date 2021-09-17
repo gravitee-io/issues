@@ -7,8 +7,11 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 == https://github.com/gravitee-io/issues/milestone/429?closed=1[APIM - 3.10.3 (2021-09-17)]
 
- 
- 
+=== Bug fixes
+
+*_Platform_*
+
+- Fix APIM Dockerfile https://github.com/gravitee-io/issues/issues/6206[#6206]
 
 == https://github.com/gravitee-io/issues/milestone/421?closed=1[APIM - 3.10.2 (2021-09-17)]
 
@@ -36,9 +39,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Upgrade Docker Images https://github.com/gravitee-io/issues/issues/6139[#6139]
 - Update APIM dependencies https://github.com/gravitee-io/issues/issues/6152[#6152]
-
- 
- 
 
 == https://github.com/gravitee-io/issues/milestone/419?closed=1[APIM - 3.10.1 (2021-09-06)]
 
