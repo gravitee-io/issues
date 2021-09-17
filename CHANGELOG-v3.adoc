@@ -25,6 +25,13 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Exceptions occur when two many concurrent requests are made https://github.com/gravitee-io/issues/issues/6176[#6176]
 
+=== Improvements
+
+*_Platform_*
+
+- Upgrade Docker Images https://github.com/gravitee-io/issues/issues/6139[#6139]
+- Update APIM dependencies https://github.com/gravitee-io/issues/issues/6152[#6152]
+
  
  
 
