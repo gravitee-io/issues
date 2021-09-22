@@ -5,6 +5,31 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/422?closed=1[APIM - 3.11.1 (2021-09-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Try It Mode -  Number of instances provided should be set https://github.com/gravitee-io/issues/issues/6073[#6073]
+- Try It Mode - issues if api has health check configured https://github.com/gravitee-io/issues/issues/6069[#6069]
+- Try It Mode - issues with configuration https://github.com/gravitee-io/issues/issues/6072[#6072]
+
+*_General_*
+
+- Merge 3.10.1 https://github.com/gravitee-io/issues/issues/6056[#6056]
+- Merge 3.10.2 https://github.com/gravitee-io/issues/issues/6217[#6217]
+- Merge 3.10.3 https://github.com/gravitee-io/issues/issues/6219[#6219]
+
+=== Improvements
+
+*_Management_*
+
+- Try It Mode - check api configuration when requesting debug https://github.com/gravitee-io/issues/issues/6017[#6017]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/429?closed=1[APIM - 3.10.3 (2021-09-17)]
 
 === Bug fixes
