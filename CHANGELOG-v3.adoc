@@ -23,9 +23,9 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Update Gateway API to add an access to the SSLSession https://github.com/gravitee-io/issues/issues/5322[#5322]
 
-*_General_*
+*_Platform_*
 
-- Step 2Handle duplicate API keys https://github.com/gravitee-io/issues/issues/6006[#6006]
+- Handle duplicate API keys https://github.com/gravitee-io/issues/issues/6006[#6006]
 
 *_Policy_*
 
