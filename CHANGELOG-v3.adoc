@@ -5,6 +5,39 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/352?closed=1[APIM - 3.12.0 (2021-09-30)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.11.1 https://github.com/gravitee-io/issues/issues/6240[#6240]
+
+*_Repository_*
+
+- [mongo] Wrong total number of elements in paginated search https://github.com/gravitee-io/issues/issues/6173[#6173]
+
+=== Features
+
+*_Gateway_*
+
+- Update Gateway API to add an access to the SSLSession https://github.com/gravitee-io/issues/issues/5322[#5322]
+
+*_General_*
+
+- Step 2Handle duplicate API keys https://github.com/gravitee-io/issues/issues/6006[#6006]
+
+*_Policy_*
+
+- [generate-http-signature] Genrate HTTP Signature policy https://github.com/gravitee-io/issues/issues/4899[#4899]
+
+*_Portal_*
+
+- Advanced search on APIs https://github.com/gravitee-io/issues/issues/2839[#2839]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/422?closed=1[APIM - 3.11.1 (2021-09-22)]
 
 === Bug fixes
