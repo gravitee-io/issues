@@ -5,6 +5,61 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/413?closed=1[APIM - 3.5.19 (2021-10-07)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Backport #5649 in 3.5 https://github.com/gravitee-io/issues/issues/6183[#6183]
+- Wrong settings for SyncService https://github.com/gravitee-io/issues/issues/5977[#5977]
+- [sync] In case of dictionary sync issue, APIs are fully resync https://github.com/gravitee-io/issues/issues/6301[#6301]
+- [sync] Sync process is trying to deploy APIs twice https://github.com/gravitee-io/issues/issues/6300[#6300]
+
+*_General_*
+
+- Backport #6101 in 3.5.X https://github.com/gravitee-io/issues/issues/6280[#6280]
+- Backport of #5966 in 3.5.x for APIM https://github.com/gravitee-io/issues/issues/6084[#6084]
+- Backport of #5982 in 3.5.x https://github.com/gravitee-io/issues/issues/5983[#5983]
+
+*_Management_*
+
+- Application Dashboard inconsistent filtering on "Top Failed" widget https://github.com/gravitee-io/issues/issues/5771[#5771]
+- Plans get lost when imported with different user with admin rights https://github.com/gravitee-io/issues/issues/6008[#6008]
+- Reorder issue on PageServiceImpl.java https://github.com/gravitee-io/issues/issues/5931[#5931]
+- SMTP TLS negotiation error https://github.com/gravitee-io/issues/issues/6101[#6101]
+- SQL error when trying to search application to subscribe with https://github.com/gravitee-io/issues/issues/5812[#5812]
+- User can list all applications without permissions https://github.com/gravitee-io/issues/issues/6307[#6307]
+- [repository] missing mongodb index makes impossible to start management api https://github.com/gravitee-io/issues/issues/5995[#5995]
+
+*_Policy_*
+
+- [json threat] - MAX JSON Array size issue not taken into account https://github.com/gravitee-io/issues/issues/6050[#6050]
+- [ratelimit] Error 429 is being returned while using two Rate Limit Policies. https://github.com/gravitee-io/issues/issues/6218[#6218]
+- [ratelimit] Redis AsyncRateLimitRepositoryError NumberFormatExceptionnull https://github.com/gravitee-io/issues/issues/5988[#5988]
+
+*_Portal_*
+
+- API name not displayed correctly when multiple labels https://github.com/gravitee-io/issues/issues/5761[#5761]
+- Long paths/names are not well displayed in Analytics and Logs widgets https://github.com/gravitee-io/issues/issues/5767[#5767]
+- Scopes (Available Authorizations) can't be displayed in API Documentation (swagger) https://github.com/gravitee-io/issues/issues/5661[#5661]
+
+=== Features
+
+*_Management_*
+
+- Search for users by Id from /management/organizations/{orgId}/environments/{envId}/search/users  endpoint https://github.com/gravitee-io/issues/issues/5855[#5855]
+
+=== Improvements
+
+*_Management_*
+
+- Allow spaces in the declaration of dictionaries, at the dynamic routing level https://github.com/gravitee-io/issues/issues/5938[#5938]
+- Startup performance improvements https://github.com/gravitee-io/issues/issues/6066[#6066]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/352?closed=1[APIM - 3.12.0 (2021-09-30)]
 
 === Bug fixes
