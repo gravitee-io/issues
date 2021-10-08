@@ -11,16 +11,15 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Gateway_*
 
-- Backport #5649 in 3.5 https://github.com/gravitee-io/issues/issues/6183[#6183]
+- Backport of https://github.com/gravitee-io/issues/issues/5649[#5649] : Heartbeat stops after 1h https://github.com/gravitee-io/issues/issues/6183[#6183]
 - Wrong settings for SyncService https://github.com/gravitee-io/issues/issues/5977[#5977]
 - [sync] In case of dictionary sync issue, APIs are fully resync https://github.com/gravitee-io/issues/issues/6301[#6301]
 - [sync] Sync process is trying to deploy APIs twice https://github.com/gravitee-io/issues/issues/6300[#6300]
 
 *_General_*
 
-- Backport #6101 in 3.5.X https://github.com/gravitee-io/issues/issues/6280[#6280]
-- Backport of #5966 in 3.5.x for APIM https://github.com/gravitee-io/issues/issues/6084[#6084]
-- Backport of #5982 in 3.5.x https://github.com/gravitee-io/issues/issues/5983[#5983]
+- Backport of https://github.com/gravitee-io/issues/issues/5966[#5966] : Node stop event are not well propagated when node is stopped https://github.com/gravitee-io/issues/issues/6084[#6084]
+- Backport of https://github.com/gravitee-io/issues/issues/5982[#5982] : JSON Threat Protection Policy : unable to adjust default values https://github.com/gravitee-io/issues/issues/5983[#5983]
 
 *_Management_*
 
