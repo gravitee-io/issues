@@ -7,8 +7,11 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 == https://github.com/gravitee-io/issues/milestone/426?closed=1[APIM - 3.5.20 (2021-10-14)]
 
- 
- 
+=== Bug fixes
+
+*_Gateway_*
+
+ - Fix JWT and OAuth2 plans https://github.com/gravitee-io/issues/issues/6391[#6391]
 
 == https://github.com/gravitee-io/issues/milestone/413?closed=1[APIM - 3.5.19 (2021-10-07)]
 
