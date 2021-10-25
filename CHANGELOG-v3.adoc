@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/438?closed=1[APIM - 3.11.2 (2021-10-25)]
+
+=== Bug fixes
+
+*_Repository_*
+
+- [jdbc] APIs are not loaded at gateway startup after migration https://github.com/gravitee-io/issues/issues/6449[#6449]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/426?closed=1[APIM - 3.5.20 (2021-10-14)]
 
 === Bug fixes
