@@ -17,8 +17,10 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - APIKey isn't the right one https://github.com/gravitee-io/issues/issues/6413[#6413]
 
- 
- 
+*_Repository_*
+
+- [sqlserver] Rest API database setup https://github.com/gravitee-io/issues/issues/6453[#6453]
+
 
 == https://github.com/gravitee-io/issues/milestone/438?closed=1[APIM - 3.11.2 (2021-10-25)]
 
