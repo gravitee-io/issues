@@ -15,9 +15,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Change button labels (dashboard types) on Settings > Analytics page https://github.com/gravitee-io/issues/issues/6363[#6363]
 - Deleted plan is not removed from design studio https://github.com/gravitee-io/issues/issues/5942[#5942]
 - Documentation page configuration imported from external source can not be edited https://github.com/gravitee-io/issues/issues/6461[#6461]
-
-*_Management_*
-
 - Top failed APIs shows 100% Failed on 200 status in Application Analytics https://github.com/gravitee-io/issues/issues/5703[#5703]
 
 === Improvements
