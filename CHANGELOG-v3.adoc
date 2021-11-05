@@ -5,6 +5,62 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/430?closed=1[APIM - 3.10.4 (2021-11-05)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Documentation page configuration imported from external source can not be edited https://github.com/gravitee-io/issues/issues/6149[#6149]
+- Organization Settings get reinitialized after changing Authentication configuration. https://github.com/gravitee-io/issues/issues/6114[#6114]
+- Portal Settings get reinitialized after changing Portal Authentication configuration https://github.com/gravitee-io/issues/issues/6154[#6154]
+- Quality Metrics lost after upgrade https://github.com/gravitee-io/issues/issues/6290[#6290]
+- Reset button in settings does not work https://github.com/gravitee-io/issues/issues/6497[#6497]
+
+*_Gateway_*
+
+- Can not start gateway if Hazelcast ratelimt enabled java.lang.ClassNotFoundExceptioncom.hazelcast.core.IMap https://github.com/gravitee-io/issues/issues/6117[#6117]
+- Health-check stops working after gateway is stopped/started. https://github.com/gravitee-io/issues/issues/6306[#6306]
+- Unable to start gateway when activating TLS and HTTP/2 https://github.com/gravitee-io/issues/issues/6232[#6232]
+- [policy] fix license management of data-logging-masking and assign-metrics policies https://github.com/gravitee-io/issues/issues/6435[#6435]
+
+*_General_*
+
+- Backport #6101 in 3.10.x https://github.com/gravitee-io/issues/issues/6279[#6279]
+- Backport 6173 in 3.10.x https://github.com/gravitee-io/issues/issues/6174[#6174]
+- Backport of #5966 in 3.10.x https://github.com/gravitee-io/issues/issues/6085[#6085]
+- Merge 3.5.21 into 3.10.4 https://github.com/gravitee-io/issues/issues/6496[#6496]
+
+*_Management_*
+
+- Error when creating an alert with system email notification https://github.com/gravitee-io/issues/issues/6231[#6231]
+- Swagger description of APIM Console API is empty https://github.com/gravitee-io/issues/issues/6494[#6494]
+
+*_Policy_*
+
+- [data-logging-masking] datas are no longer masked https://github.com/gravitee-io/issues/issues/6122[#6122]
+
+*_Portal_*
+
+- Filters on path on the logs in APIM Portal do not work. https://github.com/gravitee-io/issues/issues/6238[#6238]
+
+*_Repository_*
+
+- [sqlserver] Rest API database setup https://github.com/gravitee-io/issues/issues/6447[#6447]
+
+=== Improvements
+
+*_Console_*
+
+- Enable/Disable API Status dashboard https://github.com/gravitee-io/issues/issues/6365[#6365]
+
+*_Management_*
+
+- Customize HTTP SIGNATURE response template https://github.com/gravitee-io/issues/issues/6319[#6319]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/442?closed=1[APIM - 3.5.21 (2021-11-02)]
 
 === Bug fixes
