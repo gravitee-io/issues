@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/447?closed=1[APIM - 3.10.5 (2021-11-10)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Policy - Pressing tab in EL fields add a transparent \t https://github.com/gravitee-io/issues/issues/6534[#6534]
+
+*_Gateway_*
+
+- Cannot use JWT multiple plans https://github.com/gravitee-io/issues/issues/6529[#6529]
+- Inconsistent entrypoint resolution may cause 500 errors https://github.com/gravitee-io/issues/issues/6544[#6544]
+- Irrelevant bean injection warning for apis with health check https://github.com/gravitee-io/issues/issues/6105[#6105]
+- Sync probe ends with an exception when calling /_node/sync https://github.com/gravitee-io/issues/issues/6541[#6541]
+
+*_Policy_*
+
+- [geoip-filtering] Upgrade for APIM >= 3.10 https://github.com/gravitee-io/issues/issues/6531[#6531]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/453?closed=1[APIM - 3.5.22 (2021-11-10)]
 
 === Bug fixes
