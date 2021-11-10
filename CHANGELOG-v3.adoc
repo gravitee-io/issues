@@ -5,6 +5,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/453?closed=1[APIM - 3.5.22 (2021-11-10)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Design studio - Policy disappear after save https://github.com/gravitee-io/issues/issues/6517[#6517]
+- Plan level policies are not displayed in the history https://github.com/gravitee-io/issues/issues/6524[#6524]
+- Policy - Pressing tab in EL fields add a transparent \t https://github.com/gravitee-io/issues/issues/6533[#6533]
+- Policy Mock unexpected behavior https://github.com/gravitee-io/issues/issues/6438[#6438]
+
+*_Gateway_*
+
+- Cannot use JWT multiple plans https://github.com/gravitee-io/issues/issues/6528[#6528]
+- Inconsistent entrypoint resolution may cause 500 errors https://github.com/gravitee-io/issues/issues/6543[#6543]
+- Sync probe ends with an exception when calling /_node/sync https://github.com/gravitee-io/issues/issues/6539[#6539]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/430?closed=1[APIM - 3.10.4 (2021-11-05)]
 
 === Bug fixes
