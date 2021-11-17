@@ -5,6 +5,23 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/458?closed=1[APIM - 3.5.23 (2021-11-17)]
+
+=== Bug fixes
+
+*_Console_*
+
+- API search doesn't return all expected results https://github.com/gravitee-io/issues/issues/6565[#6565]
+- Signup not possible on console using JDBC https://github.com/gravitee-io/issues/issues/6330[#6330]
+
+*_Gateway_*
+
+- Avoid 404 and 500 error during api redeploy or stop https://github.com/gravitee-io/issues/issues/6553[#6553]
+- ILM managed indice are not handled by elasticsearch reporter https://github.com/gravitee-io/issues/issues/6507[#6507]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/449?closed=1[APIM - 3.12.2 (2021-11-12)]
 
 === Bug fixes
