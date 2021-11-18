@@ -5,6 +5,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/457?closed=1[APIM - 3.10.6 (2021-11-18)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Not possible to change the logs configuration https://github.com/gravitee-io/issues/issues/6282[#6282]
+
+*_General_*
+
+- Merge 3.5.23 in 3.10.x https://github.com/gravitee-io/issues/issues/6576[#6576]
+
+*_Management_*
+
+- Plan is duplicated when importing an api with one plan https://github.com/gravitee-io/issues/issues/6042[#6042]
+
+*_Reporter-file_*
+
+- Monitor logs (node-*) get empty if output is set to elasticsearch https://github.com/gravitee-io/issues/issues/6564[#6564]
+
+=== Improvements
+
+*_Console_*
+
+- [alerts] Add HTTP_SIGNATURE_INVALID_SIGNATURE to api metrics list https://github.com/gravitee-io/issues/issues/6462[#6462]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/458?closed=1[APIM - 3.5.23 (2021-11-17)]
 
 === Bug fixes
