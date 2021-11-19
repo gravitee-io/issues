@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/356?closed=1[APIM - 3.13.0 (2021-11-19)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.12.2 https://github.com/gravitee-io/issues/issues/6557[#6557]
+- Merge 3.12.3 https://github.com/gravitee-io/issues/issues/6594[#6594]
+
+*_Management_*
+
+- Fix Jetty's class loader https://github.com/gravitee-io/issues/issues/6495[#6495]
+
+=== Features
+
+*_Console_*
+
+- Display excluded groups in plans https://github.com/gravitee-io/issues/issues/5259[#5259]
+- Support webhook on API update event https://github.com/gravitee-io/issues/issues/5426[#5426]
+
+*_Management_*
+
+- Service Management Ecosystem (SME): API HTTP Connector Integration https://github.com/gravitee-io/issues/issues/6132[#6132]
+- Service Management Ecosystem (SME): Kafka connector https://github.com/gravitee-io/issues/issues/6133[#6133]
+
+*_Portal_*
+
+- Add an API search bar in the portal homepage https://github.com/gravitee-io/issues/issues/5323[#5323]
+
+=== Improvements
+
+*_Policy_*
+
+- JWT-PolicyCache management improvements https://github.com/gravitee-io/issues/issues/6046[#6046]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/463?closed=1[APIM - 3.12.3 (2021-11-18)]
 
 === Bug fixes
