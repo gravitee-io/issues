@@ -28,7 +28,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_Management_*
 
 - Service Management Ecosystem (SME): API HTTP Connector Integration https://github.com/gravitee-io/issues/issues/6132[#6132]
-- Service Management Ecosystem (SME): Kafka connector https://github.com/gravitee-io/issues/issues/6133[#6133]
+- Service Management Ecosystem (SME): Kafka connector _(available next week)_ https://github.com/gravitee-io/issues/issues/6133[#6133]
 
 *_Portal_*
 
