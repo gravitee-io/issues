@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/466?closed=1[APIM - 3.12.4 (2021-11-22)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Organization Roles - Member list is empty https://github.com/gravitee-io/issues/issues/6527[#6527]
+
+*_General_*
+
+- Merge 3.10.7 in 3.12.x https://github.com/gravitee-io/issues/issues/6603[#6603]
+
+*_Management_*
+
+- "Role not found" exception when importing an API to a new environment https://github.com/gravitee-io/issues/issues/6448[#6448]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/465?closed=1[APIM - 3.10.7 (2021-11-22)]
 
 === Bug fixes
