@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/465?closed=1[APIM - 3.10.7 (2021-11-22)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- API call always returns 500 internal error after redeploy https://github.com/gravitee-io/issues/issues/6601[#6601]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/356?closed=1[APIM - 3.13.0 (2021-11-19)]
 
 === Bug fixes
