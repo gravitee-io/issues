@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/469?closed=1[APIM - 3.5.24 (2021-11-23)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Inconsistent entrypoint resolution may cause 500 errors https://github.com/gravitee-io/issues/issues/6543[#6543]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/466?closed=1[APIM - 3.12.4 (2021-11-22)]
 
 === Bug fixes
