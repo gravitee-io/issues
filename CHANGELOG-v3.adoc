@@ -5,6 +5,30 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/471?closed=1[APIM - 3.5.25 (2021-12-06)]
+
+=== Bug fixes
+
+*_Console_*
+
+- API:ALERT:read permission doesn't activate API alert detail https://github.com/gravitee-io/issues/issues/5974[#5974]
+
+*_Gateway_*
+
+- Api HealthCheck of endpoints consume too much resources https://github.com/gravitee-io/issues/issues/6658[#6658]
+- EndpointHealthcheckService not ready when Api sync starts https://github.com/gravitee-io/issues/issues/6657[#6657]
+- Heartbeat may cause infinite loop and server crash under certain circumptances https://github.com/gravitee-io/issues/issues/6655[#6655]
+- Make entrypoints concurrently available https://github.com/gravitee-io/issues/issues/6656[#6656]
+- [perf] ensure ClassLoaders are well released after api undeploy https://github.com/gravitee-io/issues/issues/6678[#6678]
+
+*_Management_*
+
+- Handle null value when getting instances https://github.com/gravitee-io/issues/issues/6639[#6639]
+- Search API should keep the search score order https://github.com/gravitee-io/issues/issues/5744[#5744]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/475?closed=1[APIM - 3.13.1 (2021-11-26)]
 
 === Bug fixes
