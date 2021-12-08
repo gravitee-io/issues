@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/472?closed=1[APIM - 3.10.8 (2021-12-08)]
+
+=== Bug fixes
+
+*_Console_*
+
+- API Logs - Consumer response is no longer displayed https://github.com/gravitee-io/issues/issues/6596[#6596]
+- Error log on delete action https://github.com/gravitee-io/issues/issues/6583[#6583]
+
+*_General_*
+
+- Merge 3.5.24 into 3.10.x https://github.com/gravitee-io/issues/issues/6611[#6611]
+- Merge 3.5.25 in 3.10.x https://github.com/gravitee-io/issues/issues/6687[#6687]
+
+*_Management_*
+
+- Fix plans inconsistencies in database https://github.com/gravitee-io/issues/issues/6586[#6586]
+- Rollback introduces duplicated plans https://github.com/gravitee-io/issues/issues/6595[#6595]
+
+*_Portal_*
+
+- "page not found" after Google authentication https://github.com/gravitee-io/issues/issues/6235[#6235]
+- Error message on login page https://github.com/gravitee-io/issues/issues/6203[#6203]
+- Subscriptions menu should not be displayed if user does not have access rights on Applications subscriptions https://github.com/gravitee-io/issues/issues/6021[#6021]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/471?closed=1[APIM - 3.5.25 (2021-12-06)]
 
 === Bug fixes
