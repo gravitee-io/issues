@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/473?closed=1[APIM - 3.12.5 (2021-12-10)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- OpenTracing hanging gateway https://github.com/gravitee-io/issues/issues/6366[#6366]
+
+*_General_*
+
+- Merge 3.10.8 into 3.12.x https://github.com/gravitee-io/issues/issues/6701[#6701]
+
+*_Management_*
+
+- Fetching Documentation Page from external source (GitHub/Gitlab) return 401 or 404 https://github.com/gravitee-io/issues/issues/6331[#6331]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/472?closed=1[APIM - 3.10.8 (2021-12-08)]
 
 === Bug fixes
