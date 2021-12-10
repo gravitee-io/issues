@@ -7,29 +7,36 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+## :collision: Describe the bug
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+## :sunrise_over_mountains: To Reproduce
 Steps to reproduce the behaviour:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behaviour**
+## :rainbow: Expected behaviour
 A clear and concise description of what you expected to happen.
 
-**Useful information**
+## :movie_camera: Useful information
 Screenshot, video, logs, other supporting material
 
-**Desktop (please complete the following information):**
+## :computer: Desktop :
+
+***Please complete the following information:***
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
 
-**Potential impacts**
+## :warning: Potential impacts
+
 ***Which other features may be impacted by this fix. This could be populated after fix***
 
-**Linked stories**
+***What are the impacted versions?***
 
-**What are the impacted versions?**
+## :link: Dependencies
+
+Link a story or other related things...
+
+

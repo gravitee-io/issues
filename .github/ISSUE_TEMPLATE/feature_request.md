@@ -7,31 +7,44 @@ assignees: ''
 
 ---
 
-:scroll:
-**As a '...'**
-**I want to '...'**
-**So that '...'**
+## :rainbow: Feature
 
-:information_source:**Information**
-Detailed behaviour, rules 
+**As a** '...'
 
-:link:**Dependencies & Linked stories**
+**I want to** '...'
 
-**Mockups**
-:desktop_computer:Insert screenshot
+**So that** '...'
 
-**Documentation required**
-:link:Provide link to the issue for documentation update
+## :sunrise_over_mountains: Additional information
 
-**Acceptance criteria**
+Detailed behaviour, rules or additional interesting stuffs...
+
+## :link: Dependencies
+
+Link a story or other related things...
+
+## :camera: Mockups 
+
+Insert screenshots, drawings...
+
+## :books: Documentation required
+
+Provide link to the issue for documentation update
+
+## :superhero: Acceptance criteria
+
 - [ ] Given '...'
 - [ ] Then '...'
 - [ ] When '...'
 
-:warning:**Potential impacts**
-*To be populated after dev*
+## :warning: Potential impacts
 
-:ballot_box_with_check:**Definition of Done checklist**
+***Which other features may be impacted by this fix. This could be populated after fix***
+
+***What are the impacted versions?***
+
+## :heavy_check_mark: Definition of Done
+
 ***For each User Story everything on the list must be considered, select only what was required***
 - [ ] Acceptance criteria met and tested
 - [ ] Sonar Cloud quality gate passes
@@ -46,4 +59,4 @@ Display to user what script has done
 - [ ] Validated on appropriate environment
 - [ ] Existing test cases refactored
 
-:checkered_flag::superhero:
+:rocket:
