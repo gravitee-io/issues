@@ -5,6 +5,38 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/474?closed=1[APIM - 3.13.2 (2021-12-15)]
+
+=== Bug fixes
+
+*_Connector_*
+
+- [kafka] Improve assignment and seeking https://github.com/gravitee-io/issues/issues/6686[#6686]
+
+*_Console_*
+
+- Analytics/metrics are no more present if index_per_typetrue with ES 5.x https://github.com/gravitee-io/issues/issues/6630[#6630]
+- Can't configure healthcheck on an old API https://github.com/gravitee-io/issues/issues/6736[#6736]
+
+*_Gateway_*
+
+- Executable jar start with an error https://github.com/gravitee-io/issues/issues/6732[#6732]
+
+*_General_*
+
+- Merge 3.12.5 in 3.13.x https://github.com/gravitee-io/issues/issues/6704[#6704]
+
+*_Management_*
+
+- HealthCheck does not take into account Proxy settings https://github.com/gravitee-io/issues/issues/6698[#6698]
+
+*_Policy_*
+
+- [groovy] Groovy  scripts fails to resolve method even if whitelisted https://github.com/gravitee-io/issues/issues/6681[#6681]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/473?closed=1[APIM - 3.12.5 (2021-12-10)]
 
 === Bug fixes
