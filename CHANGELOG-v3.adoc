@@ -5,6 +5,29 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/484?closed=1[APIM - 3.5.26 (2021-12-17)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Executable jar start with an error https://github.com/gravitee-io/issues/issues/6733[#6733]
+- [policy] retry policy may cause OOM https://github.com/gravitee-io/issues/issues/6684[#6684]
+
+*_Portal_*
+
+- Different representation of date format in 'Try it out" swagger admin console/dev portal https://github.com/gravitee-io/issues/issues/6506[#6506]
+- When login is required on portal, an error is displayed https://github.com/gravitee-io/issues/issues/5727[#5727]
+
+=== Features
+
+*_Gateway_*
+
+- Shutdown gracefully https://github.com/gravitee-io/issues/issues/6722[#6722]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/474?closed=1[APIM - 3.13.2 (2021-12-15)]
 
 === Bug fixes
