@@ -5,6 +5,21 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/485?closed=1[APIM - 3.5.27 (2021-12-21)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Design studioselecting policies are pushing the menu right side https://github.com/gravitee-io/issues/issues/5242[#5242]
+
+*_Gateway_*
+
+- System proxy is not managed for health-check https://github.com/gravitee-io/issues/issues/6731[#6731]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/484?closed=1[APIM - 3.5.26 (2021-12-17)]
 
 === Bug fixes
