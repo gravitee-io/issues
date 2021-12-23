@@ -5,6 +5,37 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/486?closed=1[APIM - 3.10.9 (2021-12-23)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Login Error after password reset https://github.com/gravitee-io/issues/issues/6488[#6488]
+- Resource can not be saved after being updated https://github.com/gravitee-io/issues/issues/6781[#6781]
+
+*_General_*
+
+- Merge 3.5.26 in 3.10.x https://github.com/gravitee-io/issues/issues/6756[#6756]
+- Merge 3.5.27 in 3.10.x https://github.com/gravitee-io/issues/issues/6789[#6789]
+
+*_Management_*
+
+- Healthcheck scheduled every seconds instead of configured value after import https://github.com/gravitee-io/issues/issues/6775[#6775]
+
+*_Portal_*
+
+- Jump to anchors in Markdown documents does not work - Syntax bug https://github.com/gravitee-io/issues/issues/6659[#6659]
+
+=== Improvements
+
+*_Reporter_*
+
+- [elasticsearch] Backport #6683 on 3.10 ES plugins management https://github.com/gravitee-io/issues/issues/6710[#6710]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/485?closed=1[APIM - 3.5.27 (2021-12-21)]
 
 === Bug fixes
