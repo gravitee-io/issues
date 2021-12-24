@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/487?closed=1[APIM - 3.12.6 (2021-12-24)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.10.9 in 3.12.x https://github.com/gravitee-io/issues/issues/6805[#6805]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/486?closed=1[APIM - 3.10.9 (2021-12-23)]
 
 === Bug fixes
