@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/494?closed=1[APIM - 3.5.28 (2022-01-06)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Creating simultaneous changes in dictionaries(one user, two tabs) overwrites the changes in one or the other. https://github.com/gravitee-io/issues/issues/6750[#6750]
+- Expression language completion isn't usable with code editor https://github.com/gravitee-io/issues/issues/6577[#6577]
+- When you check/activate HTTP Proxy with System Proxy in Endpoint configuration, Save button goes grey. https://github.com/gravitee-io/issues/issues/6619[#6619]
+- Wrong Units for Request/Response Content length in Analytics Dashboards https://github.com/gravitee-io/issues/issues/5706[#5706]
+
+*_Management_*
+
+- Stop/start of dynamic dictionaries do not get redeployed on gateways https://github.com/gravitee-io/issues/issues/6847[#6847]
+
+*_Portal_*
+
+- Documentation Page cannot handle lots of menu options https://github.com/gravitee-io/issues/issues/6618[#6618]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/488?closed=1[APIM - 3.13.3 (2021-12-29)]
 
 === Bug fixes
