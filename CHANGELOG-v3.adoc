@@ -5,6 +5,60 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/372?closed=1[APIM - 3.14.0 (2022-01-12)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Alerts page documentation is not properly displayed https://github.com/gravitee-io/issues/issues/6680[#6680]
+
+*_Gateway_*
+
+- Vhost mode does not work with HTTP/2 https://github.com/gravitee-io/issues/issues/6574[#6574]
+- [perf] Some ignored metrics are no longer ignored https://github.com/gravitee-io/issues/issues/6555[#6555]
+
+*_General_*
+
+- Merge 3.13.2 into master https://github.com/gravitee-io/issues/issues/6749[#6749]
+
+=== Features
+
+*_Console_*
+
+- View domain used by application https://github.com/gravitee-io/issues/issues/6384[#6384]
+
+*_Management_*
+
+- Add a domain field for application creation https://github.com/gravitee-io/issues/issues/6383[#6383]
+- Generate a group token https://github.com/gravitee-io/issues/issues/6210[#6210]
+- [Analytics] OpenSearch support https://github.com/gravitee-io/issues/issues/6423[#6423]
+- [CICD] Access token management by administrator https://github.com/gravitee-io/issues/issues/6468[#6468]
+- [CICD] Creation of service account https://github.com/gravitee-io/issues/issues/6467[#6467]
+
+*_Portal_*
+
+- Possibilty to disable promoted card on page list https://github.com/gravitee-io/issues/issues/6472[#6472]
+
+=== Improvements
+
+*_Elasticsearch-reporter_*
+
+- Enable default plugins for all ES versions, and allow disabling them from configuration https://github.com/gravitee-io/issues/issues/6683[#6683]
+
+*_Gateway_*
+
+- Add support of native OpenSSL on http connector https://github.com/gravitee-io/issues/issues/6561[#6561]
+
+*_Portal_*
+
+- API Card - Add OwnerName info https://github.com/gravitee-io/issues/issues/6485[#6485]
+- Application page list pagination https://github.com/gravitee-io/issues/issues/6665[#6665]
+- Direct Search from the API Info https://github.com/gravitee-io/issues/issues/6486[#6486]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/494?closed=1[APIM - 3.5.28 (2022-01-06)]
 
 === Bug fixes
