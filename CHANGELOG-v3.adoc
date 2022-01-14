@@ -5,6 +5,21 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/496?closed=1[APIM - 3.10.10 (2022-01-14)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Transfer Group Primary Ownership https://github.com/gravitee-io/issues/issues/6359[#6359]
+
+*_General_*
+
+- Merge 3.5.28 in 3.10.x https://github.com/gravitee-io/issues/issues/6874[#6874]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/372?closed=1[APIM - 3.14.0 (2022-01-12)]
 
 === Bug fixes
