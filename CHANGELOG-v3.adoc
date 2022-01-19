@@ -5,6 +5,31 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/498?closed=1[APIM - 3.5.29 (2022-01-19)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Starting is very slow when there is a lot of events in database https://github.com/gravitee-io/issues/issues/6955[#6955]
+- [bridge] Bridge repository client is not backward compatible https://github.com/gravitee-io/issues/issues/6884[#6884]
+
+*_Management_*
+
+- Deleted dynamic dictionary is never undeployed https://github.com/gravitee-io/issues/issues/6870[#6870]
+- Path-mapping import is failing https://github.com/gravitee-io/issues/issues/6856[#6856]
+- When importing an API through file or URL path-mapping for analytics are not created. https://github.com/gravitee-io/issues/issues/6723[#6723]
+- [design studio] Conflict with keyboard shortcuts https://github.com/gravitee-io/issues/issues/6935[#6935]
+
+=== Improvements
+
+*_Management_*
+
+- Support OpenSearch https://github.com/gravitee-io/issues/issues/6889[#6889]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/496?closed=1[APIM - 3.10.10 (2022-01-14)]
 
 === Bug fixes
