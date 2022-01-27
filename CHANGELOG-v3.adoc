@@ -13,54 +13,35 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Raise error if update API try to update an existing plan belonging to another API https://github.com/gravitee-io/issues/issues/6693[#6693]
 - Use provided page ID when updating API https://github.com/gravitee-io/issues/issues/6694[#6694]
-
-*_Node_*
-
 - Kubernetes certificate not working with kubernetes >= 1.20 https://github.com/gravitee-io/issues/issues/6906[#6906]
 
 === Features
 
-*_Apim_*
-
-- Support for Java 17 runtime https://github.com/gravitee-io/issues/issues/6708[#6708]
-
 *_Gateway_*
 
 - Performances improvements https://github.com/gravitee-io/issues/issues/6492[#6492]
--  Conditional policies https://github.com/gravitee-io/issues/issues/6629[#6629]
 
 *_General_*
 
 - API Path-based creation deprecation https://github.com/gravitee-io/issues/issues/6377[#6377]
-- View if a flow is conditional https://github.com/gravitee-io/issues/issues/6626[#6626]
 
 *_Platform_*
 
 - Update Dockerfile for java 17 support https://github.com/gravitee-io/issues/issues/6930[#6930]
+- Support for Java 17 runtime https://github.com/gravitee-io/issues/issues/6708[#6708]
 
-*_Policies_*
+*_Policies Management_*
 
+- Conditional policies https://github.com/gravitee-io/issues/issues/6629[#6629]
 - Add a condition for execution https://github.com/gravitee-io/issues/issues/6614[#6614]
 - View if a policy is conditional https://github.com/gravitee-io/issues/issues/6615[#6615]
+- View if a flow is conditional https://github.com/gravitee-io/issues/issues/6626[#6626]
 
-*_Portal_*
+*_Portal alerts_*
 
-- Alerts - Add a description field for alert https://github.com/gravitee-io/issues/issues/6803[#6803]
-- Alerts - Allow alert configuration by API https://github.com/gravitee-io/issues/issues/6702[#6702]
+- Add a description field for alert https://github.com/gravitee-io/issues/issues/6803[#6803]
+- Allow alert configuration by API https://github.com/gravitee-io/issues/issues/6702[#6702]
 - Allow alert notification via webhook https://github.com/gravitee-io/issues/issues/6703[#6703]
-
-=== Improvements
-
-*_Gateway_*
-
-- Remove Spring context at API level https://github.com/gravitee-io/issues/issues/6491[#6491]
-
-*_Policies_*
-
-- Improve conditional policy icon style https://github.com/gravitee-io/issues/issues/6823[#6823]
-
- 
- 
 
 == https://github.com/gravitee-io/issues/milestone/498?closed=1[APIM - 3.5.29 (2022-01-19)]
 
