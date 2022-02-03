@@ -7,7 +7,7 @@ parameters:
     description: "run in dry run ?"
   gio_action:
     type: enum
-    enum: [changelog_apim, changelog_am, blank]
+    enum: [changelog_apim, changelog_am, changelog_ae, blank]
     default: blank
   gio_milestone_version:
     type: string
@@ -56,6 +56,18 @@ workflows:
       equal: [ changelog_am, << pipeline.parameters.gio_action >> ]
     jobs:
       - gravitee/changelog_am:
+          context: cicd-orchestrator
+          dry_run: << pipeline.parameters.dry_run >>
+          secrethub_org: graviteeio
+          secrethub_repo: cicd
+          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+  
+
+changelog_ae:
+    when:
+      equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - gravitee/changelog_ae:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
