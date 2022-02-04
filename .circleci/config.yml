@@ -67,7 +67,7 @@ workflows:
     when:
       equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
     jobs:
-      - gravitee/changelog_ae:
+      - gravitee/d_am_release:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
