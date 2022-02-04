@@ -63,7 +63,6 @@ workflows:
           secrethub_repo: cicd
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
   
-
   changelog_ae:
     when:
       equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
