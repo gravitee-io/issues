@@ -64,13 +64,13 @@ workflows:
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
   
 
-  #changelog_ae:
-   # when:
-    #  equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
-    #jobs:
-     # - ae/changelog_ae:
-      #    context: cicd-orchestrator
-       #   dry_run: << pipeline.parameters.dry_run >>
-        #  secrethub_org: graviteeio
-         # secrethub_repo: cicd
-          #gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+  changelog_ae:
+    when:
+      equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - ae/changelog_ae:
+          context: cicd-orchestrator
+          dry_run: << pipeline.parameters.dry_run >>
+          secrethub_org: graviteeio
+          secrethub_repo: cicd
+          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
