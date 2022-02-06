@@ -41,16 +41,16 @@ workflows:
       - empty_job:
           context: cicd-orchestrator
 
-  #changelog_apim:
-   # when:
-    #  equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
-    #jobs:
-     # - gravitee/changelog_apim:
-      #    context: cicd-orchestrator
-       #   dry_run: << pipeline.parameters.dry_run >>
-        #  secrethub_org: graviteeio
-         # secrethub_repo: cicd
-          #gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+  changelog_apim:
+    when:
+      equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
+    jobs:
+      - gravitee/changelog_apim:
+          context: cicd-orchestrator
+          dry_run: << pipeline.parameters.dry_run >>
+          secrethub_org: graviteeio
+          secrethub_repo: cicd
+          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
 
   #changelog_am:
    # when:
