@@ -13,12 +13,9 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Error on API deployment on environment without HrId https://github.com/gravitee-io/issues/issues/7053[#7053]
 
-*_Managemen_*
-
-- Image not found when sending a email https://github.com/gravitee-io/issues/issues/7057[#7057]
-
 *_Management_*
 
+- Image not found when sending a email https://github.com/gravitee-io/issues/issues/7057[#7057]
 - Can't get API plans on JDBC when API has no category https://github.com/gravitee-io/issues/issues/7060[#7060]
 - SQL error on subscription with PostgreSQL or MsSql https://github.com/gravitee-io/issues/issues/7051[#7051]
 
