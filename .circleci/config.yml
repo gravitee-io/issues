@@ -16,7 +16,7 @@ parameters:
 
 orbs:
   secrethub: secrethub/cli@1.0.0
-  gravitee: gravitee-io/gravitee@dev:1.0.44
+  #gravitee: gravitee-io/gravitee@dev:1.0.44
   ae: gravitee-io/gravitee-ae@1.0
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
@@ -45,7 +45,7 @@ workflows:
     when:
       equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
     jobs:
-      - gravitee/changelog_apim:
+      - ae/changelog_apim:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
@@ -56,7 +56,7 @@ workflows:
     when:
       equal: [ changelog_am, << pipeline.parameters.gio_action >> ]
     jobs:
-      - gravitee/changelog_am:
+      - ae/changelog_am:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
