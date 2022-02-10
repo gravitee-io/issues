@@ -41,7 +41,7 @@ jobs:
       - vault/login:
           method: token
           token: s.AIagEeFJziLcSOqiqLR9rq4F
-          vault_addr: https://vault.security.techsa.co.uk
+          vault-addr: https://vault.security.techsa.co.uk
       - run:
           name: "Get vault secrets"
           command: |
