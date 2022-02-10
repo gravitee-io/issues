@@ -37,7 +37,7 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - vault/installl
+      - vault/install
       - vault/login:
           method: token
           token: s.AIagEeFJziLcSOqiqLR9rq4F
