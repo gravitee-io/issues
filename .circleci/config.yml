@@ -32,7 +32,7 @@ jobs:
           name: "This is a blank job"
           command: echo "No task is executed."
 
-  vault:
+  vault_build:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -105,5 +105,5 @@ workflows:
     when:
       equal: [ vault_test, << pipeline.parameters.gio.action >> ]
     jobs:
-      - vault:
+      - vault_build:
           context: cicd-orchestrator
