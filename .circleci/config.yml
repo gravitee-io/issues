@@ -88,7 +88,7 @@ workflows:
   
   vault_test:
     when:
-      equal: [ vault, << pipeline.parameters.gio.action >> ]
+      equal: [ vault_test, << pipeline.parameters.gio.action >> ]
     jobs:
       - ae/vault_test:
           context: cicd-orchestrator
