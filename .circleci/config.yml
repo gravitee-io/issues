@@ -7,7 +7,7 @@ parameters:
     description: "run in dry run ?"
   gio_action:
     type: enum
-    enum: [changelog_apim, changelog_am, changelog_ae, testing_path, vault_test, blank]
+    enum: [changelog_apim, changelog_am, changelog_ae, testing_path, blank]
     default: blank
   gio_milestone_version:
     type: string
