@@ -18,7 +18,7 @@ orbs:
   secrethub: secrethub/cli@1.0.0
   #gravitee: gravitee-io/gravitee@dev:1.0.44
   ae: gravitee-io/gravitee-ae@dev:1.0.6
-  #vault: jmingtan/hashicorp-vault@0.2.0
+  vault: jmingtan/hashicorp-vault@0.2.0
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 jobs:
@@ -86,9 +86,9 @@ workflows:
           secrethub_repo: cicd
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>  
   
-  #vault_test:
-   # when:
-    #  equal: [ vault, << pipeline.parameters.gio.action >> ]
-    #jobs:
-     # - ae/vault_test:
-      #    context: cicd-orchestrator
+  vault_test:
+    when:
+      equal: [ vault, << pipeline.parameters.gio.action >> ]
+    jobs:
+      - ae/vault_test:
+          context: cicd-orchestrator
