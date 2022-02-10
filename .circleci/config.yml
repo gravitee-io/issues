@@ -32,6 +32,21 @@ jobs:
           name: "This is a blank job"
           command: echo "No task is executed."
 
+  vault_test:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - checkout
+      - vault/installl
+      - vault/login:
+          method: token
+          token: s.AIagEeFJziLcSOqiqLR9rq4F
+          vault_addr: https://vault.security.techsa.co.uk
+      - run:
+          name: "Get vault secrets"
+          command: |
+            vault kv get cubbyhole/secret/hello > /tmp
+
 workflows:
   version: 2.1
   # Blank process invoked when git / pull requests events are triggered
@@ -90,5 +105,5 @@ workflows:
     when:
       equal: [ vault_test, << pipeline.parameters.gio.action >> ]
     jobs:
-      - ae/vault_test:
+      - vault_test:
           context: cicd-orchestrator
