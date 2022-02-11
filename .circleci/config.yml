@@ -43,18 +43,18 @@ jobs:
             curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
             sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
             sudo apt-get update && sudo apt-get install vault
-      - run:
-          name: "Re-format GPG Keys"
-          command: |
-            # Re-format private and public GPG Keys
-            export PUB_KEY_CONTENT=$(cat /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key | awk -F '-----BEGIN PGP PUBLIC KEY BLOCK-----' '{print $2}' | awk -F '-----END PGP PUBLIC KEY BLOCK-----' '{print $1}')
-            echo '-----BEGIN PGP PUBLIC KEY BLOCK-----' > /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
-            echo "$PUB_KEY_CONTENT" | tr ' ' '\n' | tee -a /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
-            sed -i '$ s/$/-----END PGP PUBLIC KEY BLOCK-----/' /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
-            export PRIV_KEY_CONTENT=$(cat /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key | awk -F '-----BEGIN PGP PRIVATE KEY BLOCK-----' '{print $2}' | awk -F '-----END PGP PUBLIC KEY BLOCK-----' '{print $1}')
-            echo '-----BEGIN PGP PRIVATE KEY BLOCK-----' > /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
-            echo "$PRIV_KEY_CONTENT" | tr ' ' '\n' | tee -a /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
-            sed -i '$ s/$/-----END PGP PRIVATE KEY BLOCK-----/' /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
+     # - run:
+      #    name: "Re-format GPG Keys"
+       #   command: |
+        #    # Re-format private and public GPG Keys
+         #   export PUB_KEY_CONTENT=$(cat /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key | awk -F '-----BEGIN PGP PUBLIC KEY BLOCK-----' '{print $2}' | awk -F '-----END PGP PUBLIC KEY BLOCK-----' '{print $1}')
+          #  echo '-----BEGIN PGP PUBLIC KEY BLOCK-----' > /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
+         #   echo "$PUB_KEY_CONTENT" | tr ' ' '\n' | tee -a /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
+          #  sed -i '$ s/$/-----END PGP PUBLIC KEY BLOCK-----/' /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.pub.key
+           # export PRIV_KEY_CONTENT=$(cat /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key | awk -F '-----BEGIN PGP PRIVATE KEY BLOCK-----' '{print $2}' | awk -F '-----END PGP PUBLIC KEY BLOCK-----' '{print $1}')
+          #  echo '-----BEGIN PGP PRIVATE KEY BLOCK-----' > /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
+           # echo "$PRIV_KEY_CONTENT" | tr ' ' '\n' | tee -a /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
+            #sed -i '$ s/$/-----END PGP PRIVATE KEY BLOCK-----/' /tmp/gravit33bot/.secrets/.gungpg/graviteebot.gpg.priv.key
       #- gravitee/generate_s3cmd_config:
        #   path_to_aws_access_key_file: '/tmp/gravit33bot/.secrets/.s3cmd/aws_access_key'
         #  path_to_aws_secret_key_file: '/tmp/gravit33bot/.secrets/.s3cmd/aws_secret_key'
