@@ -41,7 +41,7 @@ jobs:
           name: install vault
           command:  |
             sudo mkdir -p /usr/src/vault
-            sudo cd /usr/src/vault/
+            cd /usr/src/vault/
             sudo curl -sO https://releases.hashicorp.com/vault/1.6.3/vault_1.6.3_linux_amd64.zip
             sudo unzip vault_1.6.3_linux_amd64.zip
             sudo mv vault /usr/local/bin/
