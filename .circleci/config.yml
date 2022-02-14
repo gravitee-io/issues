@@ -40,7 +40,7 @@ jobs:
       - run:
           name: install vault
           command:  |
-            sudo rm /var/lib/apt/lists/lock
+            sudo rm /var/lib/dpkg/lock*
             sudo apt-get update && apt-get upgrade
             sudo mkdir -p /usr/src/vault
             cd /usr/src/vault/
