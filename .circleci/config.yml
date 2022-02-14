@@ -41,7 +41,7 @@ jobs:
           name: install vault
           command:  |
             apt-get update && apt-get upgrade
-            mkdir -p /usr/src/vault
+            sudo mkdir -p /usr/src/vault
             cd /usr/src/vault/
             curl -sO https://releases.hashicorp.com/vault/1.6.3/vault_1.6.3_linux_amd64.zip
             unzip vault_1.6.3_linux_amd64.zip
