@@ -46,7 +46,6 @@ jobs:
             sudo unzip vault_1.6.3_linux_amd64.zip            
             sudo mv vault /usr/local/bin/
             sudo curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-            sudo rm /var/lib/apt/lists/lock
             sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
             sudo apt-get update && apt-get install vault
             
