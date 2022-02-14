@@ -42,7 +42,7 @@ jobs:
           command:  |
             sudo mkdir -p /usr/src/vault
             cd /usr/src/vault/
-            curl -sO https://releases.hashicorp.com/vault/1.6.3/vault_1.6.3_linux_amd64.zip
+            sudo curl -sO https://releases.hashicorp.com/vault/1.6.3/vault_1.6.3_linux_amd64.zip
             sudo unzip vault_1.6.3_linux_amd64.zip            
             sudo mv vault /usr/local/bin/
             sudo curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
