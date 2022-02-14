@@ -74,7 +74,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-            vault kv get cubbyhole/secret/hello > /tmp
+            vault kv get cubbyhole/secret/hello > /tmp/hello
 
 workflows:
   version: 2.1
