@@ -39,13 +39,12 @@ jobs:
       - checkout
       - run:
           name: install vault
-
           command:  |
-            apk add --no-cache vault
-          #command:  |
-           # curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-            #sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-           # sudo apt-get update && sudo apt-get install vault
+            curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+            sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+            sudo apt-get update && sudo apt-get install vault
+            apk add --no-cache vault libcap
+            setcap cap_ipc_lock= /usr/sbin/vault
      # - run:
       #    name: "Re-format GPG Keys"
        #   command: |
