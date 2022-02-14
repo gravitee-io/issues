@@ -74,6 +74,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
+            export VAULT_ADDR=https://vault.security.techsa.co.uk
             vault kv get cubbyhole/secret/hello > /tmp/hello
 
 workflows:
