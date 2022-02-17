@@ -40,6 +40,8 @@ jobs:
       - run:
           name: install keeper ksm
           command:  |
+            sudo add-apt-repository universe
+            sudo apt-get update
             sudo apt install python3
             sudo apt install python3-pip
             sudo pip3 install keeper-secrets-manager-cli
