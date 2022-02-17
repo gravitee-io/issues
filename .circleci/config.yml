@@ -38,16 +38,13 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install vault
+          name: install keeper ksm
           command:  |
-            sudo mkdir -p /usr/src/vault
-            cd /usr/src/vault/
-            sudo curl -sO https://releases.hashicorp.com/vault/1.6.3/vault_1.6.3_linux_amd64.zip
-            sudo unzip vault_1.6.3_linux_amd64.zip            
-            sudo mv vault /usr/local/bin/
-            sudo curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-            sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-            sudo apt-get update && sudo apt-get install vault
+            sudo apt install python3
+            sudo apt install python3-pip
+            sudo pip3 install keeper-secrets-manager-cli
+            sudo pip3 install -U keeper-secrets-manager-cli keeper-secrets-manager-core
+
             
      # - run:
       #    name: "Re-format GPG Keys"
@@ -67,15 +64,15 @@ jobs:
          # path_to_generated_file: '/tmp/gravit33bot/.secrets/.s3cmd/config'
 
       - run:
-          name: login vault
+          name: login ksm
           command:  |
-            export VAULT_ADDR=https://vault.security.techsa.co.uk
-            vault login s.AIagEeFJziLcSOqiqLR9rq4F
-      - run:
-          name: "Get vault secrets"
-          command: |
-            export VAULT_ADDR=https://vault.security.techsa.co.uk
-            vault kv get cubbyhole/secret/hello > /tmp/hello
+            ksm profile init EU:RNeJFsrs1b7BLJLQ4EzL8_p0VyrTqs_AoLe99z5osok
+            ksm secret list
+   #   - run:
+    #      name: "Get vault secrets"
+     #     command: |
+      #      export VAULT_ADDR=https://vault.security.techsa.co.uk
+       #     vault kv get cubbyhole/secret/hello > /tmp/hello
 
 workflows:
   version: 2.1
