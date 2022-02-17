@@ -48,6 +48,8 @@ jobs:
             virtualenv -p python3 my_env
             source my_env/bin/activate
             pip3 install keeper-secrets-manager-cli
+            sudo pip3 install -U keeper-secrets-manager-cli keeper-secrets-manager-core
+
 
             
      # - run:
