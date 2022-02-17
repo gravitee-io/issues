@@ -44,8 +44,10 @@ jobs:
             sudo apt-get update
             sudo apt install python3
             sudo apt install python3-pip
-            sudo pip3 install keeper-secrets-manager-cli
-            sudo pip3 install -U keeper-secrets-manager-cli keeper-secrets-manager-core
+            sudo pip3 install virtualenv
+            virtualenv -p python3 my_env
+            source my_env/bin/activate
+            pip3 install keeper-secrets-manager-cli
 
             
      # - run:
@@ -69,12 +71,11 @@ jobs:
           name: login ksm
           command:  |
             ksm profile init EU:RNeJFsrs1b7BLJLQ4EzL8_p0VyrTqs_AoLe99z5osok
+            
+      - run:
+          name: "Get vault secrets"
+          command: |
             ksm secret list
-   #   - run:
-    #      name: "Get vault secrets"
-     #     command: |
-      #      export VAULT_ADDR=https://vault.security.techsa.co.uk
-       #     vault kv get cubbyhole/secret/hello > /tmp/hello
 
 workflows:
   version: 2.1
