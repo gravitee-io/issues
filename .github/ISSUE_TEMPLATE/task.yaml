@@ -1,0 +1,36 @@
+name: Technical Task
+description: Create a technical subtask of a user story
+title: "[Task] "
+labels: ["type: technical"]
+body:
+  - type: input
+    id: parent-issue
+    attributes:
+      label: 💼 Parent Issue
+      description: What parent issue or user story this task is for?
+      value: "https://github.com/gravitee-io/issues/issues/{number}"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      placeholder: Describe the goal of this task and the different steps required to complete it!
+    validations:
+      required: true
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: 🔎 Technical Details
+      description: Already got some ideas on how to implement this? or have any technical piece of information relevant to the task?
+      placeholder: Share your thought or investigation result on how to implement this task.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: 👽 Additional Information
+      description: You have screenshots, links or external resources you want to share to help describe or analyse this task?
+      placeholder: Add anything you think is relevant to help implement this task! Screenshots, links, resources, etc.
+    validations:
+      required: false
