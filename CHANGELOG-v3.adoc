@@ -24,6 +24,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - API Primary Owner role check https://github.com/gravitee-io/issues/issues/6360[#6360]
 - Anchor links are not working anymore in AsciiDoc files https://github.com/gravitee-io/issues/issues/6952[#6952]
 - Merge 3.5.29 in 3.10.x https://github.com/gravitee-io/issues/issues/6974[#6974]
+- Merge 3.5.30 in 3.10.x
 - Not able to publish documentation in APIM Portal in a desired order https://github.com/gravitee-io/issues/issues/6652[#6652]
 
 *_Management_*
