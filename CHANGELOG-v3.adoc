@@ -22,11 +22,9 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_General_*
 
 - API Primary Owner role check https://github.com/gravitee-io/issues/issues/6360[#6360]
-- APIM - Search APIs by their labels causing unexpected results https://github.com/gravitee-io/issues/issues/6432[#6432]
 - Anchor links are not working anymore in AsciiDoc files https://github.com/gravitee-io/issues/issues/6952[#6952]
 - Merge 3.5.29 in 3.10.x https://github.com/gravitee-io/issues/issues/6974[#6974]
 - Not able to publish documentation in APIM Portal in a desired order https://github.com/gravitee-io/issues/issues/6652[#6652]
-- User created from AM cannot connect to APIM, if newsletter is enabled https://github.com/gravitee-io/issues/issues/6572[#6572]
 
 *_Management_*
 
@@ -35,12 +33,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_Node_*
 
 - Node_health metric returns null values in 3.10 https://github.com/gravitee-io/issues/issues/6924[#6924]
-
-*_Portal_*
-
-- Disable label display on home & list page https://github.com/gravitee-io/issues/issues/6522[#6522]
-- Display of Applications may take too long and should be paginated https://github.com/gravitee-io/issues/issues/6020[#6020]
-- Main Documentation anchor doesn't work https://github.com/gravitee-io/issues/issues/6905[#6905]
 
 *_Repository_*
 
