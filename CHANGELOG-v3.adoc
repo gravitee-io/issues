@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/515?closed=1[APIM - 3.5.30 (2022-02-25)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Improve personal token matching performance https://github.com/gravitee-io/issues/issues/7187[#7187]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/507?closed=1[APIM - 3.15.3 (2022-02-07)]
 
 === Bug fixes
