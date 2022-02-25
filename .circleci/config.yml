@@ -80,7 +80,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-                    echo '${TEST_SECRET}'
+                    echo "TEST_SECRET=[${TEST_SECRET}]"
 
 workflows:
   version: 2.1
