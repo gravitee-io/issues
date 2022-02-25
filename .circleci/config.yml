@@ -21,6 +21,9 @@ orbs:
   vault: jmingtan/hashicorp-vault@0.2.0
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
+environment:
+  TEST_SECRET: 'keeper://nMgHlLCGu2iuMfF73V04pg/field/password'
+
 jobs:
   empty_job:
     docker:
@@ -77,7 +80,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-            ksm secret list
+              echo $TEST_SECRET
 
 workflows:
   version: 2.1
