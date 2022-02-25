@@ -5,6 +5,62 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/517?closed=1[APIM - 3.10.11 (2022-02-25)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Not full log message is displayed in logs while the full one is received. https://github.com/gravitee-io/issues/issues/7017[#7017]
+- User Information - Label display problem https://github.com/gravitee-io/issues/issues/5625[#5625]
+
+*_Gateway_*
+
+- Http requestTimeout prevents the gateway to log Analytics https://github.com/gravitee-io/issues/issues/6961[#6961]
+- Platform policies should not be executed first on response (Backport #7138 in 3.10.x) https://github.com/gravitee-io/issues/issues/7143[#7143]
+
+*_General_*
+
+- API Primary Owner role check https://github.com/gravitee-io/issues/issues/6360[#6360]
+- APIM - Search APIs by their labels causing unexpected results https://github.com/gravitee-io/issues/issues/6432[#6432]
+- Anchor links are not working anymore in AsciiDoc files https://github.com/gravitee-io/issues/issues/6952[#6952]
+- Merge 3.5.29 in 3.10.x https://github.com/gravitee-io/issues/issues/6974[#6974]
+- Not able to publish documentation in APIM Portal in a desired order https://github.com/gravitee-io/issues/issues/6652[#6652]
+- User created from AM cannot connect to APIM, if newsletter is enabled https://github.com/gravitee-io/issues/issues/6572[#6572]
+
+*_Management_*
+
+- Checking "Show the URL to download the content" in the swagger documentation generates and error https://github.com/gravitee-io/issues/issues/6713[#6713]
+
+*_Node_*
+
+- Node_health metric returns null values in 3.10 https://github.com/gravitee-io/issues/issues/6924[#6924]
+
+*_Portal_*
+
+- Disable label display on home & list page https://github.com/gravitee-io/issues/issues/6522[#6522]
+- Display of Applications may take too long and should be paginated https://github.com/gravitee-io/issues/issues/6020[#6020]
+- Main Documentation anchor doesn't work https://github.com/gravitee-io/issues/issues/6905[#6905]
+
+*_Repository_*
+
+- Fix invalid SQL syntax when finding alert triggers https://github.com/gravitee-io/issues/issues/7163[#7163]
+
+=== Features
+
+*_Alert_*
+
+- Alert per endpoint when healthcheck status change https://github.com/gravitee-io/issues/issues/6728[#6728]
+
+=== Improvements
+
+*_Management_*
+
+- Support OpenSearch https://github.com/gravitee-io/issues/issues/6890[#6890]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/515?closed=1[APIM - 3.5.30 (2022-02-25)]
 
 === Bug fixes
