@@ -79,8 +79,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-                    ls -allh $TEST_SECRET
-
+                    echo "$TEST_SECRET"
 workflows:
   version: 2.1
   # Blank process invoked when git / pull requests events are triggered
