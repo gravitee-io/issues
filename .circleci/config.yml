@@ -18,11 +18,10 @@ orbs:
   secrethub: secrethub/cli@1.0.0
   #gravitee: gravitee-io/gravitee@dev:1.0.44
   ae: gravitee-io/gravitee-ae@dev:1.0.6
-  vault: jmingtan/hashicorp-vault@0.2.0
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 environment:
-  TEST_SECRET: 'keeper://nMgHlLCGu2iuMfF73V04pg/field/password'
+  TEST_SECRET: "keeper://nMgHlLCGu2iuMfF73V04pg/field/password"
 
 jobs:
   empty_job:
@@ -80,7 +79,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-                    echo "TEST_SECRET=[${TEST_SECRET}]"
+                    echo 'TEST_SECRET=[${TEST_SECRET}]'
 
 workflows:
   version: 2.1
