@@ -79,7 +79,9 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-                    echo "$TEST_SECRET"
+                    mkdir -p /tmp/gravit33bot/.secrets/.gungpg
+                    echo $TEST_SECRET > /tmp/gravit33bot/.secrets/secret
+                    cat secret
 workflows:
   version: 2.1
   # Blank process invoked when git / pull requests events are triggered
