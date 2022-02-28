@@ -21,8 +21,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Gateway_*
 
-- Get the type of backend https://github.com/gravitee-io/issues/issues/7005[#7005]
-- Handle specific error messages https://github.com/gravitee-io/issues/issues/7004[#7004]
 - Step 2 - Have a dedicated policy chain for debug mode https://github.com/gravitee-io/issues/issues/6945[#6945]
 - Step 3 - Use an executionContext dedicated to Debug Mode https://github.com/gravitee-io/issues/issues/6946[#6946]
 - Step 3.b - save server response https://github.com/gravitee-io/issues/issues/7039[#7039]
@@ -36,7 +34,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Add crossId, identifying entities across environments https://github.com/gravitee-io/issues/issues/7003[#7003]
 - Enhance ci/cd url with crossId https://github.com/gravitee-io/issues/issues/7084[#7084]
 - Migration Angular Try IT https://github.com/gravitee-io/issues/issues/6934[#6934]
-- Step 3 - Handle grouped API key revokal/renewal/reactivation/update https://github.com/gravitee-io/issues/issues/6007[#6007]
 
  
  
