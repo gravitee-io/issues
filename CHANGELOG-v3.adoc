@@ -5,6 +5,42 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/493?closed=1[APIM - 3.16.0 (2022-02-28)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Platform policies should not be executed first on response https://github.com/gravitee-io/issues/issues/7138[#7138]
+
+*_General_*
+
+- Login redirection is sometimes not working https://github.com/gravitee-io/issues/issues/7141[#7141]
+
+=== Features
+
+*_Gateway_*
+
+- Get the type of backend https://github.com/gravitee-io/issues/issues/7005[#7005]
+- Handle specific error messages https://github.com/gravitee-io/issues/issues/7004[#7004]
+- Step 2 - Have a dedicated policy chain for debug mode https://github.com/gravitee-io/issues/issues/6945[#6945]
+- Step 3 - Use an executionContext dedicated to Debug Mode https://github.com/gravitee-io/issues/issues/6946[#6946]
+- Step 3.b - save server response https://github.com/gravitee-io/issues/issues/7039[#7039]
+- Step 4 - Refactor debug event saving https://github.com/gravitee-io/issues/issues/6949[#6949]
+- Step 5.a - Handle error during policy execution https://github.com/gravitee-io/issues/issues/6950[#6950]
+- Step 5.b - Handle conditional policy https://github.com/gravitee-io/issues/issues/6951[#6951]
+- Step 5.c - Debug Platform policies https://github.com/gravitee-io/issues/issues/6983[#6983]
+
+*_General_*
+
+- Add crossId, identifying entities across environments https://github.com/gravitee-io/issues/issues/7003[#7003]
+- Enhance ci/cd url with crossId https://github.com/gravitee-io/issues/issues/7084[#7084]
+- Migration Angular Try IT https://github.com/gravitee-io/issues/issues/6934[#6934]
+- Step 3 - Handle grouped API key revokal/renewal/reactivation/update https://github.com/gravitee-io/issues/issues/6007[#6007]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/517?closed=1[APIM - 3.10.11 (2022-02-25)]
 
 === Bug fixes
