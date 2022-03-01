@@ -80,7 +80,6 @@ jobs:
                     
                     mkdir -p /tmp/gravit33bot/.secrets/.gungpg
                     ksm secret notation keeper://nMgHlLCGu2iuMfF73V04pg/field/password > /tmp/gravit33bot/.secrets/secret
-                 #   echo $TEST_SECRET 
                     cat /tmp/gravit33bot/.secrets/secret
 workflows:
   version: 2.1
