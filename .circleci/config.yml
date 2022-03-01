@@ -77,9 +77,10 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
-                    ksm secret get nMgHlLCGu2iuMfF73V04pg
+                    
                     mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-                    echo $TEST_SECRET > /tmp/gravit33bot/.secrets/secret
+                    ksm secret notation keeper://nMgHlLCGu2iuMfF73V04pg/field/password > /tmp/gravit33bot/.secrets/secret
+                 #   echo $TEST_SECRET 
                     cat /tmp/gravit33bot/.secrets/secret
 workflows:
   version: 2.1
