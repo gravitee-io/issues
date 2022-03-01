@@ -21,7 +21,7 @@ orbs:
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 environment:
-  TEST_SECRET: "yes"
+  TEST_SECRET: 'keeper://nMgHlLCGu2iuMfF73V04pg/field/password'
 
 jobs:
   empty_job:
@@ -77,6 +77,7 @@ jobs:
       - run:
           name: "Get vault secrets"
           command: |
+                    ksm secret get nMgHlLCGu2iuMfF73V04pg
                     mkdir -p /tmp/gravit33bot/.secrets/.gungpg
                     echo $TEST_SECRET > /tmp/gravit33bot/.secrets/secret
                     cat /tmp/gravit33bot/.secrets/secret
