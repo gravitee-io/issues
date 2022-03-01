@@ -21,7 +21,7 @@ orbs:
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 environment:
-  TEST_SECRET: 'keeper://SBYuGgef6eCouVZWDI-7GQ/field/Secured Note/dqcqd/dcqcd'
+  TEST_SECRET: "yes"
 
 jobs:
   empty_job:
