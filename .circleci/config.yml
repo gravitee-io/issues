@@ -73,8 +73,7 @@ jobs:
     #  - run:
      #     name: login ksm
       #    command:  |
-       #     ksm profile init EU:I70YnazsbPzDnCymiIZUHTBVrRYnU9-DXVBmJ0wgToc
-            
+       #     ksm profile init EU:I70YnazsbPzDnCymiIZUHTBVrRYnU9-DXVBmJ0wgToc          
       - run:
           name: "Get vault secrets"
           command: |
