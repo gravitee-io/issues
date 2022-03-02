@@ -21,7 +21,7 @@ orbs:
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 environment:
-  TEST_SECRET: 'keeper://nMgHlLCGu2iuMfF73V04pg/field/password'
+  TEST_SECRET: 'ksm secret notation keeper://zB_JnULMlYaeCEQPE8p3HA/field/password'
 
 jobs:
   empty_job:
@@ -79,7 +79,7 @@ jobs:
           command: |
                     
                     mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-                    ksm secret notation keeper://zB_JnULMlYaeCEQPE8p3HA/field/password > /tmp/gravit33bot/.secrets/secret
+                    echo $TEST_SECRET > /tmp/gravit33bot/.secrets/secret
                     cat /tmp/gravit33bot/.secrets/secret
 workflows:
   version: 2.1
