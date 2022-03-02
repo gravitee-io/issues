@@ -21,7 +21,7 @@ orbs:
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 environment:
-  TEST_SECRET: 'ksm secret notation keeper://zB_JnULMlYaeCEQPE8p3HA/field/password'
+  TEST_SECRET: 'keeper://zB_JnULMlYaeCEQPE8p3HA/field/password'
 
 jobs:
   empty_job:
