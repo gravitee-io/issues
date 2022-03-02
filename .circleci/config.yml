@@ -79,7 +79,7 @@ jobs:
           command: |
                     
                     mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-                    ksm secret notation keeper://nMgHlLCGu2iuMfF73V04pg/field/password > /tmp/gravit33bot/.secrets/secret
+                    ksm secret notation keeper://zB_JnULMlYaeCEQPE8p3HA/field/password > /tmp/gravit33bot/.secrets/secret
                     cat /tmp/gravit33bot/.secrets/secret
 workflows:
   version: 2.1
