@@ -20,8 +20,8 @@ orbs:
   ae: gravitee-io/gravitee-ae@dev:1.0.6
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
-environment:
-  TEST_SECRET: 'keeper://zB_JnULMlYaeCEQPE8p3HA/field/password'
+#environment:
+ # TEST_SECRET: 'keeper://zB_JnULMlYaeCEQPE8p3HA/field/password'
 
 jobs:
   empty_job:
