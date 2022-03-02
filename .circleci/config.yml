@@ -76,9 +76,9 @@ jobs:
       - run:
           name: "Get vault secrets"
           command:  |
-                mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-                ksm secret notation keeper://cooU9UoXIk8Kj0hsP2rkBw/field/login > /tmp/gravit33bot/.secrets/secret
-                cat /tmp/gravit33bot/.secrets/secret
+            mkdir -p /tmp/gravit33bot/.secrets/.gungpg
+            ksm secret notation keeper://cooU9UoXIk8Kj0hsP2rkBw/field/login > /tmp/gravit33bot/.secrets/secret
+            cat /tmp/gravit33bot/.secrets/secret
 
   version: 2.1
   # Blank process invoked when git / pull requests events are triggered
