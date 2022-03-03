@@ -77,8 +77,8 @@ jobs:
           command:  |
 
             mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-            ksm secret notation keeper://NLnWVP8j2-FwCz6fpVXRmQ/custom_field/xml > /tmp/gravit33bot/.secrets/secret
-            cat /tmp/gravit33bot/.secrets/secret
+            ksm secret notation keeper://NLnWVP8j2-FwCz6fpVXRmQ/custom_field/xml
+            #cat /tmp/gravit33bot/.secrets/secret
 
 
 workflows:
