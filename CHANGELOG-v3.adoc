@@ -19,24 +19,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 === Features
 
-*_Gateway_*
-
-- Step 2 - Have a dedicated policy chain for debug mode https://github.com/gravitee-io/issues/issues/6945[#6945]
-- Step 3 - Use an executionContext dedicated to Debug Mode https://github.com/gravitee-io/issues/issues/6946[#6946]
-- Step 3.b - save server response https://github.com/gravitee-io/issues/issues/7039[#7039]
-- Step 4 - Refactor debug event saving https://github.com/gravitee-io/issues/issues/6949[#6949]
-- Step 5.a - Handle error during policy execution https://github.com/gravitee-io/issues/issues/6950[#6950]
-- Step 5.b - Handle conditional policy https://github.com/gravitee-io/issues/issues/6951[#6951]
-- Step 5.c - Debug Platform policies https://github.com/gravitee-io/issues/issues/6983[#6983]
-
 *_General_*
 
 - Add crossId, identifying entities across environments https://github.com/gravitee-io/issues/issues/7003[#7003]
 - Enhance ci/cd url with crossId https://github.com/gravitee-io/issues/issues/7084[#7084]
-- Migration Angular Try IT https://github.com/gravitee-io/issues/issues/6934[#6934]
+- Debug mode https://github.com/gravitee-io/issues/issues/6760[#6760]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/517?closed=1[APIM - 3.10.11 (2022-02-25)]
 
@@ -84,8 +74,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Support OpenSearch https://github.com/gravitee-io/issues/issues/6890[#6890]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/515?closed=1[APIM - 3.5.30 (2022-02-25)]
 
@@ -95,8 +85,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Improve personal token matching performance https://github.com/gravitee-io/issues/issues/7187[#7187]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/507?closed=1[APIM - 3.15.3 (2022-02-07)]
 
@@ -112,8 +102,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Can't get API plans on JDBC when API has no category https://github.com/gravitee-io/issues/issues/7060[#7060]
 - SQL error on subscription with PostgreSQL or MsSql https://github.com/gravitee-io/issues/issues/7051[#7051]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/506?closed=1[APIM - 3.15.2 (2022-02-03)]
 
@@ -123,8 +113,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - IllegalArgumentException unsupported cipher suite when enforcing tls protocols https://github.com/gravitee-io/issues/issues/7038[#7038]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/504?closed=1[APIM - 3.15.1 (2022-01-31)]
 
@@ -134,8 +124,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [policy] Rest-to-Soap doesn't work anymore https://github.com/gravitee-io/issues/issues/7025[#7025]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/350?closed=1[APIM - 3.15.0 (2022-01-27)]
 
@@ -197,8 +187,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Support OpenSearch https://github.com/gravitee-io/issues/issues/6889[#6889]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/496?closed=1[APIM - 3.10.10 (2022-01-14)]
 
@@ -212,8 +202,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.5.28 in 3.10.x https://github.com/gravitee-io/issues/issues/6874[#6874]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/372?closed=1[APIM - 3.14.0 (2022-01-12)]
 
@@ -266,8 +256,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Application page list pagination https://github.com/gravitee-io/issues/issues/6665[#6665]
 - Direct Search from the API Info https://github.com/gravitee-io/issues/issues/6486[#6486]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/494?closed=1[APIM - 3.5.28 (2022-01-06)]
 
@@ -288,8 +278,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Documentation Page cannot handle lots of menu options https://github.com/gravitee-io/issues/issues/6618[#6618]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/488?closed=1[APIM - 3.13.3 (2021-12-29)]
 
@@ -299,8 +289,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.12.6 in 3.13.x https://github.com/gravitee-io/issues/issues/6806[#6806]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/487?closed=1[APIM - 3.12.6 (2021-12-24)]
 
@@ -310,8 +300,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.10.9 in 3.12.x https://github.com/gravitee-io/issues/issues/6805[#6805]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/486?closed=1[APIM - 3.10.9 (2021-12-23)]
 
@@ -341,8 +331,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [elasticsearch] Backport #6683 on 3.10 ES plugins management https://github.com/gravitee-io/issues/issues/6710[#6710]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/485?closed=1[APIM - 3.5.27 (2021-12-21)]
 
@@ -356,8 +346,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - System proxy is not managed for health-check https://github.com/gravitee-io/issues/issues/6731[#6731]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/484?closed=1[APIM - 3.5.26 (2021-12-17)]
 
@@ -379,8 +369,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Shutdown gracefully https://github.com/gravitee-io/issues/issues/6722[#6722]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/474?closed=1[APIM - 3.13.2 (2021-12-15)]
 
@@ -411,8 +401,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [groovy] Groovy  scripts fails to resolve method even if whitelisted https://github.com/gravitee-io/issues/issues/6681[#6681]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/473?closed=1[APIM - 3.12.5 (2021-12-10)]
 
@@ -430,8 +420,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Fetching Documentation Page from external source (GitHub/Gitlab) return 401 or 404 https://github.com/gravitee-io/issues/issues/6331[#6331]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/472?closed=1[APIM - 3.10.8 (2021-12-08)]
 
@@ -458,8 +448,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Error message on login page https://github.com/gravitee-io/issues/issues/6203[#6203]
 - Subscriptions menu should not be displayed if user does not have access rights on Applications subscriptions https://github.com/gravitee-io/issues/issues/6021[#6021]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/471?closed=1[APIM - 3.5.25 (2021-12-06)]
 
@@ -482,8 +472,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Handle null value when getting instances https://github.com/gravitee-io/issues/issues/6639[#6639]
 - Search API should keep the search score order https://github.com/gravitee-io/issues/issues/5744[#5744]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/475?closed=1[APIM - 3.13.1 (2021-11-26)]
 
@@ -497,8 +487,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.12.4 in 3.13.x https://github.com/gravitee-io/issues/issues/6606[#6606]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/469?closed=1[APIM - 3.5.24 (2021-11-23)]
 
@@ -508,8 +498,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Inconsistent entrypoint resolution may cause 500 errors https://github.com/gravitee-io/issues/issues/6543[#6543]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/466?closed=1[APIM - 3.12.4 (2021-11-22)]
 
@@ -527,8 +517,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - "Role not found" exception when importing an API to a new environment https://github.com/gravitee-io/issues/issues/6448[#6448]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/465?closed=1[APIM - 3.10.7 (2021-11-22)]
 
@@ -538,8 +528,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - API call always returns 500 internal error after redeploy https://github.com/gravitee-io/issues/issues/6601[#6601]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/356?closed=1[APIM - 3.13.0 (2021-11-19)]
 
@@ -576,8 +566,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - JWT-PolicyCache management improvements https://github.com/gravitee-io/issues/issues/6046[#6046]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/463?closed=1[APIM - 3.12.3 (2021-11-18)]
 
@@ -587,8 +577,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.10.6 in 3.12.x https://github.com/gravitee-io/issues/issues/6593[#6593]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/457?closed=1[APIM - 3.10.6 (2021-11-18)]
 
@@ -616,8 +606,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [alerts] Add HTTP_SIGNATURE_INVALID_SIGNATURE to api metrics list https://github.com/gravitee-io/issues/issues/6462[#6462]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/458?closed=1[APIM - 3.5.23 (2021-11-17)]
 
@@ -633,8 +623,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Avoid 404 and 500 error during api redeploy or stop https://github.com/gravitee-io/issues/issues/6553[#6553]
 - ILM managed indice are not handled by elasticsearch reporter https://github.com/gravitee-io/issues/issues/6507[#6507]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/449?closed=1[APIM - 3.12.2 (2021-11-12)]
 
@@ -650,8 +640,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Customize HTTP_SIGNATURE_INVALID_SIGNATURE response template https://github.com/gravitee-io/issues/issues/6320[#6320]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/448?closed=1[APIM - 3.11.3 (2021-11-12)]
 
@@ -662,8 +652,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Merge 3.10.4 in 3.11.x https://github.com/gravitee-io/issues/issues/6512[#6512]
 - Merge 3.10.5 in 3.11.x https://github.com/gravitee-io/issues/issues/6548[#6548]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/447?closed=1[APIM - 3.10.5 (2021-11-10)]
 
@@ -684,8 +674,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [geoip-filtering] Upgrade for APIM >= 3.10 https://github.com/gravitee-io/issues/issues/6531[#6531]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/453?closed=1[APIM - 3.5.22 (2021-11-10)]
 
@@ -704,8 +694,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Inconsistent entrypoint resolution may cause 500 errors https://github.com/gravitee-io/issues/issues/6543[#6543]
 - Sync probe ends with an exception when calling /_node/sync https://github.com/gravitee-io/issues/issues/6539[#6539]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/430?closed=1[APIM - 3.10.4 (2021-11-05)]
 
@@ -760,8 +750,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Customize HTTP SIGNATURE response template https://github.com/gravitee-io/issues/issues/6319[#6319]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/442?closed=1[APIM - 3.5.21 (2021-11-02)]
 
@@ -793,8 +783,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Optimize mongodb searchLatest events https://github.com/gravitee-io/issues/issues/6481[#6481]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/435?closed=1[APIM - 3.12.1 (2021-10-25)]
 
@@ -821,8 +811,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [jdbc] APIs are not loaded at gateway startup after migration https://github.com/gravitee-io/issues/issues/6449[#6449]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/426?closed=1[APIM - 3.5.20 (2021-10-14)]
 
@@ -883,8 +873,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Allow spaces in the declaration of dictionaries, at the dynamic routing level https://github.com/gravitee-io/issues/issues/5938[#5938]
 - Startup performance improvements https://github.com/gravitee-io/issues/issues/6066[#6066]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/352?closed=1[APIM - 3.12.0 (2021-09-30)]
 
@@ -916,8 +906,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Advanced search on APIs https://github.com/gravitee-io/issues/issues/2839[#2839]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/422?closed=1[APIM - 3.11.1 (2021-09-22)]
 
@@ -941,8 +931,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Try It Mode - check api configuration when requesting debug https://github.com/gravitee-io/issues/issues/6017[#6017]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/429?closed=1[APIM - 3.10.3 (2021-09-17)]
 
@@ -1025,8 +1015,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Set spring security dependencies as provided in IDP plugins https://github.com/gravitee-io/issues/issues/5947[#5947]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/333?closed=1[APIM - 3.11.0 (2021-08-31)]
 
@@ -1063,8 +1053,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Improve form https://github.com/gravitee-io/issues/issues/6027[#6027]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/416?closed=1[APIM - 3.9.4 (2021-08-23)]
 
@@ -1086,8 +1076,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Rate limiting not working with Redis https://github.com/gravitee-io/issues/issues/5882[#5882]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/414?closed=1[APIM - 3.8.7 (2021-08-12)]
 
@@ -1102,8 +1092,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Error while importing a file https://github.com/gravitee-io/issues/issues/5933[#5933]
 - Metadata of type URL do not support all characters https://github.com/gravitee-io/issues/issues/5964[#5964]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/409?closed=1[APIM - 3.5.18 (2021-08-04)]
 
@@ -1146,8 +1136,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Re-enable "retainDays" configuration in file-reporter plugin https://github.com/gravitee-io/issues/issues/5463[#5463]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/243?closed=1[APIM - 3.10.0 (2021-08-03)]
 
@@ -1198,8 +1188,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [groovy] add XML support https://github.com/gravitee-io/issues/issues/5891[#5891]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/410?closed=1[APIM - 3.9.3 (2021-07-16)]
 
@@ -1211,8 +1201,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Merge 3.8.6 https://github.com/gravitee-io/issues/issues/5817[#5817]
 - The GW instance is no longer displayed on the nightly https://github.com/gravitee-io/issues/issues/5782[#5782]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/408?closed=1[APIM - 3.8.6 (2021-07-16)]
 
@@ -1229,8 +1219,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [response template] add a GATEWAY_TIMEOUT response template https://github.com/gravitee-io/issues/issues/5501[#5501]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/404?closed=1[APIM - 3.5.17 (2021-07-06)]
 
@@ -1266,8 +1256,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [basic-authentication] Manage async auth providers https://github.com/gravitee-io/issues/issues/5733[#5733]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/400?closed=1[APIM - 3.9.2 (2021-06-29)]
 
@@ -1278,8 +1268,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Merge 3.8.4 https://github.com/gravitee-io/issues/issues/5721[#5721]
 - Merge 3.8.5 https://github.com/gravitee-io/issues/issues/5793[#5793]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/398?closed=1[APIM - 3.8.5 (2021-06-29)]
 
@@ -1312,8 +1302,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Adapt liveness probe of the gateway to check API synchronization https://github.com/gravitee-io/issues/issues/5734[#5734]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/401?closed=1[APIM - 3.5.16 (2021-06-18)]
 
@@ -1327,8 +1317,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Login issue on the portal https://github.com/gravitee-io/issues/issues/5748[#5748]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/396?closed=1[APIM - 3.5.15 (2021-06-17)]
 
@@ -1360,8 +1350,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [Http Signature] Support non quoted String in the signature https://github.com/gravitee-io/issues/issues/5684[#5684]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/391?closed=1[APIM - 3.8.4 (2021-06-14)]
 
@@ -1381,8 +1371,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Error when redeploy an api https://github.com/gravitee-io/issues/issues/5671[#5671]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/399?closed=1[APIM - 3.9.1 (2021-06-12)]
 
@@ -1392,8 +1382,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Loss of data when migrating on 3.9.0 for jdbc users https://github.com/gravitee-io/issues/issues/5711[#5711]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/393?closed=1[APIM - 3.5.14 (2021-06-09)]
 
@@ -1408,8 +1398,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Allow to specify multiple roles to map with ldap idp https://github.com/gravitee-io/issues/issues/5619[#5619]
 - Gravitee_http_cors_alloworigin environment variable setting not reflected in UI https://github.com/gravitee-io/issues/issues/5583[#5583]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/242?closed=1[APIM - 3.9.0 (2021-06-08)]
 
@@ -1449,8 +1439,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Allow to define alerts for a consumer https://github.com/gravitee-io/issues/issues/5341[#5341]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/386?closed=1[APIM - 3.5.13 (2021-06-04)]
 
@@ -1483,8 +1473,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Do not display "Create an Application" in Portal if user has insufficient privileges https://github.com/gravitee-io/issues/issues/5403[#5403]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/387?closed=1[APIM - 3.8.3 (2021-05-26)]
 
@@ -1498,8 +1488,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Loss of path when OIDC logout process https://github.com/gravitee-io/issues/issues/5621[#5621]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/365?closed=1[APIM - 3.0.17 (2021-05-20)]
 
@@ -1521,8 +1511,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - "information" is singular https://github.com/gravitee-io/issues/issues/5595[#5595]
 - Unable to create an App from the portal https://github.com/gravitee-io/issues/issues/5563[#5563]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/388?closed=1[APIM - 3.7.4 (2021-05-22)]
 
@@ -1532,8 +1522,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.5.12 https://github.com/gravitee-io/issues/issues/5601[#5601]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/384?closed=1[APIM - 3.5.12 (2021-05-18)]
 
@@ -1564,8 +1554,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Add postman for /applications?query=A accessible to unauthorized users https://github.com/gravitee-io/issues/issues/5535[#5535]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/383?closed=1[APIM - 3.8.2 (2021-05-14)]
 
@@ -1585,8 +1575,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - As a user I should see user assigned to the group without refreshing the page https://github.com/gravitee-io/issues/issues/5401[#5401]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/381?closed=1[APIM - 3.7.3 (2021-05-12)]
 
@@ -1601,8 +1591,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - API Health-check screen is broken https://github.com/gravitee-io/issues/issues/5511[#5511]
 - Environment permission is needed to display the api events in analytics https://github.com/gravitee-io/issues/issues/5473[#5473]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/376?closed=1[APIM - 3.5.11 (2021-05-07)]
 
@@ -1636,8 +1626,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - [file] OOM when flush takes a long time https://github.com/gravitee-io/issues/issues/5515[#5515]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/378?closed=1[APIM - 3.8.1 (2021-04-28)]
 
@@ -1654,8 +1644,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - APIM dependencies upgrade https://github.com/gravitee-io/issues/issues/5471[#5471]
 - EE docker image jdk upgrade openjdk11:jre-11.0.10_9-alpine https://github.com/gravitee-io/issues/issues/5472[#5472]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/371?closed=1[APIM - 3.7.2 (2021-04-23)]
 
@@ -1673,8 +1663,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Default Schema is now set to "public" for jdbc https://github.com/gravitee-io/issues/issues/5468[#5468]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/364?closed=1[APIM - 3.5.10 (2021-04-21)]
 
@@ -1722,8 +1712,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Allows to sort the logs by API response time https://github.com/gravitee-io/issues/issues/3391[#3391]
 - Naming confusion between path authorizations and resource filtering https://github.com/gravitee-io/issues/issues/5464[#5464]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/241?closed=1[APIM - 3.8.0 (2021-04-16)]
 
@@ -1774,8 +1764,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Endpoint reference from policy https://github.com/gravitee-io/issues/issues/5268[#5268]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/370?closed=1[APIM - 3.6.3 (2021-04-15)]
 
@@ -1795,8 +1785,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - New http-signature policy with support for base64 encoding https://github.com/gravitee-io/issues/issues/5408[#5408]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/363?closed=1[APIM - 3.7.1 (2021-04-10)]
 
@@ -1807,8 +1797,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - . This error mainly occurs when the policy is linked to a missing resource, for example a cache or an oauth2 resource. Please check your policy configuration!" https://github.com/gravitee-io/issues/issues/5354[#5354]
 - Merge 3.6.2 https://github.com/gravitee-io/issues/issues/5360[#5360]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/358?closed=1[APIM - 3.6.2 (2021-04-06)]
 
@@ -3313,4 +3303,3 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Keep API display preference to the user https://github.com/gravitee-io/issues/issues/3110[#3110]
 - Work on route transition animations https://github.com/gravitee-io/issues/issues/3010[#3010]
 - Work on scroll to top strategy router navigation https://github.com/gravitee-io/issues/issues/3012[#3012]
-
