@@ -74,9 +74,9 @@ jobs:
       #    command:  |
        #     ksm profile init EU:I70YnazsbPzDnCymiIZUHTBVrRYnU9-DXVBmJ0wgToc          
       - run:
-          name: "Get vault secrets"
+          name: Get vault secrets
           command:  |
-          
+
                       mkdir -p /tmp/gravit33bot/.secrets/.gungpg
                       ksm secret notation keeper://cooU9UoXIk8Kj0hsP2rkBw/field/login > /tmp/gravit33bot/.secrets/secret
                       cat /tmp/gravit33bot/.secrets/secret
