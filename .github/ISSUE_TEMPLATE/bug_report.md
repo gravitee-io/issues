@@ -20,12 +20,16 @@ Steps to reproduce the behaviour:
 ## :rainbow: Expected behaviour
 A clear and concise description of what you expected to happen.
 
+## Current behaviour
+A clear and concise description of what is currently happening.
+
 ## :movie_camera: Useful information
 Screenshot, video, logs, other supporting material
 
-## :computer: Desktop :
+## :computer: Desktop:
 
 ***Please complete the following information:***
+ - Environment: [e.g. 3.10.x]
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
 
