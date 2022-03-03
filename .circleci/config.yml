@@ -21,7 +21,6 @@ orbs:
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 
-
 jobs:
   empty_job:
     docker:
@@ -73,13 +72,16 @@ jobs:
      #     name: login ksm
       #    command:  |
        #     ksm profile init EU:I70YnazsbPzDnCymiIZUHTBVrRYnU9-DXVBmJ0wgToc          
-  #    - run:
-   #       name: "Get vault secrets"
-    #      command:  |
+      - run:
+          name: "Get vault secrets"
+          command:  |
 
-     #       mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-      #      ksm secret notation keeper://cooU9UoXIk8Kj0hsP2rkBw/field/login > /tmp/gravit33bot/.secrets/secret
-       #     cat /tmp/gravit33bot/.secrets/secret
+            mkdir -p /tmp/gravit33bot/.secrets/.gungpg
+            ksm secret notation keeper://cooU9UoXIk8Kj0hsP2rkBw/field/login > /tmp/gravit33bot/.secrets/secret
+            cat /tmp/gravit33bot/.secrets/secret
+
+
+workflows:
 
   version: 2.1
   # Blank process invoked when git / pull requests events are triggered
