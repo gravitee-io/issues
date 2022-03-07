@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/523?closed=1[APIM - 3.15.4 (2022-03-07)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Condition generated automatically when maximum time limit is set in API logging does not work https://github.com/gravitee-io/issues/issues/7205[#7205]
+- [policy-basic-authentication] Error message is received when using basic authentication policy https://github.com/gravitee-io/issues/issues/7198[#7198]
+
+*_General_*
+
+- Merge 3.14.1 in 3.15.x https://github.com/gravitee-io/issues/issues/7162[#7162]
+
+*_Management_*
+
+- OAS - servers without basepath make import fail https://github.com/gravitee-io/issues/issues/7227[#7227]
+
+*_Metrics-reporter-policy_*
+
+- Metrics reporting not done at the good time https://github.com/gravitee-io/issues/issues/7194[#7194]
+
+*_Resource-cache-redis_*
+
+- User cannot save configuration https://github.com/gravitee-io/issues/issues/7172[#7172]
+
+=== Features
+
+*_Expression-language_*
+
+- Improve map access with dot https://github.com/gravitee-io/issues/issues/7228[#7228]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/493?closed=1[APIM - 3.16.0 (2022-02-28)]
 
 === Bug fixes
