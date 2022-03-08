@@ -41,7 +41,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Improve map access with dot https://github.com/gravitee-io/issues/issues/7228[#7228]
 
  
- == https://github.com/gravitee-io/issues/milestone/522?closed=1[APIM - 3.14.1 (2022-03-03)]
+== https://github.com/gravitee-io/issues/milestone/522?closed=1[APIM - 3.14.1 (2022-03-03)]
 
 === Bug fixes
 
