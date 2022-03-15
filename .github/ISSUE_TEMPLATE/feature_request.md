@@ -33,9 +33,9 @@ Provide link to the issue for documentation update
 
 ## :superhero: Acceptance criteria
 
-- [ ] Given '...'
-- [ ] Then '...'
-- [ ] When '...'
+- [ ] Given '...' Then '...' When '...'
+- [ ] Given '...' Then '...' When '...'
+- [ ] Given '...' Then '...' When '...'
 
 ## :warning: Potential impacts
 
