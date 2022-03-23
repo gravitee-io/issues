@@ -5,6 +5,50 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/528?closed=1[APIM - 3.10.12 (2022-03-22)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Events not being displayed correctly https://github.com/gravitee-io/issues/issues/7300[#7300]
+
+*_Console_*
+
+- Can't access a newly created API with import https://github.com/gravitee-io/issues/issues/7216[#7216]
+- Condition Logging on API is not displayed after saving https://github.com/gravitee-io/issues/issues/6978[#6978]
+
+*_Gateway_*
+
+- Best Match flow mode doesn't execute the best matching flow https://github.com/gravitee-io/issues/issues/6654[#6654]
+
+*_Gateway-api_*
+
+- Bad behavior on TransformationException if no policyChain https://github.com/gravitee-io/issues/issues/7130[#7130]
+
+*_General_*
+
+- Let the API Owner choose the Accept-Encoding https://github.com/gravitee-io/issues/issues/7181[#7181]
+
+*_Helm_*
+
+- Api template doesn't support opening of service core port https://github.com/gravitee-io/issues/issues/6895[#6895]
+
+*_Management_*
+
+- Notify API Consumers contact too many people https://github.com/gravitee-io/issues/issues/7213[#7213]
+
+*_Metrics-reporter-policy_*
+
+- Metrics reporting not done at the good time (backport 7194 in 3.10.x) https://github.com/gravitee-io/issues/issues/7196[#7196]
+
+*_Policy_*
+
+- Policy-ssl-enforcementsupport x509 attributes https://github.com/gravitee-io/issues/issues/7276[#7276]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/525?closed=1[APIM - 3.16.1 (2022-03-09)]
 
 === Bug fixes
