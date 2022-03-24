@@ -31,18 +31,14 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Application subscriptions API keys buttons are not visible https://github.com/gravitee-io/issues/issues/7273[#7273]
 
-*_Policy-groovy_*
+*_Policy Groovy_*
 
 - Cannot iterate on Map with entry and trim on GStringImpl https://github.com/gravitee-io/issues/issues/7302[#7302]
 
-=== Features
+*_Policy JavaScript_*
 
-*_Policy_*
+- Allows to break request/response on content phase https://github.com/gravitee-io/issues/issues/7173[#7173]
 
-- [javascript] allows to break request/response on content phase https://github.com/gravitee-io/issues/issues/7173[#7173]
-
- 
- 
 
 == https://github.com/gravitee-io/issues/milestone/528?closed=1[APIM - 3.10.12 (2022-03-22)]
 
