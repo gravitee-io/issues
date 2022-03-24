@@ -5,6 +5,45 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/529?closed=1[APIM - 3.15.6 (2022-03-24)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Contextual Docs no longer works https://github.com/gravitee-io/issues/issues/7323[#7323]
+- Secondary endpoint feature not working/switching if the Health-check is down on the primary endpoint. https://github.com/gravitee-io/issues/issues/7135[#7135]
+
+*_Gateway_*
+
+- Gateway only keeps last set-Cookie header from backend response even with different cookie-names https://github.com/gravitee-io/issues/issues/7325[#7325]
+
+*_General_*
+
+- Dictionaries no longer work in expressions https://github.com/gravitee-io/issues/issues/7303[#7303]
+- Javascript policy input box is only showing a few lines and not the whole code https://github.com/gravitee-io/issues/issues/7028[#7028]
+- Json is only partially visible in editor under API Documentaiton https://github.com/gravitee-io/issues/issues/7116[#7116]
+- Let the API Owner choose the Accept-Encoding https://github.com/gravitee-io/issues/issues/6967[#6967]
+- Merge 3.10.12 in 3.15.x https://github.com/gravitee-io/issues/issues/7363[#7363]
+- Support DocumentDB index name constraints https://github.com/gravitee-io/issues/issues/7134[#7134]
+
+*_Management_*
+
+- Application subscriptions API keys buttons are not visible https://github.com/gravitee-io/issues/issues/7273[#7273]
+
+*_Policy-groovy_*
+
+- Cannot iterate on Map with entry and trim on GStringImpl https://github.com/gravitee-io/issues/issues/7302[#7302]
+
+=== Features
+
+*_Policy_*
+
+- [javascript] allows to break request/response on content phase https://github.com/gravitee-io/issues/issues/7173[#7173]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/528?closed=1[APIM - 3.10.12 (2022-03-22)]
 
 === Bug fixes
