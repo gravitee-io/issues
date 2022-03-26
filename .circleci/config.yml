@@ -32,23 +32,6 @@ jobs:
           name: "This is a blank job"
           command: echo "No task is executed."
 
-  vault_build:
-    docker:
-      - image: 'cimg/base:stable'
-    steps:
-      - checkout
-      - run:
-          name: install keeper ksm
-          command:  |
-            sudo add-apt-repository universe
-            sudo apt-get update
-            sudo apt install python3
-            sudo apt install python3-pip
-            sudo pip3 install virtualenv
-            virtualenv -p python3 my_env
-            source my_env/bin/activate
-            pip3 install keeper-secrets-manager-cli
-            sudo pip3 install -U keeper-secrets-manager-cli keeper-secrets-manager-core
 
 
             
@@ -135,10 +118,4 @@ workflows:
           secrethub_org: graviteeio
           secrethub_repo: cicd
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>  
-  
-  vault_test:
-    when:
-      equal: [ vault_test, << pipeline.parameters.gio_action >> ]
-    jobs:
-      - vault_build:
-          context: cicd-orchestrator
+          
