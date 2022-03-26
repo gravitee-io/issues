@@ -16,8 +16,8 @@ parameters:
 
 orbs:
   secrethub: secrethub/cli@1.0.0
-  #gravitee: gravitee-io/gravitee@dev:1.0.44
-  ae: gravitee-io/gravitee-ae@dev:1.0.6
+  gravitee: gravitee-io/gravitee@dev:1.0.45
+  keeper: gravitee-io/keeper@0.5.0
   # gravitee: gravitee-io/gravitee@dev:1.0.4
 
 
