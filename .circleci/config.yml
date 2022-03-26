@@ -55,12 +55,12 @@ jobs:
      #     name: login ksm
       #    command:  |
        #     ksm profile init EU:I70YnazsbPzDnCymiIZUHTBVrRYnU9-DXVBmJ0wgToc          
-      - run:
-          name: "Get vault secrets"
-          command:  |
-
-            mkdir -p /tmp/gravit33bot/.secrets/.gungpg
-            ksm secret notation keeper://Mqmplmfu17bDR5XRLmO1mQ/field/password
+    #  - run:
+     #     name: "Get vault secrets"
+      #    command:  |
+#
+ #           mkdir -p /tmp/gravit33bot/.secrets/.gungpg
+  #          ksm secret notation keeper://Mqmplmfu17bDR5XRLmO1mQ/field/password
             #cat /tmp/gravit33bot/.secrets/secret
 
 
@@ -79,7 +79,7 @@ workflows:
     when:
       equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
     jobs:
-      - ae/changelog_apim:
+      - gravitee/changelog_apim:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
@@ -90,32 +90,31 @@ workflows:
     when:
       equal: [ changelog_am, << pipeline.parameters.gio_action >> ]
     jobs:
-      - ae/changelog_am:
+      - gravitee/changelog_am:
           context: cicd-orchestrator
           dry_run: << pipeline.parameters.dry_run >>
           secrethub_org: graviteeio
           secrethub_repo: cicd
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
   
-  changelog_ae:
-    when:
-      equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
-    jobs:
-      - ae/changelog_ae:
-          context: cicd-orchestrator
-          dry_run: << pipeline.parameters.dry_run >>
-          secrethub_org: graviteeio
-          secrethub_repo: cicd
-          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+ # changelog_ae:
+  #  when:
+   #   equal: [ changelog_ae, << pipeline.parameters.gio_action >> ]
+   # jobs:
+    #  - ae/changelog_ae:
+     #     context: cicd-orchestrator
+      #    dry_run: << pipeline.parameters.dry_run >>
+       #   secrethub_org: graviteeio
+        #  secrethub_repo: cicd
+        #  gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
   
-  testing_path:
-    when:
-      equal: [ testing_path, << pipeline.parameters.gio_action >> ]
-    jobs:
-      - ae/testing_path:
-          context: cicd-orchestrator
-          dry_run: << pipeline.parameters.dry_run >>
-          secrethub_org: graviteeio
-          secrethub_repo: cicd
-          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>  
-          
+ # testing_path:
+  #  when:
+   #   equal: [ testing_path, << pipeline.parameters.gio_action >> ]
+    #jobs:
+     # - ae/testing_path:
+      #    context: cicd-orchestrator
+       #   dry_run: << pipeline.parameters.dry_run >>
+        #  secrethub_org: graviteeio
+         # secrethub_repo: cicd
+         # gio_milestone_version: << pipeline.parameters.gio_milestone_version >>  
