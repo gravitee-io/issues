@@ -5,6 +5,69 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/508?closed=1[APIM - 3.17.0 (2022-03-29)]
+
+=== Bug fixes
+
+*_General_*
+
+- Merge 3.16.1 https://github.com/gravitee-io/issues/issues/7268[#7268]
+- Request does not return the good path https://github.com/gravitee-io/issues/issues/7220[#7220]
+
+=== Features
+
+*_General_*
+
+- Dynamic table for request headers https://github.com/gravitee-io/issues/issues/7149[#7149]
+- Quick access timeline https://github.com/gravitee-io/issues/issues/6767[#6767]
+- Toggle Shared API-Key Mode https://github.com/gravitee-io/issues/issues/6990[#6990]
+- Transform context path to be able to use it as in real life https://github.com/gravitee-io/issues/issues/7128[#7128]
+- Update model to handle shared API Key https://github.com/gravitee-io/issues/issues/7146[#7146]
+- Use user context-path in debug mode https://github.com/gravitee-io/issues/issues/7072[#7072]
+- Using the same API key to consume multiple APIs https://github.com/gravitee-io/issues/issues/5949[#5949]
+- View call metrics https://github.com/gravitee-io/issues/issues/7111[#7111]
+- View policy condition https://github.com/gravitee-io/issues/issues/7226[#7226]
+-  Display where a policy is configured https://github.com/gravitee-io/issues/issues/7183[#7183]
+
+*_Management_*
+
+- Accept/Reject Application Key subscription https://github.com/gravitee-io/issues/issues/6798[#6798]
+- Awareness that a subscription is made through Application Key https://github.com/gravitee-io/issues/issues/6801[#6801]
+- Choose between API Key or Application Key https://github.com/gravitee-io/issues/issues/6793[#6793]
+- De-correlate API Key and Subscription lifecycle https://github.com/gravitee-io/issues/issues/7266[#7266]
+- Prevent Application Key revocation https://github.com/gravitee-io/issues/issues/6799[#6799]
+- Prevent Application Key update https://github.com/gravitee-io/issues/issues/6800[#6800]
+- Renew Application Key https://github.com/gravitee-io/issues/issues/6804[#6804]
+- Revoke Application Key https://github.com/gravitee-io/issues/issues/6796[#6796]
+- Update Application Key https://github.com/gravitee-io/issues/issues/6797[#6797]
+- Update audit event on Shared API Key https://github.com/gravitee-io/issues/issues/7192[#7192]
+- View Application Key https://github.com/gravitee-io/issues/issues/6795[#6795]
+- View subscription for Application Key https://github.com/gravitee-io/issues/issues/6794[#6794]
+
+*_Policy_*
+
+- Define headers based on the request or on the response payload https://github.com/gravitee-io/issues/issues/7358[#7358]
+
+*_Portal_*
+
+- Revoke Application Key https://github.com/gravitee-io/issues/issues/6818[#6818]
+- Update Application Key https://github.com/gravitee-io/issues/issues/6819[#6819]
+- View Application Key https://github.com/gravitee-io/issues/issues/6817[#6817]
+-  Choose between API Key or Application Key https://github.com/gravitee-io/issues/issues/6816[#6816]
+
+=== Improvements
+
+*_General_*
+
+- Transform context path to be able to use it as in real life https://github.com/gravitee-io/issues/issues/7128[#7128]
+
+*_Management_*
+
+- Migrate management PAI documentation from openAPI V2 (aka swagger) to v3 https://github.com/gravitee-io/issues/issues/6224[#6224]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/530?closed=1[APIM - 3.16.2 (2022-03-28)]
 
 === Bug fixes
