@@ -20,7 +20,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Define headers based on the request or on the response payload https://github.com/gravitee-io/issues/issues/7333[#7333]
 
- 
+- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301] 
  
 
 == https://github.com/gravitee-io/issues/milestone/529?closed=1[APIM - 3.15.6 (2022-03-24)]
