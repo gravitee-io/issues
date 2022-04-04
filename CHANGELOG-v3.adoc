@@ -9,6 +9,10 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 === Bug fixes
 
+*_General_*
+
+- Merge 3.10.13 https://github.com/gravitee-io/issues/issues/7444[#7444]
+
 *_APIM_*
 
 - Content not read from JKS and PKCS12 Certificates(Binary Content) in Group Endpoint Configuration https://github.com/gravitee-io/issues/issues/7405[#7405]
