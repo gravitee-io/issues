@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/535?closed=1[APIM - 3.15.7 (2022-04-04)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Content not read from JKS and PKCS12 Certificates(Binary Content) in Group Endpoint Configuration https://github.com/gravitee-io/issues/issues/7405[#7405]
+
+*_Data-masking-policy_*
+
+- Data masking policy at platform level is not masking data https://github.com/gravitee-io/issues/issues/7022[#7022]
+
+*_Management_*
+
+- "Host" header not overwritten if redefined in Endpoint configuration https://github.com/gravitee-io/issues/issues/7007[#7007]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/531?closed=1[APIM - 3.10.13 (2022-04-01)]
 
 === Bug fixes
