@@ -17,7 +17,11 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Platform Flows deleted after a restart when connected to cockpit https://github.com/gravitee-io/issues/issues/7423[#7423]
 
- 
+=== Features
+
+*_Policy_*
+
+- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301]  
  
 
 == https://github.com/gravitee-io/issues/milestone/508?closed=1[APIM - 3.17.0 (2022-03-29)]
