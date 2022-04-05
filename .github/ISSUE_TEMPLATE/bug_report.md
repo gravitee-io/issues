@@ -42,5 +42,3 @@ Screenshot, video, logs, other supporting material
 ## :link: Dependencies
 
 Link a story or other related things...
-
-
