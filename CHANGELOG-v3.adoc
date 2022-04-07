@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/534?closed=1[APIM - 3.17.1 (2022-04-07)]
+
+=== Bug fixes
+
+*_General_*
+
+- $facet operator not supported in documentDB causes errors in 3.17.0 https://github.com/gravitee-io/issues/issues/7422[#7422]
+- Merge 3.16.3 in 3.17.x https://github.com/gravitee-io/issues/issues/7442[#7442]
+
+*_Management_*
+
+- Backport #7450 on 3.17 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7451[#7451]
+- Java heap space when requesting the openapi speficiation https://github.com/gravitee-io/issues/issues/7460[#7460]
+- Platform Flows deleted after a restart when connected to cockpit https://github.com/gravitee-io/issues/issues/7421[#7421]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/536?closed=1[APIM - 3.16.3 (2022-04-04)]
 
 === Bug fixes
