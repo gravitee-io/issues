@@ -17,8 +17,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_Management_*
 
 - Backport #7450 on 3.17 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7451[#7451]
-- Java heap space when requesting the openapi speficiation https://github.com/gravitee-io/issues/issues/7460[#7460]
-- Platform Flows deleted after a restart when connected to cockpit https://github.com/gravitee-io/issues/issues/7421[#7421]
+- Java heap space when requesting the OpenAPI specification https://github.com/gravitee-io/issues/issues/7460[#7460]
+- Platform Flows deleted after a restart when connected to Cockpit https://github.com/gravitee-io/issues/issues/7421[#7421]
 
  
  
