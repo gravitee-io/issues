@@ -43,20 +43,4 @@ Provide link to the issue for documentation update
 
 ***What are the impacted versions?***
 
-## :heavy_check_mark: Definition of Done
-
-***For each User Story everything on the list must be considered, select only what was required***
-- [ ] Acceptance criteria met and tested
-- [ ] Sonar Cloud quality gate passes
-- [ ] CircleCi checks pass
-- [ ] Cypress or Postman API check passes
-- [ ] Test containers passed if modifications on the repository modules
-- [ ] Translation for portal UI checked
-- [ ] Developer created draft documentation PR
-- [ ] New migration scripts checked
-Can be run multiple times but only makes changes the first time
-Display to user what script has done
-- [ ] Validated on appropriate environment
-- [ ] Existing test cases refactored
-
 :rocket:
