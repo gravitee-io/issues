@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/541?closed=1[APIM - 3.10.14 (2022-04-21)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- All APIs in the Console that do not have Group/s as direct members have all Groups in Members. Only with Postgresql. https://github.com/gravitee-io/issues/issues/7429[#7429]
+- Duplicate pages when importing API https://github.com/gravitee-io/issues/issues/7485[#7485]
+
+*_General_*
+
+- Backport of #7489 in 3.10.x https://github.com/gravitee-io/issues/issues/7490[#7490]
+- Documentation dose not disappear from modal https://github.com/gravitee-io/issues/issues/6004[#6004]
+- When filtering through the logs, showing results as the maximum alows, and no other pages even though there are more results https://github.com/gravitee-io/issues/issues/6913[#6913]
+
+*_Helm_*
+
+- APIM helm does not support pod.spec.topologySpreadConstraints https://github.com/gravitee-io/issues/issues/7313[#7313]
+- Chart 3.1.35 mongodb replicaset no more deployed compared to previous version 3.1.32 https://github.com/gravitee-io/issues/issues/7478[#7478]
+
+*_Management_*
+
+- Alerts are not scoped to environment https://github.com/gravitee-io/issues/issues/6079[#6079]
+- Backport #7450 on 3.10 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7454[#7454]
+- Org. admin is not allowed to transfer API ownership https://github.com/gravitee-io/issues/issues/7395[#7395]
+
+=== Improvements
+
+*_General_*
+
+- Set Version V3_X by default on creation form https://github.com/gravitee-io/issues/issues/6454[#6454]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/534?closed=1[APIM - 3.17.1 (2022-04-07)]
 
 === Bug fixes
