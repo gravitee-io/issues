@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/542?closed=1[APIM - 3.15.8 (2022-04-27)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Policies (or flow) are getting ignored when best match is used in flow mode https://github.com/gravitee-io/issues/issues/7472[#7472]
+
+*_Gateway_*
+
+- Analytics in UI stopped working after updating gateway to version 3.15.5 https://github.com/gravitee-io/issues/issues/7288[#7288]
+- Conditional logging on Application prevents to display API logs https://github.com/gravitee-io/issues/issues/7329[#7329]
+
+*_General_*
+
+- Merge 3.10.14 in 3.15.x https://github.com/gravitee-io/issues/issues/7570[#7570]
+
+*_Management_*
+
+- Backport #7450 on 3.15 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7453[#7453]
+
+*_Migration_*
+
+- Null pointer exception for old started gateways https://github.com/gravitee-io/issues/issues/7277[#7277]
+
+=== Improvements
+
+*_Upgrader_*
+
+- Deploy APIs that gets out of sync by upgrader https://github.com/gravitee-io/issues/issues/7511[#7511]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/541?closed=1[APIM - 3.10.14 (2022-04-21)]
 
 === Bug fixes
