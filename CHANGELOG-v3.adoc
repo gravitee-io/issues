@@ -5,6 +5,21 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/546?closed=1[APIM - 3.17.3 (2022-05-12)]
+
+=== Bug fixes
+
+*_General_*
+
+- Cannot connect to APIM from Cockpit https://github.com/gravitee-io/issues/issues/7649[#7649]
+
+*_Management_*
+
+- Mongodb queries fail when encountering a document with a field set to `undefined` https://github.com/gravitee-io/issues/issues/7610[#7610]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/545?closed=1[APIM - 3.17.2 (2022-05-03)]
 
 === Bug fixes
