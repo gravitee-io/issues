@@ -5,6 +5,54 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/550?closed=1[APIM - 3.10.15 (2022-05-25)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Alert not correctly displayed/saved https://github.com/gravitee-io/issues/issues/6705[#6705]
+- An organization user (and environnement admin) can't delete a dictionary he has created https://github.com/gravitee-io/issues/issues/6556[#6556]
+- Count function, when saving alert, not saved properly https://github.com/gravitee-io/issues/issues/7279[#7279]
+- Error in console when opening APIM Console https://github.com/gravitee-io/issues/issues/7737[#7737]
+- Padding issue on content of some Console screen https://github.com/gravitee-io/issues/issues/7738[#7738]
+
+*_Gateway_*
+
+- Connexion not closed with Server Sent Event APIs https://github.com/gravitee-io/issues/issues/7093[#7093]
+- Elasticsearch ilm index_mode is missing rollover_alias and first index is not created https://github.com/gravitee-io/issues/issues/7110[#7110]
+- First dynamic dictionary start causes an IllegalArgumentException on the gateway https://github.com/gravitee-io/issues/issues/6044[#6044]
+
+*_General_*
+
+- Error when importing an API without logging on an env with `Logging audit events` activated https://github.com/gravitee-io/issues/issues/7612[#7612]
+
+*_Management_*
+
+- Allow to use System Proxy on Generic Oauth2 resource as already present for AM resource https://github.com/gravitee-io/issues/issues/7258[#7258]
+- Can't update a dynamic dictionary https://github.com/gravitee-io/issues/issues/6043[#6043]
+- Cannot import APi with primary owner  of type group and empty members list in group mode https://github.com/gravitee-io/issues/issues/6808[#6808]
+- Dynamic Property does not get updated after it was created https://github.com/gravitee-io/issues/issues/7684[#7684]
+- Error while deleting a user https://github.com/gravitee-io/issues/issues/7613[#7613]
+- Fix EnvironmentNotFoundException for task https://github.com/gravitee-io/issues/issues/7635[#7635]
+- Issue when deleting the properties of a dictionary https://github.com/gravitee-io/issues/issues/6996[#6996]
+- Logging condition with timestamp returns status 500 https://github.com/gravitee-io/issues/issues/7367[#7367]
+- Wrong log audit date for refresh dictionary events https://github.com/gravitee-io/issues/issues/6045[#6045]
+
+*_Portal_*
+
+- Delete/remove member button does not work https://github.com/gravitee-io/issues/issues/7241[#7241]
+- Unable to reply to a rating https://github.com/gravitee-io/issues/issues/6869[#6869]
+
+=== Improvements
+
+*_Management_*
+
+- Add Secure Flag by default on each cookie https://github.com/gravitee-io/issues/issues/7725[#7725]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/546?closed=1[APIM - 3.17.3 (2022-05-12)]
 
 === Bug fixes
