@@ -13,6 +13,9 @@ parameters:
     type: string
     default: $GIO_MILESTONE_VERSION
     description: "The Gravitee.io Milestone version https://github.com/gravitee-io/issues/milestones for which we want to generate Changelog"
+  os_patch:
+    type: string
+    default: '202010-01'
 
 orbs:
   secrethub: secrethub/cli@1.0.0
