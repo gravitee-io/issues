@@ -61,3 +61,4 @@ workflows:
           secrethub_org: graviteeio
           secrethub_repo: cicd
           gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
+          os_patch: << pipeline.parameters.os_patch >>
