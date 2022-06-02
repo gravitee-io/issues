@@ -1,4 +1,6 @@
-# Change Log
+TEST
+== Change Log
+
 
 For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim_installguide_migration.html[APIM Migration Guide]
 
@@ -50,8 +52,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Add Secure Flag by default on each cookie https://github.com/gravitee-io/issues/issues/7725[#7725]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/546?closed=1[APIM - 3.17.3 (2022-05-12)]
 
@@ -65,8 +67,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Mongodb queries fail when encountering a document with a field set to `undefined` https://github.com/gravitee-io/issues/issues/7610[#7610]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/545?closed=1[APIM - 3.17.2 (2022-05-03)]
 
@@ -76,8 +78,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Merge 3.16.4 in 3.17.x https://github.com/gravitee-io/issues/issues/7615[#7615]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/543?closed=1[APIM - 3.16.4 (2022-04-29)]
 
@@ -92,8 +94,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Backport #7450 on 3.16 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7452[#7452]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/542?closed=1[APIM - 3.15.8 (2022-04-27)]
 
@@ -126,8 +128,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Deploy APIs that gets out of sync by upgrader https://github.com/gravitee-io/issues/issues/7511[#7511]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/541?closed=1[APIM - 3.10.14 (2022-04-21)]
 
@@ -155,8 +157,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Set Version V3_X by default on creation form https://github.com/gravitee-io/issues/issues/6454[#6454]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/534?closed=1[APIM - 3.17.1 (2022-04-07)]
 
@@ -173,8 +175,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Java heap space when requesting the OpenAPI specification https://github.com/gravitee-io/issues/issues/7460[#7460]
 - Platform Flows deleted after a restart when connected to Cockpit https://github.com/gravitee-io/issues/issues/7421[#7421]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/536?closed=1[APIM - 3.16.3 (2022-04-04)]
 
@@ -185,8 +187,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Content policies returning null stream not displayed in debug mode https://github.com/gravitee-io/issues/issues/7396[#7396]
 - Merge 3.15.7 in 3.16.x https://github.com/gravitee-io/issues/issues/7441[#7441]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/535?closed=1[APIM - 3.15.7 (2022-04-04)]
 
@@ -208,8 +210,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - "Host" header not overwritten if redefined in Endpoint configuration https://github.com/gravitee-io/issues/issues/7007[#7007]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/531?closed=1[APIM - 3.10.13 (2022-04-01)]
 
@@ -227,8 +229,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Policy_*
 
-- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301]  
- 
+- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301]
+
 
 == https://github.com/gravitee-io/issues/milestone/508?closed=1[APIM - 3.17.0 (2022-03-29)]
 
@@ -280,8 +282,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Migrate management API documentation from openAPI V2 (aka swagger) to v3 https://github.com/gravitee-io/issues/issues/6224[#6224]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/530?closed=1[APIM - 3.16.2 (2022-03-28)]
 
@@ -298,8 +300,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Define headers based on the request or on the response payload https://github.com/gravitee-io/issues/issues/7333[#7333]
 
-- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301] 
- 
+- Prevent following policies to reach endpoint when input is invalid: JSON Validation, JSON Threat Protection, XML Threat Protection and Regex Threat Protection https://github.com/gravitee-io/issues/issues/7301[#7301]
+
 
 == https://github.com/gravitee-io/issues/milestone/529?closed=1[APIM - 3.15.6 (2022-03-24)]
 
@@ -377,8 +379,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Policy-ssl-enforcementsupport x509 attributes https://github.com/gravitee-io/issues/issues/7276[#7276]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/525?closed=1[APIM - 3.16.1 (2022-03-09)]
 
@@ -393,8 +395,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Policy studio - Save reload the page https://github.com/gravitee-io/issues/issues/7238[#7238]
 
- 
- 
+
+
 
 == https://github.com/gravitee-io/issues/milestone/524?closed=1[APIM - 3.15.5 (2022-03-09)]
 
@@ -404,12 +406,12 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Health check does not pull out unhealthy endpoints https://github.com/gravitee-io/issues/issues/7250[#7250]
 
- 
- 
 
 
- 
- 
+
+
+
+
 
 == https://github.com/gravitee-io/issues/milestone/523?closed=1[APIM - 3.15.4 (2022-03-07)]
 
@@ -442,7 +444,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Improve map access with dot https://github.com/gravitee-io/issues/issues/7228[#7228]
 
- 
+
 == https://github.com/gravitee-io/issues/milestone/522?closed=1[APIM - 3.14.1 (2022-03-03)]
 
 === Bug fixes
