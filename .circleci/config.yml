@@ -15,9 +15,9 @@ parameters:
     description: "The Gravitee.io Milestone version https://github.com/gravitee-io/issues/milestones for which we want to generate Changelog"
 
 orbs:
-  secrethub: secrethub/cli@1.0.0
+  keeper: gravitee-io/keeper@0.6.2
   gravitee: gravitee-io/gravitee@1.0
-  # gravitee: gravitee-io/gravitee@dev:1.0.4
+  gh: circleci/github-cli@2.1.0
 
 jobs:
   empty_job:
@@ -30,8 +30,43 @@ jobs:
           name: "This is a blank job"
           command: echo "No task is executed."
 
+  changelog_apim:
+    docker:
+      - image: groovy:jdk11
+        user: root
+    resource_class: small
+    environment:
+      MILESTONE_VERSION: << pipeline.parameters.gio_milestone_version >>
+    steps:
+      - checkout
+      - keeper/env-export:
+          secret-url: keeper://IZd-yvsMopfQEa_0j1SDvg/field/login
+          var-name: GIT_USER_NAME
+      - keeper/env-export:
+          secret-url: keeper://IZd-yvsMopfQEa_0j1SDvg/custom_field/email
+          var-name: GIT_USER_EMAIL
+      - keeper/env-export:
+          secret-url: keeper://TIlcGPFq4rN5GvgnZb9hng/field/password
+          var-name: GITHUB_TOKEN
+      - add_ssh_keys:
+          fingerprints:
+            - "ac:88:23:8f:c6:0f:7d:f0:fc:df:73:20:34:56:02:6c"
+      - run:
+          name: Git config
+          command: |
+            apt-get -y update
+            apt-get -y install git
+            git config --global user.name "${GIT_USER_NAME}"
+            git config --global user.email "${GIT_USER_EMAIL}"
+      - gh/setup
+      - run:
+          name: "Generate Changelog for Gravitee.io APIM"
+          command: groovy -DMILESTONE_VERSION="$MILESTONE_VERSION" .circleci/apim/githubChangelogGenerator.groovy
+      - run:
+          name: "Commit Changelog and open a PR on the repository"
+          command: sh .circleci/apim/changelog_pr.sh
+
 workflows:
-  version: 2.1
   # Blank process invoked when git / pull requests events are triggered
   blank:
     when:
@@ -44,12 +79,8 @@ workflows:
     when:
       equal: [ changelog_apim, << pipeline.parameters.gio_action >> ]
     jobs:
-      - gravitee/changelog_apim:
+      - changelog_apim:
           context: cicd-orchestrator
-          dry_run: << pipeline.parameters.dry_run >>
-          secrethub_org: graviteeio
-          secrethub_repo: cicd
-          gio_milestone_version: << pipeline.parameters.gio_milestone_version >>
 
   changelog_am:
     when:
