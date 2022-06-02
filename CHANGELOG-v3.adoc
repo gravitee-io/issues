@@ -5,6 +5,40 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/551?closed=1[APIM - 3.15.9 (2022-06-01)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Errors while creating Platform Policies. https://github.com/gravitee-io/issues/issues/7547[#7547]
+- Transfer ownership option is not available to in memory org admin (in memory admin) if primary owner is another user. https://github.com/gravitee-io/issues/issues/7430[#7430]
+
+*_Console_*
+
+- APIs not showing on a selected user page when the group they are in is updated. https://github.com/gravitee-io/issues/issues/7285[#7285]
+- Platform Policies/Flow->Save button stays enabled even after saving the flow https://github.com/gravitee-io/issues/issues/7651[#7651]
+
+*_General_*
+
+- Cannot connect to APIM from Cockpit https://github.com/gravitee-io/issues/issues/7773[#7773]
+- Error NullPointerException when executing code in Javascript policy On-request content script https://github.com/gravitee-io/issues/issues/7179[#7179]
+- Merge 3.10.15 in 3.15.x https://github.com/gravitee-io/issues/issues/7749[#7749]
+
+*_Management_*
+
+- Auto fetch of documentation is not working https://github.com/gravitee-io/issues/issues/7589[#7589]
+- Dynamic properties API out of sync https://github.com/gravitee-io/issues/issues/7269[#7269]
+- When dynamic properties are triggered to update, the API status change to out of sync and the front ask for deploy. https://github.com/gravitee-io/issues/issues/5245[#5245]
+- [RepositoryJDBC] Error when trying to create flow with policy on organization level https://github.com/gravitee-io/issues/issues/7399[#7399]
+
+*_Portal_*
+
+- How to disable metrics on the APIM Portal? https://github.com/gravitee-io/issues/issues/7231[#7231]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/550?closed=1[APIM - 3.10.15 (2022-05-25)]
 
 === Bug fixes
