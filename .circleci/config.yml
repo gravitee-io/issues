@@ -15,9 +15,9 @@ parameters:
     description: "The Gravitee.io Milestone version https://github.com/gravitee-io/issues/milestones for which we want to generate Changelog"
 
 orbs:
-  secrethub: secrethub/cli@1.0.0
+  keeper: gravitee-io/keeper@0.6.2
   gravitee: gravitee-io/gravitee@1.0
-  # gravitee: gravitee-io/gravitee@dev:1.0.4
+  gh: circleci/github-ci@2.1.0
 
 jobs:
   empty_job:
@@ -30,8 +30,22 @@ jobs:
           name: "This is a blank job"
           command: echo "No task is executed."
 
+  changelog_apim:
+    docker:
+      - image: groovy:jdk11-alpine
+    resource_class: small
+    environment:
+      MILESTONE_VERSION: << pipeline.parameters.gio_milestone_version >>
+    steps:
+      - checkout
+      - run:
+          name: "Generate Changelog for Gravitee.io APIM"
+          command: groovy .circleci/githubChangelogGenerator.groovy
+      - run:
+          name: "Commit Changelog and open a PR on the repository"
+          command: sh .circleci/changelog_pr.sh $(MILESTONE_VERSION)
+
 workflows:
-  version: 2.1
   # Blank process invoked when git / pull requests events are triggered
   blank:
     when:
