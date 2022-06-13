@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/556?closed=1[APIM - 3.10.16 (2022-06-13)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Filter disabled flows and flows steps https://github.com/gravitee-io/issues/issues/7794[#7794]
+- Hazelcast is referring to a queue but get a topic https://github.com/gravitee-io/issues/issues/7681[#7681]
+- Headers are not forwarded to websocket upstream https://github.com/gravitee-io/issues/issues/7750[#7750]
+- OOM when heartbeat event can't be delivered https://github.com/gravitee-io/issues/issues/7806[#7806]
+
+*_Repositories_*
+
+- Switch implementation to IO thread https://github.com/gravitee-io/issues/issues/7682[#7682]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/551?closed=1[APIM - 3.15.9 (2022-06-01)]
 
 === Bug fixes
