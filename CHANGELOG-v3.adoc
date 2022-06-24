@@ -5,6 +5,34 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/558?closed=1[APIM - 3.10.17 (2022-06-24)]
+
+=== Bug fixes
+
+*_Console_*
+
+- BestMatch Flow mode does not work for Platform flow https://github.com/gravitee-io/issues/issues/7625[#7625]
+
+*_Gateway_*
+
+- Service Discovery error when configured with more than one API https://github.com/gravitee-io/issues/issues/7821[#7821]
+
+*_General_*
+
+- Logback library to be updated in future versions https://github.com/gravitee-io/issues/issues/7837[#7837]
+
+*_Management_*
+
+- Can Transfer Ownership via cURL or Postman where there is no Primary Owner in the Group. https://github.com/gravitee-io/issues/issues/6994[#6994]
+- Regression in API imports https://github.com/gravitee-io/issues/issues/7807[#7807]
+
+*_Repository_*
+
+- [JDBC] Api disappears for all users including org admin when group default role is changed to non primary_owner https://github.com/gravitee-io/issues/issues/7428[#7428]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/556?closed=1[APIM - 3.10.16 (2022-06-13)]
 
 === Bug fixes
