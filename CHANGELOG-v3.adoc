@@ -17,6 +17,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - OOM when heartbeat event can't be delivered https://github.com/gravitee-io/issues/issues/7806[#7806]
 - OOM in case of Connect timeouts in health-check https://github.com/gravitee-io/issues/issues/7709[#7709]
 - Max logging size must accept smaller size than MB https://github.com/gravitee-io/issues/issues/7761[#7761]
+- ElasticSearch indexing data is getting out of bounds on Server Sent Event APIs (api-response-time) https://github.com/gravitee-io/issues/issues/7094[#7094]
 
 *_Repositories_*
 
@@ -202,6 +203,10 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 - Alerts are not scoped to environment https://github.com/gravitee-io/issues/issues/6079[#6079]
 - Backport #7450 on 3.10 One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7454[#7454]
 - Org. admin is not allowed to transfer API ownership https://github.com/gravitee-io/issues/issues/7395[#7395]
+
+*_Repository_*
+
+- MongoDB with self-signed SSL certificate https://github.com/gravitee-io/issues/issues/7539[#7539]
 
 === Improvements
 
