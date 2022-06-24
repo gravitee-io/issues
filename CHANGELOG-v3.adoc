@@ -19,7 +19,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_General_*
 
-- Logback library to be updated in future versions https://github.com/gravitee-io/issues/issues/7837[#7837]
+- Update Logback library https://github.com/gravitee-io/issues/issues/7837[#7837]
 
 *_Management_*
 
