@@ -5,6 +5,49 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/559?closed=1[APIM - 3.15.10 (2022-06-28)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- ApiPrimaryOwner property of a group disappears when the group is updated through console/api call https://github.com/gravitee-io/issues/issues/7448[#7448]
+- CORS no longer read only if configured in .yml file https://github.com/gravitee-io/issues/issues/7326[#7326]
+
+*_APIM-EL_*
+
+- ExpesionLanguage query used to work but it no longer does in newer versions. https://github.com/gravitee-io/issues/issues/7754[#7754]
+
+*_Gateway_*
+
+- 503 errors may occur when redeploying an api https://github.com/gravitee-io/issues/issues/6948[#6948]
+- API  gateway_ip:18082/_node/apis/api.id not working, return 500 error https://github.com/gravitee-io/issues/issues/7287[#7287]
+- Gateway does not start if openssl is enabled https://github.com/gravitee-io/issues/issues/7742[#7742]
+- Handle client side sse connection close https://github.com/gravitee-io/issues/issues/7573[#7573]
+
+*_General_*
+
+- 500 error when accessing user api details in organization settings category issue on JDBC https://github.com/gravitee-io/issues/issues/7882[#7882]
+- APIM Connection with Google connect fails https://github.com/gravitee-io/issues/issues/7743[#7743]
+- Groovy policy error on HTTP headers (backport of 3.17) https://github.com/gravitee-io/issues/issues/7811[#7811]
+- HTTP headers breaking changes from 3.15 https://github.com/gravitee-io/issues/issues/7812[#7812]
+- Merge 3.10.17 in 3.15.x https://github.com/gravitee-io/issues/issues/7867[#7867]
+
+*_Management_*
+
+- Service discovery Healthcheck isn't working https://github.com/gravitee-io/issues/issues/7533[#7533]
+
+*_Policy_*
+
+- Cache Policy cache not cleared/refreshed after Time to Live https://github.com/gravitee-io/issues/issues/7740[#7740]
+
+*_Reporter_*
+
+- File reporter log files are missing headers details https://github.com/gravitee-io/issues/issues/7741[#7741]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/558?closed=1[APIM - 3.10.17 (2022-06-24)]
 
 === Bug fixes
