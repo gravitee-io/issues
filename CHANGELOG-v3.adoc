@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/561?closed=1[APIM - 3.15.11 (2022-07-01)]
+
+=== Bug fixes
+
+*_APIM_*
+
+- Not able to fully import an API, issue related to the default page (System Folder) https://github.com/gravitee-io/issues/issues/7876[#7876]
+
+*_General_*
+
+- Portal-> Filtering by a certain Category on All APIs page will return all existing APIs https://github.com/gravitee-io/issues/issues/7201[#7201]
+
+*_Management_*
+
+- Healthcheck is failing to report in ES due to issue on headers. https://github.com/gravitee-io/issues/issues/7930[#7930]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/559?closed=1[APIM - 3.15.10 (2022-06-28)]
 
 === Bug fixes
