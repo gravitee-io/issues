@@ -15,7 +15,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_General_*
 
-- Portal-> Filtering by a certain Category on All APIs page will return all existing APIs https://github.com/gravitee-io/issues/issues/7201[#7201]
+- Portal - Filtering by a certain Category on All APIs page will return all existing APIs https://github.com/gravitee-io/issues/issues/7201[#7201]
 
 *_Management_*
 
