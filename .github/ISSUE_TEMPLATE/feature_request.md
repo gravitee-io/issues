@@ -37,6 +37,8 @@ Provide link to the issue for documentation update
 - [ ] Given '...' Then '...' When '...'
 - [ ] Given '...' Then '...' When '...'
 
+- [ ] Jest test for acceptance criteria
+
 ## :warning: Potential impacts
 
 ***Which other features may be impacted by this fix. This could be populated after fix***
