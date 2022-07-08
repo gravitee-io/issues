@@ -19,7 +19,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Portal_*
 
-- OpenAPI specification of the Portal API is no longer available https://github.com/gravitee-io/issues/issues/8074[#8074]
+- OpenAPI specification of the Portal API not available https://github.com/gravitee-io/issues/issues/8074[#8074]
 
  
  
