@@ -11,11 +11,11 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Gateway_*
 
-- Reporter filelog file are not created https://github.com/gravitee-io/issues/issues/8065[#8065]
+- file reporter log files are not created https://github.com/gravitee-io/issues/issues/8065[#8065]
 
 *_General_*
 
-- - Update build version number of Console and Portal https://github.com/gravitee-io/issues/issues/8072[#8072]
+- Update build version number of Console and Portal https://github.com/gravitee-io/issues/issues/8072[#8072]
 
 *_Portal_*
 
