@@ -4,80 +4,67 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
-
 == https://github.com/gravitee-io/issues/milestone/519?closed=1[APIM - 3.18.0 (2022-07-07)]
 
 === Bug fixes
 
+*_Console_*
+
+- Remove the horizontal scroll bar in the markdown creation page https://github.com/gravitee-io/issues/issues/5119[#5119]
+- Wrong example when generating Personal Access Token https://github.com/gravitee-io/issues/issues/5271[#5271]
+- Not_equals alert filter displays an empty list https://github.com/gravitee-io/issues/issues/7489[#7489]
+- Icons not rendering with custom nginx configuration https://github.com/gravitee-io/issues/issues/7569[#7569]
+
 *_General_*
 
-- Change request to update the text for the feature in template https://github.com/gravitee-io/issues/issues/5317[#5317]
-- Icons not rendering with custom nginx configuration https://github.com/gravitee-io/issues/issues/7569[#7569]
 - Merge 3.17.2 into master https://github.com/gravitee-io/issues/issues/7617[#7617]
-- Retry Policy - cancel timeout response, manage lastResponse counter and tests https://github.com/gravitee-io/issues/issues/7747[#7747]
 
 *_Management_*
 
 - DCR providers should be scoped by org https://github.com/gravitee-io/issues/issues/6604[#6604]
-- Not_equals alert filter displays an empty list https://github.com/gravitee-io/issues/issues/7489[#7489]
 - One shot upgraders run on each APIM startup with cockpit https://github.com/gravitee-io/issues/issues/7450[#7450]
-- Remove the horizontal scroll bar in the markdown creation page https://github.com/gravitee-io/issues/issues/5119[#5119]
-- Wrong example when generating Personal Access Token https://github.com/gravitee-io/issues/issues/5271[#5271]
-
-*_Management-api_*
-
 - OpenApi files are never updated https://github.com/gravitee-io/issues/issues/7631[#7631]
 
-*_Task_*
+*_Policies_*
 
-- Gateway Testing SDK - Data Logging Masking Policy https://github.com/gravitee-io/issues/issues/7758[#7758]
+- Retry Policy: cancel timeout response, manage lastResponse counter and tests https://github.com/gravitee-io/issues/issues/7747[#7747]
+- Data Logging Masking: fix some bugs https://github.com/gravitee-io/issues/issues/7758[#7758]
 
 === Features
 
 *_Console_*
 
 - Promote API Designer https://github.com/gravitee-io/issues/issues/7645[#7645]
+- Add Pendo analytics tool https://github.com/gravitee-io/issues/issues/7781[#7781]
 
 *_General_*
 
-- Add Pendo analytics tool https://github.com/gravitee-io/issues/issues/7781[#7781]
-- Check Support of RHEL8 https://github.com/gravitee-io/issues/issues/7208[#7208]
-- M-API Partial update https://github.com/gravitee-io/issues/issues/7417[#7417]
-- Write documentation for Circuit Breaker policy https://github.com/gravitee-io/issues/issues/7756[#7756]
-
-*_M-API_*
-
-- PATCH method on Import API https://github.com/gravitee-io/issues/issues/7443[#7443]
+- Support of RHEL8 https://github.com/gravitee-io/issues/issues/7208[#7208]
 
 *_Management_*
 
+- Partial update - PATCH method on Import API https://github.com/gravitee-io/issues/issues/7443[#7443]
 - Add page to display organization Audit https://github.com/gravitee-io/issues/issues/7536[#7536]
-- Make System Role permission editable https://github.com/gravitee-io/issues/issues/7157[#7157]
-- Toggle J Mode on API https://github.com/gravitee-io/issues/issues/7784[#7784]
-- Toggle on system role edition https://github.com/gravitee-io/issues/issues/7659[#7659]
 
-*_Policy_*
+*_Policies_*
 
-- Define headers based on the request or on the response payload https://github.com/gravitee-io/issues/issues/7359[#7359]
-
-*_Spike_*
-
-- SaaS limitations investigation https://github.com/gravitee-io/issues/issues/7401[#7401]
+- Transform-Header: Define headers based on the request or on the response payload https://github.com/gravitee-io/issues/issues/7359[#7359]
+- Circuit Breaker: Write documentation for policy https://github.com/gravitee-io/issues/issues/7756[#7756]
 
 === Improvements
 
-*_General_*
-
-- Add Conditional icon in legend https://github.com/gravitee-io/issues/issues/7457[#7457]
-- Change request to update the text for the feature in template https://github.com/gravitee-io/issues/issues/5317[#5317]
-
-*_Management_*
+*_Console_*
 
 - API properties header title change https://github.com/gravitee-io/issues/issues/6065[#6065]
+- Add Conditional icon in legend https://github.com/gravitee-io/issues/issues/7457[#7457]
 
-*_Platform_*
+*_General_*
 
 - Mutualize System proxy configuration https://github.com/gravitee-io/issues/issues/7739[#7739]
+
+*_Portal_*
+
+- Migrate to last Angular version https://github.com/gravitee-io/issues/issues/6666[#6666]
 
  
  
