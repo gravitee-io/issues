@@ -9,7 +9,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 === Bug fixes
 
-*_General_*
+*_Gateway_*
 
 - Log file are not created https://github.com/gravitee-io/issues/issues/8064[#8064]
 
