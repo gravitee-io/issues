@@ -5,6 +5,25 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/564?closed=1[APIM - 3.18.1 (2022-07-08)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Reporter filelog file are not created https://github.com/gravitee-io/issues/issues/8065[#8065]
+
+*_General_*
+
+- - Update build version number of Console and Portal https://github.com/gravitee-io/issues/issues/8072[#8072]
+
+*_Portal_*
+
+- OpenAPI specification of the Portal API is no longer available https://github.com/gravitee-io/issues/issues/8074[#8074]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/565?closed=1[APIM - 3.15.12 (2022-07-08)]
 
 === Bug fixes
