@@ -402,7 +402,6 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_APIM_*
 
 - All APIs in the Console that do not have Group/s as direct members have all Groups in Members. Only with Postgresql. https://github.com/gravitee-io/issues/issues/7429[#7429]
-- Duplicate pages when importing API https://github.com/gravitee-io/issues/issues/7485[#7485]
 
 *_General_*
 
