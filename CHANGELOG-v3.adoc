@@ -5,6 +5,18 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/574?closed=1[APIM - 3.18.3 (2022-07-20)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Handle Pendo ApiKey with correct attribute in `gravitee.yaml` https://github.com/gravitee-io/issues/issues/8155[#8155]
+- Mongodb migrations scripts fails https://github.com/gravitee-io/issues/issues/8147[#8147]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/573?closed=1[APIM - 3.10.18 (2022-07-20)]
 
 === Bug fixes
