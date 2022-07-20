@@ -5,6 +5,23 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/573?closed=1[APIM - 3.10.18 (2022-07-20)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Listening host in virtual-host mode is changed to 'null' when saving https://github.com/gravitee-io/issues/issues/7856[#7856]
+
+*_Management_*
+
+- Application update removes Oauth client data if DCR unreachable https://github.com/gravitee-io/issues/issues/7953[#7953]
+- Fixed API import process failing when creating member roles https://github.com/gravitee-io/issues/issues/7822[#7822]
+- Subscription created without API Key https://github.com/gravitee-io/issues/issues/7332[#7332]
+- Fixed the display of healthcheck logs (backport of 3.15) https://github.com/gravitee-io/issues/issues/8107[#8107]
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/571?closed=1[APIM - 3.18.2 (2022-07-15)]
 
 === Bug fixes
