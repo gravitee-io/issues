@@ -13,6 +13,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Handle Pendo ApiKey with correct attribute in `gravitee.yaml` https://github.com/gravitee-io/issues/issues/8155[#8155]
 - Mongodb migrations scripts fails https://github.com/gravitee-io/issues/issues/8147[#8147]
+- Management API fails to start if API without primary https://github.com/gravitee-io/issues/issues/8130[#8130]
 
  
  
