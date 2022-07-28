@@ -18,31 +18,16 @@ assignees: ''
 ## :sunrise_over_mountains: Additional information
 
 Detailed behaviour, rules or additional interesting stuffs...
-
-## :link: Dependencies
-
-Link a story or other related things...
-
-## :camera: Mockups 
-
+Dependencies
 Insert screenshots, drawings...
+Documentation required (Provide link to the issue for documentation update)
+Potential impacts
 
-## :books: Documentation required
+## :white_check_mark: Acceptance criteria
 
-Provide link to the issue for documentation update
+- [ ] Given '...' When '...' Then '...'
 
-## :superhero: Acceptance criteria
 
-- [ ] Given '...' Then '...' When '...'
-- [ ] Given '...' Then '...' When '...'
-- [ ] Given '...' Then '...' When '...'
+## :ballot_box_with_check: Developer sub-tasks 
 
 - [ ] Jest test for acceptance criteria
-
-## :warning: Potential impacts
-
-***Which other features may be impacted by this fix. This could be populated after fix***
-
-***What are the impacted versions?***
-
-:rocket:
