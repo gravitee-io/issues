@@ -18,6 +18,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Log file are not created https://github.com/gravitee-io/issues/issues/8066[#8066]
 - Merge 3.16.4 in 3.17.x https://github.com/gravitee-io/issues/issues/7869[#7869]
+- Merge 3.15.13 into 3.17.x https://github.com/gravitee-io/issues/issues/8225[#8225]
 
 *_Management_*
 
