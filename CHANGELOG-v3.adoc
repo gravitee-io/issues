@@ -5,6 +5,24 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/578?closed=1[APIM - 3.18.4 (2022-08-02)]
+
+=== Bug fixes
+
+*_General_*
+
+- Error while trying to connect using IDP with group mapping https://github.com/gravitee-io/issues/issues/8205[#8205]
+- Merge APIM `3.17.5` into `3.18.x` https://github.com/gravitee-io/issues/issues/8265[#8265]
+
+=== Features
+
+*_General_*
+
+- Add `gateway-bridge-http-server` to the APIM REST API bundle https://github.com/gravitee-io/issues/issues/8133[#8133]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/577?closed=1[APIM - 3.17.5 (2022-08-01)]
 
 === Bug fixes
