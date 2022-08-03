@@ -5,6 +5,19 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/580?closed=1[APIM - 3.17.6 (2022-08-03)]
+
+=== Bug fixes
+
+*_Management_*
+
+- Application client_id update is ignored https://github.com/gravitee-io/issues/issues/8281[#8281]
+
+=== General information
+
+The version 3.17.6 is the last version of the 3.17. We encourage everybody to migrate to 3.18.
+ 
+
 == https://github.com/gravitee-io/issues/milestone/579?closed=1[APIM - 3.10.19 (2022-08-03)]
 
 === Bug fixes
@@ -92,10 +105,6 @@ The version 3.10.19 is the last version of the 3.10. We encourage everybody to m
 *_Node_*
 
 - Expose endpoints for retrieving heap dump and thread dump https://github.com/gravitee-io/issues/issues/8222[#8222]
-
-=== General information
-
-The version 3.17.5 is the last version of the 3.17. We encourage everybody to migrate to 3.18.
 
 
 
