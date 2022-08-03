@@ -5,6 +5,44 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/579?closed=1[APIM - 3.10.19 (2022-08-03)]
+
+=== Bug fixes
+
+*_Console_*
+
+- An error is displayed when trying to send a message to Users, Owners and Application Read only https://github.com/gravitee-io/issues/issues/7253[#7253]
+- Link to my account is broken in org settings https://github.com/gravitee-io/issues/issues/6848[#6848]
+- Subscription pull-down menu displays APIs the user doesn't have access to https://github.com/gravitee-io/issues/issues/7890[#7890]
+
+*_Gateway_*
+
+- Heartbeat service do not handle database and timeout exceptions https://github.com/gravitee-io/issues/issues/8267[#8267]
+
+*_Management_*
+
+- Better select plan based on subscription https://github.com/gravitee-io/issues/issues/7824[#7824]
+- Improve email template sanitization https://github.com/gravitee-io/issues/issues/8163[#8163]
+- Information button on Dictionary doesn't display anything https://github.com/gravitee-io/issues/issues/5056[#5056]
+- Restore an application with an existing clientId create duplication https://github.com/gravitee-io/issues/issues/6380[#6380]
+
+*_Policy_*
+
+- OpenId Connect - UserInfo - Do not use payload in header https://github.com/gravitee-io/issues/issues/7915[#7915]
+
+*_Regex-threat-support-policy_*
+
+- Policy failed silently on a call with a boolean parameter https://github.com/gravitee-io/issues/issues/8272[#8272]
+
+=== Improvements
+
+*_Console_*
+
+- Login form error handling, when login with no environment permissions https://github.com/gravitee-io/issues/issues/6532[#6532]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/578?closed=1[APIM - 3.18.4 (2022-08-02)]
 
 === Bug fixes
