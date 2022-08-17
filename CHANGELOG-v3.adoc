@@ -5,6 +5,45 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/582?closed=1[APIM - 3.18.5 (2022-08-17)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Use correct path in constants.json https://github.com/gravitee-io/issues/issues/8283[#8283]
+- When dragging Json to XML policy in Design Studio, Save button is not displayed https://github.com/gravitee-io/issues/issues/8227[#8227]
+
+*_Management_*
+
+- Application client_id update is ignored https://github.com/gravitee-io/issues/issues/8278[#8278]
+- NullPointerException when deleting a group https://github.com/gravitee-io/issues/issues/8320[#8320]
+- Platform alerts never triggered https://github.com/gravitee-io/issues/issues/8269[#8269]
+- Temporary allow `null` value for host in virtual-hosts https://github.com/gravitee-io/issues/issues/8300[#8300]
+
+*_Portal_*
+
+- Unable to refresh a page when deploying with Docker https://github.com/gravitee-io/issues/issues/8317[#8317]
+
+*_Reporters_*
+
+- File and TCP reporters - filtering feature not fully implemented for headers https://github.com/gravitee-io/issues/issues/8226[#8226]
+
+=== Features
+
+*_Console_*
+
+- Disable in-app documentation when Pendo is activated https://github.com/gravitee-io/issues/issues/8292[#8292]
+
+=== Improvements
+
+*_Management_*
+
+- Global performances improvement of GET /applications https://github.com/gravitee-io/issues/issues/7836[#7836]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/580?closed=1[APIM - 3.17.6 (2022-08-03)]
 
 === Bug fixes
