@@ -11,7 +11,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_General_*
 
-- Server unreachable error is displayed when searching for apps on API- Subscription page, when there are multiple apps with similar name https://github.com/gravitee-io/issues/issues/8329[#8329]
+- Improve application search in subscription process - https://github.com/gravitee-io/issues/issues/8329[#8329]
 
  
  
