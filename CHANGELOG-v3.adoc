@@ -11,29 +11,26 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Console_*
 
-- Filters for status codes do not work for the Platform Dashboard for the Line Chart (Response status) https://github.com/gravitee-io/issues/issues/8325[#8325]
-- Organisation Settings-> Wrong confirmation message is displayed when activating/deactivating an identity provider https://github.com/gravitee-io/issues/issues/7774[#7774]
-- Label issue in the dashboards https://github.com/gravitee-io/issues/issues/8327[#8327]
-- The right click menu on side navigation links does not work properly. https://github.com/gravitee-io/issues/issues/8326[#8326]
-- Top APIs and Top Applications in the dashboard are not working as links https://github.com/gravitee-io/issues/issues/8328[#8328]
+- Analytics - Filters for status codes do not work for the Platform Dashboard for the Line Chart (Response status) https://github.com/gravitee-io/issues/issues/8325[#8325]
+- Analytics - Label issue in the dashboards https://github.com/gravitee-io/issues/issues/8327[#8327]
+- Analytics - Top APIs and Top Applications links are not working https://github.com/gravitee-io/issues/issues/8328[#8328]
+- Navigation - The right click menu links does not work properly. https://github.com/gravitee-io/issues/issues/8326[#8326]
+- Organisation Settings - Wrong confirmation message displayed when activating/deactivating an identity provider https://github.com/gravitee-io/issues/issues/7774[#7774]
+- NullPointerException when deleting a group https://github.com/gravitee-io/issues/issues/8323[#8323]
+- Unable to use prefix for mongodb collections when running with Java 17 https://github.com/gravitee-io/issues/issues/7918[#7918]
 
 *_Gateway_*
 
-- JDBC : Quota and RateLimit Platform Policies do not as expected. X-Quota-Reset header returns -1 https://github.com/gravitee-io/issues/issues/7975[#7975]
-- File reporter headers format feature not fully implemented https://github.com/gravitee-io/issues/issues/8305[#8305]
+- JDBC - Quota and RateLimit Platform Policies do not work as expected. X-Quota-Reset header returns -1 https://github.com/gravitee-io/issues/issues/7975[#7975]
+- File reporter headers format feature https://github.com/gravitee-io/issues/issues/8305[#8305]
 - Websocket connection error when reaching a non secure endpoint https://github.com/gravitee-io/issues/issues/8228[#8228]
-- Websocket subprotocol isn't forwarded to the endpoint https://github.com/gravitee-io/issues/issues/8324[#8324]
-- Better select plan based on subscription https://github.com/gravitee-io/issues/issues/8165[#8165]
+- Websocket subprotocol not forwarded to the endpoint https://github.com/gravitee-io/issues/issues/8324[#8324]
+- Improve plan selection based on subscription https://github.com/gravitee-io/issues/issues/8165[#8165]
 
 *_General_*
 
 - Unable to evaluate regex with quantifiers https://github.com/gravitee-io/issues/issues/8217[#8217]
 - Merge 3.10.19 in 3.15.x https://github.com/gravitee-io/issues/issues/8279[#8279]
-
-*_Management_*
-
-- NullPointerException when deleting a group https://github.com/gravitee-io/issues/issues/8323[#8323]
-- Unable to use prefix for mongodb collections when running with Java 17 https://github.com/gravitee-io/issues/issues/7918[#7918]
 
 *_Policy_*
 
