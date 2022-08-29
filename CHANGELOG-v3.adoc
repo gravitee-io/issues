@@ -5,6 +5,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/588?closed=1[APIM - 3.15.15 (2022-08-29)]
+
+=== Bug fixes
+
+*_General_*
+
+- JWT plan causes gateway error 500 https://github.com/gravitee-io/issues/issues/8364[#8364]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/586?closed=1[APIM - 3.15.14 (2022-08-25)]
 
 === Bug fixes
