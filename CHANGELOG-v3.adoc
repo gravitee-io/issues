@@ -11,8 +11,8 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Console_*
 
-- Inconsistent API out of sync banner https://github.com/gravitee-io/issues/issues/8343[#8343]
-- List of api's in users section, not properly showing api's associated to a user https://github.com/gravitee-io/issues/issues/8344[#8344]
+- Inconsistent behavior for API out of sync banner https://github.com/gravitee-io/issues/issues/8343[#8343]
+- User's list of APIs doesn't display properly https://github.com/gravitee-io/issues/issues/8344[#8344]
 
 *_Gateway_*
 
