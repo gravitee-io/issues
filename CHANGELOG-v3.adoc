@@ -18,6 +18,10 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 - Improve plan selection based on subscription https://github.com/gravitee-io/issues/issues/8167[#8167]
 
+*_Policy_*
+
+- [XSLT transformation] parameter get cached depending on the number of gateways https://github.com/gravitee-io/issues/issues/8387[#8387]
+
 *_General_*
 
 - Merge 3.15.14 in 3.18.x https://github.com/gravitee-io/issues/issues/8355[#8355]
