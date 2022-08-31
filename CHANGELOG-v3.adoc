@@ -5,6 +5,27 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/592?closed=1[APIM - 3.18.7 (2022-08-31)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Inconsistent API out of sync banner https://github.com/gravitee-io/issues/issues/8343[#8343]
+- List of api's in users section, not properly showing api's associated to a user https://github.com/gravitee-io/issues/issues/8344[#8344]
+
+*_Gateway_*
+
+- Improve plan selection based on subscription https://github.com/gravitee-io/issues/issues/8167[#8167]
+
+*_General_*
+
+- Merge 3.15.14 in 3.18.x https://github.com/gravitee-io/issues/issues/8355[#8355]
+- Merge 3.15.15 in 3.18.x https://github.com/gravitee-io/issues/issues/8371[#8371]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/588?closed=1[APIM - 3.15.15 (2022-08-29)]
 
 === Bug fixes
