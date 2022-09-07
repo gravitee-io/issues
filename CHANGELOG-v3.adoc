@@ -15,7 +15,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Management_*
 
-- Can not import Paths Based API https://github.com/gravitee-io/issues/issues/8365[#8365]
+- Exported paths based APIs can not be imported https://github.com/gravitee-io/issues/issues/8365[#8365]
 - [Debug Mode] Query params are not well displayed https://github.com/gravitee-io/issues/issues/7779[#7779]
  
  
