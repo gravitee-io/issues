@@ -5,6 +5,22 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/595?closed=1[APIM - 3.18.8 (2022-09-07)]
+
+=== Bug fixes
+
+*_General_*
+
+- Api key repository search method causing OOM error on DocumentDB https://github.com/gravitee-io/issues/issues/8419[#8419]
+- Query params are not well displayed https://github.com/gravitee-io/issues/issues/7779[#7779]
+
+*_Management_*
+
+- Can not import Paths Based API https://github.com/gravitee-io/issues/issues/8365[#8365]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/592?closed=1[APIM - 3.18.7 (2022-08-31)]
 
 === Bug fixes
