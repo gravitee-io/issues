@@ -5,6 +5,28 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/596?closed=1[APIM - 3.15.16 (2022-09-09)]
+
+=== Bug fixes
+
+*_Gateway_*
+
+- Apply request timeout properly https://github.com/gravitee-io/issues/issues/8400[#8400]
+
+*_General_*
+
+- Heartbeat service isn't working anymore https://github.com/gravitee-io/issues/issues/8417[#8417]
+- List of API's from a user, not showing correctly https://github.com/gravitee-io/issues/issues/8346[#8346]
+
+*_Policy_*
+
+- XSLT parameter get cached depending on the number of gateways https://github.com/gravitee-io/issues/issues/8382[#8382]
+- [cache] strange behaviour when policy cache TTL is higher than resource cache TTL https://github.com/gravitee-io/issues/issues/7907[#7907]
+- [oauth2] Error when token expiration is greater then cache TTL https://github.com/gravitee-io/issues/issues/8295[#8295]
+
+ 
+ 
+
 == https://github.com/gravitee-io/issues/milestone/595?closed=1[APIM - 3.18.8 (2022-09-07)]
 
 === Bug fixes
