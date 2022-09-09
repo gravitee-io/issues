@@ -12,17 +12,17 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_Gateway_*
 
 - Apply request timeout properly https://github.com/gravitee-io/issues/issues/8400[#8400]
+- Heartbeat service isn't working anymore https://github.com/gravitee-io/issues/issues/8417[#8417]
 
 *_General_*
 
-- Heartbeat service isn't working anymore https://github.com/gravitee-io/issues/issues/8417[#8417]
-- List of API's from a user, not showing correctly https://github.com/gravitee-io/issues/issues/8346[#8346]
+- Pagination broken in organization settings https://github.com/gravitee-io/issues/issues/8346[#8346]
 
 *_Policy_*
 
-- XSLT parameter get cached depending on the number of gateways https://github.com/gravitee-io/issues/issues/8382[#8382]
-- [cache] strange behaviour when policy cache TTL is higher than resource cache TTL https://github.com/gravitee-io/issues/issues/7907[#7907]
-- [oauth2] Error when token expiration is greater then cache TTL https://github.com/gravitee-io/issues/issues/8295[#8295]
+- [XSLT] XSLT parameter get cached depending on the number of gateways https://github.com/gravitee-io/issues/issues/8382[#8382]
+- [Cache] Strange behavior when policy cache TTL is higher than resource cache TTL https://github.com/gravitee-io/issues/issues/7907[#7907]
+- [Oauth2] Error when token expiration is greater then cache TTL https://github.com/gravitee-io/issues/issues/8295[#8295]
 
  
  
