@@ -25,7 +25,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *_Management_*
 
 - Health check not properly reported as unhealthy if timeout occurs when reaching the backend https://github.com/gravitee-io/issues/issues/8429[#8429]
-- Restore plan selection behaviour with multi OAuth plans without selection rule https://github.com/gravitee-io/issues/issues/8460[#8460]
+- Restore plan selection behavior with multi OAuth plans without selection rule https://github.com/gravitee-io/issues/issues/8460[#8460]
 
 *_Portal_*
 
