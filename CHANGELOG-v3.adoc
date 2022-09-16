@@ -11,7 +11,7 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 
 *_Gateway_*
 
-- Worker pool size of the HTTP handlers in Bridge mode is now configurable. Configurable property is `services.bridge.http.workerPoolSize`, default value is `20`, and it has to be set on the Gateway Bridge Server side.
+- We have added a new property that enables you to configure the worker pool size of the HTTP handlers in Bridge mode. To do so, set the desired size using the `services.bridge.http.workerPoolSize` property (the default value is `20`) and ensure that it is set on the Gateway Bridge Server side.
 
 === Bug fixes
 
