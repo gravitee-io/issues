@@ -5,6 +5,41 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== https://github.com/gravitee-io/issues/milestone/598?closed=1[APIM - 3.18.9 (2022-09-16)]
+
+=== Bug fixes
+
+*_Console_*
+
+- Design studio's debug mode is not working in gateway bridge configuration https://github.com/gravitee-io/issues/issues/8373[#8373]
+- Subscription Page can not be displayed when having a lot of applications (more than 10k) https://github.com/gravitee-io/issues/issues/8421[#8421]
+
+*_Gateway_*
+
+- Plan selector should throw 401 on wrong API-Key even if a keyless plan is available https://github.com/gravitee-io/issues/issues/8452[#8452]
+
+*_General_*
+
+- Regex quantifier wrongly interpreted causing matching issues https://github.com/gravitee-io/issues/issues/8367[#8367]
+
+*_Management_*
+
+- Health check not properly reported as unhealthy if timeout occurs when reaching the backend https://github.com/gravitee-io/issues/issues/8429[#8429]
+- Restore plan selection behaviour with multi OAuth plans without selection rule https://github.com/gravitee-io/issues/issues/8460[#8460]
+
+*_Portal_*
+
+- Validate button does not work when trying to subscribe to an API with general conditions set https://github.com/gravitee-io/issues/issues/8442[#8442]
+
+=== Improvements
+
+*_General_*
+
+- Support Inline lists https://github.com/gravitee-io/issues/issues/7894[#7894]
+
+ 
+ 
+
 == APIM - 3.10.21 (2022-09-16)
 
 === Improvements
