@@ -5,6 +5,20 @@ For upgrade instructions, please refer to https://docs.gravitee.io/apim/3.x/apim
 *Important:* If you plan to skip versions when you upgrade, ensure that you read the version-specific upgrade notes for each intermediate version. You may be required to perform manual actions as part of the upgrade.
 
 
+== APIM - 3.10.21 (2022-09-16)
+
+=== Improvements
+
+*_Gateway_*
+
+- Worker pool size of the HTTP handlers in Bridge mode is now configurable. Configurable property is `services.bridge.http.workerPoolSize`, default value is `20`, and it has to be set on the Gateway Bridge Server side.
+
+=== Bug fixes
+
+*_Management_*
+
+- Restore plan selection to the behavior it had in APIM 3.10.18 and lower.
+
 == https://github.com/gravitee-io/issues/milestone/596?closed=1[APIM - 3.15.16 (2022-09-09)]
 
 === Bug fixes
